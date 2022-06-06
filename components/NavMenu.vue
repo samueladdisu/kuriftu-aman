@@ -193,17 +193,17 @@
       <div class="destination-links" v-if="featuredResort">
         <div class="dest-box">
           <div class="desti-img">
-            <h3 class="sub-title">Find Your Ideal Destination</h3>
+            <h3 class="sub-title">Featured Resort</h3>
             <img src="../assets/img/featured.webp" alt="" />
           </div>
           <div class="desti-desc">
-            <h4 class="title">Entoto</h4>
+            <h4 class="title">Awash Falls</h4>
             <p class="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
               tincidunt nis
             </p>
             <div class="explore">
-              <nuxt-link to="/entoto" class="link"> Discover More </nuxt-link>
+              <nuxt-link to="/awash" class="link"> Discover More </nuxt-link>
             </div>
           </div>
         </div>
