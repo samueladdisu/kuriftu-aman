@@ -48,22 +48,6 @@ export default {
 </script>
 
 <style lang="scss">
-@include responsive($md) {
-  .other {
-    .container {
-      .other__acc {
-        .swiper-wrapper {
-          .swiper-slide-active,
-          .swiper-slide-next {
-            margin: 0 2rem !important;
-            opacity: 1;
-          }
-        }
-      }
-    }
-  }
-}
-
 .other {
   background: #f3eee7;
   padding: 2rem 0 3rem;
@@ -96,6 +80,28 @@ export default {
         .swiper-slide-next {
           // margin: 0 !important;
           opacity: 1;
+        }
+      }
+    }
+  }
+}
+@include responsive($md) {
+  .other {
+    .container {
+      .other__acc {
+        .swiper-wrapper {
+          .swiper-slide {
+            width: 20rem;
+            .content {
+              padding: 0.5rem;
+              height: auto;
+            }
+          }
+          .swiper-slide-active,
+          .swiper-slide-next {
+            margin: 0 2rem !important;
+            opacity: 1;
+          }
         }
       }
     }

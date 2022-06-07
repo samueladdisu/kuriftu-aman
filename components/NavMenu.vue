@@ -677,7 +677,7 @@ export default {
       .nav_cta {
         display: grid;
         place-items: center;
-        width: 150%;
+        // width: 150%;
       }
       .destination-links {
         padding: 2rem;
@@ -709,6 +709,9 @@ export default {
       display: flex;
       gap: 1rem;
       justify-content: center;
+      .nav_cta {
+        width: 150%;
+      }
       .three-col {
         display: flex;
         gap: 6rem;
@@ -729,6 +732,7 @@ export default {
             }
           }
         }
+
         div {
           hr {
             height: 30rem;
