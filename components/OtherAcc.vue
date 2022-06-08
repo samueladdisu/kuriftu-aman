@@ -107,4 +107,21 @@ export default {
     }
   }
 }
+
+@include responsive($lg) {
+  .other {
+    .container {
+      .other__acc {
+        .swiper-wrapper {
+          .swiper-slide {
+            .content {
+              padding: 0.5rem;
+              height: 20rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 </style>

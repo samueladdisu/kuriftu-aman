@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="" home="entoto/" dir="Entoto" />
+    <Destinav base="" home="/entoto" dir="Entoto" />
     <HeroSlide
       :img="slides"
       title="Adventures at Kuriftu Resort & spa entoto"

@@ -24,7 +24,7 @@ export default {
   padding-top: 3.125rem;
   .container {
     text-align: center;
-    max-width: 36.1875rem;
+    max-width: 71.1875rem;
     h5 {
       margin-bottom: 1rem;
     }

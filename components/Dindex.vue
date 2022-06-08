@@ -68,15 +68,17 @@ div {
     background: #f3eee7;
     padding-bottom: 3rem;
     .intro {
-      margin-top: 3.125rem;
       .container {
-        text-align: center;
-        max-width: 36.1875rem;
         h5 {
           margin-bottom: 1rem;
+          font-size: 0.6rem;
         }
         h1 {
           margin-bottom: 0.8rem;
+          font-size: 1.4rem;
+        }
+        p {
+          font-size: 0.8rem;
         }
       }
     }
