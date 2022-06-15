@@ -14,9 +14,9 @@
     <section class="well">
       <div class="container">
         <div class="well__img__container">
-          <img src="@/assets/img/featured.webp" alt="" />
-          <img src="@/assets/img/long.webp" alt="" />
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/boston/HairSalon.webp" alt="" />
+          <img src="@/assets/img/boston/SteamSaunaJaccuzi.webp" alt="" />
+          <img src="@/assets/img/boston/MassageCaveLong.webp" alt="" />
         </div>
 
         <div class="well__content">
@@ -114,35 +114,28 @@ export default {
   data() {
     return {
       slides: [
-        "bishoftu/acc/pre5.webp",
-        "bishoftu/acc/pre6.webp",
-        "bishoftu/acc/pre7.webp",
-        "bishoftu/acc/pre8.webp",
+        "boston/slider/gallery2.webp",
+        "boston/slider/recieption.webp",
+        "boston/slider/suana.webp",
+        "boston/slider/barber.webp",
       ],
 
       amenities: ["Hair Style", "Manicure", "Pedicure"],
       amenities1: ["Massage", "Facial", "Wax"],
       amenities2: ["Spa", "Barber"],
-      // Lfeature1: {
-      //   img: "featured.webp",
-      //   title: "Art Gallery Displays",
-      //   text: `As you wait for your appointment take a stroll around the entire Boston Day Spa floor and discover local art stationed all across. Make your own interpretations of the work through this experience! `,
-      //   uri: "/",
-      //   link: "Make an enquiry",
-      // },
       other: [
         {
-          img: "bishoftu/firstSlider/1.webp",
+          img: "boston/Facial.webp",
           title: "Facial",
           text: `With state of the art machinery, products and skillset, our facial experience provides clients the option to choose between an organic or standard treatment that cater to all skin types.`,
         },
         {
-          img: "bishoftu/firstSlider/1.webp",
+          img: "boston/WaxLong.webp",
           title: "Wax",
           text: `Relieve your body from unwanted hair by scheduling a time with one of our hair removal specialists`,
         },
         {
-          img: "bishoftu/firstSlider/1.webp",
+          img: "boston/ManiPediLong.webp",
           title: "Mani / Pedi ",
           text: `Stay up-to-date on trending colors and new designs for nail art at our Mani/Pedi Studio overlooking bole road`,
         },

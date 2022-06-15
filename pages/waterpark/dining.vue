@@ -22,7 +22,7 @@ export default {
         heroSubTitle: "Dinning at Kuriftu Waterpark",
         heroText: `The dining experience at Kuriftu Resort & Spa restaurant has never been more fulfilling.`,
         feature: {
-          img: "featured.webp",
+          img: "waterpark/Plaza.webp",
           title: "Plaza",
           text: `Dine at our food court beside the cool, fresh water and the fun rides at our water park.`,
           uri: "/",
@@ -30,17 +30,17 @@ export default {
         },
         other: [
           {
-            img: "bishoftu/firstSlider/1.webp",
+            img: "waterpark/KuriftuBuffet.webp",
             title: "Kuriftu Buffet",
             text: `Serve yourself with our various types of buffets which you can enjoy at our resort`,
           },
           {
-            img: "bishoftu/firstSlider/1.webp",
+            img: "waterpark/TreatByThePorch.webp",
             title: "Treat by the porch",
             text: `A treat for the eyes and the stomach!`,
           },
           {
-            img: "bishoftu/firstSlider/1.webp",
+            img: "waterpark/TreatByThePorch.webp",
             title: "Reserve a Table",
             text: `Let us know beforehand so that we can save you the best sit in the house.  `,
           },

@@ -11,6 +11,7 @@
       <Feature :feature="event.feature" />
       <LeftFeature :feature="event.Lfeature" />
       <Feature :feature="event.Rfeature" />
+      <LeftFeature v-if="event.Lfeature1" :feature="event.Lfeature1" />
 
       <section class="venues">
         <h1 class="title center venue__title">Venues</h1>

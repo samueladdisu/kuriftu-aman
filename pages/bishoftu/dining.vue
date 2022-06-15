@@ -20,51 +20,45 @@ export default {
         ],
         heroTitle: "Dining at Kuriftu Resort & Spa bishoftu",
         heroSubTitle: "kuriftu resort & spa bishoftu dining",
-        heroText: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-        doloremque magni quo optio doloribus id vel atque? Voluptatem, quibusdam
-        quisquam.`,
+        heroText: `Ethiopia's wide variety of culture results in an endless palate of flavors from around the world - our aim is to incorporate mixed cuisine from traditional injera to international dishes under the same roof! Built and designed by our crafty Kuriftu Woodwork team, each restaurant showcases our work in manipulation of natural materials such as wood, rope, stone, brick and bamboo.`,
         feature: {
           img: "featured.webp",
-          title: "Traditional Restaurant",
-          text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
+          title: "Lakefront Restaurant ",
+          text: `Perfectly situated over the banks of Lake Kuritfu lays our signature Lakefront Restaurant - decorated with white washed mosiac connected to the infinity pool above, massive art showcasing daily life in Bishoftu, and an incredible backdrop of the lake`,
           uri: "/",
-          link: "view the traditional restaurant menu",
+          link: "view menu",
         },
         Lfeature: {
           img: "featured.webp",
-          title: "Lake Side",
-          text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
+          title: "The Cabana Restaurant & Bar",
+          text: `In an ecosystem flourishing with nature, The Cabana Restaurant & Bar includes a special aesthetic of a Japanese inspired Koi Fish Pond. Enjoy a meal amidst this oasis of greenery and relax by the shaded cabanas overlooking the lake`,
           uri: "/",
-          link: "view lake side menu",
+          link: "view menu",
+        },
+        feature1: {
+          img: "featured.webp",
+          title: "Lequanda",
+          text: `Indulge in our selection of prime meat cuts - whether it be kitfo, tibs, or kurt, Kuriftu Lequanda has the traditional touch for you!`,
+          uri: "/",
+          link: "view menu",
+        },
+        Lfeature1: {
+          img: "featured.webp",
+          title: "Waterpark Diner",
+          text: `Dip and dine at our Waterpark Diner! From standard table structures to outdoor cabanas with a backdrop of the rides, experience a freshing meal with a splash! `,
+          uri: "/",
+          link: "view menu",
         },
         other: [
           {
             img: "bishoftu/firstSlider/1.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+            title: "Kuriftu Buffet",
+            text: `Serve yourself with our various types of buffets which you can enjoy at our resort`,
           },
           {
             img: "bishoftu/firstSlider/1.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-          {
-            img: "bishoftu/firstSlider/1.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-          {
-            img: "bishoftu/firstSlider/1.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+            title: "Waterpark Cabanas",
+            text: `Lay back and relax in our perfectly shaded cabanas while watching your family and friends venture in water!`,
           },
         ],
       },

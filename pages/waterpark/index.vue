@@ -12,7 +12,7 @@
     <section class="desti-highlight">
       <div class="container">
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/waterpark/WaterhouseLong.webp" alt="" />
           <h1 class="title">water house</h1>
           <p class="text">
             Water houses, junior slides, slippery stairs, bridges, splash roofs
@@ -24,7 +24,7 @@
           </p>
         </div>
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/waterpark/wavepoolLong.webp" alt="" />
           <h1 class="title">wave pool</h1>
           <p class="text">
             Welcome to our recreation of nature’s ocean shore - the wave pool’s
@@ -38,7 +38,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/waterpark/SpiralSlideLong.webp" alt="" />
           <h1 class="title">Spiral Slides</h1>
           <p class="text">
             Hurl your body down the yellow tube where you will ride in total
@@ -50,7 +50,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/waterpark/boomLong.webp" alt="" />
           <h1 class="title">Boomerang Slide</h1>
           <p class="text">
             The ultimate thrill slide - this checkered blue and white yellow
@@ -65,7 +65,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/waterpark/FikatCircusLong.webp" alt="" />
           <h1 class="title">Fekat Circus</h1>
           <p class="text">
             Kuriftu Water Park is proud to feature the incredibly talented Fekat
@@ -75,7 +75,9 @@
             Ethiopia and internationally. Besides staging professional shows,
             Fekat Circus spreads the circus arts in the capital through its
             school and outreach programs (in orphanages, private schools, and
-            events). Since 2009, Fekat Circus has also provided entertainment
+            events).
+
+            <!-- Since 2009, Fekat Circus has also provided entertainment
             activities daily at the pediatric ward of the Black Lion Hospital.
             One of the latest Fekat Circus brands is the “Monthly show”. On the
             last weekend of each month, Addis Ababans have the chance to attend
@@ -83,12 +85,12 @@
             Shows are hosted over the weekends at The Kurfitu Waterpark with
             three 30 minute time slots between 12:00 pm-5:00 pm, activities are
             as follows: Cube act, Contemporary Dance & Circus, Aerial Tissue
-            Act, Antipod Act, and Ladder Act
+            Act, Antipod Act, and Ladder Act -->
           </p>
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/waterpark/GiftshopLong.webp" alt="" />
           <h1 class="title">The Waterpark Giftshop</h1>
           <p class="text">
             Need to buy a pair of swimming trunks? Look no further! The

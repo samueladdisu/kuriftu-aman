@@ -20,84 +20,76 @@ export default {
         ],
         heroTitle: "Celebration & Events at Kuriftu Resort & Spa bishoftu",
         heroSubTitle: "kuriftu resort & spa bishoftu wedding area",
-        heroText: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-        doloremque magni quo optio doloribus id vel atque? Voluptatem, quibusdam
-        quisquam.`,
+        heroText: `Whether it be a special anniversary, family reunion or milestone birthday, Kuriftu Bishoftu has the ability to facilitate any celebration through our many restaurants, experiences and activities in this scenic environment - The Kuriftu team is dedicated to crafting extraordinay shared experiences and nights to remember `,
         feature: {
           img: "featured.webp",
           title: "Weddings",
-          text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
+          text: `Pave your future with your partner in this romantic setting, share the joy at its most natural state surrounded by loved ones`,
           uri: "event/wed",
           link: "explore",
         },
         Lfeature: {
           img: "featured.webp",
           title: "Birthdays",
-          text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
-          uri: "/",
+          text: `Let us celebrate your life and future in a fun and special way with your loved ones. Our resort provides different packages to celebrate your birthdays and more.`,
+          uri: "#",
           link: "explore",
         },
         Rfeature: {
           img: "featured.webp",
-          title: "Social events",
-          text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
-          uri: "/",
+          title: "Concerts",
+          text: `Join us as we invite your favorite artisits, DJ's and performers for live outdoor experiences!`,
+          uri: "#",
+          link: "explore",
+        },
+        Lfeature1: {
+          img: "featured.webp",
+          title: "Social Events",
+          text: `Thinking of hosting an event? Give us a call and our team can help plan your very own get-together, anniversary, birthday party, family trip - basically anything!`,
+          uri: "#",
           link: "explore",
         },
         venues: [
           {
             id: 1,
             img: "bishoftu/firstSlider/3.webp",
-            title: "Lake Side",
-            text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
+            title: "Wedding Venues",
+            text: `Our exclusive venue for weddings has everything from glamorous decorations, to buffets, dancefloors, and more.`,
           },
           {
             id: 2,
             img: "bishoftu/firstSlider/3.webp",
-            title: "Lounges",
-            text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
+            title: "Lake Side",
+            text: `Make your celebration even more stunning by adding a lake-side view.`,
           },
           {
             id: 3,
             img: "bishoftu/firstSlider/3.webp",
-            title: "Traditional",
-            text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
+            title: "Cabana Area",
+            text: `Make a splash with your cabanas to enjoy a more private and memorable day.`,
           },
           {
             id: 4,
             img: "bishoftu/firstSlider/3.webp",
-            title: "Garden",
-            text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
+            title: "Waterpark",
+            text: `Slide into the cool and fresh water and celebrate the season with our resort's coolest property.  `,
           },
         ],
         other: [
           {
             img: "bishoftu/firstSlider/1.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+            title: "Menu & Catering",
+            text: `Our resort caters to your choice of dishes and plates for your celebrations and gatherings.`,
           },
           {
             img: "bishoftu/firstSlider/1.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+            title: "Event Consultation",
+            text: `Reach out to receive expert advice and consulting on your events provided by our resort.`,
           },
           {
             img: "bishoftu/firstSlider/1.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-          {
-            img: "bishoftu/firstSlider/1.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+            title: "Entertainment",
+            text: `Let us plan a way to make your celebrations fun and exciting. `,
           },
         ],
       },
@@ -114,7 +106,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-          url: "/",
+          url: "#",
         },
       },
     };

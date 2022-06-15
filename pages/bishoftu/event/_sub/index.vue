@@ -18,8 +18,7 @@
         <HeroSlide
           :img="renderdData.slides"
           :subTitle="renderdData.title"
-          text="Lorem ipsum dolor, sit amet consectetur adipisicing elit Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus."
+          text="In a place effortlessly filled with romance, Kuriftu Bishoftu provides an idyllic lush green backdrop for a wedding and all festivities related"
         />
 
         <Desc1 :desc="renderdData.desc" />
@@ -32,8 +31,9 @@
           <img src="@/assets/img/long.webp" alt="" />
           <h1 class="title">Landscape Photoshoot</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            A picture is truly worth a thousand words in this setting - don't
+            miss a chance to take your own breath away while looking back at
+            photoshoots from your special day!
           </p>
         </div>
 
@@ -41,8 +41,11 @@
           <img src="@/assets/img/long.webp" alt="" />
           <h1 class="title">bridal shower</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            Shower the bride to be with an off the beaten path experience in the
+            forest. Spoil her with an intimate celebration among loved ones in
+            the presence of mother nature. Dazzle her with the simple, yet
+            imporant thiings needed before her big day. Trust that our teams
+            will execute perfection
           </p>
         </div>
 
@@ -50,17 +53,21 @@
           <img src="@/assets/img/long.webp" alt="" />
           <h1 class="title">bachelor/ette</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            Ladies, this is your time to shine by curating an unforgettably
+            spontaneous event for your bride to be! Get creative with our team
+            and custimize your friends bachelorette extravaganza!
           </p>
         </div>
 
         <div class="single-high">
           <img src="@/assets/img/long.webp" alt="" />
-          <h1 class="title">Reception</h1>
+          <h1 class="title">Mels</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            Traditional Ethiopian weddings includes an additional celebratory
+            event called Mels, experience this intimate occassion with family
+            and loved ones dressed in rich cultural garments with historical
+            significance. As an Ethiopian brand, Kuriftu strives to create the
+            perfect balance between luxury and tradition
           </p>
         </div>
 
@@ -68,8 +75,11 @@
           <img src="@/assets/img/long.webp" alt="" />
           <h1 class="title">Wedding</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            Embark on a new journey in life with a profound sense of
+            significance in this historic environment, declare your love for
+            your partner in this majestic space that differs from all others in
+            Ethiopia. With expertise in catering and decor, our team can truly
+            make your wedding a one of a kind experience
           </p>
         </div>
 
@@ -77,8 +87,8 @@
           <img src="@/assets/img/long.webp" alt="" />
           <h1 class="title">Honey moon</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            Plan the most incredible romantic getaway with your spouse at our
+            resort. Kuriftu Resort & Spa makes you feel the love in the world.
           </p>
         </div>
       </div>
@@ -134,7 +144,7 @@ export default {
       accData: [
         {
           id: "wed",
-          title: "one-bedroom private garden & balcony",
+          title: "Wedding at Kuriftu Resort & Spa Bishoftu",
           slides: [
             "bishoftu/acc/pre1.webp",
             "bishoftu/acc/pre2.webp",
@@ -192,6 +202,7 @@ export default {
         align-items: center;
         justify-content: center;
         margin: 2.5rem 0 2rem;
+        cursor: pointer;
         img {
           transform: scaleX(-1);
         }

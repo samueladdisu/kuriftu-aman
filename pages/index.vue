@@ -22,11 +22,11 @@
       <div class="container">
         <div class="single-highlight a">
           <img src="@/assets/img/long.webp" alt="" />
-          <h5 class="sub-title">resort</h5>
-          <h1 class="title">Rejuvenating Experience</h1>
+          <h5 class="sub-title">Spa</h5>
+          <h1 class="title">Discover extraordinary destinations</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            Absorb the unique beauty of Ethiopia's natural landscapes and
+            prominent cultural heritage
           </p>
 
           <nuxt-link to="/" class="link">Explore</nuxt-link>
@@ -37,8 +37,10 @@
           <h5 class="sub-title">catering</h5>
           <h1 class="title">The Commitment To Good Service</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            From culinary experiences to accommodations insprired by tradition
+            as well as international standards of luxury, indulge yourself in an
+            adventure of architectural design and unique dishes highlighting
+            innovation across Ethiopia
           </p>
 
           <nuxt-link to="/" class="link">Explore</nuxt-link>
@@ -47,10 +49,10 @@
         <div class="single-highlight c">
           <img src="@/assets/img/long.webp" alt="" />
           <h5 class="sub-title">wellness</h5>
-          <h1 class="title">Rejuvenating Experience</h1>
+          <h1 class="title">Restore your energy</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            Escape to a refuge of tranquility - nestled in the core of any of
+            the Kuriftu locations is a center for wellness and relaxation
           </p>
 
           <nuxt-link to="/" class="link">Explore</nuxt-link>
@@ -59,10 +61,11 @@
         <div class="single-highlight d">
           <img src="@/assets/img/long.webp" alt="" />
           <h5 class="sub-title">gift voucher</h5>
-          <h1 class="title">The Gift of future Experience</h1>
+          <h1 class="title">Future travels</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            Surprise your loved ones with an extraordinary adventure! Offer
+            memories that last a lifetime with the Kurfitu Gift Card that can be
+            customized per destination
           </p>
 
           <nuxt-link to="/" class="link">Explore</nuxt-link>
@@ -70,10 +73,13 @@
         <div class="single-highlight e">
           <img src="@/assets/img/long.webp" alt="" />
           <h5 class="sub-title">kuriftu construction</h5>
-          <h1 class="title">our crew + you dream</h1>
+          <h1 class="title">Immaculate touches</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-            voluptas, cupiditate autem praesentium neque quos.
+            Inspired by natual elements, our construction team has designed and
+            developed each of our properties since the birth of the Kuriftu
+            brand. With hands on supervision from our CEO, Tadiwos Belete
+            himself, each destination is the pure embodiment of his vision of
+            innovation in Ethiopia's hospitality and tourism industry
           </p>
 
           <nuxt-link to="/" class="link">Explore</nuxt-link>
@@ -93,18 +99,22 @@
             <h5 class="sub-title">loft</h5>
             <h1 class="title">village loft</h1>
             <p class="text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              ipsum neque rerum odit repellat dignissimos.
+              Showcasing a fresh contemporary design with screed floor finishes,
+              vibrant art and lofted beds to accommodate full families or
+              friends trips, Kuriftu Debre Zeit offers a variety of room types
+              and aesthetics
             </p>
           </div>
 
           <div class="single-showcase">
             <img src="@/assets/img/half.webp" alt="" />
             <h5 class="sub-title">spa</h5>
-            <h1 class="title">entoto spa</h1>
+            <h1 class="title">entoto forest spa</h1>
             <p class="text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              ipsum neque rerum odit repellat dignissimos.
+              Refresh your body and mind in the wilderness by discovering a new
+              wellness adventure at the Entoto Forest Spa where it's impossible
+              to escape the eucalyptus forest, filling the air with relaxing
+              aromas
             </p>
           </div>
         </div>
@@ -126,9 +136,9 @@ export default {
     return {
       feature: {
         img: "featured.webp",
-        subtitle: "glamping",
-        title: "resting in the wilderness",
-        text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
+        subtitle: "Featured Story",
+        title: "Kuriftu Bishoftu's Story",
+        text: `Located on the northen tip of Bishoftu encompassing the smallest of the four lakes lies our flagship resort, Kuriftu Resort & Spa Bishoftu. Born from Mr. Tadiwos's vision to create luxury resort destinations in neighboring cities of the capital, this resort made its mark in 2007 as the first 5-star resort in the country. With just 14 rooms and a lakefront restaurant at the time, Mr. Tadiwos made his offical debut by setting the standard for luxury and exquisite service, attracting guests from around the world to this unique establishment. `,
         uri: "/",
         link: "Explore",
       },
@@ -220,6 +230,7 @@ export default {
         p {
           margin-top: 1rem;
           text-align: center;
+          font-size: 0.75rem;
         }
       }
     }

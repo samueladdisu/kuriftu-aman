@@ -50,6 +50,11 @@
                         >Celebration & Events</nuxt-link
                       >
                     </li>
+                    <li v-if="viewAcc && boston">
+                      <nuxt-link class="a-link" :to="base + 'corp'"
+                        >Corporate</nuxt-link
+                      >
+                    </li>
                     <li>
                       <nuxt-link class="a-link" :to="base + 'gallery'"
                         >Gallery</nuxt-link
@@ -107,7 +112,11 @@
                   >Dining</nuxt-link
                 >
               </li>
-
+              <li v-if="viewAcc && boston">
+                <nuxt-link class="a-link" :to="base + 'corp'"
+                  >Corporate</nuxt-link
+                >
+              </li>
               <li v-if="viewAcc && boston">
                 <nuxt-link class="a-link" :to="base + 'event'"
                   >Celebration & Events</nuxt-link

@@ -20,14 +20,12 @@ export default {
         ],
         heroTitle: "Experience at Kuriftu Resort & Spa bishoftu",
         heroSubTitle: "lake kuriftu",
-        heroText: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-        doloremque magni quo optio doloribus id vel atque? Voluptatem, quibusdam
-        quisquam.`,
+        heroText: `Discover a world of adventure in Kuriftu Bishoftu - as the leaders of innovation in the hospitality industry in Ethiopia, we pride ourselves in curated unmatched experiences `,
         feature: {
           img: "featured.webp",
-          subtitle: "glamping",
+          // subtitle: "glamping",
           title: "waterpark",
-          text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
+          text: `Make a splash as you slide into the freshwater surrounding the Kuriftu Waterpark! As the biggest waterpark in East Africa, we offer a range of activities from a variety of slides to a wave pool that fits up to 300 rafts at once!`,
           uri: "/",
           link: "Explore",
         },
@@ -36,42 +34,29 @@ export default {
           img2: "long.webp",
           img3: "long.webp",
           title1: "kayakiing",
-          text1: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima voluptate cupiditate omnis aperiam, nisi at nam possimus aspernatur sunt.`,
+          text1: `If you think the only view is within the resort then think again! Enjoy a wonderful kayak ride with friends and be mezermized by the luscious green landscape`,
           title2: "cinema",
-          text2: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima voluptate cupiditate omnis aperiam, nisi at nam possimus aspernatur sunt.`,
+          text2: `The cinema at our resort offers a comfortable experience with rows of cushions; whether it’s a date night or family fun, kick back and enjoy a night complete with popcorn, ice blasts, and delicious ice cream!`,
           title3: "swimming",
-          text3: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima voluptate cupiditate omnis aperiam, nisi at nam possimus aspernatur sunt.`,
+          text3: `Whether is be our Infinity Pool stationed infront of the steam and sauna overlooking the lake, the Waterpark, or the new VIllage Pool & Bar - Kuriftu accommodates kids and adults for all activities relating to water!`,
           title4: "Table Tennis",
-          text4: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima voluptate cupiditate omnis aperiam, nisi at nam possimus aspernatur sunt.`,
+          text4: `For our table tennis enthusiasts, add an exciting tournament to your itinerary Kuriftu Bishoftu`,
         },
         other: [
           {
             img: "bishoftu/acc/pre4.webp",
             title: "Lequanda",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+            text: `Explore fresh cuts of meat for your palate, every day / all day at Kuriftu Lequanda`,
           },
           {
             img: "bishoftu/acc/pre1.webp",
             title: "Bird watching",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+            text: `With an enchanting ecosystem and luxurious natural setting, Kuriftu Resorts & Spa ranks among the best bird-watching facilties in the country! With over 300 bird species migrating in and out of the land, its an opportunity for any bird watcher to enjoy`,
           },
           {
             img: "bishoftu/acc/pre2.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-          {
-            img: "bishoftu/acc/pre3.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+            title: "Hiking",
+            text: `Come and explore nature and wilderness with our Guided hiking and tours.`,
           },
         ],
       },

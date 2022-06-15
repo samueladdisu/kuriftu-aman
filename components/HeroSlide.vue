@@ -64,6 +64,7 @@ export default {
     }
     .slides {
       .swiper-wrapper {
+        height: 80vh;
         .swiper-slide {
           img {
             width: 100%;

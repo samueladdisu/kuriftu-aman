@@ -57,7 +57,7 @@
       </div>
     </section>
     <div class="w__bg">
-      <LeftFeature :feature="well.feature" />
+      <LeftFeature v-if="well.feature" :feature="well.feature" />
 
       <h1 class="title faci__title center">Our facilities</h1>
       <section class="amenities">

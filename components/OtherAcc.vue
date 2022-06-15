@@ -8,16 +8,31 @@
       <div class="swiper other__acc">
         <div class="swiper-wrapper">
           <div class="swiper-slide" v-for="item in other" :key="item.img">
-            <img :src="require('@/assets/img/' + item.img + '')" alt="" />
+            <nuxt-link v-if="item.link" :to="item.link">
+              <img :src="require('@/assets/img/' + item.img + '')" alt="" />
 
-            <div class="content">
-              <h1 class="title center">
-                {{ item.title }}
-              </h1>
+              <div class="content">
+                <h1 class="title center">
+                  {{ item.title }}
+                </h1>
 
-              <p class="text">
-                {{ item.text }}
-              </p>
+                <p class="text">
+                  {{ item.text.substr(0, 100) + "..." }}
+                </p>
+              </div>
+            </nuxt-link>
+            <div v-else>
+              <img :src="require('@/assets/img/' + item.img + '')" alt="" />
+
+              <div class="content">
+                <h1 class="title center">
+                  {{ item.title }}
+                </h1>
+
+                <p class="text">
+                  {{ item.text.substr(0, 100) + "..." }}
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -30,7 +45,7 @@
 export default {
   props: ["title", "other"],
   mounted() {
-    var swiper3 = new Swiper(".other__acc", {
+    new Swiper(".other__acc", {
       slidesPerView: 1,
       spaceBetween: 30,
       loop: true,
@@ -52,6 +67,7 @@ export default {
   background: #f3eee7;
   padding: 2rem 0 3rem;
   .container {
+    cursor: pointer;
     .other__title {
       margin: 2.4375rem 0 1.5rem;
     }
@@ -66,7 +82,7 @@ export default {
 
           .content {
             padding: 2rem;
-            height: 17rem;
+            height: 10rem;
             h1 {
               margin-bottom: 1rem;
               text-align: center;
@@ -94,7 +110,7 @@ export default {
             width: 20rem;
             .content {
               padding: 0.5rem;
-              height: auto;
+              // height: auto;
             }
           }
           .swiper-slide-active,
@@ -116,7 +132,6 @@ export default {
           .swiper-slide {
             .content {
               padding: 0.5rem;
-              height: 20rem;
             }
           }
         }
