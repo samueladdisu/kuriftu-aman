@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       index: {
-        heroImg: "awash/awash-cover.webp",
+        heroImg: "bishoftu/LakeView.webp",
         bishTitle: {
           subTitle: "Lake kuriftu, bishoftu",
           title: "kuriftu resort & spa bishoftu",
@@ -23,8 +23,11 @@ export default {
         photos: [
           "bishoftu/firstSlider/1.webp",
           "bishoftu/firstSlider/2.webp",
-          "bishoftu/firstSlider/3.webp",
+          "bishoftu/acc/loft/3.webp",
           "long.webp",
+          "bishoftu/dining/KuriftuBuffetO.webp",
+          "bishoftu/ExpLong.webp",
+          "bishoftu/acc/pre8.webp",
         ],
 
         // acc cover image
@@ -46,7 +49,7 @@ export default {
             subTitle: "Experience",
             title: "Adventure",
             text: `Discover the hidden gems of Kuriftu Bishoftu from bird watching and kayaking on the lake, to a wild adventure in our Waterpark and Circus performances `,
-            uri: "/",
+            uri: "bishoftu/exp",
             url: "Explore",
           },
           {
@@ -55,7 +58,7 @@ export default {
             subTitle: "dining",
             title: "culinary on the lake",
             text: `Enjoy the various traditional and western cuisines carefully prepared for your satisfaction while taking in the beautiful scenery`,
-            uri: "/",
+            uri: "bishoftu/dining",
             url: "Explore",
           },
           {
@@ -64,16 +67,16 @@ export default {
             subTitle: "wellness",
             title: "Rejuvination",
             text: `Absorb the peaceful energy that floods this environment, allowing our guests to embrace their natural surrounds with an open and relaxed mind. Whether it be a family visit, business trip or romantic getaway, Kuriftu Bishoftu has a way of making each stay special `,
-            uri: "/",
+            uri: "bishoftu/well",
             url: "Explore",
           },
           {
             id: 4,
             img: "Entoto/corporate.webp",
             subTitle: "corporate",
-            title: "A memorabile experience",
+            title: "CORPORATE EXPERIENCE",
             text: `Allow us to share your greatest moments by curating unforgettable celebratory events! Whether it be a birthday party in the Waterpark for kids, a pool party by The Village Pool & Bar, or a one of a kind nature based wedding that can accommodate up to 3,000 people - We've got you covered!`,
-            uri: "/",
+            uri: "bishoftu/corp",
             url: "Explore",
           },
           {
@@ -82,7 +85,7 @@ export default {
             subTitle: "Celebration",
             title: "A memorabile experience",
             text: `Allow us to share your greatest moments by curating unforgettable celebratory events! Whether it be a birthday party in the Waterpark for kids, a pool party by The Village Pool & Bar, or a one of a kind nature based wedding that can accommodate up to 3,000 people - We've got you covered!`,
-            uri: "/",
+            uri: "bishoftu/event",
             url: "Explore",
           },
           {
@@ -91,7 +94,7 @@ export default {
             subTitle: "gift voucher",
             title: "future travels",
             text: `Gift a friend or loved to an unforgettable stay at our flagship resort with guaranteed excellence in service, cuisine, and fun!`,
-            uri: "/",
+            uri: "bishoftu/gift",
             url: "Explore",
           },
         ],

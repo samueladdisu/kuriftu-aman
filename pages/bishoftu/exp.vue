@@ -13,26 +13,26 @@ export default {
     return {
       exp: {
         slides: [
-          "bishoftu/acc/pre5.webp",
-          "bishoftu/acc/pre6.webp",
-          "bishoftu/acc/pre7.webp",
-          "bishoftu/acc/pre8.webp",
+          "bishoftu/exp/Swimming2.webp",
+          "bishoftu/exp/Cinema.webp",
+          "bishoftu/exp/Kayaking.webp",
+          "bishoftu/exp/Waterpark.webp",
         ],
         heroTitle: "Experience at Kuriftu Resort & Spa bishoftu",
         heroSubTitle: "lake kuriftu",
         heroText: `Discover a world of adventure in Kuriftu Bishoftu - as the leaders of innovation in the hospitality industry in Ethiopia, we pride ourselves in curated unmatched experiences `,
         feature: {
-          img: "featured.webp",
+          img: "bishoftu/exp/WaterparkF.webp",
           // subtitle: "glamping",
           title: "waterpark",
           text: `Make a splash as you slide into the freshwater surrounding the Kuriftu Waterpark! As the biggest waterpark in East Africa, we offer a range of activities from a variety of slides to a wave pool that fits up to 300 rafts at once!`,
-          uri: "/",
+          uri: "#",
           link: "Explore",
         },
         highlight: {
-          img1: "featured.webp",
-          img2: "long.webp",
-          img3: "long.webp",
+          img1: "bishoftu/exp/Kayaking.webp",
+          img2: "bishoftu/exp/Cinema.webp",
+          img3: "bishoftu/exp/Swimming.webp",
           title1: "kayakiing",
           text1: `If you think the only view is within the resort then think again! Enjoy a wonderful kayak ride with friends and be mezermized by the luscious green landscape`,
           title2: "cinema",
@@ -44,17 +44,17 @@ export default {
         },
         other: [
           {
-            img: "bishoftu/acc/pre4.webp",
+            img: "bishoftu/exp/Lequanda.webp",
             title: "Lequanda",
             text: `Explore fresh cuts of meat for your palate, every day / all day at Kuriftu Lequanda`,
           },
           {
-            img: "bishoftu/acc/pre1.webp",
+            img: "bishoftu/exp/BirdWatching.webp",
             title: "Bird watching",
             text: `With an enchanting ecosystem and luxurious natural setting, Kuriftu Resorts & Spa ranks among the best bird-watching facilties in the country! With over 300 bird species migrating in and out of the land, its an opportunity for any bird watcher to enjoy`,
           },
           {
-            img: "bishoftu/acc/pre2.webp",
+            img: "bishoftu/exp/Hiking.webp",
             title: "Hiking",
             text: `Come and explore nature and wilderness with our Guided hiking and tours.`,
           },

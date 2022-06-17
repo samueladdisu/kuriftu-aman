@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="" home="/bishoftu" dir="Bishoftu" />
+    <Destinav base="" home="/laketana" dir="Lake Tana" />
     <Event :event="event" />
     <BishFooter :footer="footer" />
   </div>
@@ -17,8 +17,8 @@ export default {
           "bishoftu/event/birthdays.webp",
           "bishoftu/event/waterpark.webp",
         ],
-        heroTitle: "Celebration & Events at Kuriftu Resort & Spa bishoftu",
-        heroSubTitle: "kuriftu resort & spa bishoftu wedding area",
+        heroTitle: "Celebration & Events at Kuriftu Resort & Spa Lake Tana",
+        heroSubTitle: "kuriftu resort & spa lake tana wedding area",
         heroText: `Whether it be a special anniversary, family reunion or milestone birthday, Kuriftu Bishoftu has the ability to facilitate any celebration through our many restaurants, experiences and activities in this scenic environment - The Kuriftu team is dedicated to crafting extraordinay shared experiences and nights to remember `,
         feature: {
           img: "bishoftu/event/wedding.webp",
@@ -35,13 +35,6 @@ export default {
           link: "explore",
         },
         Rfeature: {
-          img: "bishoftu/event/concert.webp",
-          title: "Concerts",
-          text: `Join us as we invite your favorite artisits, DJ's and performers for live outdoor experiences!`,
-          uri: "#",
-          link: "explore",
-        },
-        Lfeature1: {
           img: "bishoftu/event/socialEvents.webp",
           title: "Social Events",
           text: `Thinking of hosting an event? Give us a call and our team can help plan your very own get-together, anniversary, birthday party, family trip - basically anything!`,
@@ -93,15 +86,15 @@ export default {
         ],
       },
       footer: {
-        title: "Kuriftu Resort & Spa Bishoftu",
+        title: "Kuriftu Resort & Spa Lake Tana",
         second: {
-          first: "53.7 km from Addis Ababa Bole International Airport",
-          second: "Lake Bishoftu",
+          first: "491 km from Addis Ababa Bole International Airport",
+          second: "Lake Tana",
           thrid: "Ethiopia",
         },
         thrid: {
           first: "Contact us on our direct phone line 9693",
-          second: "Reception Desk +251924949494",
+          second: "Reception Desk +251920959797",
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
