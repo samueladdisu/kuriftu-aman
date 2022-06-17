@@ -25,7 +25,7 @@ export default {
         heroSubTitle: "Awash Nation Park",
         heroText: `Kuriftu Resort Awash Falls provides a limited number of nature based activities that compliment the national park `,
         feature: {
-          img: "featured.webp",
+          img: "awash/exp/CamelRide.webp",
           // subtitle: "glamping",
           title: "Camel Ride",
           text: `Venture into the depths of the national park on a relaxing camel ride tour!`,
@@ -33,9 +33,9 @@ export default {
           link: "Explore",
         },
         highlight: {
-          img1: "featured.webp",
-          img2: "long.webp",
-          img3: "long.webp",
+          img1: "awash/exp/WildlifeViewing.webp",
+          img2: "awash/exp/Yoga.webp",
+          img3: "awash/exp/Spa.webp",
           title1: "Widlife Viewing",
           text1: `Crocodiles and Monitor Lizards are commonly seen at the base of the waterfall or on the rocky surrounding structures. Follow the path down to get a better look but be sure to keep your distance from any wild animals out of respect for the environment. 
 Keep an eye out for the vast number of bird species located around the park and see if you can spot a Lesser / Greater Kudu while treking!`,

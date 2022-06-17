@@ -13,10 +13,12 @@ export default {
     return {
       well: {
         slides: [
-          "bishoftu/acc/pre5.webp",
-          "bishoftu/acc/pre6.webp",
-          "bishoftu/acc/pre7.webp",
-          "bishoftu/acc/pre8.webp",
+          "awash/well/wellmain.webp",
+          "awash/well/wellsecond.webp",
+         "awash/well/slide2.webp",
+          "awash/well/slide3.webp",
+          "awash/well/slide4.webp",
+      
         ],
         heroTitle: "Wellness at Kurftu Awash Falls ",
         heroSubTitle: "Kuriftu Resort & Spa bishoftu wellness",
@@ -31,8 +33,8 @@ export default {
         // },
         highlight: {
           img1: "featured.webp",
-          img2: "long.webp",
-          img3: "long.webp",
+          img2:  "awash/well/long1.webp",
+          img3: "awash/well/long2.webp",
           title1: "Relax, Rebalance & Restore",
           text1: `Our focus is to have guests reconnect nature at its core with minimal distractions `,
           title2: "Full-Day retreats",
