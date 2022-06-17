@@ -13,10 +13,10 @@ export default {
     return {
       event: {
         slides: [
-          "bishoftu/acc/pre5.webp",
-          "bishoftu/acc/pre6.webp",
-          "bishoftu/acc/pre7.webp",
-          "bishoftu/acc/pre8.webp",
+           
+             "Entoto/acc/pre/2.webp",
+              "Entoto/acc/pre/3.webp",
+        
         ],
         heroTitle: "Celebrations at Kuriftu Entoto Adventure Park ",
         heroSubTitle: "Celebrations at Kuriftu Entoto Adventure Park",

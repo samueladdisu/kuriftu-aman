@@ -22,10 +22,15 @@ The Adventure Park captures the beauty of this sacred location by highlighting n
         },
         // slides
         photos: [
-          "bishoftu/firstSlider/1.webp",
-          "bishoftu/firstSlider/2.webp",
-          "bishoftu/firstSlider/3.webp",
-          "long.webp",
+          "Entoto/slide1.webp",
+            "Entoto/slide2.2.webp",
+             "Entoto/slide2.webp",
+            "Entoto/slide3.webp",
+             "Entoto/slide4.webp",
+              "Entoto/slide5.webp",
+               "Entoto/slide6.webp",
+             
+        
         ],
 
         // acc cover image
@@ -89,7 +94,7 @@ Each restaurant is strategically placed in key activity based areas, like our Ho
           },
           {
             id: 6,
-            img: "long.webp",
+            img:     "Entoto/slide6.webp",
             subTitle: "PACKAGE OFFERS",
             title: "Future travels",
             text: `Treat someone to a world full of incredible experiences - From an adventure in the heart of Entoto Mountain, to a quiet relaxing dinner by the lake side in Debre Zeit, Kuriftu Gift Vouchers are the perfect gifts for yourself, a friend, a co-worker or a loved one!`,

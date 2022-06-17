@@ -64,20 +64,21 @@ export default {
           id: 2,
           title: "Kuriftu Oases / Presedential Cabin",
           slides: [
-            "bishoftu/acc/pre1.webp",
-            "bishoftu/acc/pre2.webp",
-            "bishoftu/acc/pre3.webp",
-            "bishoftu/acc/pre4.webp",
-            "bishoftu/acc/pre5.webp",
-            "bishoftu/acc/pre6.webp",
-            "bishoftu/acc/pre7.webp",
-            "bishoftu/acc/pre8.webp",
+            "Entoto/acc/Presidential.webp",
+              "Entoto/acc/pre/1.webp",
+             "Entoto/acc/pre/2.webp",
+              "Entoto/acc/pre/3.webp",
+               "Entoto/acc/pre/4.webp",
+                "Entoto/acc/pre/5.webp",
+               "Entoto/acc/pre/6.webp",
+
+        
           ],
           desc: [
             {
               id: 1,
-              pic1: "long.webp",
-              pic2: "long.webp",
+              pic1:   "Entoto/acc/pre/long.webp",
+              pic2:  "Entoto/acc/pre/long2.webp",
               text: `Tucked away in the depths of the forest lies a private Presidential Cabin, or what we like to call, the Kuriftu Oasis. A perfect couples escape or a place to have some fun with family or friends by firing up the grill and stocking the outdoor bar with beverages of your choice! Amidst a supportive and nurturing environment, high-glass cielings radiating natural daylight, starlit evenings allowing guests to create emotional connections with friends or loved ones or even solitary reflection. Kuriftu Oasis offers the chance to heal inwards.`,
               url: "/book?ewn",
             },
@@ -98,48 +99,31 @@ export default {
           other: [
             {
               img: "bishoftu/firstSlider/1.webp",
-              title: "one-bedroom lake view",
-              text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+              title: "Glamping Tents",
+              text: `Carefully hidden amongst the eucalyptus trees, our Kuriftu Glamping site offers guests a quiet escape from reality with nothing but the natural world surrounding.`,
+                 link: "1"
             },
-            {
-              img: "bishoftu/firstSlider/1.webp",
-              title: "one-bedroom lake view",
-              text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-            },
-            {
-              img: "bishoftu/firstSlider/1.webp",
-              title: "one-bedroom lake view",
-              text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-            },
-            {
-              img: "bishoftu/firstSlider/1.webp",
-              title: "one-bedroom lake view",
-              text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-            },
+           
+            
           ],
         },
         {
           id: 1,
           title: "Glamping Tents",
           slides: [
-            "bishoftu/acc/pre5.webp",
-            "bishoftu/acc/pre6.webp",
-            "bishoftu/acc/pre7.webp",
-            "bishoftu/acc/pre8.webp",
+            "Entoto/acc/Glamping.webp",
+                  "Entoto/acc/gla/5.webp",
+            "Entoto/acc/gla/1.webp",
+             "Entoto/acc/gla/2.webp",
+              "Entoto/acc/gla/3.webp",
+               "Entoto/acc/gla/4.webp",
+          
           ],
           desc: [
             {
               id: 1,
-              pic1: "long.webp",
-              pic2: "long.webp",
+              pic1:    "Entoto/slide6.webp",
+              pic2:     "Entoto/slide2.2.webp",
               text: `Carefully hidden amongst the eucalyptus trees, our Kuriftu Glamping site offers guests a quiet escape from reality with nothing but the natural world surrounding. With hammocks suspended over the room decks, outdoor grilling stations and mountain bikes provided per room, guests can relax in pure nature.`,
               url: "/book?ewn",
             },
@@ -159,33 +143,12 @@ export default {
           ],
           other: [
             {
-              img: "bishoftu/firstSlider/1.webp",
-              title: "one-bedroom lake view",
-              text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+              img:    "Entoto/acc/Presidential.webp",
+              title: "Presidential",
+              text: `ucked away in the depths of the forest lies a private Presidential Cabin, or what we like to call, the Kuriftu Oasis. A perfect couples escape or a place to have some fun with family or friends by firing up the grill`,
+              link: "2"
             },
-            {
-              img: "bishoftu/firstSlider/1.webp",
-              title: "one-bedroom lake view",
-              text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-            },
-            {
-              img: "bishoftu/firstSlider/1.webp",
-              title: "one-bedroom lake view",
-              text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-            },
-            {
-              img: "bishoftu/firstSlider/1.webp",
-              title: "one-bedroom lake view",
-              text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-            },
+           
           ],
         },
       ],

@@ -13,10 +13,7 @@ export default {
     return {
       exp: {
         slides: [
-          "bishoftu/acc/pre5.webp",
-          "bishoftu/acc/pre6.webp",
-          "bishoftu/acc/pre7.webp",
-          "bishoftu/acc/pre8.webp",
+       "featured.webp",
         ],
         heroTitle: "Experience at Kuriftu Entoto Adventure Park",
         heroSubTitle: "entoto national park",
