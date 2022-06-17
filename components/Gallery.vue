@@ -2,31 +2,11 @@
   <section class="top-gallery E-bg">
     <div class="container">
       <div class="image-wrapper">
-        <div class="single-image" data-aos="zoom-in">
-          <img loading="lazy" src="../assets/img/dz-cover.jpg" alt="" />
-        </div>
-        <div class="single-image1 grid-top3" data-aos="zoom-in">
-          <img loading="lazy" src="../assets/img/waterpark2.jpg" alt="" />
-        </div>
-        <div class="single-image1 grid-top" data-aos="zoom-in">
-          <img src="../assets/img/kuriftu dec 22-5391-min (1).jpg" alt="" />
-        </div>
-        <div class="single-image grid-top2" data-aos="zoom-in">
-          <img src="../assets/img/kuriftu dec 22-5422-min (1).jpg" alt="" />
-        </div>
-        <div class="single-image grid-top" data-aos="zoom-in">
-          <img loading="lazy" src="../assets/img/_DSC5641 (2)-min.jpg" alt="" />
-        </div>
-        <div class="single-image1 grid-top3" data-aos="zoom-in">
-          <img loading="lazy" src="../assets/img/_DSC5351 (2)-min.jpg" alt="" />
-        </div>
-        <div class="single-image1 grid-top" data-aos="zoom-in">
-          <img loading="lazy" src="../assets/img/_DSC5820 (2)-min.jpg" alt="" />
-        </div>
-
-        <div class="single-image grid-top2" data-aos="zoom-in">
-          <img loading="lazy" src="../assets/img/_DSC5400 (2)-min.jpg" alt="" />
-        </div>
+       <div class="single-img-gallery" v-for="item in gallery" :key="item.id" >
+          <img :src="require('../assets/img/' + item.src + '')" alt="" />
+            
+       </div>
+   
       </div>
     </div>
   </section>
@@ -34,7 +14,7 @@
 
 <script>
 export default {
-  props: ["gallery"],
+  props: ["gallery", "gallery2"],   
   // components: {
   //   Stack,
   //   StackItem,
@@ -80,70 +60,30 @@ export default {
     .image-wrapper {
       display: grid;
       place-items: center;
+     
+     .single-img-gallery{
+margin-top: 1rem;
+img{
+   width: 20rem;
+height: 25rem;
+object-fit: cover;
+ @include responsive($lg) {
+  width: 35rem;
+  height: 30rem;
+ }
+}
+     }
       @include responsive($md) {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
       }
       @include responsive($xl) {
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 3rem;
       }
-      .single-image {
-        margin-top: 2rem;
-        img {
-          width: 20rem;
-          height: 30rem;
-          object-fit: cover;
-          @include responsive($lg) {
-            width: 30rem;
-            height: 40rem;
-          }
-          @include responsive($xl) {
-            width: 55rem;
-            height: 40rem;
-          }
-        }
-      }
-      .single-image1 {
-        margin-top: 2rem;
-        img {
-          width: 20rem;
-          height: 20rem;
-          object-fit: cover;
-          @include responsive($lg) {
-            width: 30rem;
-            height: 30rem;
-          }
-          @include responsive($xl) {
-            width: 55rem;
-            height: 30rem;
-          }
-        }
-      }
-      @include responsive($md) {
-        .grid-top {
-          margin-top: 1rem;
-        }
-        .grid-top2 {
-          margin-top: -9rem;
-        }
-        .grid-top1 {
-          margin-top: -1rem;
-        }
-        .grid-top3 {
-          margin-top: -8rem;
-        }
-      }
-      @include responsive($xl) {
-        .grid-top {
-          margin-top: 1rem;
-        }
-        .grid-top2 {
-          margin-top: -9rem;
-        }
-        .grid-top3 {
-          margin-top: -8rem;
-        }
-      }
+ 
+ 
+
     }
     .see-more {
       display: flex;

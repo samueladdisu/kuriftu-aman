@@ -2,7 +2,7 @@
   <div>
     <HeaderApp />
     <Destinav base="" home="/entoto" dir="Entoto" />
-    <Gallery :gallery="gallery" />
+    <Gallery :gallery="gallery" :gallery2="gallery2" />
     <BishFooter :footer="footer" />
   </div>
 </template>
@@ -15,34 +15,37 @@ export default {
         {
           id: 1,
           src: "dz-cover.jpg",
+      title:"long",
+
+        },
+        {
+          id: 2,
+
+          src: "dz-cover.jpg",
+      
+
+
+        },
+        {
+          id: 3,
+          src: "dz-cover.jpg",
+        },
+      ],
+      gallery2: [
+        {
+          id: 1,
+                  src: "waterpark2.jpg",
+
         },
         {
           id: 2,
           src: "waterpark2.jpg",
+
         },
         {
           id: 3,
-          src: "kuriftu dec 22-5391-min (1).jpg",
-        },
-        {
-          id: 4,
-          src: "kuriftu dec 22-5422-min (1).jpg",
-        },
-        {
-          id: 5,
-          src: "_DSC5641 (2)-min.jpg",
-        },
-        {
-          id: 6,
-          src: "_DSC5351 (2)-min.jpg",
-        },
-        {
-          id: 7,
-          src: "_DSC5820 (2)-min.jpg",
-        },
-        {
-          id: 8,
-          src: "_DSC5400 (2)-min.jpg",
+                   src: "waterpark2.jpg",
+
         },
       ],
       footer: {
@@ -66,5 +69,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

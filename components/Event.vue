@@ -13,7 +13,7 @@
       <Feature :feature="event.Rfeature" />
       <LeftFeature v-if="event.Lfeature1" :feature="event.Lfeature1" />
 
-      <section class="venues">
+      <section v-if="event.venues" class="venues">
         <h1 class="title center venue__title">Venues</h1>
         <div class="container">
           <div
@@ -32,7 +32,7 @@
         </div>
       </section>
 
-      <OtherAcc title="Personalization" :other="event.other" />
+      <OtherAcc v-if="event.other" title="Personalization" :other="event.other" />
 
       <section class="enquiry">
         <div class="container">

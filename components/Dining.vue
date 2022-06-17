@@ -12,7 +12,7 @@
       <Feature :feature="dining.feature1" v-if="dining.feature1" />
       <LeftFeature :feature="dining.Lfeature1" v-if="dining.Lfeature1" />
       <Feature :feature="dining.feature2" v-if="dining.feature2" />
-      <OtherAcc title="Dining Experiences" :other="dining.other" />
+      <OtherAcc title="Dining Experiences" v-if="dining.other" :other="dining.other" />
 
       <section class="make__res">
         <div class="container">
