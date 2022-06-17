@@ -15,13 +15,9 @@ export default {
     return {
       corp: {
         slides: [
-          "bishoftu/corp/1.webp",
-          "bishoftu/corp/2.webp",
-          "bishoftu/corp/3.webp",
-          "bishoftu/corp/4.webp",
-          "bishoftu/corp/5.webp",
-          "bishoftu/corp/6.webp",
-          "bishoftu/corp/7.webp",
+          "laketana/corp/ConferenceHall.webp",
+          "laketana/corp/CorporateMembership.webp",
+          "laketana/corp/CorporateRetreat.webp",
         ],
         heroTitle: "Corporate at Kuriftu Resort & Spa Lake Tana",
         heroSubTitle: "Corporate at Kuriftu Resort & Spa Lake Tana",
@@ -29,28 +25,28 @@ export default {
         heroLink: "#",
         heroUrl: "Make an enquiry",
         feature: {
-          img: "bishoftu/corp/1F.webp",
+          img: "laketana/corp/ConferenceHall.webp",
           title: "Corporate Rate Agreement",
           text: `Let us take care of your teams by rejuvinating and stregthening their relations with one another to optimize their level of efficiency by becoming corporate clients -  having access to our extensive list of activities, destinations and experineces within the wellness space will help companies reap the benefits. Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and we will customize your membership accordingly!`,
           uri: "#",
           link: "Make an enquiry",
         },
         Lfeature: {
-          img: "bishoftu/corp/2F.webp",
+          img: "laketana/corp/CorporateMembership.webp",
           title: "Corporate membership",
           text: `Treat your team to a wild adventure at Kuriftu Entoto Adventure Park - our team can curate the perfect experience ranging from outdoor meetings in our Hammock Village, adventurous activities as ice breakers and orientation for new staff, rejuvinating spa services to relax the mind, and many more `,
           uri: "#",
           link: "Make an enquiry",
         },
         feature1: {
-          img: "bishoftu/corp/3F.webp",
+          img: "laketana/corp/CorporateRetreat.webp",
           title: "Corporate Retreat",
           text: `Allow us to host your companies conference, meetings or events in one of our four conference halls. Break out sessions can be facilitated in the surrounding cabanas for an alternative experience in the outdoors `,
           uri: "#",
           link: "Make an enquiry",
         },
         Lfeature: {
-          img: "bishoftu/corp/3F.webp",
+          img: "laketana/corp/CorporateMembership.webp",
           title: "Host a Meeting or Conference",
           text: `Thinking of hosting an event? Give us a call and our team can help plan your very own get-together, anniversary, birthday party, family trip - basically anything!`,
           uri: "#",
@@ -84,17 +80,17 @@ export default {
         ],
         other: [
           {
-            img: "bishoftu/corp/catering.webp",
+            img: "laketana/dining/2.webp",
             title: "Menu & Catering",
             text: `Our resort caters to your choice of dishes and plates for your meetings and retreats `,
           },
           {
-            img: "bishoftu/corp/1O.webp",
+            img: "laketana/corp/CorporateMembership.webp",
             title: "Space organization",
             text: `Based on your needs our resort provides different arrangements of space. `,
           },
           {
-            img: "bishoftu/corp/2O.webp",
+            img: "laketana/corp/ConferenceHall.webp",
             title: "Closing event",
             text: `On your last day, Our resort provides a memorable ceremony to commemorate your time with us. `,
           },

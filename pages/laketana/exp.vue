@@ -13,16 +13,17 @@ export default {
     return {
       exp: {
         slides: [
-          "bishoftu/exp/Swimming2.webp",
-          "bishoftu/exp/Cinema.webp",
-          "bishoftu/exp/Kayaking.webp",
-          "bishoftu/exp/Waterpark.webp",
+          "laketana/exp/TripToTheFalls.webp",
+          "laketana/exp/MonastryVisit.webp",
+          "laketana/exp/CabanaDinig.webp",
+          "laketana/exp/BoatRide.webp",
+          "laketana/exp/BirdWatching.webp",
         ],
         heroTitle: "Experience at Kuriftu Resort & Spa Tana ",
         heroSubTitle: "lake tana",
         heroText: `Discover a world of adventure in Kuriftu Tana - as the leaders of innovation in the hospitality industry in Ethiopia, we pride ourselves in curated unmatched experiences `,
         feature: {
-          img: "bishoftu/exp/WaterparkF.webp",
+          img: "laketana/exp/BoatRide.webp",
           // subtitle: "glamping",
           title: "Boat Ride",
           text: `Cruise on one of our boat rides along Lake Tana with a crisp view of the sunrise or sunset, you might get lucky and see some Hippo's along the way!`,
@@ -30,9 +31,9 @@ export default {
           link: "Explore",
         },
         highlight: {
-          img1: "bishoftu/exp/Kayaking.webp",
-          img2: "bishoftu/exp/Cinema.webp",
-          img3: "bishoftu/exp/Swimming.webp",
+          img1: "laketana/exp/MonastryVisit.webp",
+          img2: "laketana/exp/CabanaDinigLong.webp",
+          img3: "laketana/exp/SwimmingPoolLong.webp",
           title1: "Monastry Visit",
           text1: `Venture out to the holy monastries that make up the core of Bahirdar, these tours are sought after by those looking to learn a bit more about Ethiopian Orthodox Church and history, or for those on pilgrimages`,
           title2: "Cabana Dining",
@@ -42,7 +43,7 @@ export default {
         },
         other: [
           {
-            img: "bishoftu/exp/Lequanda.webp",
+            img: "laketana/exp/MonastryVisit.webp",
             title: "Monastry Visit",
             text: `Venture out to the holy monastries that make up the core of Bahirdar, these tours are sought after by those looking to learn a bit more about Ethiopian Orthodox Church and history, or for those on pilgrimages`,
           },
@@ -52,7 +53,7 @@ export default {
             text: `With an enchanting ecosystem and luxurious natural setting, Kuriftu Resorts & Spa ranks among the best bird-watching in the country.`,
           },
           {
-            img: "bishoftu/exp/Hiking.webp",
+            img: "laketana/exp/TripToTheFalls.webp",
             title: "Trip to the Falls",
             text: `Come and explore nature and wilderness with our Guided hiking and tours.`,
           },
