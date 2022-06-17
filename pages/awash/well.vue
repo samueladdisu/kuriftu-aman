@@ -13,15 +13,16 @@ export default {
     return {
       well: {
         slides: [
-          "awash/well/wellmain.webp",
-          "awash/well/wellsecond.webp",
-         "awash/well/slide2.webp",
-          "awash/well/slide3.webp",
-          "awash/well/slide4.webp",
+          "awash/well/3.webp",
+          "awash/well/1.webp",
+          "awash/well/2.webp",
+          "awash/well/4.webp",
+          "awash/well/5.webp",
+        
       
         ],
         heroTitle: "Wellness at Kurftu Awash Falls ",
-        heroSubTitle: "Kuriftu Resort & Spa bishoftu wellness",
+        heroSubTitle: "Kuriftu Resort & Spa Awash Falls Wellness",
         heroText: `Our Spa offers unique massage rooms located on the banks of the Awash River where guests will have the opportunity to relax to the sound of the waterfall as their senses are awakened with aromas.`,
         // feature: {
         //   img: "featured.webp",
@@ -32,7 +33,7 @@ export default {
         //   link: "View full experience guide",
         // },
         highlight: {
-          img1: "featured.webp",
+          img1: "awash/well/well2.webp",
           img2:  "awash/well/long1.webp",
           img3: "awash/well/long2.webp",
           title1: "Relax, Rebalance & Restore",
@@ -46,36 +47,7 @@ export default {
         amenities: ["Yoga (Weekends)", "Dipping Pool", "Jacuzzi"],
         amenities1: ["Massage", "Dirt Biking", ],
         amenities2: ["Outdoor day bed","Hiking" ],
-        other: [
-          {
-            img: "bishoftu/acc/pre4.webp",
-            title: "Lequanda",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-          {
-            img: "bishoftu/acc/pre1.webp",
-            title: "Bird watching",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-          {
-            img: "bishoftu/acc/pre2.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-          {
-            img: "bishoftu/acc/pre3.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-        ],
+    
       },
       footer: {
            title: "Kuriftu Resort & Spa Awash Falls",

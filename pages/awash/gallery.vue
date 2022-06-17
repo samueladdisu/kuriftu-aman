@@ -14,48 +14,69 @@ export default {
       gallery: [
         {
           id: 1,
-          src: "dz-cover.jpg",
+          src:  "awash/firstSlider/1.webp",
         },
         {
           id: 2,
-          src: "waterpark2.jpg",
+          src:  "awash/firstSlider/2.webp",
         },
         {
           id: 3,
-          src: "kuriftu dec 22-5391-min (1).jpg",
+          src:  "awash/dining/TheFallsRestaurant&Bar.webp",
         },
+         {
+          id: 4,
+          src:  "awash/firstSlider/4.webp",
+        },
+        {
+          id: 5,
+          src:  "awash/firstSlider/5.webp",
+        },
+        {
+          id: 6,
+          src:  "awash/firstSlider/6.webp",
+        },
+         {
+          id: 7,
+          src:  "awash/Accomodation1.webp",
+        },
+         {
+          id: 8,
+          src:  "awash/firstSlider/8.webp",
+        },
+         {
+          id: 9,
+          src:  "awash/firstSlider/9.webp",
+        },
+         {
+          id: 10,
+          src:  "awash/firstSlider/10.webp",
+        },
+         {
+          id: 11,
+          src: "awash/well/1.webp",
+        },
+         {
+          id: 12,
+          src:  "awash/well/3.webp",
+        },
+          {
+          id: 13,
+          src: "awash/acc/Presidential.webp",
+        },
+         {
+          id: 14,
+          src: "awash/awash-cover.webp",
+        },
+         {
+          id: 15,
+          src:"awash/acc/presidential/long.webp",
+        },
+
     
       ],
-        gallery2: [
-        {
-          id: 1,
-          src: "kuriftu dec 22-5422-min (1).jpg",
-        },
-        {
-          id: 2,
-          src: "_DSC5641 (2)-min.jpg",
-        },
-        {
-          id: 3,
-          src:"_DSC5351 (2)-min.jpg",
-        },
-    
-      ],
-        gallery3: [
-        {
-          id: 1,
-          src: "_DSC5820 (2)-min.jpg",
-        },
-        {
-          id: 2,
-          src: "_DSC5400 (2)-min.jpg",
-        },
-        {
-          id: 3,
-          src: "kuriftu dec 22-5391-min (1).jpg",
-        },
-  
-      ],
+
+
       footer: {
          title: "Kuriftu Resort & Spa Awash Falls",
         second: {

@@ -15,10 +15,9 @@ export default {
     return {
       corp: {
         slides: [
-          "bishoftu/acc/pre5.webp",
-          "bishoftu/acc/pre6.webp",
-          "bishoftu/acc/pre7.webp",
-          "bishoftu/acc/pre8.webp",
+          "awash/corp/co.webp",
+           "awash/corp/co2.webp",
+    
         ],
         heroTitle: "Corporate Experience at Kuriftu Resort & Spa Awash Falls ",
         heroSubTitle: "Corporate Experience ",
@@ -26,7 +25,7 @@ export default {
         heroLink: "/",
         heroUrl: "Make an enquiry",
         feature: {
-          img: "featured.webp",
+          img: "awash/corp/co.webp",
           title: "Corporate Rate Agreement",
           text: `Let us take care of your teams by rejuvinating and stregthening their relations with one another to optimize their level of efficiency by becoming corporate clients -  having access to our extensive list of activities, destinations and experineces within the wellness space will help companies reap the benefits.
 Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and we will customize your membership accordingly!`,
@@ -34,14 +33,14 @@ Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and w
           link: "Make an enquiry",
         },
         Lfeature: {
-          img: "featured.webp",
+          img: "awash/corp/co2.webp",
           title: "Corporate Retreat",
           text: `Show appreciation to your teams by treating them to a private getaway to escape everyday life. They deserve it don't they? `,
           uri: "/",
           link: "Make an enquiry",
         },
         feature1: {
-          img: "featured.webp",
+          img: "awash/corp/co.webp",
           title: "Host a meeting or Conference",
           text: `Allow us to get creative with meeting and conference spaces in this small, but luxurious destination - whether is be booking the Presidential Suite to facilitate meetings for teams indoors or on the terrace showcasing the best view of the resort, or reserving the pool deck beautifully shaded - the choice is yours! `,
           uri: "/",

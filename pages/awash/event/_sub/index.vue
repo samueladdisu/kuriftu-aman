@@ -28,7 +28,7 @@
     <section class="desti-highlight">
       <div class="container">
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/awash/event/Wedding/Landscape.webp" alt="" />
           <h1 class="title">Landscape Photoshoot</h1>
           <p class="text">
      Pictures will stay forever! With our beautiful sceneries and lakeside view, our resort would be the best place to capture memories that will last forever.   
@@ -36,7 +36,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/awash/event/Wedding/Bridalshower.webp" alt="" />
           <h1 class="title">Bridal Shower</h1>
           <p class="text">
           Let us celebrate the bride before her special day together! Our resort provide a space, entertainment and dishes for that. 
@@ -44,7 +44,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/awash/event/Wedding/Bachelorette.webp" alt="" />
           <h1 class="title">Bachelor/ette</h1>
           <p class="text">
          Have a few days before you tie the knot? Spend a day or two at Kuriftu Resort & Spa with your friends to enjoy. 
@@ -52,7 +52,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/awash/event/Wedding/Mels.webp" alt="" />
           <h1 class="title">Mels</h1>
           <p class="text">
         The traditional venue, decorations, buffet, and entertainment our resort provides makes your Mels unforgattable. 
@@ -60,7 +60,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/awash/event/Wedding/Wedding.webp"  alt="" />
           <h1 class="title">Wedding</h1>
           <p class="text">
 Our resort provides the best place to celebrate one of the most significant days in your and your partner's life!
@@ -70,7 +70,7 @@ Our resort provides the best place to celebrate one of the most significant days
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/awash/event/Wedding/Honeymoon.webp" alt="" />
           <h1 class="title">Honey moon</h1>
           <p class="text">
             Plan the most incredible romantic getaway with your spouse at our resort. Kuriftu Resort & Spa makes you feel the love in the world.  
@@ -121,24 +121,23 @@ export default {
     return {
       renderdData: "",
       photos: [
-        "bishoftu/firstSlider/1.webp",
-        "bishoftu/firstSlider/2.webp",
-        "bishoftu/firstSlider/3.webp",
-        "long.webp",
+            "awash/firstSlider/1.webp",
+            "awash/firstSlider/2.webp",
+            "awash/firstSlider/3.webp",
+            "awash/firstSlider/4.webp",
+            "awash/firstSlider/5.webp",
+            "awash/firstSlider/6.webp",
+            "awash/firstSlider/7.webp",
+            "awash/firstSlider/10.webp",
+            "awash/firstSlider/9.webp",
       ],
       accData: [
         {
           id: "wed",
           title: "Kuriftu Resort & Spa Awash Falls",
           slides: [
-            "bishoftu/acc/pre1.webp",
-            "bishoftu/acc/pre2.webp",
-            "bishoftu/acc/pre3.webp",
-            "bishoftu/acc/pre4.webp",
-            "bishoftu/acc/pre5.webp",
-            "bishoftu/acc/pre6.webp",
-            "bishoftu/acc/pre7.webp",
-            "bishoftu/acc/pre8.webp",
+               "awash/event/1.webp",
+
           ],
         },
       ],

@@ -2,7 +2,7 @@
   <section class="top-gallery E-bg">
     <div class="container">
       <div class="image-wrapper">
-       <div v-for="item in gallery" :key="item.id" >
+       <div class="single-img-gallery" v-for="item in gallery" :key="item.id" >
           <img :src="require('../assets/img/' + item.src + '')" alt="" />
             
        </div>
@@ -60,6 +60,19 @@ export default {
     .image-wrapper {
       display: grid;
       place-items: center;
+     
+     .single-img-gallery{
+margin-top: 1rem;
+img{
+   width: 20rem;
+height: 25rem;
+object-fit: cover;
+ @include responsive($lg) {
+  width: 35rem;
+  height: 30rem;
+ }
+}
+     }
       @include responsive($md) {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
