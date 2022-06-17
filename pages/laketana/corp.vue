@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="" home="/bishoftu" dir="Bishoftu" />
+    <Destinav base="" home="/laketana" dir="Lake Tana" />
     <Corporate :corp="corp" />
     <BishFooter :footer="footer" />
   </div>
@@ -23,30 +23,36 @@ export default {
           "bishoftu/corp/6.webp",
           "bishoftu/corp/7.webp",
         ],
-        heroTitle: "Corporate at Kuriftu Resort & Spa Bishoftu",
-        heroSubTitle: "Corporate at Kuriftu Resort & Spa Bishoftu",
-        heroText: `Kuriftu Bishoftu is the most sought after conference and retreat destination in the country. With the tranquil atmosphere that surrounds this resort and proximity to the capital, corporate clients are able to take full advantage of their benefits. Our team places value on the needs of each individual, curating the ultimate getaway`,
+        heroTitle: "Corporate at Kuriftu Resort & Spa Lake Tana",
+        heroSubTitle: "Corporate at Kuriftu Resort & Spa Lake Tana",
+        heroText: `With the tranquil atmosphere that surrounds this resort, corporate clients are able to take full advantage of their benefits. Our team places value on the needs of each individual, curating the ultimate getaway`,
         heroLink: "#",
         heroUrl: "Make an enquiry",
         feature: {
           img: "bishoftu/corp/1F.webp",
           title: "Corporate Rate Agreement",
-          text: `Let us take care of your teams by rejuvinating and stregthening their relations with one another to optimize their level of efficiency by becoming corporate clients -  having access to our extensive list of activities, destinations and experineces within the wellness space will help companies reap the benefits.
-Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and we will customize your membership accordingly!`,
+          text: `Let us take care of your teams by rejuvinating and stregthening their relations with one another to optimize their level of efficiency by becoming corporate clients -  having access to our extensive list of activities, destinations and experineces within the wellness space will help companies reap the benefits. Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and we will customize your membership accordingly!`,
           uri: "#",
           link: "Make an enquiry",
         },
         Lfeature: {
           img: "bishoftu/corp/2F.webp",
-          title: "Corporate Retreat",
+          title: "Corporate membership",
           text: `Treat your team to a wild adventure at Kuriftu Entoto Adventure Park - our team can curate the perfect experience ranging from outdoor meetings in our Hammock Village, adventurous activities as ice breakers and orientation for new staff, rejuvinating spa services to relax the mind, and many more `,
           uri: "#",
           link: "Make an enquiry",
         },
         feature1: {
           img: "bishoftu/corp/3F.webp",
-          title: "Host a Meeting or Conference",
+          title: "Corporate Retreat",
           text: `Allow us to host your companies conference, meetings or events in one of our four conference halls. Break out sessions can be facilitated in the surrounding cabanas for an alternative experience in the outdoors `,
+          uri: "#",
+          link: "Make an enquiry",
+        },
+        Lfeature: {
+          img: "bishoftu/corp/3F.webp",
+          title: "Host a Meeting or Conference",
+          text: `Thinking of hosting an event? Give us a call and our team can help plan your very own get-together, anniversary, birthday party, family trip - basically anything!`,
           uri: "#",
           link: "Make an enquiry",
         },
@@ -60,8 +66,8 @@ Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and w
           {
             id: 2,
             img: "bishoftu/corp/2.webp",
-            title: "Tiruwark Hall",
-            text: `Tiruwark Hall is our  smallest hall, with the capacity of hollding 20 people at once.`,
+            title: "Conference Hall",
+            text: `Our conference hall accommodates up to 20 people - fostering a closer bond for those participating in any scheduled experince, whether it be a retreat or meeting.`,
           },
           {
             id: 3,
@@ -95,19 +101,19 @@ Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and w
         ],
       },
       footer: {
-        title: "Kuriftu Resort & Spa Bishoftu",
+        title: "Kuriftu Resort & Spa Lake Tana",
         second: {
-          first: "53.7 km from Addis Ababa Bole International Airport",
-          second: "Lake Bishoftu",
+          first: "491 km from Addis Ababa Bole International Airport",
+          second: "Lake Tana",
           thrid: "Ethiopia",
         },
         thrid: {
           first: "Contact us on our direct phone line 9693",
-          second: "Reception Desk +251924949494",
+          second: "Reception Desk +251920959797",
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-          url: "/",
+          url: "#",
         },
       },
     };

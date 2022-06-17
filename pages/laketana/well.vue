@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="" home="/bishoftu" dir="Bishoftu" />
+    <Destinav base="" home="/laketana" dir="Lake Tana" />
     <Well :well="well" />
     <BishFooter :footer="footer" />
   </div>
@@ -13,8 +13,8 @@ export default {
     return {
       well: {
         slides: ["bishoftu/well/1.webp", "bishoftu/well/2.webp"],
-        heroTitle: "Wellness at Kuriftu Resort & Spa Bishoftu",
-        heroSubTitle: "Kuriftu Resort & Spa bishoftu wellness",
+        heroTitle: "Wellness at Kuriftu Resort & Spa Lake Tana",
+        heroSubTitle: "Kuriftu Resort & Spa lake tana wellness",
         heroText: `Our customers wellness experience is intergal to the Kuriftu Brand - by providind outlets for guests to rest, exert energy, feast on clean and light dishes, we empower you to accomplish more!`,
         // feature: {
         //   img: "featured.webp",
@@ -39,47 +39,17 @@ export default {
         amenities: ["Steam", "Sauna", "Jacuzzi"],
         amenities1: ["Massage", "Manicure", "Pedicure"],
         amenities2: ["Hair Style", "Barber", "Gym"],
-        other: [
-          {
-            img: "bishoftu/acc/pre4.webp",
-            title: "Lequanda",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-          {
-            img: "bishoftu/acc/pre1.webp",
-            title: "Bird watching",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-          {
-            img: "bishoftu/acc/pre2.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-          {
-            img: "bishoftu/acc/pre3.webp",
-            title: "one-bedroom lake view",
-            text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
-          },
-        ],
       },
       footer: {
-        title: "Kuriftu Resort & Spa Bishoftu",
+        title: "Kuriftu Resort & Spa Lake Tana",
         second: {
-          first: "53.7 km from Addis Ababa Bole International Airport",
-          second: "Lake Bishoftu",
+          first: "491 km from Addis Ababa Bole International Airport",
+          second: "Lake Tana",
           thrid: "Ethiopia",
         },
         thrid: {
           first: "Contact us on our direct phone line 9693",
-          second: "Reception Desk +251924949494",
+          second: "Reception Desk +251920959797",
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {

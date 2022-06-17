@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="/bishoftu/" home="/bishoftu" dir="Bishoftu" />
+    <Destinav base="/laketana/" home="/laketana" dir="Lake Tana" />
     <section class="s__acc__hero">
       <div class="container1">
         <div class="hero-title">
@@ -18,7 +18,7 @@
         <HeroSlide
           :img="renderdData.slides"
           :subTitle="renderdData.title"
-          text="In a place effortlessly filled with romance, Kuriftu Bishoftu provides an idyllic lush green backdrop for a wedding and all festivities related"
+          text="In a place effortlessly filled with romance, Kuriftu Lake Tana provides an idyllic lush green backdrop for a wedding and all festivities related"
         />
 
         <Desc1 :desc="renderdData.desc" />
@@ -149,7 +149,7 @@ export default {
       accData: [
         {
           id: "wed",
-          title: "Wedding at Kuriftu Resort & Spa Bishoftu",
+          title: "Wedding at Kuriftu Resort & Spa Lake Tana",
           slides: [
             "bishoftu/event/WeddingArea.webp",
             "bishoftu/bishCele.webp",
@@ -158,19 +158,19 @@ export default {
         },
       ],
       footer: {
-        title: "Kuriftu Resort & Spa Bishoftu",
+        title: "Kuriftu Resort & Spa Lake Tana",
         second: {
-          first: "53.7 km from Addis Ababa Bole International Airport",
-          second: "Lake Bishoftu",
+          first: "491 km from Addis Ababa Bole International Airport",
+          second: "Lake Tana",
           thrid: "Ethiopia",
         },
         thrid: {
           first: "Contact us on our direct phone line 9693",
-          second: "Reception Desk +251924949494",
+          second: "Reception Desk +251920959797",
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-          url: "/",
+          url: "#",
         },
       },
     };
