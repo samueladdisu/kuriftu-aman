@@ -14,7 +14,7 @@
     <Feature :feature="corp.feature1" v-if="corp.feature1" />
     <LeftFeature :feature="corp.Lfeature1" v-if="corp.Lfeature1" />
 
-    <section class="venues">
+    <section v-if="corp.venues" class="venues">
       <h1 class="title center venue__title">Venues</h1>
       <div class="container">
         <div class="single-venues" v-for="item in corp.venues" :key="item.id">

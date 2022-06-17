@@ -53,6 +53,13 @@
               {{ exp.highlight.text4 }}
             </p>
           </div>
+
+          <div class="tennis" v-if="exp.highlight.title5">
+            <h1 class="title">{{ exp.highlight.title5 }}</h1>
+            <p class="text">
+              {{ exp.highlight.text5 }}
+            </p>
+          </div>
         </div>
       </div>
     </section>

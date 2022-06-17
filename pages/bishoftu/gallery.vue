@@ -24,26 +24,37 @@ export default {
           id: 3,
           src: "kuriftu dec 22-5391-min (1).jpg",
         },
+    
+      ],
+        gallery2: [
         {
-          id: 4,
+          id: 1,
           src: "kuriftu dec 22-5422-min (1).jpg",
         },
         {
-          id: 5,
+          id: 2,
           src: "_DSC5641 (2)-min.jpg",
         },
         {
-          id: 6,
-          src: "_DSC5351 (2)-min.jpg",
+          id: 3,
+          src:"_DSC5351 (2)-min.jpg",
         },
+    
+      ],
+        gallery3: [
         {
-          id: 7,
+          id: 1,
           src: "_DSC5820 (2)-min.jpg",
         },
         {
-          id: 8,
+          id: 2,
           src: "_DSC5400 (2)-min.jpg",
         },
+        {
+          id: 3,
+          src: "kuriftu dec 22-5391-min (1).jpg",
+        },
+  
       ],
       footer: {
         title: "Kuriftu Resort & Spa Bishoftu",
