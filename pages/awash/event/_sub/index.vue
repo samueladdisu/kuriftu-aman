@@ -18,7 +18,7 @@
         <HeroSlide
           :img="renderdData.slides"
           :subTitle="renderdData.title"
-          text="Destination weddings make for beautiful intimate weddings. Kuriftu Resort & Spa Awash Falls is a one-of-a-kind destination! the spectacular view, The perfect ambiance of Awash Falls will highlight one of the biggest days of your life."
+          text="Destination weds make for beautiful intimate weds. Kuriftu Resort & Spa Awash Falls is a one-of-a-kind destination! the spectacular view, The perfect ambiance of Awash Falls will highlight one of the biggest days of your life."
         />
 
         <Desc1 :desc="renderdData.desc" />
@@ -28,52 +28,57 @@
     <section class="desti-highlight">
       <div class="container">
         <div class="single-high">
-          <img src="@/assets/img/awash/event/Wedding/Landscape.webp" alt="" />
+          <img src="@/assets/img/awash/event/wed/Landscape.webp" alt="" />
           <h1 class="title">Landscape Photoshoot</h1>
           <p class="text">
-     Pictures will stay forever! With our beautiful sceneries and lakeside view, our resort would be the best place to capture memories that will last forever.   
+            Pictures will stay forever! With our beautiful sceneries and
+            lakeside view, our resort would be the best place to capture
+            memories that will last forever.
           </p>
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/awash/event/Wedding/Bridalshower.webp" alt="" />
+          <img src="@/assets/img/awash/event/wed/Bridalshower.webp" alt="" />
           <h1 class="title">Bridal Shower</h1>
           <p class="text">
-          Let us celebrate the bride before her special day together! Our resort provide a space, entertainment and dishes for that. 
+            Let us celebrate the bride before her special day together! Our
+            resort provide a space, entertainment and dishes for that.
           </p>
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/awash/event/Wedding/Bachelorette.webp" alt="" />
+          <img src="@/assets/img/awash/event/wed/Bachelorette.webp" alt="" />
           <h1 class="title">Bachelor/ette</h1>
           <p class="text">
-         Have a few days before you tie the knot? Spend a day or two at Kuriftu Resort & Spa with your friends to enjoy. 
+            Have a few days before you tie the knot? Spend a day or two at
+            Kuriftu Resort & Spa with your friends to enjoy.
           </p>
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/awash/event/Wedding/Mels.webp" alt="" />
+          <img src="@/assets/img/awash/event/wed/Mels.webp" alt="" />
           <h1 class="title">Mels</h1>
           <p class="text">
-        The traditional venue, decorations, buffet, and entertainment our resort provides makes your Mels unforgattable. 
+            The traditional venue, decorations, buffet, and entertainment our
+            resort provides makes your Mels unforgattable.
           </p>
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/awash/event/Wedding/Wedding.webp"  alt="" />
-          <h1 class="title">Wedding</h1>
+          <img src="@/assets/img/awash/event/wed/Wedding1.webp" alt="" />
+          <h1 class="title">wed</h1>
           <p class="text">
-Our resort provides the best place to celebrate one of the most significant days in your and your partner's life!
-
-
+            Our resort provides the best place to celebrate one of the most
+            significant days in your and your partner's life!
           </p>
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/awash/event/Wedding/Honeymoon.webp" alt="" />
+          <img src="@/assets/img/awash/event/wed/Honeymoon.webp" alt="" />
           <h1 class="title">Honey moon</h1>
           <p class="text">
-            Plan the most incredible romantic getaway with your spouse at our resort. Kuriftu Resort & Spa makes you feel the love in the world.  
+            Plan the most incredible romantic getaway with your spouse at our
+            resort. Kuriftu Resort & Spa makes you feel the love in the world.
           </p>
         </div>
       </div>
@@ -121,24 +126,21 @@ export default {
     return {
       renderdData: "",
       photos: [
-            "awash/firstSlider/1.webp",
-            "awash/firstSlider/2.webp",
-            "awash/firstSlider/3.webp",
-            "awash/firstSlider/4.webp",
-            "awash/firstSlider/5.webp",
-            "awash/firstSlider/6.webp",
-            "awash/firstSlider/7.webp",
-            "awash/firstSlider/10.webp",
-            "awash/firstSlider/9.webp",
+        "awash/firstSlider/1.webp",
+        "awash/firstSlider/2.webp",
+        "awash/firstSlider/3.webp",
+        "awash/firstSlider/4.webp",
+        "awash/firstSlider/5.webp",
+        "awash/firstSlider/6.webp",
+        "awash/firstSlider/7.webp",
+        "awash/firstSlider/10.webp",
+        "awash/firstSlider/9.webp",
       ],
       accData: [
         {
           id: "wed",
           title: "Kuriftu Resort & Spa Awash Falls",
-          slides: [
-               "awash/event/1.webp",
-
-          ],
+          slides: ["awash/event/1.webp"],
         },
       ],
       footer: {

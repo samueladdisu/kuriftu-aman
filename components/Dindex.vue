@@ -1,7 +1,7 @@
 <template>
   <div class="d-main">
     <div class="d-bg">
-      <Hero :src="index.heroImg" />
+      <Hero :src="index.heroImg" :video="index.video" />
       <Intro :data="index.bishTitle" />
 
       <Bishoftuslide :photos="index.photos" />
@@ -39,13 +39,25 @@
 
     <section class="map">
       <div class="container">
-        <h1 class="title">Getting here</h1>
-        <p class="text">
+        <h1 class="title center">Getting here</h1>
+        <p class="text center">
           {{ index.mapInfo }}
         </p>
 
-        <div class="google-map">
-          <h1 class="title">map</h1>
+        <div class="map-container">
+          <div class="location">
+            <div class="map-responsive">
+              <iframe
+                :src="index.iframe"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -141,27 +153,58 @@ div {
   .map {
     background: #f3eee7;
     padding: 2rem 0 3rem;
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      h1 {
-        margin-bottom: 1.3rem;
-      }
-      p {
-        margin-bottom: 4rem;
-        max-width: 42.75rem;
-      }
-      .google-map {
-        width: 100%;
-        background: lightblue;
-        max-width: 69.25rem;
-        height: 32rem;
-        display: grid;
-        place-items: center;
+    overflow: hidden;
+    height: 37.94rem;
+    margin-bottom: 3rem;
+    .map-container {
+      margin-top: 3rem;
+      .location {
+        .map-responsive {
+          overflow: hidden;
+          padding-bottom: 56.25%;
+          position: relative;
+
+          iframe {
+            left: 50%;
+            transform: translate(-50%);
+            top: 0;
+            max-height: 27.94rem;
+            max-width: 69.25rem;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+          }
+        }
       }
     }
   }
+
+  // .map {
+  //   margin-top: 4rem;
+  //   background: #f3eee7;
+  //   padding: 2rem 0 3rem;
+  //   overflow: hidden;
+  //   padding-bottom: 5.06rem;
+  //   height: 31.94rem;
+  //   .map-container {
+  //     .location {
+  //       .map-responsive {
+  //         overflow: hidden;
+  //         padding-bottom: 56.25%;
+  //         position: relative;
+  //         height: 17rem;
+
+  //         max-height: 31.94rem;
+  //         iframe {
+  //           left: 0;
+  //           top: 0;
+  //           height: 100%;
+  //           width: 100%;
+  //           position: absolute;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 }
 </style>

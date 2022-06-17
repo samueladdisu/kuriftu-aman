@@ -21,19 +21,16 @@ export default {
         },
         // slides
         photos: [
-            "awash/firstSlider/1.webp",
-            "awash/firstSlider/2.webp",
-            "awash/firstSlider/3.webp",
-            "awash/firstSlider/4.webp",
-            "awash/firstSlider/5.webp",
-            "awash/firstSlider/6.webp",
-            "awash/firstSlider/7.webp",
-     
-           "awash/firstSlider/10.webp",
-                  "awash/firstSlider/9.webp",
-             
-       
-        
+          "awash/firstSlider/1.webp",
+          "awash/firstSlider/2.webp",
+          "awash/firstSlider/3.webp",
+          "awash/firstSlider/4.webp",
+          "awash/firstSlider/5.webp",
+          "awash/firstSlider/6.webp",
+          "awash/firstSlider/7.webp",
+
+          "awash/firstSlider/10.webp",
+          "awash/firstSlider/9.webp",
         ],
 
         // acc cover image
@@ -60,7 +57,7 @@ export default {
           },
           {
             id: 2,
-                img: "awash/Dinning.webp",
+            img: "awash/Dinning.webp",
             subTitle: "DINNING ",
             title: "Waterfall Dining ",
             text: `Treat yourself and your loved ones to an unparralelled dining experience while listening to nothing but the natural rythm of the falls. With a carefully curated menu that meshes local culture and international cuisine, enjoy a mouth watering pallate of flavor! `,
@@ -106,6 +103,7 @@ export default {
         ],
         // map section
         mapInfo: `211 km from Addis Ababa Bole International Airport`,
+        iframe: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.391883705934!2d40.0101088153378!3d8.84305769430703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x163593fea245879f%3A0xca93c0e4241369ec!2sKuriftu%20Resort%20%26%20Spa%20Awash%20Falls!5e0!3m2!1sen!2sus!4v1655483107585!5m2!1sen!2sus`,
       },
     };
   },

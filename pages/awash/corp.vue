@@ -14,11 +14,7 @@ export default {
   data() {
     return {
       corp: {
-        slides: [
-          "awash/corp/co.webp",
-           "awash/corp/co2.webp",
-    
-        ],
+        slides: ["awash/corp/co.webp", "awash/corp/co2.webp"],
         heroTitle: "Corporate Experience at Kuriftu Resort & Spa Awash Falls ",
         heroSubTitle: "Corporate Experience ",
         heroText: `Kuriftu Awash Falls provides corporate clients a sense of exclusivity while tucked away in the solitude of Awash National Park `,
@@ -46,20 +42,20 @@ Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and w
           uri: "/",
           link: "Make an enquiry",
         },
-  
+
         other: [
           {
-            img: "bishoftu/firstSlider/1.webp",
+            img: "bishoftu/corp/catering.webp",
             title: "Menu & Catering",
             text: `Our resort caters to your choice of dishes and plates for your meetings and retreats `,
           },
           {
-            img: "bishoftu/firstSlider/1.webp",
+            img: "bishoftu/corp/1O.webp",
             title: "Space organization",
             text: `Based on your needs our resort provides different arrangements of space. `,
           },
           {
-            img: "bishoftu/firstSlider/1.webp",
+            img: "bishoftu/corp/2O.webp",
             title: "Closing event",
             text: `On your last day, Our resort provides a memorable ceremony to commemorate your time with us. `,
           },
