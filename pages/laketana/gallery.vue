@@ -14,35 +14,47 @@ export default {
       gallery: [
         {
           id: 1,
-          src: "dz-cover.jpg",
+          src: "laketana/event/soci.webp",
         },
         {
           id: 2,
-          src: "waterpark2.jpg",
+          src: "laketana/event/bd.webp",
         },
         {
           id: 3,
-          src: "kuriftu dec 22-5391-min (1).jpg",
+          src: "laketana/acc/gardenview/1.webp",
         },
         {
           id: 4,
-          src: "kuriftu dec 22-5422-min (1).jpg",
+          src: "laketana/exp/BirdWatching.webp",
         },
         {
           id: 5,
-          src: "_DSC5641 (2)-min.jpg",
+          src: "laketana/dining/3.webp",
         },
         {
           id: 6,
-          src: "_DSC5351 (2)-min.jpg",
+          src: "laketana/corp/ConferenceHall.webp",
         },
         {
           id: 7,
-          src: "_DSC5820 (2)-min.jpg",
+          src: "laketana/event/LakeSide.webp",
         },
         {
           id: 8,
-          src: "_DSC5400 (2)-min.jpg",
+          src: "laketana/event/Cabana.webp",
+        },
+        {
+          id: 9,
+          src: "laketana/exp/TripToTheFalls.webp",
+        },
+        {
+          id: 10,
+          src: "laketana/exp/CabanaDinig.webp",
+        },
+        {
+          id: 11,
+          src: "laketana/event/soci.webp",
         },
       ],
       footer: {

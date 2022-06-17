@@ -12,22 +12,15 @@ export default {
   data() {
     return {
       well: {
-        slides: ["bishoftu/well/1.webp", "bishoftu/well/2.webp"],
+        slides: ["laketana/well/Wellness.webp", "laketana/well/2.webp"],
         heroTitle: "Wellness at Kuriftu Resort & Spa Lake Tana",
         heroSubTitle: "Kuriftu Resort & Spa lake tana wellness",
         heroText: `Our customers wellness experience is intergal to the Kuriftu Brand - by providind outlets for guests to rest, exert energy, feast on clean and light dishes, we empower you to accomplish more!`,
-        // feature: {
-        //   img: "featured.webp",
-        //   subtitle: "glamping",
-        //   title: "Fitness",
-        //   text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
-        //   uri: "/",
-        //   link: "View full experience guide",
-        // },
+
         highlight: {
-          img1: "bishoftu/well/1.webp",
-          img2: "bishoftu/well/long1.webp",
-          img3: "bishoftu/well/long2.webp",
+          img1: "laketana/well/2.webp",
+          img2: "laketana/well.webp",
+          img3: "laketana/well/2L.webp",
           title1: "Relax, Rebalance & Restore",
           text1: `Venture to the depths of Bishoftu's natural landscape, tap into your happy place to nourish your body with mindfull experiences`,
           title2: "Full-Day retreats",

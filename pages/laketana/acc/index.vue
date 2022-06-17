@@ -20,7 +20,7 @@ export default {
         rooms: [
           {
             id: 1,
-            img: "bishoftu/LakeView.webp",
+            img: "laketana/acc/lakeview/1.webp",
             subTitle: "rooms",
             title: "lake view",
             text: `Explore a variety of lake front rooms with a perfect view of Lake Tana and all that surrounds it`,
@@ -28,7 +28,7 @@ export default {
           },
           {
             id: 2,
-            img: "bishoftu/GardenView.webp",
+            img: "laketana/acc/gardenview/1.webp",
             subTitle: "rooms",
             title: "GARDEN VIEW",
             text: `Immerse yourself in colorful garden features that make up most of the natural landscape Kuriftu Tana. Attracting birds of varying species, wake up to the mezmerizing sound of their songs in the early morning as the sun rises above the lakes horizon `,
@@ -36,7 +36,7 @@ export default {
           },
           {
             id: 3,
-            img: "bishoftu/LoftVillage.webp",
+            img: "laketana/acc/pre/1.webp",
             subTitle: "rooms",
             title: "PRESIDETIAL SUITE",
             text: `Take in the earthy environment curated by our woodwork and design team in this spacious room. Plan a romantic stay with your partner and experince exclusive offers in this space, including an in-room massage and luxury in-room dining experience. Our suites offer nothing less than  the perfect blend of comfort and beauty`,

@@ -13,7 +13,8 @@ export default {
   data() {
     return {
       index: {
-        heroImg: "awash/awash-cover.webp",
+        // heroImg: "awash/awash-cover.webp",
+        video: "705084951",
         bishTitle: {
           subTitle: "ENTOTO PARK, ADDIS ABABA",
           title: "kuriftu resort & spa Entoto",
@@ -104,6 +105,7 @@ Each restaurant is strategically placed in key activity based areas, like our Ho
         ],
         // map section
         mapInfo: `14.9 km from Addis Ababa Bole International Airport Entoto Park, Ethiopia`,
+        iframe: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44577.49805641681!2d38.736620781160575!3d9.051777430683375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f84811f84a1%3A0x336681194adaaef!2sKuriftu%20Restaurant%20in%20Entoto%20Park!5e0!3m2!1sen!2sus!4v1655482874195!5m2!1sen!2sus`,
       },
     };
   },

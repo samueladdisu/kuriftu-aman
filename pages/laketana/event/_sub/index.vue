@@ -89,7 +89,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/bishoftu/event/Honeymoon.webp" alt="" />
+          <img src="@/assets/img/laketana/event/Honeymoon.webp" alt="" />
           <h1 class="title">Honey moon</h1>
           <p class="text">
             Plan the most incredible romantic getaway with your spouse at our
@@ -150,11 +150,7 @@ export default {
         {
           id: "wed",
           title: "Wedding at Kuriftu Resort & Spa Lake Tana",
-          slides: [
-            "bishoftu/event/WeddingArea.webp",
-            "bishoftu/bishCele.webp",
-            "bishoftu/event/wedding.webp",
-          ],
+          slides: ["laketana/event/wed.webp", "bishoftu/bishCele.webp"],
         },
       ],
       footer: {
