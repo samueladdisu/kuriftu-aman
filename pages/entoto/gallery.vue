@@ -14,40 +14,45 @@ export default {
       gallery: [
         {
           id: 1,
-          src: "dz-cover.jpg",
-      title:"long",
+          src:    "Entoto/well/1.webp",
+
 
         },
         {
           id: 2,
-
-          src: "dz-cover.jpg",
-      
-
+          src:    "Entoto/well/2.webp",
 
         },
         {
           id: 3,
-          src: "dz-cover.jpg",
+          src:    "Entoto/well/3.webp",
+        },
+         {
+          id: 4,
+          src:    "Entoto/well/4.webp",
+        },
+         {
+          id: 5,
+          src:    "Entoto/well/long.webp",
+        },
+         {
+          id: 6,
+          src:    "Entoto/well/long2.webp",
+        },
+         {
+          id: 7,
+          src:    "Entoto/well/wide.webp",
+        },
+          {
+          id: 8,
+          src:    "Entoto/well/fit.webp",
+        },
+          {
+          id: 7,
+          src:   "Entoto/exp/feature.webp",
         },
       ],
-      gallery2: [
-        {
-          id: 1,
-                  src: "waterpark2.jpg",
-
-        },
-        {
-          id: 2,
-          src: "waterpark2.jpg",
-
-        },
-        {
-          id: 3,
-                   src: "waterpark2.jpg",
-
-        },
-      ],
+  
       footer: {
         title: "Kuriftu Resort & Spa Entoto",
         second: {
