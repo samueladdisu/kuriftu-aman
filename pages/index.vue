@@ -4,7 +4,14 @@
     <!-- Home page banner section  -->
 
     <div class="header-wrapper">
-      <Hero src="awash/awash-cover.webp" />
+      <Hero style="padding: 50.25% 0 0 0; position: relative" />
+      <iframe
+        src="https://player.vimeo.com/video/722179226??api=1&autoplay=1&controls=0&sidedock=0&loop=1&title=0&byline=0&portrait=0&muted=1&background=1"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+      ></iframe>
 
       <section class="hero-content">
         <div class="container">
@@ -21,7 +28,7 @@
     <section class="highlight">
       <div class="container">
         <div class="single-highlight a">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/home/spa1.webp" alt="" />
           <h5 class="sub-title">Spa</h5>
           <h1 class="title">Discover extraordinary destinations</h1>
           <p class="text">
@@ -33,7 +40,7 @@
         </div>
 
         <div class="single-highlight b">
-          <img src="@/assets/img/wide.webp" alt="" />
+          <img src="@/assets/img/home/catering.webp" alt="" />
           <h5 class="sub-title">catering</h5>
           <h1 class="title">The Commitment To Good Service</h1>
           <p class="text">
@@ -47,7 +54,7 @@
         </div>
 
         <div class="single-highlight c">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/home/wellness.webp" alt="" />
           <h5 class="sub-title">wellness</h5>
           <h1 class="title">Restore your energy</h1>
           <p class="text">
@@ -71,7 +78,7 @@
           <nuxt-link to="/" class="link">Explore</nuxt-link>
         </div>
         <div class="single-highlight e">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/home/Kuriftu Construction.webp" alt="" />
           <h5 class="sub-title">kuriftu construction</h5>
           <h1 class="title">Immaculate touches</h1>
           <p class="text">
@@ -95,7 +102,7 @@
       <section class="showcase">
         <div class="container">
           <div class="single-showcase">
-            <img src="@/assets/img/half.webp" alt="" />
+            <img src="@/assets/img/home/loft.webp" alt="" />
             <h5 class="sub-title">loft</h5>
             <h1 class="title">village loft</h1>
             <p class="text">
@@ -107,7 +114,7 @@
           </div>
 
           <div class="single-showcase">
-            <img src="@/assets/img/half.webp" alt="" />
+            <img src="@/assets/img/home/spa2.webp" alt="" />
             <h5 class="sub-title">spa</h5>
             <h1 class="title">entoto forest spa</h1>
             <p class="text">
@@ -135,7 +142,7 @@ export default {
   data() {
     return {
       feature: {
-        img: "featured.webp",
+        img: "FeaturedStory.webp",
         subtitle: "Featured Story",
         title: "Kuriftu Bishoftu's Story",
         text: `Located on the northen tip of Bishoftu encompassing the smallest of the four lakes lies our flagship resort, Kuriftu Resort & Spa Bishoftu. Born from Mr. Tadiwos's vision to create luxury resort destinations in neighboring cities of the capital, this resort made its mark in 2007 as the first 5-star resort in the country. With just 14 rooms and a lakefront restaurant at the time, Mr. Tadiwos made his offical debut by setting the standard for luxury and exquisite service, attracting guests from around the world to this unique establishment. `,

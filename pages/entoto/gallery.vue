@@ -14,45 +14,66 @@ export default {
       gallery: [
         {
           id: 1,
-          src:    "Entoto/well/1.webp",
-
-
+          src: "Entoto/well/1.webp",
         },
         {
           id: 2,
-          src:    "Entoto/well/2.webp",
-
+          src: "Entoto/well/2.webp",
         },
         {
           id: 3,
-          src:    "Entoto/well/3.webp",
+          src: "Entoto/well/3.webp",
         },
-         {
+        {
           id: 4,
-          src:    "Entoto/well/4.webp",
+          src: "Entoto/well/4.webp",
         },
-         {
+        {
           id: 5,
-          src:    "Entoto/well/long.webp",
+          src: "Entoto/event/SpaceOrganization.webp",
         },
-         {
+        {
           id: 6,
-          src:    "Entoto/well/long2.webp",
+          src: "Entoto/well/long2.webp",
         },
-         {
+        {
           id: 7,
-          src:    "Entoto/well/wide.webp",
+          src: "Entoto/event/Honeymoon.webp",
         },
-          {
+        {
           id: 8,
-          src:    "Entoto/well/fit.webp",
+          src: "Entoto/well/fit.webp",
         },
-          {
-          id: 7,
-          src:   "Entoto/exp/feature.webp",
+        {
+          id: 9,
+          src: "Entoto/din/TheMarksmanBar&Grill.webp",
+        },
+        {
+          id: 10,
+          src: "Entoto/din/FamilyDining.webp",
+        },
+        {
+          id: 11,
+          src: "Entoto/event/s4.webp",
+        },
+        {
+          id: 12,
+          src: "Entoto/din/TheRidersRanch.webp",
+        },
+        {
+          id: 13,
+          src: "Entoto/event/s2.webp",
+        },
+        {
+          id: 14,
+          src: "Entoto/din/PitStopBar&Grill.webp",
+        },
+        {
+          id: 15,
+          src: "Entoto/din/EntotoPeakRestaurant.webp",
         },
       ],
-  
+
       footer: {
         title: "Kuriftu Resort & Spa Entoto",
         second: {

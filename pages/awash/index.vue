@@ -13,7 +13,8 @@ export default {
   data() {
     return {
       index: {
-        heroImg: "awash/awash-cover.webp",
+        video: "722179226",
+
         bishTitle: {
           subTitle: "Awash National Park ",
           title: "Kuriftu Resort & Spa Awash Falls",

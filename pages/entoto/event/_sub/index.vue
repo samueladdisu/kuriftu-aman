@@ -28,7 +28,7 @@
     <section class="desti-highlight">
       <div class="container">
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/Entoto/event/Landscape.webp" alt="" />
           <h1 class="title">Landscape Photoshoot</h1>
           <p class="text">
             A picture is truly worth a thousand words in this setting - don't
@@ -38,7 +38,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/awash/event/wed/Bridalshower.webp" alt="" />
           <h1 class="title">bridal shower</h1>
           <p class="text">
             Shower the bride to be with an off the beaten path experience in the
@@ -50,7 +50,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/awash/event/wed/Bachelorette.webp" alt="" />
           <h1 class="title">bachelor/ette Party</h1>
           <p class="text">
             Ladies, this is your time to shine by curating an unforgettably
@@ -60,7 +60,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/awash/event/wed/Mels.webp" alt="" />
           <h1 class="title">Mels</h1>
           <p class="text">
             Traditional Ethiopian weddings includes an additional celebratory
@@ -72,7 +72,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/Entoto/event/we.webp" alt="" />
           <h1 class="title">Wedding</h1>
           <p class="text">
             Embark on a new journey in life with a profound sense of
@@ -84,7 +84,7 @@
         </div>
 
         <div class="single-high">
-          <img src="@/assets/img/long.webp" alt="" />
+          <img src="@/assets/img/Entoto/event/Honeymoon.webp" alt="" />
           <h1 class="title">Honey moon</h1>
           <p class="text">
             Plan a distinclty memorable honeymoon in our Presidential Cabin -
@@ -137,24 +137,23 @@ export default {
     return {
       renderdData: "",
       photos: [
-        "bishoftu/firstSlider/1.webp",
-        "bishoftu/firstSlider/2.webp",
-        "bishoftu/firstSlider/3.webp",
-        "long.webp",
+        "Entoto/event/Honeymoon.webp",
+        "Entoto/event/s1.webp",
+        "Entoto/event/Landscape.webp",
+
+        "Entoto/event/s3.webp",
+        "Entoto/event/we.webp",
+        "Entoto/event/s4.webp",
       ],
       accData: [
         {
           id: "wed",
           title: "Wedding at Kuriftu Entoto Adventure Park ",
           slides: [
-            "bishoftu/acc/pre1.webp",
-            "bishoftu/acc/pre2.webp",
-            "bishoftu/acc/pre3.webp",
-            "bishoftu/acc/pre4.webp",
-            "bishoftu/acc/pre5.webp",
-            "bishoftu/acc/pre6.webp",
-            "bishoftu/acc/pre7.webp",
-            "bishoftu/acc/pre8.webp",
+            "Entoto/event/s1.webp",
+            "Entoto/event/s2.webp",
+            "Entoto/event/s3.webp",
+            "Entoto/event/s4.webp",
           ],
         },
       ],
