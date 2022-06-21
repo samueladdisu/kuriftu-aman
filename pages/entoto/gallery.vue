@@ -50,7 +50,7 @@ export default {
         },
         {
           id: 10,
-          src: "Entoto/din/FamilyDining.webp",
+          src: "Entoto/adv/1.webp",
         },
         {
           id: 11,
