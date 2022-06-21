@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HeaderApp />
     <Destinav base="" home="/laketana" dir="Lake Tana" />
     <Gift :gift="gift" />
     <BishFooter :footer="footer" />
@@ -21,32 +22,32 @@ export default {
           photos: [
             {
               id: 1,
-              src: "gift5.svg",
+              src: "giftvoucher/1.jpg",
               url: "gift/1",
             },
             {
               id: 2,
-              src: "gift1.svg",
+              src: "giftvoucher/2.jpg",
               url: "gift/2",
             },
             {
               id: 3,
-              src: "gift2.svg",
+              src: "giftvoucher/3.jpg",
               url: "gift/3",
             },
             {
               id: 4,
-              src: "gift3.svg",
+              src: "giftvoucher/4.jpg",
               url: "gift/4",
             },
             {
               id: 5,
-              src: "gift4.svg",
+              src: "giftvoucher/5.jpg",
               url: "gift/5",
             },
             {
               id: 6,
-              src: "gift1.svg",
+              src: "giftvoucher/6.jpg",
               url: "gift/6",
             },
           ],
@@ -56,33 +57,18 @@ export default {
           photos: [
             {
               id: 1,
-              src: "gift5.svg",
+              src: "giftvoucher/7.jpg",
               url: "gift/1",
             },
             {
               id: 2,
-              src: "gift1.svg",
+              src: "giftvoucher/6.jpg",
               url: "gift/2",
             },
             {
               id: 3,
-              src: "gift2.svg",
+              src: "giftvoucher/5.jpg",
               url: "gift/3",
-            },
-            {
-              id: 4,
-              src: "gift3.svg",
-              url: "gift/4",
-            },
-            {
-              id: 5,
-              src: "gift4.svg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
-              src: "gift1.svg",
-              url: "gift/6",
             },
           ],
         },
@@ -91,33 +77,18 @@ export default {
           photos: [
             {
               id: 1,
-              src: "gift5.svg",
+              src: "giftvoucher/5.jpg",
               url: "gift/1",
             },
             {
               id: 2,
-              src: "gift1.svg",
+              src: "giftvoucher/6.jpg",
               url: "gift/2",
             },
             {
               id: 3,
-              src: "gift2.svg",
+              src: "giftvoucher/7.jpg",
               url: "gift/3",
-            },
-            {
-              id: 4,
-              src: "gift3.svg",
-              url: "gift/4",
-            },
-            {
-              id: 5,
-              src: "gift4.svg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
-              src: "gift1.svg",
-              url: "gift/6",
             },
           ],
         },
@@ -126,33 +97,23 @@ export default {
           photos: [
             {
               id: 1,
-              src: "gift5.svg",
+              src: "giftvoucher/4.jpg",
               url: "gift/1",
             },
             {
               id: 2,
-              src: "gift1.svg",
+              src: "giftvoucher/3.jpg",
               url: "gift/2",
             },
             {
               id: 3,
-              src: "gift2.svg",
+              src: "giftvoucher/2.jpg",
               url: "gift/3",
             },
             {
               id: 4,
-              src: "gift3.svg",
+              src: "giftvoucher/1.jpg",
               url: "gift/4",
-            },
-            {
-              id: 5,
-              src: "gift4.svg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
-              src: "gift1.svg",
-              url: "gift/6",
             },
           ],
         },
@@ -161,22 +122,22 @@ export default {
           photos: [
             {
               id: 1,
-              src: "gift5.svg",
+              src: "gift4.svg",
               url: "gift/1",
             },
             {
               id: 2,
-              src: "gift1.svg",
+              src: "gift4.svg",
               url: "gift/2",
             },
             {
               id: 3,
-              src: "gift2.svg",
+              src: "gift4.svg",
               url: "gift/3",
             },
             {
               id: 4,
-              src: "gift3.svg",
+              src: "gift4.svg",
               url: "gift/4",
             },
             {
@@ -186,7 +147,7 @@ export default {
             },
             {
               id: 6,
-              src: "gift1.svg",
+              src: "gift4.svg",
               url: "gift/6",
             },
           ],
@@ -196,12 +157,12 @@ export default {
           photos: [
             {
               id: 1,
-              src: "gift5.svg",
+              src: "gift2.svg",
               url: "gift/1",
             },
             {
               id: 2,
-              src: "gift1.svg",
+              src: "gift2.svg",
               url: "gift/2",
             },
             {
@@ -211,87 +172,87 @@ export default {
             },
             {
               id: 4,
-              src: "gift3.svg",
-              url: "gift/4",
-            },
-            {
-              id: 5,
-              src: "gift4.svg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
-              src: "gift1.svg",
-              url: "gift/6",
-            },
-          ],
-        },
-        afar: {
-          title: "afar",
-          photos: [
-            {
-              id: 1,
-              src: "gift5.svg",
-              url: "gift/1",
-            },
-            {
-              id: 2,
-              src: "gift1.svg",
-              url: "gift/2",
-            },
-            {
-              id: 3,
               src: "gift2.svg",
-              url: "gift/3",
-            },
-            {
-              id: 4,
-              src: "gift3.svg",
               url: "gift/4",
             },
             {
               id: 5,
-              src: "gift4.svg",
+              src: "gift2.svg",
               url: "gift/5",
             },
             {
               id: 6,
-              src: "gift1.svg",
+              src: "gift2.svg",
               url: "gift/6",
             },
           ],
         },
+        // afar: {
+        //   title: "afar",
+        //   photos: [
+        //     {
+        //       id: 1,
+        //       src: "gift5.svg",
+        //       url: "gift/1",
+        //     },
+        //     {
+        //       id: 2,
+        //       src: "gift1.svg",
+        //       url: "gift/2",
+        //     },
+        //     {
+        //       id: 3,
+        //       src: "gift2.svg",
+        //       url: "gift/3",
+        //     },
+        //     {
+        //       id: 4,
+        //       src: "gift3.svg",
+        //       url: "gift/4",
+        //     },
+        //     {
+        //       id: 5,
+        //       src: "gift4.svg",
+        //       url: "gift/5",
+        //     },
+        //     {
+        //       id: 6,
+        //       src: "gift1.svg",
+        //       url: "gift/6",
+        //     },
+        //   ],
+        // },
         boston: {
           title: "boston day spa",
           photos: [
             {
               id: 1,
-              src: "gift5.svg",
+              src: "giftvoucher/3.jpg",
               url: "gift/1",
             },
             {
               id: 2,
-              src: "gift1.svg",
+              src: "giftvoucher/3.jpg",
               url: "gift/2",
             },
             {
               id: 3,
-              src: "gift2.svg",
+              src: "giftvoucher/3.jpg",
               url: "gift/3",
             },
             {
               id: 4,
-              src: "gift3.svg",
+              src: "giftvoucher/3.jpg",
               url: "gift/4",
             },
             {
               id: 5,
-              src: "gift4.svg",
+              src: "giftvoucher/3.jpg",
               url: "gift/5",
             },
             {
               id: 6,
-              src: "gift1.svg",
+              src: "giftvoucher/3.jpg",
               url: "gift/6",
             },
           ],
