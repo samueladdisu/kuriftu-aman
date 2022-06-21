@@ -40,7 +40,7 @@
         </div>
 
         <div class="single-highlight b">
-          <img src="@/assets/img/home/catering.webp" alt="" />
+          <img src="@/assets/img/home/Catering.webp" alt="" />
           <h5 class="sub-title">catering</h5>
           <h1 class="title">The Commitment To Good Service</h1>
           <p class="text">

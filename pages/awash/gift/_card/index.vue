@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="/bishoftu/" home="/bishoftu" dir="Bishoftu" />
+    <Destinav base="/awash/" home="/awash" dir="Awash" />
 
     <BishFooter :footer="footer" />
   </div>

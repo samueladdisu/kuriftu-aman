@@ -5,7 +5,7 @@
     <HeroSlide
       :img="slides"
       title="Adventures at Kuriftu Resort & spa entoto"
-      subTitle="wave pole area"
+      subTitle="Kuriftu "
       text="Get ready adrenaline junkies and nature enthusiats for the ultimate adventureland in the country! With no comparison, Kuriftu Entoto Adventure Park showcases a variety of activities that trump anything of its kind in the country - from paintball shooting ranges to aerial experiences through ziplining and rope course, guests are guaranteed an unforgetable time"
     />
 
@@ -35,16 +35,15 @@ export default {
   data() {
     return {
       slides: [
-            "Entoto/adv/1.webp",
-         "Entoto/adv/2.webp",
+        "Entoto/adv/1.webp",
+        "Entoto/adv/2.webp",
         "Entoto/adv/6.webp",
-        
-       "Entoto/adv/3.webp",
-       "Entoto/adv/4.webp",
-         "Entoto/adv/9.webp",
-       "Entoto/adv/7.webp",
-           "Entoto/adv/8.webp",
-           
+
+        "Entoto/adv/3.webp",
+        "Entoto/adv/4.webp",
+        "Entoto/adv/9.webp",
+        "Entoto/adv/7.webp",
+        "Entoto/adv/8.webp",
       ],
       other: [
         {
@@ -53,7 +52,7 @@ export default {
           text: `Fear of heights? Dare to take a chance with us - Picture yourself soaring through the sky in the middle of the forest overlooking Entoto's natural landscape over an 500 meter zipline tour - You'll find yourself tempted for more excitement `,
         },
         {
-          img:"Entoto/adv/rope.webp",
+          img: "Entoto/adv/rope.webp",
           title: "Aerial Rope Course",
           text: `Elevated 5-meters off the ground is our Aerial Rope Course - challenge yourself to complete this 400-meter obstacle in the sky over 26 sets with friends and family!`,
         },
