@@ -28,7 +28,7 @@
     <section class="highlight">
       <div class="container">
         <div class="single-highlight a">
-          <img src="@/assets/img/home/spa1.webp" alt="" />
+          <img src="@/assets/img/home/Spa1.webp" alt="" />
           <h5 class="sub-title">Spa</h5>
           <h1 class="title">Discover extraordinary destinations</h1>
           <p class="text">
@@ -54,7 +54,7 @@
         </div>
 
         <div class="single-highlight c">
-          <img src="@/assets/img/home/wellness.webp" alt="" />
+          <img src="@/assets/img/home/Wellness.webp" alt="" />
           <h5 class="sub-title">wellness</h5>
           <h1 class="title">Restore your energy</h1>
           <p class="text">
@@ -102,7 +102,7 @@
       <section class="showcase">
         <div class="container">
           <div class="single-showcase">
-            <img src="@/assets/img/home/loft.webp" alt="" />
+            <img src="@/assets/img/home/Loft.webp" alt="" />
             <h5 class="sub-title">loft</h5>
             <h1 class="title">village loft</h1>
             <p class="text">
@@ -114,7 +114,7 @@
           </div>
 
           <div class="single-showcase">
-            <img src="@/assets/img/home/spa2.webp" alt="" />
+            <img src="@/assets/img/home/Spa2.webp" alt="" />
             <h5 class="sub-title">spa</h5>
             <h1 class="title">entoto forest spa</h1>
             <p class="text">
