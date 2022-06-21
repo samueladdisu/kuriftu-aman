@@ -4,14 +4,14 @@
     <!-- Home page banner section  -->
 
     <div class="header-wrapper">
-      <Hero style="padding: 50.25% 0 0 0; position: relative" />
-      <iframe
+      <Hero :video="722179226" />
+      <!-- <iframe
         src="https://player.vimeo.com/video/722179226??api=1&autoplay=1&controls=0&sidedock=0&loop=1&title=0&byline=0&portrait=0&muted=1&background=1"
         frameborder="0"
         allow="autoplay; fullscreen; picture-in-picture"
         allowfullscreen
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-      ></iframe>
+      ></iframe> -->
 
       <section class="hero-content">
         <div class="container">
