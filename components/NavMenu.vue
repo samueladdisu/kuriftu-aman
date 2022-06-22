@@ -70,9 +70,9 @@
                 <li>
                   <a @click="openAddis">Addis Abeba</a>
                 </li>
-                <li>
+                <!-- <li>
                   <nuxt-link to="/afar"> Afar </nuxt-link>
-                </li>
+                </li> -->
                 <li>
                   <a @click="openAwash"> Awash</a>
                 </li>
@@ -106,7 +106,7 @@
                   >
                 </li>
                 <li>
-                  <nuxt-link to="/afar">Kuriftu Resort & Spa Afar</nuxt-link>
+                  <!-- <nuxt-link to="/afar">Kuriftu Resort & Spa Afar</nuxt-link> -->
                 </li>
               </div>
               <div v-if="exp">
@@ -194,13 +194,14 @@
         <div class="dest-box">
           <div class="desti-img">
             <h3 class="sub-title">Featured Resort</h3>
-            <img src="../assets/img/featured.webp" alt="" />
+            <img src="../assets/img/awash/awash-cover.webp" alt="" />
           </div>
           <div class="desti-desc">
             <h4 class="title">Awash Falls</h4>
             <p class="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
-              tincidunt nis
+              Located on the Southern tip of Awash National Park, our
+              one-of-a-kind boutique resort suspended over a waterfall places
+              guests at an elevation that is unique to our property.
             </p>
             <div class="explore">
               <nuxt-link to="/awash" class="link"> Discover More </nuxt-link>
@@ -838,9 +839,9 @@ export default {
             h4 {
               margin-top: 0.94rem;
             }
-            .explore {
-              margin-top: 2rem;
-            }
+            // .explore {
+            //   margin-top: 2rem;
+            // }
           }
         }
       }

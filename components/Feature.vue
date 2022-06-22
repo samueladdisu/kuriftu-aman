@@ -40,6 +40,8 @@ export default {
     padding-bottom: 1.5rem;
     img {
       object-fit: cover;
+      max-height: 36.4rem;
+      width: 100%;
     }
     .featured-content {
       width: 90%;

@@ -53,20 +53,20 @@
             <h1 class="title">Resorts</h1>
             <ul>
               <li>
-                <nuxt-link to="#">Bishoftu</nuxt-link>
+                <nuxt-link to="/bishoftu">Bishoftu</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Entoto</nuxt-link>
+                <nuxt-link to="/entoto">Entoto</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Lake Tana</nuxt-link>
+                <nuxt-link to="/laketana">Lake Tana</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Awash</nuxt-link>
+                <nuxt-link to="/awash">Awash</nuxt-link>
               </li>
-              <li>
-                <nuxt-link to="#">Afar</nuxt-link>
-              </li>
+              <!-- <li>
+                <nuxt-link to="/afar">Afar</nuxt-link>
+              </li> -->
             </ul>
           </div>
 
@@ -74,10 +74,10 @@
             <h1 class="title">wellness</h1>
             <ul>
               <li>
-                <nuxt-link to="#">Boston</nuxt-link>
+                <nuxt-link to="/boston">Boston</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Entoto</nuxt-link>
+                <nuxt-link to="/entoto">Entoto</nuxt-link>
               </li>
             </ul>
           </div>
@@ -86,10 +86,10 @@
             <h1 class="title">Adventure</h1>
             <ul>
               <li>
-                <nuxt-link to="#">Waterpark</nuxt-link>
+                <nuxt-link to="/waterpark">Waterpark</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Entoto</nuxt-link>
+                <nuxt-link to="/entoto">Entoto</nuxt-link>
               </li>
             </ul>
           </div>
@@ -99,11 +99,25 @@
           <h1 class="title">socials</h1>
 
           <div class="icons">
-            <img src="@/assets/img/icons/fb.svg" alt="" />
-            <img src="@/assets/img/icons/instagram.svg" alt="" />
-            <img src="@/assets/img/icons/twitter.svg" alt="" />
-            <img src="@/assets/img/icons/youtube.svg" alt="" />
-            <img src="@/assets/img/icons/linkedin.svg" alt="" />
+            <nuxt-link to="/">
+              <img src="@/assets/img/icons/fb.svg" alt="" />
+            </nuxt-link>
+
+            <nuxt-link to="/">
+              <img src="@/assets/img/icons/instagram.svg" alt="" />
+            </nuxt-link>
+
+            <nuxt-link to="/">
+              <img src="@/assets/img/icons/twitter.svg" alt="" />
+            </nuxt-link>
+
+            <nuxt-link to="/">
+              <img src="@/assets/img/icons/youtube.svg" alt="" />
+            </nuxt-link>
+
+            <nuxt-link to="/">
+              <img src="@/assets/img/icons/linkedin.svg" alt="" />
+            </nuxt-link>
           </div>
         </div>
       </div>

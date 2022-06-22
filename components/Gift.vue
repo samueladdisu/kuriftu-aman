@@ -24,13 +24,12 @@
         </div>
       </section>
 
-      <GiftSection :section="gift.bishoftu" />
-      <GiftSection :section="gift.waterpark" />
-      <GiftSection :section="gift.entoto" />
-      <GiftSection :section="gift.laketana" />
-      <GiftSection :section="gift.awash" />
-      <GiftSection :section="gift.afar" />
-      <GiftSection :section="gift.boston" />
+      <GiftSection :section="gift.bishoftu" v-if="gift.bishoftu" />
+      <GiftSection :section="gift.waterpark" v-if="gift.waterpark" />
+      <GiftSection :section="gift.entoto" v-if="gift.entoto" />
+      <GiftSection :section="gift.laketana" v-if="gift.laketana" />
+      <GiftSection :section="gift.awash" v-if="gift.awash" />
+      <GiftSection :section="gift.boston" v-if="gift.boston" />
     </div>
   </div>
 </template>

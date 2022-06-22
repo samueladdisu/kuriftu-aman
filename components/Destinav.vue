@@ -215,8 +215,8 @@ export default {
             .dropdown-content {
               display: none;
               position: absolute;
-              top: 25px;
-              left: 0px;
+              top: 105px;
+              left: -5px;
               // @include responsive($md){
               //   left: 15rem;
               // }

@@ -4,7 +4,7 @@
     <!-- Home page banner section  -->
 
     <div class="header-wrapper">
-      <Hero :video="722179226" />
+      <Hero class="header-hero" :video="722179226" />
 
       <section class="hero-content">
         <div class="container">
@@ -120,7 +120,7 @@
         </div>
       </section>
       <!-- End of show case section  -->
-      <Feature :feature="feature" />
+      <Feature class="feature-index" :feature="feature" />
     </main>
 
     <!-- End of Feature Section  -->
@@ -139,7 +139,7 @@ export default {
         subtitle: "Featured Story",
         title: "Kuriftu Bishoftu's Story",
         text: `Located on the northen tip of Bishoftu encompassing the smallest of the four lakes lies our flagship resort, Kuriftu Resort & Spa Bishoftu. Born from Mr. Tadiwos's vision to create luxury resort destinations in neighboring cities of the capital, this resort made its mark in 2007 as the first 5-star resort in the country. With just 14 rooms and a lakefront restaurant at the time, Mr. Tadiwos made his offical debut by setting the standard for luxury and exquisite service, attracting guests from around the world to this unique establishment. `,
-        uri: "/",
+        uri: "/aboutus",
         link: "Explore",
       },
     };
@@ -151,6 +151,9 @@ export default {
 .header-wrapper {
   background: #f3eee7;
   padding-bottom: 2rem;
+  .header-hero {
+    padding-top: 3rem;
+  }
   .hero-content {
     margin-top: 2rem;
     .container {
@@ -212,6 +215,19 @@ export default {
   }
 }
 
+@include responsive($lg) {
+  .highlight {
+    margin-top: 4.8rem;
+    .container {
+      .single-highlight {
+        margin-bottom: 4.5rem;
+        img {
+          height: 38rem;
+        }
+      }
+    }
+  }
+}
 .feature-wrapper {
   background: #f3eee7;
   padding-top: 4.8rem;
@@ -221,6 +237,7 @@ export default {
         margin-top: 2rem;
         display: grid;
         place-items: center;
+
         h5 {
           margin-top: 1.5rem;
         }

@@ -1,7 +1,6 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="" home="/bishoftu" dir="Bishoftu" />
     <Gift :gift="gift" />
     <BishFooter :footer="footer" />
   </div>
@@ -14,7 +13,7 @@ export default {
       gift: {
         hero: {
           title: "Kuriftu Gift Voucher",
-          text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, accusamus ducimus possimus quas totam quasi quod ea eligendi at qui, aliquid voluptatem eius repudiandae. Molestias commodi sunt et eveniet sapiente.`,
+          text: ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, accusamus ducimus possimus quas totam quasi quod ea eligendi at qui, aliquid voluptatem eius repudiandae. Molestias commodi sunt et eveniet sapiente.`,
           uri: "#",
         },
         feature: {

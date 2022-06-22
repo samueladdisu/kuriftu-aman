@@ -28,7 +28,11 @@
 
 <script>
 export default {
-  props: ["section"],
+  props: {
+    section: {
+      type: Object,
+    },
+  },
   mounted() {
     var swiper = new Swiper(".event-wrapper2", {
       // effect: "coverflow",
@@ -50,6 +54,9 @@ export default {
         el: ".swiper-pagination",
       },
     });
+  },
+  created() {
+    console.log(this.section);
   },
 };
 </script>
