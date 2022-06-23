@@ -13,11 +13,11 @@ export default {
     return {
       exp: {
         slides: [
-           "Entoto/exp/exp3.webp",
-       "Entoto/exp/exp.webp",
-        "Entoto/exp/exp2.webp",
-         "Entoto/exp/exp4.webp",
-         "Entoto/exp/1.webp",
+          "Entoto/exp/exp3.webp",
+          "Entoto/exp/exp.webp",
+          "Entoto/exp/exp2.webp",
+          "Entoto/exp/exp4.webp",
+          "Entoto/exp/1.webp",
         ],
         heroTitle: "Experience at Kuriftu Entoto Adventure Park",
         heroSubTitle: "entoto national park",
@@ -34,7 +34,7 @@ export default {
           img1: "Entoto/exp/spa.webp",
           img2: "Entoto/exp/long3.webp",
           img3: "Entoto/exp/long4.webp",
-        
+
           title1: "Horse Riding Picnic",
           text1: `Enjoy a unique trail riding experience in the spectacular forest with our Horse Ride and Picnic package. This ncludes a private trail ride with a specially prepared gourmet picnic hamper/ስንቅ/ for you to enjoy with your loved ones`,
           title2: "Forest Spa",
@@ -51,10 +51,7 @@ export default {
             text: `Venture out into the wild with our Kuriftu Entoto Flora and Fauna Scavenger Hunt Guide to learn about the natural landscape in the forest and all varieties of plants, herbs and wildlife!`,
           },
           {
-            img:   {
-          id: 7,
-          src:    "Entoto/well/wide.webp",
-        },
+            img: "Entoto/exp/fe2.webp",
             title: "Cycling",
             text: `Cycles up and or down this unforgettable landscape with greenery for days`,
           },

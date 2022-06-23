@@ -14,35 +14,35 @@ export default {
       gallery: [
         {
           id: 1,
-          src: "dz-cover.jpg",
+          src: "boston/slider/barber.webp",
         },
         {
           id: 2,
-          src: "waterpark2.jpg",
+          src: "boston/slider/gallery2.webp",
         },
         {
           id: 3,
-          src: "kuriftu dec 22-5391-min (1).jpg",
+          src: "boston/slider/recieption.webp",
         },
         {
           id: 4,
-          src: "kuriftu dec 22-5422-min (1).jpg",
+          src: "boston/slider/suana.webp",
         },
         {
           id: 5,
-          src: "_DSC5641 (2)-min.jpg",
+          src: "boston/Facial.webp",
         },
         {
           id: 6,
-          src: "_DSC5351 (2)-min.jpg",
+          src: "boston/HairSalon.webp",
         },
         {
           id: 7,
-          src: "_DSC5820 (2)-min.jpg",
+          src: "boston/ManiPedi.webp",
         },
         {
           id: 8,
-          src: "_DSC5400 (2)-min.jpg",
+          src: "boston/Wax.webp",
         },
       ],
       footer: {

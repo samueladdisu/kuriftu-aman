@@ -1,8 +1,6 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="/boston/" home="/boston" dir="Boston" />
-
     <section class="voucher E-bg">
       <div class="container">
         <img src="@/assets/img/gift_sub.svg" alt="" />
@@ -61,9 +59,9 @@ export default {
   data() {
     return {
       footer: {
-        title: "Boston day Spa",
+        title: "Kuriftu Resort & Spa Entoto",
         second: {
-          first: "1.9 km from Addis Ababa Bole International Airport",
+          first: "14.9 km from Addis Ababa Bole International Airport",
           second: "Entoto Park",
           thrid: "Ethiopia",
         },
