@@ -1,8 +1,8 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  // target: 'static',
+  target: 'static',
   head: {
-    title: 'kuriftu-aman',
+    title: 'kuriftu',
     htmlAttrs: {
       lang: 'en'
     },
