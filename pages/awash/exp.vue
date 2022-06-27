@@ -4,6 +4,7 @@
     <Destinav base="" home="/awash" dir="Awash" />
     <Exp :exp="exp" />
     <BishFooter :footer="footer" />
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -15,11 +16,8 @@ export default {
         slides: [
           "awash/exp/Experience.webp",
           "awash/acc/presidential/pre2.webp",
-              "awash/awash-cover.webp",
-                    "awash/acc/Executive/Executive.webp",
-
-
-            
+          "awash/awash-cover.webp",
+          "awash/acc/Executive/Executive.webp",
         ],
         heroTitle: "Experience at Kuriftu Resort & Spa Awash Falls",
         heroSubTitle: "Awash Nation Park",
@@ -37,7 +35,7 @@ export default {
           img2: "awash/exp/Yoga.webp",
           img3: "awash/exp/Spa.webp",
           title1: "Widlife Viewing",
-          text1: `Crocodiles and Monitor Lizards are commonly seen at the base of the waterfall or on the rocky surrounding structures. Follow the path down to get a better look but be sure to keep your distance from any wild animals out of respect for the environment. 
+          text1: `Crocodiles and Monitor Lizards are commonly seen at the base of the waterfall or on the rocky surrounding structures. Follow the path down to get a better look but be sure to keep your distance from any wild animals out of respect for the environment.
 Keep an eye out for the vast number of bird species located around the park and see if you can spot a Lesser / Greater Kudu while treking!`,
           title2: "Hiking",
           text2: `Enjoy a stroll in the late afternoon or early morning, before the Awash sun is in full heat, by the side of the river or through the park. A chance to clear your mind, and get in touch with nature.!`,
@@ -45,7 +43,7 @@ Keep an eye out for the vast number of bird species located around the park and 
           text3: `A healing process that leads to more centeredness and less distress. Sunrise and sunset yoga are offered on weekends at Kuriftu Awash Falls, a time to perfectly harmonize the mind and body.`,
           title4: "Mountain Biking",
           text4: `Get your heart pumping and your blood circulating! Pave a trail and exploe the Awash National Park - get in touch with your adventurous side`,
-              title5: "Spa",
+          title5: "Spa",
           text5: `Relax and unwind - Let us pamper you in our unique massage rooms overlooking the river, natural warm air infusing with our in-house mixed aroma and the soothing sound of the waterfall.`,
         },
         other: [
@@ -54,7 +52,7 @@ Keep an eye out for the vast number of bird species located around the park and 
             title: "Breakfast in the desert",
             text: `A little something from our breakfast menu for everyone to enjoy while taking in the early light and fresh air.`,
           },
-        
+
           {
             img: "bishoftu/acc/pre2.webp",
             title: "Private event",
@@ -63,7 +61,7 @@ Keep an eye out for the vast number of bird species located around the park and 
         ],
       },
       footer: {
-     title: "Kuriftu Resort & Spa Awash Falls",
+        title: "Kuriftu Resort & Spa Awash Falls",
         second: {
           first: "211 km from Addis Ababa Bole International Airport",
           second: "Awash Park",
@@ -75,7 +73,7 @@ Keep an eye out for the vast number of bird species located around the park and 
           thrid: "Email us at booking@kurifturesorts.com  ",
         },
         fourth: {
-          url: "/",
+          url: "https://www.google.com/maps/dir//Kuriftu+Resort+%26+Spa+Awash+Falls+awash+park+Awash+Ethiopia/@8.8430524,40.0122975,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x163593fea245879f:0xca93c0e4241369ec!2m2!1d40.0122975!2d8.8430524",
         },
       },
     };

@@ -495,6 +495,8 @@
         </div>
       </div>
     </section>
+
+    <Sticky path="awash" />
   </div>
 </template>
 

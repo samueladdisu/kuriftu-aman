@@ -259,17 +259,22 @@ $columns: 12;
 .title {
   font-family: "Neue Helvetica Medium";
   text-transform: capitalize;
-  font-size: 1.4rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.E-bg {
+  background: #f3eee7;
 }
 
 .text {
   font-family: "Neue Helvetica thin";
   font-weight: 600;
   letter-spacing: 0.07rem;
-  font-size: 0.88rem;
+  font-size: 0.7rem;
   line-height: 1.5rem;
 
-//   @include responsive($md) {
+  //   @include responsive($md) {
   //   font-size: 1rem;
   // }
 }

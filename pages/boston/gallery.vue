@@ -4,6 +4,7 @@
     <Destinav base="" home="/boston" dir="Boston" />
     <Gallery :gallery="gallery" />
     <BishFooter :footer="footer" />
+    <Sticky path="awash" />
   </div>
 </template>
 

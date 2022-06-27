@@ -4,6 +4,7 @@
     <Destinav base="" home="/bishoftu" dir="Bishoftu" />
     <Gift :gift="gift" />
     <BishFooter :footer="footer" />
+    <Sticky path="bishoftu" />
   </div>
 </template>
 
@@ -271,7 +272,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-          url: "/",
+          url: "https://www.google.com/maps/dir//Kuriftu+Resort+%26+Spa+Bishoftu+kebeke+15+Bishoftu+Ethiopia/@8.7802619,39.0028661,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x164b0cba1728a73d:0x44f92b98676731e7!2m2!1d39.0028661!2d8.7802619",
         },
       },
     };

@@ -4,6 +4,7 @@
     <Destinav base="" home="/awash" dir="Awash" />
     <Corporate :corp="corp" />
     <BishFooter :footer="footer" />
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -74,7 +75,7 @@ Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and w
           thrid: "Email us at booking@kurifturesorts.com  ",
         },
         fourth: {
-          url: "/",
+          url: "https://www.google.com/maps/dir//Kuriftu+Resort+%26+Spa+Awash+Falls+awash+park+Awash+Ethiopia/@8.8430524,40.0122975,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x163593fea245879f:0xca93c0e4241369ec!2m2!1d40.0122975!2d8.8430524",
         },
       },
     };

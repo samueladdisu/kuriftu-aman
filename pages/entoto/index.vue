@@ -3,6 +3,7 @@
     <HeaderApp />
     <Destinav base="entoto/" home="entoto/" dir="Entoto" />
     <Dindex :index="index" />
+     <Sticky path="entoto" />
   </div>
 </template>
 
@@ -52,7 +53,7 @@ The Adventure Park captures the beauty of this sacred location by highlighting n
             subTitle: "Experience",
             title: "Adventure",
             text: `The Kuriftu Entoto Adventure Park has become the heart and soul of Entoto Mountain, providing a bundle of activities found no where else in the country! Targeting adrenaline junkies to families looking for an exciting getaway - come on join us for an unforgettable experience!`,
-            uri: "#",
+            uri: "entoto/exp",
             url: "Explore",
           },
           {
@@ -62,7 +63,7 @@ The Adventure Park captures the beauty of this sacred location by highlighting n
             title: "Mountain Dining",
             text: `Our Adventure Park includes 5 dining hot spots, ranging from 5-star international standard cuisine, to cultural dishes craved by all!
 Each restaurant is strategically placed in key activity based areas, like our Horse Ranch, Rope Course and Go Karting station, that allow guests a truly emmersive experience! `,
-            uri: "#",
+            uri: "entoto/dining",
             url: "Explore",
           },
           {
@@ -71,7 +72,7 @@ Each restaurant is strategically placed in key activity based areas, like our Ho
             subTitle: "wellness",
             title: "Forest Spa",
             text: `Take a moment to inhale the fresh air and aromatic scent from the eucalyptus forest by allowing your mind, body and soul to experience the calm energy provided by the natural elements surrounding the park. Our goal is to facilitate a scerene envirnoment within our unique spa aesthetic, catering to those seeking to reconnect with mother earth.`,
-            uri: "#",
+            uri: "entoto/well",
             url: "Explore",
           },
           {
@@ -80,7 +81,7 @@ Each restaurant is strategically placed in key activity based areas, like our Ho
             subTitle: "CORPORATE EXPERIENCE",
             title: "Corporate Teams",
             text: `We strive to create a safe haven for corporate teams to liberate themseves of the hustle and bustle of daily work life. With custom packages based on the wants and needs of our guests, Kuriftu Entoto Adventure Park guarantees a space for teams to work together to stregthen relationships and wind down as a collective. This sense of relaxation has proven to rejuvinate individuals and inspire stronger work efforts upon their return to reality.`,
-            uri: "#",
+            uri: "entoto/corp",
             url: "Explore",
           },
           {
@@ -89,7 +90,7 @@ Each restaurant is strategically placed in key activity based areas, like our Ho
             subTitle: "Celebration",
             title: "A memorabile experience",
             text: `Allow us to share your greatest moments by curating unforgettable celebratory events! Whether it be a birthday party in the Trampoline World for kids, a relaxing friends night out in our Hammok Village, wedding or custom event in the Entoto Peak Restaurant and outdoor space - We've got you covered!`,
-            uri: "#",
+            uri: "entoto/event",
             url: "Explore",
           },
           {
@@ -98,7 +99,7 @@ Each restaurant is strategically placed in key activity based areas, like our Ho
             subTitle: "PACKAGE OFFERS",
             title: "Future travels",
             text: `Treat someone to a world full of incredible experiences - From an adventure in the heart of Entoto Mountain, to a quiet relaxing dinner by the lake side in Debre Zeit, Kuriftu Gift Vouchers are the perfect gifts for yourself, a friend, a co-worker or a loved one!`,
-            uri: "#",
+            uri: "entoto/gift",
             url: "Explore",
           },
         ],

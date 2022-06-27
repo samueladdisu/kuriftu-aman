@@ -3,6 +3,7 @@
     <HeaderApp />
     <Destinav base="laketana/" home="laketana/" dir="Lake Tana" />
     <Dindex :index="index" />
+    <Sticky path="tana" />
   </div>
 </template>
 
@@ -95,7 +96,7 @@ export default {
             subTitle: "gift voucher",
             title: "future travels",
             text: `Get gift vouchers for your loved ones to be part of the incredible experiences provided at our resort.`,
-            uri: "bishoftu/gift",
+            uri: "laketana/gift",
             url: "Explore",
           },
         ],

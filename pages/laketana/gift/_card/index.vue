@@ -4,7 +4,7 @@
     <Destinav base="/laketana/" home="/laketana" dir="Lake Tana" />
     <section class="voucher E-bg">
       <div class="container">
-        <img src="@/assets/img/gift_sub.svg" alt="" />
+        <img src="@/assets/img/giftvoucher/1.jpg" alt="" />
 
         <div class="voucher__content">
           <h1 class="title">Birthday Supreme</h1>
@@ -52,6 +52,7 @@
       </div>
     </section>
     <BishFooter :footer="footer" />
+     <Sticky path="tana" />
   </div>
 </template>
 
@@ -72,7 +73,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-          url: "/",
+          url: "https://www.google.com/maps/dir//Kuriftu+Resort+and+Spa+Bahir+Dar+Bahir+Dar+Ethiopia/@11.9262507,37.2958219,10.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1644cde2a39aad09:0xe0ed4292e70a9eef!2m2!1d37.3837014!2d11.5984451",
         },
       },
     };
@@ -81,5 +82,89 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+.voucher {
+  padding: 2rem 0;
+  .container {
+    img {
+      margin-bottom: 2rem;
+    }
+    .voucher__content {
+      h1 {
+        margin-bottom: 0.6rem;
+      }
+      h5 {
+        margin-bottom: 0.4rem;
+      }
+      .voucher__tabs {
+        .tabs__container {
+          width: 60%;
+          display: flex;
+          justify-content: space-between;
+          margin: 1rem 0;
+          p {
+            font-weight: bold;
+          }
+        }
+        .tabs__content {
+          p {
+            margin-bottom: 0.8rem;
+          }
+          .tab__list {
+            list-style: disc;
+            margin-bottom: 2rem;
+            li {
+              margin-bottom: 1rem;
+            }
+          }
+        }
+        .input {
+          select {
+            width: 100%;
+            max-width: 10rem;
+            margin: 1rem 0;
+            padding: 0.8rem 0.5rem;
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include responsive($md) {
+  .voucher {
+    .container {
+      .voucher__content {
+        .voucher__tabs {
+          .input {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            width: 100%;
+            select {
+              width: 5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include responsive($lg) {
+  .voucher {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 2rem 1fr 1fr;
+      grid-template-areas: "img img . content content";
+      img {
+        grid-area: img;
+      }
+      .voucher__content {
+        grid-area: content;
+      }
+    }
+  }
+}
 </style>

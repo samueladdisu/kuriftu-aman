@@ -4,6 +4,7 @@
     <Destinav base="" home="/awash" dir="Awash" />
     <Well :well="well" />
     <BishFooter :footer="footer" />
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -18,8 +19,6 @@ export default {
           "awash/well/2.webp",
           "awash/well/4.webp",
           "awash/well/5.webp",
-        
-      
         ],
         heroTitle: "Wellness at Kurftu Awash Falls ",
         heroSubTitle: "Kuriftu Resort & Spa Awash Falls Wellness",
@@ -34,7 +33,7 @@ export default {
         // },
         highlight: {
           img1: "awash/well/well2.webp",
-          img2:  "awash/well/long1.webp",
+          img2: "awash/well/long1.webp",
           img3: "awash/well/long2.webp",
           title1: "Relax, Rebalance & Restore",
           text1: `Our focus is to have guests reconnect nature at its core with minimal distractions `,
@@ -45,12 +44,11 @@ export default {
           uri: "/",
         },
         amenities: ["Yoga (Weekends)", "Dipping Pool", "Jacuzzi"],
-        amenities1: ["Massage", "Dirt Biking", ],
-        amenities2: ["Outdoor day bed","Hiking" ],
-    
+        amenities1: ["Massage", "Dirt Biking"],
+        amenities2: ["Outdoor day bed", "Hiking"],
       },
       footer: {
-           title: "Kuriftu Resort & Spa Awash Falls",
+        title: "Kuriftu Resort & Spa Awash Falls",
         second: {
           first: "211 km from Addis Ababa Bole International Airport",
           second: "Awash Park",
@@ -62,7 +60,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com  ",
         },
         fourth: {
-          url: "/",
+          url: "https://www.google.com/maps/dir//Kuriftu+Resort+%26+Spa+Awash+Falls+awash+park+Awash+Ethiopia/@8.8430524,40.0122975,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x163593fea245879f:0xca93c0e4241369ec!2m2!1d40.0122975!2d8.8430524",
         },
       },
     };

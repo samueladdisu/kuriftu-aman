@@ -3,7 +3,7 @@
     <HeaderApp />
     <section class="voucher E-bg">
       <div class="container">
-        <img src="@/assets/img/gift_sub.svg" alt="" />
+        <img src="@/assets/img/giftvoucher/1.jpg" alt="" />
 
         <div class="voucher__content">
           <h1 class="title">Birthday Supreme</h1>
@@ -50,39 +50,23 @@
         </div>
       </div>
     </section>
-    <BishFooter :footer="footer" />
+    <Sticky path="awash" />
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {
-      footer: {
-        title: "Kuriftu Resort & Spa Entoto",
-        second: {
-          first: "14.9 km from Addis Ababa Bole International Airport",
-          second: "Entoto Park",
-          thrid: "Ethiopia",
-        },
-        thrid: {
-          first: "Contact us on our direct phone line 9693",
-          second: "Reception Desk +251905061020",
-          thrid: "Email us at booking@kurifturesorts.com",
-        },
-        fourth: {
-          url: "/",
-        },
-      },
-    };
+    return {};
   },
   mounted() {},
 };
 </script>
 
 <style lang="scss">
+
 .voucher {
-  padding: 2rem 0;
+  padding: 4rem 0;
   .container {
     img {
       margin-bottom: 2rem;
@@ -154,7 +138,7 @@ export default {
   .voucher {
     .container {
       display: grid;
-      grid-template-columns: 1fr 1fr 2rem 1fr 1fr;
+      grid-template-columns: 1fr 1fr 4rem 1fr 1fr;
       grid-template-areas: "img img . content content";
       img {
         grid-area: img;

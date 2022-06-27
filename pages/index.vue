@@ -36,7 +36,7 @@
           <img src="@/assets/img/home/Catering.webp" alt="" />
           <h5 class="sub-title">catering</h5>
           <h1 class="title">The Commitment To Good Service</h1>
-          <p class="text">
+          <p class="text catering">
             From culinary experiences to accommodations insprired by tradition
             as well as international standards of luxury, indulge yourself in an
             adventure of architectural design and unique dishes highlighting
@@ -124,6 +124,8 @@
     </main>
 
     <!-- End of Feature Section  -->
+
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -183,6 +185,9 @@ export default {
       p {
         margin-bottom: 1.5rem;
         max-width: 34.3125rem;
+      }
+      .catering {
+        max-width: 100%;
       }
     }
   }

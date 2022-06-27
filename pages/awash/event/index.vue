@@ -4,6 +4,7 @@
     <Destinav base="" home="/awash" dir="Awash" />
     <Event :event="event" />
     <BishFooter :footer="footer" />
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -12,17 +13,12 @@ export default {
   data() {
     return {
       event: {
-        slides: [
-          "awash/event/1.webp",
-          
-           
-        
-        ],
+        slides: ["awash/event/1.webp"],
         heroTitle: "Celebrations at Kuriftu Awash Falls",
         heroSubTitle: "kuriftu resort & spa bishoftu wedding area",
         heroText: `Allow our team to tailor an exceptional occasion of your choosing `,
         feature: {
-          img:  "awash/event/Wedding.webp",
+          img: "awash/event/Wedding.webp",
           title: "Wedding",
           text: `For an intimate wedding the spectacular views, isolated location, and the perfect ambiance of Awash Falls will highlight one of the biggest days of your life - Embark on this new stage in life with your partner with specialty catering, unmatched views and breathtaking backdrops for photos that will last a lifetime`,
           uri: "event/wed",
@@ -42,9 +38,6 @@ export default {
           uri: "#",
           link: "explore",
         },
-       
-       
-       
       },
       footer: {
         title: "Kuriftu Resort & Spa Bishoftu",
@@ -59,7 +52,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-          url: "#",
+          url: "https://www.google.com/maps/dir//Kuriftu+Resort+%26+Spa+Awash+Falls+awash+park+Awash+Ethiopia/@8.8430524,40.0122975,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x163593fea245879f:0xca93c0e4241369ec!2m2!1d40.0122975!2d8.8430524",
         },
       },
     };

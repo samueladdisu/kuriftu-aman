@@ -3,6 +3,7 @@
     <HeaderApp />
     <Destinav base="bishoftu/" home="bishoftu/" dir="Bishoftu" />
     <Dindex :index="index" />
+    <Sticky path="bishoftu" />
   </div>
 </template>
 

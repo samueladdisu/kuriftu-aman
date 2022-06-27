@@ -8,7 +8,7 @@
 
       <div class="location col-3">
         <h5 class="sub-title">location</h5>
-        <select>
+        <select v-model="location">
           <option value="awash">Awash Falls</option>
           <option value="bishoftu">Bishoftu</option>
           <option value="entoto">Entoto</option>
@@ -66,6 +66,12 @@
 
 <script>
 export default {
+  props: ["path"],
+  data() {
+    return {
+      location: this.path,
+    };
+  },
   mounted() {
     var start, end;
     $(document).ready(function () {
@@ -117,7 +123,7 @@ export default {
     z-index: 999;
     display: block;
     padding: 1rem 0;
-    position: sticky;
+    position: fixed;
     width: 100%;
     border-top: 0.07143rem solid #d5d1c8;
     background: #fff;

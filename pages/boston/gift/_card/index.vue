@@ -5,7 +5,7 @@
 
     <section class="voucher E-bg">
       <div class="container">
-        <img src="@/assets/img/gift_sub.svg" alt="" />
+        <img src="@/assets/img/giftvoucher/1.jpg" alt="" />
 
         <div class="voucher__content">
           <h1 class="title">Birthday Supreme</h1>
@@ -53,6 +53,7 @@
       </div>
     </section>
     <BishFooter :footer="footer" />
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -73,7 +74,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-          url: "/",
+          url: "https://www.google.com/maps/dir/9,39.5/boston+day+spa/@9.665127,40.0696766,7.75z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x164b84fbfe0322b3:0xb0ee32bcc9ab1646!2m2!1d38.7837631!2d8.9907349",
         },
       },
     };

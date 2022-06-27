@@ -102,6 +102,7 @@
     </section>
 
     <OtherAcc title="boston day spa experiences" :other="other" />
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -149,12 +150,70 @@ export default {
 .water__gap {
   height: 3rem;
 }
+
+.well {
+  background: #f3eee7;
+  padding: 3rem 0;
+  .container {
+    .well__img__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "top top"
+        "lower1 lower2";
+      gap: 1rem;
+      img:nth-child(1) {
+        grid-area: top;
+      }
+      img:nth-child(2) {
+        grid-area: lower1;
+      }
+      img:nth-child(3) {
+        grid-area: lower2;
+      }
+    }
+    .well__content {
+      h1 {
+        margin: 1rem 0 1.5rem;
+      }
+      .lower__block {
+        .line {
+          width: 100%;
+          height: 1px;
+          background: #cacaca;
+          margin: 2rem 0 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@include responsive($lg) {
+  .well {
+    .container {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-template-areas: "img content";
+      .well__content {
+        width: 90%;
+        margin: 0 auto;
+        grid-area: content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .well__img__container {
+        grid-area: img;
+      }
+    }
+  }
+}
 .amenities {
-  background: #fff;
   .am__title {
     margin: 2rem 0;
   }
   .container {
+    background: #fff;
     display: grid;
     justify-content: center;
     ul {

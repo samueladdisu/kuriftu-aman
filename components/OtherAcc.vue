@@ -36,6 +36,7 @@
             </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
   </section>
@@ -49,6 +50,10 @@ export default {
       slidesPerView: 1,
       spaceBetween: 30,
       loop: true,
+      pagination: {
+        clickable: true,
+        el: ".swiper-pagination",
+      },
       breakpoints: {
         640: {
           slidesPerView: 2,
@@ -74,6 +79,7 @@ export default {
     .other__acc {
       .swiper-wrapper {
         padding: 3.3125rem 0;
+        margin-bottom: 2rem;
         .swiper-slide {
           background: #fff;
           // padding-bottom: 3.3125rem;
@@ -98,6 +104,18 @@ export default {
           opacity: 1;
         }
       }
+      .swiper-pagination {
+        .swiper-pagination-bullet {
+          margin: 0 !important;
+          width: 2rem !important;
+          height: 2px !important;
+          border-radius: 0% !important;
+          background: #00000085 !important;
+        }
+        .swiper-pagination-bullet-active {
+          background: #4e4e4e !important;
+        }
+      }
     }
   }
 }
@@ -117,6 +135,11 @@ export default {
           .swiper-slide-next {
             margin: 0 2rem !important;
             opacity: 1;
+          }
+          .swiper-pagination {
+            .swiper-pagination-bullet {
+              width: 3rem !important;
+            }
           }
         }
       }

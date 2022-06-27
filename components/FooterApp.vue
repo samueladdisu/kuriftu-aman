@@ -17,13 +17,13 @@
             <h1 class="title">More Information</h1>
             <ul>
               <li>
-                <nuxt-link to="#">About Us</nuxt-link>
+                <nuxt-link to="/aboutus">About Us</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Contact Us</nuxt-link>
+                <nuxt-link to="/contact">Contact Us</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Gift Card</nuxt-link>
+                <nuxt-link to="/giftcard">Gift Card</nuxt-link>
               </li>
               <li>
                 <nuxt-link to="#">Upcoming Projects</nuxt-link>
@@ -99,25 +99,41 @@
           <h1 class="title">socials</h1>
 
           <div class="icons">
-            <nuxt-link to="/">
-              <img src="@/assets/img/icons/fb.svg" alt="" />
-            </nuxt-link>
+            <a
+              href="https://www.tiktok.com/@kuriftumoments?lang=en"
+              target="_blank"
+            >
+              <img src="@/assets/img/icons/tiktok.svg" alt="" />
+            </a>
 
-            <nuxt-link to="/">
+            <a
+              href="https://www.instagram.com/kurifturesortspa/?hl=en"
+              target="_blank"
+            >
               <img src="@/assets/img/icons/instagram.svg" alt="" />
-            </nuxt-link>
+            </a>
 
-            <nuxt-link to="/">
+            <a href="https://twitter.com/kuriftus" target="_blank">
               <img src="@/assets/img/icons/twitter.svg" alt="" />
-            </nuxt-link>
+            </a>
 
-            <nuxt-link to="/">
+            <a
+              href="https://www.youtube.com/channel/UCI3Y6eDzcmAchDoGGVJZKgA/videos"
+              target="_blank"
+            >
               <img src="@/assets/img/icons/youtube.svg" alt="" />
-            </nuxt-link>
+            </a>
 
-            <nuxt-link to="/">
+            <a href="https://www.facebook.com/kurifturesorts/" target="_blank">
+              <img src="@/assets/img/icons/fb.svg" alt="" />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/company/kuriftu-resorts/?originalSubdomain=et"
+              target="_blank"
+            >
               <img src="@/assets/img/icons/linkedin.svg" alt="" />
-            </nuxt-link>
+            </a>
           </div>
         </div>
       </div>

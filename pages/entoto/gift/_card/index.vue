@@ -5,7 +5,7 @@
     {{ hello }}
     <section class="voucher E-bg">
       <div class="container">
-        <img src="@/assets/img/gift_sub.svg" alt="" />
+        <img src="@/assets/img/giftvoucher/1.jpg" alt="" />
 
         <div class="voucher__content">
           <h1 class="title">Birthday Supreme</h1>
@@ -53,6 +53,7 @@
       </div>
     </section>
     <BishFooter :footer="footer" />
+    <Sticky path="entoto" />
   </div>
 </template>
 
@@ -73,7 +74,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-          url: "/",
+          url: "https://www.google.com/maps/dir//Kuriftu+Restaurant+in+Entoto+Park+Gulele+8%2F16+Ethiopia/@9.0846279,38.7383589,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x164b8f84811f84a1:0x336681194adaaef!2m2!1d38.7383589!2d9.0846279",
         },
       },
     };

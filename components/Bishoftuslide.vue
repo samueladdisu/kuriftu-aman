@@ -10,6 +10,8 @@
           <img :src="require('../assets/img/' + photo + '')" alt="" />
         </div>
       </div>
+
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 </template>
@@ -28,24 +30,18 @@ export default {
       loop: true,
       // lazy: true,
       spaceBetween: 30,
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
-      // pagination: {
-      //   el: ".swiper-pagination",
-      //   clickable: true,
-      // },
     });
   },
 };
 </script>
 
 <style lang="scss" scoped>
-.event-wrapper2 {
+.event-wrapper2,
+.swiper {
   overflow-x: hidden;
   margin-top: -1rem;
   // transform: translateX(5%);
@@ -55,33 +51,20 @@ export default {
     display: flex !important;
     align-items: center !important;
     .swiper-slide {
-      // margin-left: 2rem;
-      // margin-right: 2rem;
-
       max-width: 15rem;
       max-height: 30rem;
     }
   }
-  .event-cards {
-    margin-top: 2.88rem;
-    margin-bottom: 5rem;
-
-    .event-img {
-      width: 100%;
+  .swiper-pagination {
+    .swiper-pagination-bullet {
+      margin: 0 !important;
+      width: 2rem !important;
+      height: 2px !important;
+      border-radius: 0% !important;
+      background: #00000085 !important;
     }
-    h3 {
-      color: $kuriftu-black;
-      @extend .title;
-      margin-top: 0.94rem;
-      font-size: 1.2rem;
-      text-align: center;
-    }
-
-    p {
-      @extend .text;
-      margin-top: 0.94rem;
-      color: $kuriftu-grey;
-      text-align: center;
+    .swiper-pagination-bullet-active {
+      background: #4e4e4e !important;
     }
   }
 }

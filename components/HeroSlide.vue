@@ -13,8 +13,11 @@
 
         <div class="lower-slide">
           <h5 class="sub-title" v-if="subTitle">{{ subTitle }}</h5>
-
           <div class="swiper-pagination"></div>
+          <div class="slide-nav">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
         </div>
       </div>
 
@@ -50,6 +53,10 @@ export default {
         el: ".swiper-pagination",
         type: "fraction",
       },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     });
   },
 };
@@ -77,12 +84,29 @@ export default {
       .lower-slide {
         margin: 1.8rem 0 4.8rem;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 3rem;
-        grid-template-areas: "sub sub sub sub pag";
+        grid-template-columns: 1fr 1fr 1fr 3rem 3rem;
+        grid-template-areas: "sub sub sub pag nav";
         .swiper-pagination {
           position: static !important;
           grid-area: pag;
           justify-self: flex-end;
+        }
+        .slide-nav {
+          grid-area: nav;
+          .swiper-button-next,
+          .swiper-button-prev {
+            top: 88.5% !important;
+            &::after {
+              font-size: 0.8rem !important;
+              color: #000 !important;
+            }
+          }
+          .swiper-button-prev {
+            left: 86% !important;
+          }
+          .swiper-button-next {
+            right: 0px !important;
+          }
         }
         h5 {
           grid-area: sub;
@@ -94,6 +118,102 @@ export default {
       text-align: center;
       max-width: 55.18rem;
       margin: 0 auto;
+    }
+  }
+}
+
+@include responsive($md) {
+  .hero {
+    .container {
+      .slides {
+        .lower-slide {
+          grid-template-columns: 1fr 1fr 1fr 3rem 6rem;
+          .slide-nav {
+            .swiper-button-next,
+            .swiper-button-prev {
+              top: 90.5% !important;
+            }
+            .swiper-button-prev {
+              left: 93% !important;
+            }
+            .swiper-button-next {
+              right: 0px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include responsive($lg) {
+  .hero {
+    .container {
+      .slides {
+        .lower-slide {
+          grid-template-columns: 1fr 1fr 1fr 3rem 6rem;
+          .slide-nav {
+            .swiper-button-next,
+            .swiper-button-prev {
+              top: 93% !important;
+            }
+            .swiper-button-prev {
+              left: 93% !important;
+            }
+            .swiper-button-next {
+              right: 0px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include responsive($xl) {
+  .hero {
+    .container {
+      .slides {
+        .lower-slide {
+          grid-template-columns: 1fr 1fr 1fr 3rem 6rem;
+          .slide-nav {
+            .swiper-button-next,
+            .swiper-button-prev {
+              top: 91% !important;
+            }
+            .swiper-button-prev {
+              left: 95% !important;
+            }
+            .swiper-button-next {
+              right: 0px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include responsive($xxl) {
+  .hero {
+    .container {
+      .slides {
+        .lower-slide {
+          grid-template-columns: 1fr 1fr 1fr 3rem 6rem;
+          .slide-nav {
+            .swiper-button-next,
+            .swiper-button-prev {
+              top: 91% !important;
+            }
+            .swiper-button-prev {
+              left: 96% !important;
+            }
+            .swiper-button-next {
+              right: 0px !important;
+            }
+          }
+        }
+      }
     }
   }
 }

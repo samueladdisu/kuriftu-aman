@@ -65,7 +65,7 @@
               @click="openDesti"
               alt=""
             />
-            <ul class="nav-links">
+            <ul class="nav-links second-links">
               <div v-if="desti">
                 <li>
                   <a @click="openAddis">Addis Abeba</a>
@@ -141,7 +141,7 @@
             alt=""
           />
 
-          <ul class="nav-links">
+          <ul class="nav-links third-links">
             <div v-if="addis">
               <li>
                 <nuxt-link to="/boston">Boston Day Spa</nuxt-link>
@@ -540,6 +540,21 @@ export default {
           }
           .bottom-link {
             font-size: 0.88rem;
+          }
+        }
+
+        .second-links {
+          li {
+            a {
+              font-size: 1rem !important;
+            }
+          }
+        }
+        .third-links {
+          li {
+            a {
+              font-size: 0.8rem !important;
+            }
           }
         }
       }

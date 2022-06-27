@@ -2,7 +2,6 @@
   <div>
     <Nuxt />
     <FooterApp />
-    <Sticky />
   </div>
 </template>
 

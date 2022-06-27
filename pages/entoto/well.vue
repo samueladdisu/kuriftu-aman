@@ -4,6 +4,7 @@
     <Destinav base="" home="/entoto" dir="Entoto" />
     <Well :well="well" />
     <BishFooter :footer="footer" />
+    <Sticky path="entoto" />
   </div>
 </template>
 
@@ -14,17 +15,15 @@ export default {
       well: {
         slides: [
           "Entoto/well/4.webp",
-           "Entoto/well/1.webp",
-            "Entoto/well/2.webp",
-             "Entoto/well/3.webp",
-            
-          
+          "Entoto/well/1.webp",
+          "Entoto/well/2.webp",
+          "Entoto/well/3.webp",
         ],
         heroTitle: "Wellness at Kuriftu Entoto Adventure Park",
         heroSubTitle: "Wellness at Kuriftu Entoto Adventure Park",
         heroText: `Kurfitu Entoto Forest Spa presents a variety of hollistic wellness practices. The Kuriftu brand's expertise in the wellness world has been present for nearly 20 years and has maintained a standard in the Ethiopian culture. Our hiring and training program focused on local communities capacity development in this sector allows us to transfer skills in the most impactful way. We aim to incorporate natural treatments, carefully curated massage experiences and many more opportunities for our team to showcase their enhanced skillset!`,
         feature: {
-          img:  "Entoto/well/fit.webp",
+          img: "Entoto/well/fit.webp",
           subtitle: "glamping",
           title: "Fitness",
           text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
@@ -32,9 +31,9 @@ export default {
           link: "View full experience guide",
         },
         highlight: {
-          img1:  "Entoto/well/wide.webp",
+          img1: "Entoto/well/wide.webp",
           img2: "Entoto/well/long.webp",
-          img3:  "Entoto/well/long2.webp",
+          img3: "Entoto/well/long2.webp",
           title1: "Relax, Rebalance & Restore",
           text1: `Aromatic scents familiar to our suroundings, such as fresh Eucalyptus and house blends, place our guests in a transe while promoting a deep sense of relaxation. One of our our Forest Spa's signature treatment is the Hot Oil Full Body Massage - beginning with feet dipped in an in-house ginger remedy, each session promotes tension release from the feet up. After a long day of treking through the forest, treat yourself to this blissful experience `,
           title2: "Full Day Treatments",
@@ -70,7 +69,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-          url: "/",
+          url: "https://www.google.com/maps/dir//Kuriftu+Restaurant+in+Entoto+Park+Gulele+8%2F16+Ethiopia/@9.0846279,38.7383589,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x164b8f84811f84a1:0x336681194adaaef!2m2!1d38.7383589!2d9.0846279",
         },
       },
     };

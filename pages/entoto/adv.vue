@@ -5,7 +5,7 @@
     <HeroSlide
       :img="slides"
       title="Adventures at Kuriftu Resort & spa entoto"
-      subTitle="Kuriftu "
+      subTitle="Adventures at Kuriftu Resort & spa entoto"
       text="Get ready adrenaline junkies and nature enthusiats for the ultimate adventureland in the country! With no comparison, Kuriftu Entoto Adventure Park showcases a variety of activities that trump anything of its kind in the country - from paintball shooting ranges to aerial experiences through ziplining and rope course, guests are guaranteed an unforgetable time"
     />
 
@@ -23,10 +23,13 @@
           </p>
         </div>
       </div>
+
+      <div class="swiper-pagination"></div>
     </div>
 
     <OtherAcc title="Entoto Adventure Experiences" :other="other" />
     <BishFooter :footer="footer" />
+    <Sticky path="entoto" />
   </div>
 </template>
 
@@ -79,7 +82,7 @@ export default {
         {
           img: "Entoto/adv/paint.webp",
           title: "Paint Ball",
-          text: `Shoot your shot at a game that requires strenous effort, teamwork and ruthlessness where participants shoot one another with paintball projectiles at a high rate of speed. Prepare to face the wrath of your opponents as the shot does pack a punch - nothing to fear as this pain is comprable to a rubberband snap against your skin.`,
+          text: `Shoot your shot at a game that requires strenous effort, teamwork and ruthlessness where participants shoot one another with paintball projectiles at a high rate of speed.`,
         },
         {
           img: "Entoto/adv/roc.webp",
@@ -105,7 +108,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-          url: "/",
+          url: "https://www.google.com/maps/dir//Kuriftu+Restaurant+in+Entoto+Park+Gulele+8%2F16+Ethiopia/@9.0846279,38.7383589,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x164b8f84811f84a1:0x336681194adaaef!2m2!1d38.7383589!2d9.0846279",
         },
       },
     };
@@ -116,6 +119,10 @@ export default {
       spaceBetween: 30,
       // centeredSlides: true,
       loop: true,
+      pagination: {
+        clickable: true,
+        el: ".swiper-pagination",
+      },
       breakpoints: {
         640: {
           slidesPerView: 1,
@@ -142,13 +149,18 @@ export default {
 .adv__slide {
   margin-top: 3rem;
   .swiper-wrapper {
-    padding: 3.3125rem 0;
+    // padding: 3.3125rem 0;
     .swiper-slide {
       background: #fff;
       padding-bottom: 3.3125rem;
       transform: scale(0.9);
       opacity: 0.5;
       transition: all linear 0.3s;
+      img {
+        max-height: 40vh;
+        width: 38.375rem;
+        object-fit: cover;
+      }
       h5 {
         margin: 1rem 0;
       }
@@ -165,15 +177,25 @@ export default {
       opacity: 1;
     }
   }
+  .swiper-pagination {
+    .swiper-pagination-bullet {
+      margin: 0 !important;
+      width: 2rem !important;
+      height: 2px !important;
+      border-radius: 0% !important;
+      background: #00000085 !important;
+    }
+    .swiper-pagination-bullet-active {
+      background: #4e4e4e !important;
+    }
+  }
 }
 @include responsive($md) {
   .adv__slide {
     margin-top: 3rem;
     .swiper-wrapper {
-      padding: 3.3125rem 0;
       .swiper-slide {
         background: #fff;
-        padding-bottom: 3.3125rem;
         transform: scale(0.9);
         opacity: 0.5;
         transition: all 0.3s;
@@ -189,6 +211,18 @@ export default {
       .swiper-slide-active {
         margin: 0 !important;
       }
+    }
+    .swiper-pagination {
+      .swiper-pagination-bullet {
+        width: 3rem !important;
+      }
+    }
+  }
+}
+@include responsive($xxl) {
+  .adv__slide {
+    .swiper-wrapper {
+      padding-bottom: 3.3125rem;
     }
   }
 }

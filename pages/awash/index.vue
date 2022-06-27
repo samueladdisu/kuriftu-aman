@@ -3,6 +3,7 @@
     <HeaderApp />
     <Destinav base="awash/" home="awash/" dir="Awash" />
     <Dindex :index="index" />
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -53,7 +54,7 @@ export default {
             subTitle: "EXPERIENCE ",
             title: "Experience ",
             text: `We are excited to present our first Dipping Pool experience paired with our Bar / Grill on an elevated platform overlooking the landscape. The perfect destination for a romantic getaway with picture - perfect views from sunrise to sunset`,
-            uri: "/",
+            uri: "awash/exp",
             url: "Explore",
           },
           {
@@ -62,7 +63,7 @@ export default {
             subTitle: "DINNING ",
             title: "Waterfall Dining ",
             text: `Treat yourself and your loved ones to an unparralelled dining experience while listening to nothing but the natural rythm of the falls. With a carefully curated menu that meshes local culture and international cuisine, enjoy a mouth watering pallate of flavor! `,
-            uri: "/",
+            uri: "awash/dining",
             url: "Explore",
           },
           {
@@ -71,7 +72,7 @@ export default {
             subTitle: "WELLNESS",
             title: "Refresh",
             text: `Bask in the warmth of the Awash sun, allow it to relax your mind and body as you rest in this peaceful space. WIth outdoor lounging beds and a simple spa that focuses on specialty massage, we encourage our guests to enjoy the simplicity of the natural landscape`,
-            uri: "/",
+            uri: "awash/well",
             url: "Explore",
           },
           {
@@ -80,7 +81,7 @@ export default {
             subTitle: "CORPORATE EXPERIENCE",
             title: "Corporate Team",
             text: `We seek to add value in the lives of our corporate partners by creating an escape from everyday life. As experts in the world of wellness, we understand the need for self relfection, team building, relaxation and the many activities that have proven to have successful impacts at work `,
-            uri: "/",
+            uri: "awash/corp",
             url: "Explore",
           },
           {
@@ -89,7 +90,7 @@ export default {
             subTitle: "CELEBRATION",
             title: "A gift to remember",
             text: `From the calmness felt by the sounds of the gushing waterfall, the sparkle of the sunset as it hits the river bank, the warm air brushing against your skin; Kuriftu Awash Falls is the perfect destination to create beautiful lasting memories. Celebrate milestones in life emmersed in this remarkable scenery.`,
-            uri: "/",
+            uri: "awash/event",
             url: "Explore",
           },
           {
@@ -98,7 +99,7 @@ export default {
             subTitle: "GIFT VOUCHER",
             title: "Future travels",
             text: `Gift a friend or loved to an unforgettable stay - with personalized welcome notes made for each individual guest to intimate dining experiences surrounded by a team ready to cater to your every need, Kuriftu Awash Falls is the perfect way to show a loved one that you care`,
-            uri: "/",
+            uri: "awash/gift",
             url: "Explore",
           },
         ],

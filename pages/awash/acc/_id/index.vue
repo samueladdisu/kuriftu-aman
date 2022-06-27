@@ -51,6 +51,7 @@
     <OtherAcc title="other accomodation" :other="renderdData.other" />
 
     <BishFooter :footer="footer" />
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -67,16 +68,13 @@ export default {
           title: "Premium Suite",
           slides: [
             "awash/acc/premium/prem1.webp",
-             "awash/acc/premium/prem3.webp",
-             "awash/acc/premium/prem2.webp",
-             
             "awash/acc/premium/prem3.webp",
-           
-                "awash/acc/premium/prem1.webp",
-                "awash/acc/premium/prem2.webp",
-             
-            
-           
+            "awash/acc/premium/prem2.webp",
+
+            "awash/acc/premium/prem3.webp",
+
+            "awash/acc/premium/prem1.webp",
+            "awash/acc/premium/prem2.webp",
           ],
           desc: [
             {
@@ -134,12 +132,10 @@ export default {
           id: 2,
           title: "Junior Suite",
           slides: [
-            
-             "awash/acc/junior/jun2.webp",
-              "awash/acc/junior/jun4.webp",
-               "awash/acc/junior/jun3.webp",
-               "awash/acc/junior/jun1.webp",
-           
+            "awash/acc/junior/jun2.webp",
+            "awash/acc/junior/jun4.webp",
+            "awash/acc/junior/jun3.webp",
+            "awash/acc/junior/jun1.webp",
           ],
           desc: [
             {
@@ -150,7 +146,7 @@ export default {
               url: "/book?ewn",
             },
           ],
-           amenities: [
+          amenities: [
             "Private bathroom with a shower",
             "Individually controlled AC and Fan",
             "PBX Phone",
@@ -174,7 +170,7 @@ export default {
           ],
           other: [
             {
-               img: "awash/acc/premium/otherprem.webp",
+              img: "awash/acc/premium/otherprem.webp",
               title: "Permium Suite",
               text: `Treat yourself to an unforgetable, nature based experience with a focus on earthy tones and inner balance. Our Premium rooms are nothing short of exceptional for our guests!`,
               link: "1",
@@ -186,7 +182,7 @@ export default {
               link: "3",
             },
             {
-               img: "awash/acc/premium/otherpres.webp",
+              img: "awash/acc/premium/otherpres.webp",
               title: "Presidential Suite",
               text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff `,
               link: "4",
@@ -201,25 +197,23 @@ export default {
             "awash/acc/Executive/RIH03650.webp",
             "awash/acc/Executive/RIH03652.webp",
             "awash/acc/Executive/RIH03678.webp",
-          
           ],
           desc: [
             {
               id: 1,
-              pic1:"awash/acc/Executive/long.webp",
-              pic2:"awash/acc/Executive/long2.webp",
+              pic1: "awash/acc/Executive/long.webp",
+              pic2: "awash/acc/Executive/long2.webp",
               text: `Enjoy this unique space with sunlight radiating from every direction - our Executive Suite is the perfect lovers nest where you can relax in solitude with the sounds of the waterfall filling the room  `,
               url: "/book",
             },
           ],
-           amenities: [
+          amenities: [
             "Private bathroom with a shower",
             "Individually controlled AC and Fan",
             "PBX Phone",
             "Adapters",
             "Hair-dryer",
-              "Dining Table",
-
+            "Dining Table",
           ],
           amenities1: [
             "COVID Kit",
@@ -238,72 +232,7 @@ export default {
           ],
           other: [
             {
-                 img: "awash/acc/premium/otherprem.webp",
-              title: "Permium Suite",
-              text: `Treat yourself to an unforgetable, nature based experience with a focus on earthy tones and inner balance. Our Premium rooms are nothing short of exceptional for our guests!`,
-              link: "1",
-            },
-            {
-             img: "awash/acc/premium/otherjun.webp",
-              title: "Junior Suite",
-              text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenary `,
-              link: "2",
-            },
-            {
-             img: "awash/acc/premium/otherpres.webp",
-              title: "Presidential Suite",
-              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff `,
-              link: "4",
-            },
-          ],
-        },
-        {
-          id: 4,
-          title: "Presidential Suite",
-          slides: [
-             "awash/acc/presidential/pre2.webp",
-                "awash/acc/presidential/pre1.webp",
-                    "awash/acc/presidential/pre5.webp",
-                      "awash/acc/presidential/pre3.webp",
-                         "awash/acc/presidential/pre4.webp",
-    
-          ],
-          desc: [
-            {
-              id: 1,
-              pic1:   "awash/acc/presidential/long.webp",
-              pic2:   "awash/acc/presidential/long2.webp",
-              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff `,
-              url: "/book",
-            },
-          ],
-           amenities: [
-            "Private bathroom with a shower",
-            "Individually controlled AC and Fan",
-            "PBX Phone",
-            "Adapters",
-            "Hair-dryer",
-              "Dining Table",
-
-          ],
-          amenities1: [
-            "COVID Kit",
-            "43” HDTV with DSTV Channels ",
-            "Slippers",
-            "Tea Maker",
-            "Mini Fridge",
-            "Luggage Rack",
-          ],
-          amenities2: [
-            "Safety Deposit Box",
-            "Laundry Bag",
-            "Yoga Mats",
-            "Bathrobe",
-            "Balcony with 2 lounge chairs",
-          ],
-          other: [
-              {
-                img: "awash/acc/premium/otherprem.webp",
+              img: "awash/acc/premium/otherprem.webp",
               title: "Permium Suite",
               text: `Treat yourself to an unforgetable, nature based experience with a focus on earthy tones and inner balance. Our Premium rooms are nothing short of exceptional for our guests!`,
               link: "1",
@@ -314,8 +243,71 @@ export default {
               text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenary `,
               link: "2",
             },
-             {
-            img: "awash/acc/premium/otherex.webp",
+            {
+              img: "awash/acc/premium/otherpres.webp",
+              title: "Presidential Suite",
+              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff `,
+              link: "4",
+            },
+          ],
+        },
+        {
+          id: 4,
+          title: "Presidential Suite",
+          slides: [
+            "awash/acc/presidential/pre2.webp",
+            "awash/acc/presidential/pre1.webp",
+            "awash/acc/presidential/pre5.webp",
+            "awash/acc/presidential/pre3.webp",
+            "awash/acc/presidential/pre4.webp",
+          ],
+          desc: [
+            {
+              id: 1,
+              pic1: "awash/acc/presidential/long.webp",
+              pic2: "awash/acc/presidential/long2.webp",
+              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff `,
+              url: "/book",
+            },
+          ],
+          amenities: [
+            "Private bathroom with a shower",
+            "Individually controlled AC and Fan",
+            "PBX Phone",
+            "Adapters",
+            "Hair-dryer",
+            "Dining Table",
+          ],
+          amenities1: [
+            "COVID Kit",
+            "43” HDTV with DSTV Channels ",
+            "Slippers",
+            "Tea Maker",
+            "Mini Fridge",
+            "Luggage Rack",
+          ],
+          amenities2: [
+            "Safety Deposit Box",
+            "Laundry Bag",
+            "Yoga Mats",
+            "Bathrobe",
+            "Balcony with 2 lounge chairs",
+          ],
+          other: [
+            {
+              img: "awash/acc/premium/otherprem.webp",
+              title: "Permium Suite",
+              text: `Treat yourself to an unforgetable, nature based experience with a focus on earthy tones and inner balance. Our Premium rooms are nothing short of exceptional for our guests!`,
+              link: "1",
+            },
+            {
+              img: "awash/acc/premium/otherjun.webp",
+              title: "Junior Suite",
+              text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenary `,
+              link: "2",
+            },
+            {
+              img: "awash/acc/premium/otherex.webp",
               title: "Executive",
               text: `Enjoy this unique space with sunlight radiating from every direction - our Executive Suite is the perfect lovers nest where you can relax in solitude with the sounds of the waterfall filling the room `,
               link: "3",
@@ -324,7 +316,7 @@ export default {
         },
       ],
       footer: {
-       title: "Kuriftu Resort & Spa Awash Falls",
+        title: "Kuriftu Resort & Spa Awash Falls",
         second: {
           first: "211 km from Addis Ababa Bole International Airport",
           second: "Awash Park",
@@ -336,7 +328,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com  ",
         },
         fourth: {
-          url: "/",
+          url: "https://www.google.com/maps/dir//Kuriftu+Resort+%26+Spa+Awash+Falls+awash+park+Awash+Ethiopia/@8.8430524,40.0122975,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x163593fea245879f:0xca93c0e4241369ec!2m2!1d40.0122975!2d8.8430524",
         },
       },
     };

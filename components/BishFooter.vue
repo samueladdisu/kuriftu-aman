@@ -17,9 +17,9 @@
         <p class="text">{{ footer.thrid.thrid }}</p>
       </div>
       <div class="forth">
-        <nuxt-link :to="footer.fourth.url" class="link">
+        <a :href="footer.fourth.url" target="_blank" class="link">
           Get Directions
-        </nuxt-link>
+        </a>
       </div>
     </div>
     <hr class="container" />

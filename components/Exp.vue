@@ -78,9 +78,6 @@ export default {
 </script>
 
 <style lang="scss">
-.E-bg {
-  background: #f3eee7;
-}
 .exp {
   background: #f3eee7;
   .container {
