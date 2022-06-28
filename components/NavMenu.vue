@@ -465,13 +465,34 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(105, 105, 105);
+  border-radius: 3rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 .whole-nav {
   background: #f5f5f2;
   height: 100vh;
   width: 100vw;
   position: fixed;
+  overflow-y: scroll;
   top: 0;
   z-index: 9999;
+
   .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -790,7 +811,7 @@ export default {
     .nav-menu {
       margin-left: 4rem;
       margin-right: 4rem;
-      margin-bottom: 3rem;
+      // margin-bottom: 3rem;
     }
     .container {
       display: flex;

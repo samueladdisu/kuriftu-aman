@@ -94,6 +94,76 @@ export default {};
 
 <style lang="scss" scoped>
 .main {
+  .sticky-book {
+    display: none;
+    .container {
+      .location {
+        select {
+          @extend .text;
+          option {
+            @extend .text;
+          }
+        }
+      }
+      .guests {
+        select {
+          @extend .text;
+          option {
+            @extend .text;
+          }
+        }
+      }
+    }
+  }
+  @include responsive($xl) {
+    .sticky-book {
+      z-index: 999;
+      display: block;
+      padding: 1rem 0;
+      position: fixed;
+      width: 100%;
+      border-top: 0.07143rem solid #d5d1c8;
+      background: #fff;
+      bottom: 0;
+      left: 0;
+      .container {
+        .location {
+          select {
+            width: 90%;
+            padding: 0.5rem 0.2rem;
+            margin-top: 0.2rem;
+            border: none;
+            border-bottom: 1px #707070 solid;
+            outline: none;
+          }
+        }
+        align-items: center;
+        .book-stay {
+          display: flex;
+          align-items: center;
+        }
+        .select-dates {
+          .t-datepicker {
+            position: relative;
+            .t-datepicker-day {
+              position: absolute;
+              top: -950%;
+            }
+          }
+        }
+        .guests {
+          padding-left: 1rem;
+          select {
+            padding: 0.5rem 0.2rem;
+            margin-top: 0.2rem;
+            border: none;
+            border-bottom: 1px #707070 solid;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
   .contact-form {
     margin-top: 6.25rem;
     .container {

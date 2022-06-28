@@ -297,4 +297,10 @@ export default {};
     }
   }
 }
+
+@include responsive($xl) {
+  .footer {
+    margin-bottom: 5.5rem;
+  }
+}
 </style>

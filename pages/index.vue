@@ -176,6 +176,9 @@ export default {
   .container {
     .single-highlight {
       margin-bottom: 4.5rem;
+      img {
+        object-fit: cover;
+      }
       h5 {
         margin-top: 1.6rem;
       }
