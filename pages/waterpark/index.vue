@@ -1,7 +1,12 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="waterpark/" home="waterpark/" dir="Water Park" />
+    <Destinav
+      base="waterpark/"
+      home="waterpark/"
+      dir="Water Park"
+      class="waterpark-nav"
+    />
     <div class="water__gap"></div>
     <HeroSlide
       :img="slides"
@@ -178,5 +183,18 @@ export default {
   background: #f3eee7;
   height: 3rem;
   width: 100%;
+}
+@include responsive($xl) {
+  .waterpark-nav {
+    .container {
+      .wrapper {
+        .link-destination {
+          .line {
+            width: 40% !important;
+          }
+        }
+      }
+    }
+  }
 }
 </style>

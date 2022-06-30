@@ -548,7 +548,7 @@ export default {
               @extend .text;
               color: $kuriftu-grey;
               font-size: 1.13rem;
-              text-transform: uppercase;
+              text-transform: capitalize;
               cursor: pointer;
               // font-weight: normal;
               &:hover {
@@ -750,8 +750,9 @@ export default {
         width: 150%;
       }
       .three-col {
+        // flex: 2rem;
         display: flex;
-        gap: 6rem;
+        gap: 3rem;
         .main-links {
           margin-top: 10rem;
           .nav-links {
@@ -790,8 +791,10 @@ export default {
         }
       }
       .destination-links {
-        padding: 3rem;
-
+        padding: 1rem;
+        flex: 25rem;
+        display: grid;
+        place-items: center;
         .dest-box {
           grid-template-columns: 1fr;
           .desti-img {
@@ -806,7 +809,7 @@ export default {
 }
 @include responsive($xl) {
   .whole-nav {
-    width: 70%;
+    width: 90%;
     height: 100vh;
     .nav-menu {
       margin-left: 4rem;
@@ -857,7 +860,8 @@ export default {
       }
       .destination-links {
         padding: 3rem;
-
+        padding: 1rem;
+        flex: 25rem;
         .dest-box {
           display: grid;
           margin-top: 5rem;

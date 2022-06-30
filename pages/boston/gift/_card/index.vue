@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="/boston/" home="/boston" dir="Boston" />
+    <Destinav base="/boston/" class="boston-nav" home="/boston" dir="Boston" />
 
     <section class="voucher E-bg">
       <div class="container">
@@ -132,7 +132,19 @@ export default {
     }
   }
 }
-
+@include responsive($xl) {
+  .boston-nav {
+    .container {
+      .wrapper {
+        .link-destination {
+          .line {
+            width: 30% !important;
+          }
+        }
+      }
+    }
+  }
+}
 @include responsive($md) {
   .voucher {
     .container {

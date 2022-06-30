@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="" home="/boston" dir="Boston" />
+    <Destinav base="" class="boston-nav" home="/boston" dir="Boston" />
     <Gallery :gallery="gallery" />
     <BishFooter :footer="footer" />
     <Sticky path="awash" />
@@ -67,5 +67,18 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@include responsive($xl) {
+  .boston-nav {
+    .container {
+      .wrapper {
+        .link-destination {
+          .line {
+            width: 30% !important;
+          }
+        }
+      }
+    }
+  }
+}
 </style>

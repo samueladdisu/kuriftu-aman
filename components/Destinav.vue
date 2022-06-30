@@ -79,61 +79,66 @@
         <div class="container">
           <div class="wrapper">
             <ul class="link-destination">
-              <li>
-                <nuxt-link class="a-link active" :to="home">
-                  {{ dir }} </nuxt-link
-                ><img src="../assets/img/icons/next2.svg" alt="" />
-              </li>
-              <li v-if="viewAcc && boston">
-                <nuxt-link class="a-link" :to="base + 'acc'"
-                  >Accomodation</nuxt-link
-                >
-              </li>
+              <div class="link-container">
+                <li>
+                  <nuxt-link class="a-link" :to="home"> {{ dir }} </nuxt-link
+                  ><img src="../assets/img/icons/next2.svg" alt="" />
+                </li>
+                <li v-if="viewAcc && boston">
+                  <nuxt-link
+                    class="a-link"
+                    :class="{ active: isActive }"
+                    @click="addClass"
+                    :to="base + 'acc'"
+                    >Accomodation</nuxt-link
+                  >
+                </li>
 
-              <li v-if="adv">
-                <nuxt-link class="a-link" :to="base + 'adv'">
-                  Adventure
-                </nuxt-link>
-              </li>
-              <li v-if="viewAcc && boston">
-                <nuxt-link class="a-link" :to="base + 'exp'"
-                  >Experiences</nuxt-link
-                >
-              </li>
+                <li v-if="adv">
+                  <nuxt-link class="a-link" :to="base + 'adv'">
+                    Adventure
+                  </nuxt-link>
+                </li>
+                <li v-if="viewAcc && boston">
+                  <nuxt-link class="a-link" :to="base + 'exp'"
+                    >Experiences</nuxt-link
+                  >
+                </li>
 
-              <li v-if="viewAcc && boston">
-                <nuxt-link class="a-link" :to="base + 'well'"
-                  >Wellness</nuxt-link
-                >
-              </li>
+                <li v-if="viewAcc && boston">
+                  <nuxt-link class="a-link" :to="base + 'well'"
+                    >Wellness</nuxt-link
+                  >
+                </li>
 
-              <li v-if="boston">
-                <nuxt-link class="a-link" :to="base + 'dining'"
-                  >Dining</nuxt-link
-                >
-              </li>
-              <li v-if="viewAcc && boston">
-                <nuxt-link class="a-link" :to="base + 'corp'"
-                  >Corporate</nuxt-link
-                >
-              </li>
-              <li v-if="viewAcc && boston">
-                <nuxt-link class="a-link" :to="base + 'event'"
-                  >Celebration & Events</nuxt-link
-                >
-              </li>
-              <li>
-                <nuxt-link class="a-link" :to="base + 'gallery'"
-                  >Gallery</nuxt-link
-                >
-              </li>
-              <li>
-                <nuxt-link class="a-link" :to="base + 'gift'"
-                  >Gift Voucher</nuxt-link
-                >
-              </li>
+                <li v-if="boston">
+                  <nuxt-link class="a-link" :to="base + 'dining'"
+                    >Dining</nuxt-link
+                  >
+                </li>
+                <li v-if="viewAcc && boston">
+                  <nuxt-link class="a-link" :to="base + 'corp'"
+                    >Corporate</nuxt-link
+                  >
+                </li>
+                <li v-if="viewAcc && boston">
+                  <nuxt-link class="a-link" :to="base + 'event'"
+                    >Celebration & Events</nuxt-link
+                  >
+                </li>
+                <li>
+                  <nuxt-link class="a-link" :to="base + 'gallery'"
+                    >Gallery</nuxt-link
+                  >
+                </li>
+                <li>
+                  <nuxt-link class="a-link" :to="base + 'gift'"
+                    >Gift Voucher</nuxt-link
+                  >
+                </li>
+              </div>
+              <hr class="line" />
             </ul>
-            <hr class="line" />
           </div>
         </div>
       </div>
@@ -151,7 +156,13 @@ export default {
       viewAcc: true,
       boston: true,
       adv: false,
+      isActive: false,
     };
+  },
+  methods: {
+    addClass() {
+      this.isActive = true;
+    },
   },
   mounted() {
     if (this.home == "waterpark/" || this.home == "/waterpark") {
@@ -256,7 +267,7 @@ export default {
       }
     }
   }
-  @include responsive($lg) {
+  @include responsive($xl) {
     .destination-links2 {
       display: none;
     }
@@ -265,31 +276,71 @@ export default {
       .container {
         .wrapper {
           .link-destination {
-            display: flex;
-            padding-top: 4rem;
-            gap: 3rem;
-            place-content: center;
-            li {
+            .link-container {
               display: flex;
-              align-items: center;
-              .a-link {
-                color: $kuriftu-grey;
-                font-size: 0.88rem;
+              padding-top: 4rem;
+              gap: 3rem;
+              place-content: center;
+              li {
+                display: flex;
+                align-items: center;
+                .a-link {
+                  color: $kuriftu-grey;
+                  font-size: 0.88rem;
+                }
+                .nuxt-link-exact-active {
+                  color: $kuriftu-black;
+                  font-family: "Neue Helvetica Medium";
+                  position: relative;
+                  &::after {
+                    content: "";
+                    position: absolute;
+                    top: 140%;
+                    z-index: 999;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background: $kuriftu-black;
+                  }
+                }
               }
-              .active {
-                color: $kuriftu-black;
-              }
+            }
+            .line {
+              // border-style:solid ;
+              color: $kuriftu-grey;
+              // width: 60rem;
+              width: 100%;
+              margin: 0 auto;
+              margin-top: 0.6rem;
+              opacity: 0.7;
             }
           }
-          .line {
-            // border-style:solid ;
-            color: $kuriftu-grey;
-            @include responsive($xl) {
-              width: 60rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .destination-links {
+      .container {
+        .wrapper {
+          .link-destination {
+            .line {
+              width: 90%;
             }
-            margin: 0 auto;
-            margin-top: 0.6rem;
-            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1920px) {
+    .destination-links {
+      .container {
+        .wrapper {
+          .link-destination {
+            .line {
+              width: 70%;
+            }
           }
         }
       }

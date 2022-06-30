@@ -176,16 +176,45 @@ export default {
       .slides {
         .lower-slide {
           grid-template-columns: 1fr 1fr 1fr 3rem 6rem;
+          align-items: center;
           .slide-nav {
-            .swiper-button-next,
-            .swiper-button-prev {
-              top: 91% !important;
-            }
             .swiper-button-prev {
               left: 95% !important;
             }
             .swiper-button-next {
               right: 0px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    .container {
+      .slides {
+        .lower-slide {
+          .slide-nav {
+            .swiper-button-next,
+            .swiper-button-prev {
+              top: 88.7% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero {
+    .container {
+      .slides {
+        .lower-slide {
+          .slide-nav {
+            .swiper-button-next,
+            .swiper-button-prev {
+              top: 90.7% !important;
             }
           }
         }

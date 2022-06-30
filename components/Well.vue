@@ -103,6 +103,9 @@ export default {
         "top top"
         "lower1 lower2";
       gap: 1rem;
+      img {
+        width: 100%;
+      }
       img:nth-child(1) {
         grid-area: top;
       }

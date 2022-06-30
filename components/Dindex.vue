@@ -28,8 +28,6 @@
             <div class="map-responsive">
               <iframe
                 :src="index.iframe"
-                width="400"
-                height="300"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"

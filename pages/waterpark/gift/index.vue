@@ -1,10 +1,15 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="" home="/waterpark" dir="Water Park" />
+    <Destinav
+      base=""
+      class="waterpark-nav"
+      home="/waterpark"
+      dir="Water Park"
+    />
     <Gift :gift="gift" />
     <BishFooter :footer="footer" />
-     <Sticky path="bishoftu" />
+    <Sticky path="bishoftu" />
   </div>
 </template>
 
@@ -280,5 +285,18 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@include responsive($xl) {
+  .waterpark-nav {
+    .container {
+      .wrapper {
+        .link-destination {
+          .line {
+            width: 40% !important;
+          }
+        }
+      }
+    }
+  }
+}
 </style>

@@ -178,6 +178,7 @@ export default {
       margin-bottom: 4.5rem;
       img {
         object-fit: cover;
+        width: 100%;
       }
       h5 {
         margin-top: 1.6rem;

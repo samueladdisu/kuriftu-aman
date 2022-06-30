@@ -1,7 +1,12 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="/entoto/" home="/entoto" dir="Entoto" />
+    <Destinav
+      base="/waterpark/"
+      class="waterpark-nav"
+      home="/waterpark"
+      dir="Water Park"
+    />
     {{ hello }}
     <section class="voucher E-bg">
       <div class="container">
@@ -53,7 +58,7 @@
       </div>
     </section>
     <BishFooter :footer="footer" />
-     <Sticky path="bishoftu" />
+    <Sticky path="bishoftu" />
   </div>
 </template>
 
@@ -84,6 +89,19 @@ export default {
 </script>
 
 <style lang="scss">
+@include responsive($xl) {
+  .waterpark-nav {
+    .container {
+      .wrapper {
+        .link-destination {
+          .line {
+            width: 40% !important;
+          }
+        }
+      }
+    }
+  }
+}
 .voucher {
   padding: 2rem 0;
   .container {
