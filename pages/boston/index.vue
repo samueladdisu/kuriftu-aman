@@ -166,6 +166,30 @@ export default {
           title: "Mani / Pedi ",
           text: `Stay up-to-date on trending colors and new designs for nail art at our Mani/Pedi Studio overlooking bole road`,
         },
+           {
+          img: "boston/Spa.webp",
+          title: "Spa",
+            text: ` `,
+          
+        },
+                {
+          img: "boston/Massage.webp",
+          title: "Massage",
+            text: ` `,
+          
+        },
+                {
+          img: "boston/hair.webp",
+          title: "Hair Salon",
+            text: ` `,
+          
+        },
+                {
+          img: "boston/Barber.webp",
+          title: "Barber",
+            text: ` `,
+          
+        },
       ],
     };
   },

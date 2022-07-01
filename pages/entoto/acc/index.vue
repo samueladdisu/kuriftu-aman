@@ -25,7 +25,7 @@ export default {
             id: 1,
             img: "Entoto/acc/Glamping.webp",
             subTitle: "FOREST VIEW",
-            title: "Glamping",
+            title: "Tent Camp",
             text: `Join us and experience Addis's first glamping site in the heart of Entoto Mountain. As our brand shift towards becoming more sustainably concious by focusing on minimizing our impact in the forest, glamping provides a more sustainable approach as well as an alternative hospitality adventure!`,
             uri: "acc/1",
           },
