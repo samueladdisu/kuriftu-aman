@@ -76,7 +76,7 @@
             <div class="lower__block">
               <div class="line"></div>
 
-              <a href="/assets/pdf/bostonMenu.pdf" download="" class="link"
+              <a href="./assets/pdf/bostonMenu.pdf" target="_blank" class="link"
                 >View spa menu</a
               >
             </div>
