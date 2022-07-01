@@ -48,13 +48,13 @@ Keep an eye out for the vast number of bird species located around the park and 
         },
         other: [
           {
-            img: "bishoftu/acc/pre4.webp",
-            title: "Breakfast in the desert(coming soon)",
+            img: "awash/exp/BreakfastInTheDesert.webp",
+            title: "Breakfast in the desert",
             text: `A little something from our breakfast menu for everyone to enjoy while taking in the early light and fresh air.`,
           },
 
           {
-            img: "bishoftu/acc/pre2.webp",
+            img: "awash/exp/PrivateEvent.webp",
             title: "Private event",
             text: `Plan a celebration extravaganza with friends and family!`,
           },
