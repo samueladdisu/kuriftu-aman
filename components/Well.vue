@@ -48,8 +48,18 @@
 
           <div class="lower__block">
             <div class="line"></div>
-
-            <nuxt-link :to="well.highlight.uri" class="link"
+            <a
+              :href="well.highlight.pdf"
+              download=""
+              v-if="well.highlight.pdf"
+              class="link"
+            >
+              View spa menu
+            </a>
+            <nuxt-link
+              :to="well.highlight.uri"
+              v-if="well.highlight.uri"
+              class="link"
               >View spa menu</nuxt-link
             >
           </div>

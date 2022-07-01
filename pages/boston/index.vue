@@ -17,9 +17,9 @@
       <section class="well-boston">
         <div class="container">
           <div class="well__img__container">
-            <img src="@/assets/img/boston/HairSalon.webp" alt="" />
+            <img src="@/assets/img/boston/HairSalon1.webp" alt="" />
             <img src="@/assets/img/boston/SteamSaunaJaccuzi.webp" alt="" />
-            <img src="@/assets/img/boston/MassageCaveLong.webp" alt="" />
+            <img src="@/assets/img/boston/massageCave1.webp" alt="" />
           </div>
 
           <div class="well__content">
@@ -76,7 +76,9 @@
             <div class="lower__block">
               <div class="line"></div>
 
-              <nuxt-link to="/" class="link">View spa menu</nuxt-link>
+              <a href="/assets/pdf/bostonMenu.pdf" download="" class="link"
+                >View spa menu</a
+              >
             </div>
           </div>
         </div>
@@ -106,7 +108,7 @@
     </section>
 
     <OtherAcc title="boston day spa experiences" :other="other" />
-    <Sticky path="awash" page="boston" />
+    <Sticky page="boston" />
   </div>
 </template>
 
@@ -125,16 +127,16 @@ export default {
         "boston/slider/barber.webp",
       ],
       photos: [
-        "bishoftu/firstSlider/1.webp",
-        "bishoftu/firstSlider/2.webp",
-        "bishoftu/acc/loft/3.webp",
-        "long.webp",
-        "bishoftu/dining/KuriftuBuffetO.webp",
-        "bishoftu/ExpLong.webp",
-        "bishoftu/acc/pre8.webp",
+        "boston/HairSalon.webp",
+        "boston/ManiPedi.webp",
+        "boston/MassageCave.webp",
+        "boston/Barber1.webp",
+        "boston/SteamSaunaJaccuzi.webp",
+        "boston/Wax.webp",
+        "boston/HairStyle.webp",
       ],
       // acc cover image
-      accImg: "laketana/acc.webp",
+      accImg: "boston/ArtGallery.webp",
       // acc content
       accTitle: {
         title: "Art Gallery",
@@ -245,6 +247,9 @@ export default {
         "top top"
         "lower1 lower2";
       gap: 1rem;
+      img {
+        width: 100%;
+      }
       img:nth-child(1) {
         grid-area: top;
       }

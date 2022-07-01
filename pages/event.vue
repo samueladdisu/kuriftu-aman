@@ -7,23 +7,6 @@
       title="Celebration at Kuriftu Resort & spa"
     />
 
-    <div class="swiper evn__slide">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" v-for="item in other" :key="item.img">
-          <img :src="require('@/assets/img/' + item.img + '')" alt="" />
-          <h5 class="sub-title center">entoto Adventures</h5>
-          <h1 class="title center">
-            {{ item.title }}
-          </h1>
-
-          <p class="text">
-            {{ item.text }}
-          </p>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-
     <!-- <Highlight :highlight="highlight" /> -->
     <section class="event-high">
       <div class="container">
@@ -42,7 +25,7 @@
         </div>
       </div>
     </section>
-    <div class="E-bg">
+    <div class="E-bg" id="enquiry-form">
       <section class="gift__hero">
         <div class="container">
           <h1 class="title center">Request a proposal</h1>
@@ -253,27 +236,7 @@ export default {
       ],
     };
   },
-  mounted() {
-    var swiper3 = new Swiper(".evn__slide", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      // centeredSlides: true,
-      loop: true,
-
-      pagination: {
-        clickable: true,
-        el: ".swiper-pagination",
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 3,
-        },
-      },
-    });
-  },
+  mounted() {},
 };
 </script>
 
@@ -282,6 +245,9 @@ export default {
   margin-top: 3rem;
   .container {
     .single-room {
+      img {
+        width: 100%;
+      }
       h5 {
         margin-top: 1rem;
       }
@@ -336,97 +302,6 @@ export default {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .evn__slide {
-    .swiper-wrapper {
-      .swiper-slide-active {
-        max-width: 18.4375rem;
-      }
-    }
-  }
-}
-.evn__slide {
-  margin-top: 3rem;
-  .swiper-wrapper {
-    // padding: 2.7rem 0;
-    .swiper-slide {
-      background: #fff;
-      padding-bottom: 3.3125rem;
-      transform: scale(0.9);
-      opacity: 0.5;
-      transition: all linear 0.3s;
-      img {
-        max-height: 40vh;
-        width: 38.375rem;
-        object-fit: cover;
-      }
-      h5 {
-        margin: 1rem 0;
-      }
-      h1 {
-        margin-bottom: 0.5rem;
-      }
-      p {
-        text-align: center;
-      }
-    }
-    .swiper-slide-active {
-      transform: scale(1.15);
-      margin: 0 2rem !important;
-      opacity: 1;
-    }
-  }
-  .swiper-pagination {
-    .swiper-pagination-bullet {
-      margin: 0 !important;
-      width: 2rem !important;
-      height: 2px !important;
-      border-radius: 0% !important;
-      background: #00000085 !important;
-    }
-    .swiper-pagination-bullet-active {
-      background: #4e4e4e !important;
-    }
-  }
-}
-@include responsive($md) {
-  .evn__slide {
-    margin-top: 3rem;
-    .swiper-wrapper {
-      .swiper-slide {
-        background: #fff;
-
-        transform: scale(0.9);
-        opacity: 0.5;
-        transition: all 0.3s;
-        p {
-          text-align: center;
-        }
-      }
-      .swiper-slide-next {
-        transform: scale(1.15);
-        margin: 0 2rem !important;
-        opacity: 1;
-      }
-      .swiper-slide-active {
-        margin: 0 !important;
-      }
-    }
-    .swiper-pagination {
-      .swiper-pagination-bullet {
-        width: 3rem !important;
-      }
-    }
-  }
-}
-
-@include responsive($xxl) {
-  .evn__slide {
-    .swiper-wrapper {
-      padding-bottom: 3.3125rem;
-    }
-  }
-}
 .e-form {
   padding-bottom: 3rem;
   .container {

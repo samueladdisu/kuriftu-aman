@@ -26,28 +26,28 @@ export default {
         heroTitle: "Corporate Experience at Kuriftu Entoto Adventure Park ",
         heroSubTitle: "Corporate Experience at Kuriftu Entoto Adventure Park ",
         heroText: `Kuriftu Entoto Adventure Park is the perfect destination for our corpoate clients to take full advantage of their benefits. From nature based conferences to company wide retreats, our team places value on the needs of each individual, curating the ultimate getaway`,
-        heroLink: "/",
+        heroLink: "/event#enquiry-form",
         heroUrl: "Make an enquiry",
         feature: {
           img: "Entoto/event/s2.webp",
           title: "Corporate Rate Agreement",
           text: `Let us take care of your teams by rejuvinating and stregthening their relations with one another to optimize their level of efficiency by becoming corporate clients -  having access to our extensive list of activities, destinations and experineces within the wellness space will help companies reap the benefits.
 Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and we will customize your membership accordingly!`,
-          uri: "/",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         Lfeature: {
           img: "Entoto/event/re.webp",
           title: "Corporate Retreat",
           text: `Treat your team to a wild adventure at Kuriftu Entoto Adventure Park - our team can curate the perfect experience ranging from outdoor meetings in our Hammock Village, adventurous activities as ice breakers and orientation for new staff, rejuvinating spa services to relax the mind, and many more `,
-          uri: "/",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         feature1: {
           img: "Entoto/event/conf.webp",
           title: "Host a Meeting or Conference",
           text: `Allow us to host your companies conference, meetings or events in our Mountain Peak Restaurant. Break out sessions can be facilitated in the surrounding cabanas for an alternative experience `,
-          uri: "/",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         venues: [

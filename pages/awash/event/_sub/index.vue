@@ -104,7 +104,7 @@
             </div>
 
             <div class="m__lower">
-              <nuxt-link to="#" class="e_btn">
+              <nuxt-link to="/event#enquiry-form" class="e_btn">
                 Contact us for a full proposal
               </nuxt-link>
             </div>

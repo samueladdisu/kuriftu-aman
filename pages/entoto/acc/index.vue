@@ -23,7 +23,7 @@ export default {
         rooms: [
           {
             id: 1,
-            img:     "Entoto/acc/Glamping.webp",
+            img: "Entoto/acc/Glamping.webp",
             subTitle: "FOREST VIEW",
             title: "Glamping",
             text: `Join us and experience Addis's first glamping site in the heart of Entoto Mountain. As our brand shift towards becoming more sustainably concious by focusing on minimizing our impact in the forest, glamping provides a more sustainable approach as well as an alternative hospitality adventure!`,
@@ -33,7 +33,7 @@ export default {
             id: 2,
             img: "Entoto/acc/Presidential.webp",
             subTitle: "FOREST VIEW",
-            title: "Kuriftu Oasis / Presidential Cabin",
+            title: "The Cabin",
             text: `Secluded in the depths of the aromatic eucalyptus forest lies our Kuriftu Oasis / Presidential Cabin for those seeking an internal healing experience in solidtude that provides ultimate relaxation.`,
             uri: "acc/2",
           },

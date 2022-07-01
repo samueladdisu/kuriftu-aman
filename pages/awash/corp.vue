@@ -19,28 +19,28 @@ export default {
         heroTitle: "Corporate Experience at Kuriftu Resort & Spa Awash Falls ",
         heroSubTitle: "Corporate Experience ",
         heroText: `Kuriftu Awash Falls provides corporate clients a sense of exclusivity while tucked away in the solitude of Awash National Park `,
-        heroLink: "/",
+        heroLink: "/event#enquiry-form",
         heroUrl: "Make an enquiry",
         feature: {
           img: "awash/corp/co.webp",
           title: "Corporate Rate Agreement",
           text: `Let us take care of your teams by rejuvinating and stregthening their relations with one another to optimize their level of efficiency by becoming corporate clients -  having access to our extensive list of activities, destinations and experineces within the wellness space will help companies reap the benefits.
 Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and we will customize your membership accordingly!`,
-          uri: "/",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         Lfeature: {
           img: "awash/corp/co2.webp",
           title: "Corporate Retreat",
           text: `Show appreciation to your teams by treating them to a private getaway to escape everyday life. They deserve it don't they? `,
-          uri: "/",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         feature1: {
           img: "awash/corp/co.webp",
           title: "Host a meeting or Conference",
           text: `Allow us to get creative with meeting and conference spaces in this small, but luxurious destination - whether is be booking the Presidential Suite to facilitate meetings for teams indoors or on the terrace showcasing the best view of the resort, or reserving the pool deck beautifully shaded - the choice is yours! `,
-          uri: "/",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
 

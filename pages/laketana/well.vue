@@ -4,7 +4,7 @@
     <Destinav base="" home="/laketana" dir="Lake Tana" />
     <Well :well="well" />
     <BishFooter :footer="footer" />
-     <Sticky path="tana" />
+    <Sticky path="tana" />
   </div>
 </template>
 
@@ -32,7 +32,7 @@ export default {
         },
         amenities: ["Steam", "Sauna", "Jacuzzi"],
         amenities1: ["Massage", "Manicure", "Pedicure"],
-        amenities2: ["Hair Style", "Barber", "Gym"],
+        amenities2: ["Hair Style", "Barber"],
       },
       footer: {
         title: "Kuriftu Resort & Spa Lake Tana",
@@ -47,7 +47,7 @@ export default {
           thrid: "Email us at booking@kurifturesorts.com",
         },
         fourth: {
-           url: "https://www.google.com/maps/dir//Kuriftu+Resort+and+Spa+Bahir+Dar+Bahir+Dar+Ethiopia/@11.9262507,37.2958219,10.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1644cde2a39aad09:0xe0ed4292e70a9eef!2m2!1d37.3837014!2d11.5984451",
+          url: "https://www.google.com/maps/dir//Kuriftu+Resort+and+Spa+Bahir+Dar+Bahir+Dar+Ethiopia/@11.9262507,37.2958219,10.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1644cde2a39aad09:0xe0ed4292e70a9eef!2m2!1d37.3837014!2d11.5984451",
         },
       },
     };

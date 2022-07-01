@@ -95,7 +95,7 @@ export default {
           },
           {
             id: 6,
-            img: "long.webp",
+            img: "awash/firstSlider/2.webp",
             subTitle: "GIFT VOUCHER",
             title: "Future travels",
             text: `Gift a friend or loved to an unforgettable stay - with personalized welcome notes made for each individual guest to intimate dining experiences surrounded by a team ready to cater to your every need, Kuriftu Awash Falls is the perfect way to show a loved one that you care`,

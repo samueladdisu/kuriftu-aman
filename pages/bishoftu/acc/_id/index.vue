@@ -256,14 +256,11 @@ export default {
           id: 4,
           title: "Presidential Suite",
           slides: [
-            "bishoftu/acc/pre1.webp",
-            "bishoftu/acc/pre2.webp",
-            "bishoftu/acc/pre3.webp",
-            "bishoftu/acc/pre4.webp",
-            "bishoftu/acc/pre5.webp",
-            "bishoftu/acc/pre6.webp",
-            "bishoftu/acc/pre7.webp",
-            "bishoftu/acc/pre8.webp",
+            "bishoftu/acc/pre/1.webp",
+            "bishoftu/Presidential.webp",
+            "bishoftu/acc/pre/3.webp",
+            "bishoftu/acc/pre/4.webp",
+            "bishoftu/acc/pre/2.webp",
           ],
           desc: [
             {

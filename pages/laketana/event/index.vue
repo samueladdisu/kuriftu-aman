@@ -4,7 +4,7 @@
     <Destinav base="" home="/laketana" dir="Lake Tana" />
     <Event :event="event" />
     <BishFooter :footer="footer" />
-     <Sticky path="tana" />
+    <Sticky path="tana" />
   </div>
 </template>
 
@@ -66,7 +66,7 @@ export default {
         ],
         other: [
           {
-            img: "bishoftu/corp/catering.webp",
+            img: "laketana/event/Menu&Catering.webp",
             title: "Menu & Catering",
             text: `Our resort caters to your choice of dishes and plates for your celebrations and gatherings.`,
           },

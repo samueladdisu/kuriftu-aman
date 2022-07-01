@@ -37,7 +37,7 @@ export default {
           },
           {
             id: 3,
-            img: "bishoftu/LoftVillage.webp",
+            img: "bishoftu/acc/loft/LoftVillage.webp",
             subTitle: "rooms",
             title: "VILLAGE",
             text: `Experience our lofted rooms featuring Kurfitu's new contemporary interior design - with a play on colors and abstract art, contrasting screed flooring and high cielings for a luxurious effect, the Village rooms create a new approach to innovation in the resort`,
@@ -45,7 +45,7 @@ export default {
           },
           {
             id: 4,
-            img: "bishoftu/acc/pre5.webp",
+            img: "bishoftu/Presidential.webp",
             subTitle: "rooms",
             title: "PRESIDENTIAL SUITE",
             text: `Take in the earthy environment curated by our woodwork and design team in this spacious room. Plan a romantic stay with your partner and experince exclusive offers in this space, including an in-room massage and luxury in-room dining experience. Our suites offer nothing less than  the perfect blend of comfort and beauty`,

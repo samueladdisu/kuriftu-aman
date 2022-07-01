@@ -87,6 +87,7 @@ export default {
         grid-template-columns: 1fr 1fr 1fr 3rem 3rem;
         grid-template-areas: "sub sub sub pag nav";
         .swiper-pagination {
+          display: none;
           position: static !important;
           grid-area: pag;
           justify-self: flex-end;
@@ -128,6 +129,9 @@ export default {
       .slides {
         .lower-slide {
           grid-template-columns: 1fr 1fr 1fr 3rem 6rem;
+          .swiper-pagination {
+            display: block;
+          }
           .slide-nav {
             .swiper-button-next,
             .swiper-button-prev {
@@ -222,7 +226,22 @@ export default {
     }
   }
 }
-
+@media screen and (min-width: 1600px) {
+  .hero {
+    .container {
+      .slides {
+        .lower-slide {
+          .slide-nav {
+            .swiper-button-next,
+            .swiper-button-prev {
+              top: 88.7% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 @include responsive($xxl) {
   .hero {
     .container {

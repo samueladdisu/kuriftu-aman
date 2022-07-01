@@ -33,14 +33,14 @@ export default {
           img: "Entoto/event/Birthday.webp",
           title: "Birthdays",
           text: `Let us celebrate your life and future in a fun and special way with your loved ones. browse through our selection of birthday packages and more!`,
-          uri: "/",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         Rfeature: {
           img: "Entoto/event/SocialEvent.webp",
           title: "Social events",
           text: `Thinking of hosting an event? Give us a call and our team can help plan your very own get-together, anniversary, birthday party, family trip - basically anything!`,
-          uri: "/",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         venues: [

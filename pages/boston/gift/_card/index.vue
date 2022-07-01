@@ -53,7 +53,7 @@
       </div>
     </section>
     <BishFooter :footer="footer" />
-    <Sticky path="awash" />
+    <Sticky page="boston" />
   </div>
 </template>
 

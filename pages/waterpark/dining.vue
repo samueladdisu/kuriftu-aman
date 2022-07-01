@@ -51,6 +51,10 @@ export default {
             text: `Let us know beforehand so that we can save you the best sit in the house.  `,
           },
         ],
+        reserve: {
+          tel: "+251924949494",
+          email: "booking@kurifturesorts.com",
+        },
       },
       footer: {
         title: "Kuriftu WaterPark",

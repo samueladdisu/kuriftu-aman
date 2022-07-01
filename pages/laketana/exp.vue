@@ -4,7 +4,7 @@
     <Destinav base="" home="/laketana" dir="Lake Tana" />
     <Exp :exp="exp" />
     <BishFooter :footer="footer" />
-     <Sticky path="tana" />
+    <Sticky path="tana" />
   </div>
 </template>
 
@@ -49,7 +49,7 @@ export default {
             text: `Venture out to the holy monastries that make up the core of Bahirdar, these tours are sought after by those looking to learn a bit more about Ethiopian Orthodox Church and history, or for those on pilgrimages`,
           },
           {
-            img: "bishoftu/exp/BirdWatching.webp",
+            img: "laketana/exp/BirdWatching1.webp",
             title: "Bird watching",
             text: `With an enchanting ecosystem and luxurious natural setting, Kuriftu Resorts & Spa ranks among the best bird-watching in the country.`,
           },

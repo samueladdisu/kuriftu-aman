@@ -62,57 +62,21 @@
       </div>
     </div>
     <div class="container row" v-else>
-      <div class="book-stay col-2">
+      <div class="book-stay col-3 col-offset-2">
         <h2 class="title">book spa day</h2>
         <img src="@/assets/img/icons/next2.svg" alt="" />
       </div>
 
       <div class="location col-3">
-        <p class="text">+25192333533</p>
+        <h5 class="sub-title">Call For Reservation</h5>
+        <a href="tel:+251116623808" class="text">+251 11 662 3808</a>
+        <a href="tel:+251116636557" class="text">+251 11 663 6557</a>
       </div>
 
-      <div class="select-dates col-3">
-        <h5 class="sub-title">Select dates</h5>
-        <div class="t-datepicker mt-2 col-3">
-          <div class="t-check-in">
-            <div class="t-dates t-date-check-in">
-              <label class="t-date-info-title">Check In</label>
-            </div>
-            <input type="hidden" class="t-input-check-in" name="start" />
-            <div class="t-datepicker-day">
-              <table class="t-table-condensed">
-                <!-- Date theme calendar -->
-              </table>
-            </div>
-          </div>
-          <div class="t-check-out">
-            <div class="t-dates t-date-check-out">
-              <label class="t-date-info-title">Check Out</label>
-            </div>
-            <input type="hidden" class="t-input-check-out" name="end" />
-          </div>
-        </div>
-      </div>
-
-      <div class="guests col-2">
-        <h5 class="sub-title">guests</h5>
-
-        <select name="" id="">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
-      </div>
-
-      <div class="cta-container col-2">
-        <nuxt-link to="#" class="btn-primary"> Check availability </nuxt-link>
+      <div class="cta-container col-3">
+        <a href="/assets/pdf/bostonMenu.pdf" download="" class="btn-primary"
+          >View spa menu</a
+        >
       </div>
     </div>
   </section>

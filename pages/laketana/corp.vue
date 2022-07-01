@@ -4,7 +4,7 @@
     <Destinav base="" home="/laketana" dir="Lake Tana" />
     <Corporate :corp="corp" />
     <BishFooter :footer="footer" />
-     <Sticky path="tana" />
+    <Sticky path="tana" />
   </div>
 </template>
 
@@ -23,60 +23,42 @@ export default {
         heroTitle: "Corporate at Kuriftu Resort & Spa Lake Tana",
         heroSubTitle: "Corporate at Kuriftu Resort & Spa Lake Tana",
         heroText: `With the tranquil atmosphere that surrounds this resort, corporate clients are able to take full advantage of their benefits. Our team places value on the needs of each individual, curating the ultimate getaway`,
-        heroLink: "#",
+        heroLink: "/event#enquiry-form",
         heroUrl: "Make an enquiry",
         feature: {
           img: "laketana/corp/ConferenceHall.webp",
           title: "Corporate Rate Agreement",
           text: `Let us take care of your teams by rejuvinating and stregthening their relations with one another to optimize their level of efficiency by becoming corporate clients -  having access to our extensive list of activities, destinations and experineces within the wellness space will help companies reap the benefits. Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and we will customize your membership accordingly!`,
-          uri: "#",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         Lfeature: {
           img: "laketana/corp/CorporateMembership.webp",
           title: "Corporate membership",
           text: `Treat your team to a wild adventure at Kuriftu Entoto Adventure Park - our team can curate the perfect experience ranging from outdoor meetings in our Hammock Village, adventurous activities as ice breakers and orientation for new staff, rejuvinating spa services to relax the mind, and many more `,
-          uri: "#",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         feature1: {
           img: "laketana/corp/CorporateRetreat.webp",
           title: "Corporate Retreat",
           text: `Allow us to host your companies conference, meetings or events in one of our four conference halls. Break out sessions can be facilitated in the surrounding cabanas for an alternative experience in the outdoors `,
-          uri: "#",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         Lfeature: {
           img: "laketana/corp/CorporateMembership.webp",
           title: "Host a Meeting or Conference",
           text: `Thinking of hosting an event? Give us a call and our team can help plan your very own get-together, anniversary, birthday party, family trip - basically anything!`,
-          uri: "#",
+          uri: "/event#enquiry-form",
           link: "Make an enquiry",
         },
         venues: [
           {
             id: 1,
-            img: "bishoftu/corp/1.webp",
-            title: "Balambaras Hall",
-            text: `The Balambaras hall is the biggest hall in our vicinity, and it has the capacity to hold 120 people at once.`,
-          },
-          {
-            id: 2,
             img: "bishoftu/corp/2.webp",
             title: "Conference Hall",
             text: `Our conference hall accommodates up to 20 people - fostering a closer bond for those participating in any scheduled experince, whether it be a retreat or meeting.`,
-          },
-          {
-            id: 3,
-            img: "bishoftu/corp/3.webp",
-            title: "Meantwab Hall",
-            text: `Named after one of Ethiopia's queens, Menatwab hall has the capacity to hold 35 people. `,
-          },
-          {
-            id: 4,
-            img: "bishoftu/corp/4.webp",
-            title: "Girum Hall",
-            text: `Girum Hall is the second biggest hall, at our resort, with the capacity of serving 40 people at once.  `,
           },
         ],
         other: [
