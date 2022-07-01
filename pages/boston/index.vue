@@ -63,12 +63,9 @@
               </div>
 
               <div class="swim">
-                <h1 class="title">Art Gallery Displays</h1>
+                <h1 class="title"></h1>
                 <p class="text">
-                  As you wait for your appointment take a stroll around the
-                  entire Boston Day Spa floor and discover local art stationed
-                  all across. Make your own interpretations of the work through
-                  this experience!
+               
                 </p>
               </div>
             </div>
@@ -140,7 +137,10 @@ export default {
       // acc content
       accTitle: {
         title: "Art Gallery",
-        text: `With only 28 rooms, Kuriftu Tana offers guests a more intimate experience with their natural surroundings and an opportunity to explore areas in and out of the resort`,
+        text: `   As you wait for your appointment take a stroll around the
+                  entire Boston Day Spa floor and discover local art stationed
+                  all across. Make your own interpretations of the work through
+                  this experience!`,
       },
       bishTitle: {
         subTitle: "Addis Ababa, Ethiopia",
