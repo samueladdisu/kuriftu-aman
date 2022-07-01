@@ -43,7 +43,7 @@ export default {
         },
         {
           id: 8,
-          src: "awash/firstSlider/8.webp",
+          src:  "awash/acc/junior/jun1.webp",
         },
         {
           id: 9,
@@ -72,6 +72,18 @@ export default {
         {
           id: 15,
           src: "awash/acc/presidential/long.webp",
+        },
+           {
+          id: 16,
+          src: "awash/corp/Co3.webp",
+        },
+             {
+          id: 17,
+          src: "awash/acc/premium/prem2.webp",
+        },
+              {
+          id: 17,
+          src: "awash/acc/premium/prem1.webp",
         },
       ],
 

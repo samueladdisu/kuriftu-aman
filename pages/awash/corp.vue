@@ -22,7 +22,7 @@ export default {
         heroLink: "/",
         heroUrl: "Make an enquiry",
         feature: {
-          img: "awash/corp/co.webp",
+          img: "awash/corp/Co3.webp",
           title: "Corporate Rate Agreement",
           text: `Let us take care of your teams by rejuvinating and stregthening their relations with one another to optimize their level of efficiency by becoming corporate clients -  having access to our extensive list of activities, destinations and experineces within the wellness space will help companies reap the benefits.
 Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and we will customize your membership accordingly!`,
@@ -46,17 +46,17 @@ Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and w
 
         other: [
           {
-            img: "bishoftu/corp/catering.webp",
+            img: "awash/corp/Menu&Catering.webp",
             title: "Menu & Catering",
             text: `Our resort caters to your choice of dishes and plates for your meetings and retreats `,
           },
           {
-            img: "bishoftu/corp/1O.webp",
+            img: "awash/corp/SpaceOrganization.webp",
             title: "Space organization",
             text: `Based on your needs our resort provides different arrangements of space. `,
           },
           {
-            img: "bishoftu/corp/2O.webp",
+            img: "awash/corp/ClosingEvent.webp",
             title: "Closing event",
             text: `On your last day, Our resort provides a memorable ceremony to commemorate your time with us. `,
           },
