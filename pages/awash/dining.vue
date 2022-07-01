@@ -16,6 +16,11 @@ export default {
         slides: [
           "awash/dining/TheFallsRestaurant&Bar.webp",
           "awash/dining/ThePoolBar&Grill.webp",
+              "awash/dining/din1.webp",
+          "awash/dining/din2.webp",
+            "awash/dining/din3.webp",
+          
+
         ],
         heroTitle: "Dinning at Kuriftu Resort & Spa Awash Falls",
         heroSubTitle: "Kuriftu Resort & Spa Awash Falls",

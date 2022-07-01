@@ -20,7 +20,7 @@ export default {
       gallery: [
         {
           id: 1,
-          src: "dz-cover.jpg",
+          src: "_DSC5641 (2)-min.jpg",
         },
         {
           id: 2,
@@ -36,11 +36,11 @@ export default {
         },
         {
           id: 5,
-          src: "_DSC5641 (2)-min.jpg",
+          src:  "waterpark/din/dinslide2.webp",
         },
         {
           id: 6,
-          src: "_DSC5351 (2)-min.jpg",
+          src: "waterpark/din/KuriftuBuffet.webp",
         },
         {
           id: 7,
@@ -48,7 +48,11 @@ export default {
         },
         {
           id: 8,
-          src: "_DSC5400 (2)-min.jpg",
+          src: "waterpark/din/TreatByThePorch.webp",
+        },
+         {
+          id: 9,
+          src:  "waterpark/din/dinslide5.webp",
         },
       ],
       footer: {

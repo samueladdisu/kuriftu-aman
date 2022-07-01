@@ -19,16 +19,18 @@ export default {
     return {
       dining: {
         slides: [
-          "bishoftu/acc/pre5.webp",
-          "bishoftu/acc/pre6.webp",
-          "bishoftu/acc/pre7.webp",
-          "bishoftu/acc/pre8.webp",
+          "waterpark/din/dinslide.webp",
+          "waterpark/din/dinslide2.webp",
+          "waterpark/din/dinslide3.webp",
+          "waterpark/din/dinslide4.webp",
+           "waterpark/din/dinslide5.webp",
+            "waterpark/din/dinslide6.webp",
         ],
         heroTitle: "Dinning at Kuriftu Waterpark",
         heroSubTitle: "Dinning at Kuriftu Waterpark",
         heroText: `The dining experience at Kuriftu Resort & Spa restaurant has never been more fulfilling.`,
         feature: {
-          img: "waterpark/Plaza.webp",
+          img: "waterpark/din/Plaza.webp",
           title: "Plaza",
           text: `Dine at our food court beside the cool, fresh water and the fun rides at our water park.`,
           uri: "/",
@@ -36,17 +38,17 @@ export default {
         },
         other: [
           {
-            img: "waterpark/KuriftuBuffet.webp",
+            img: "waterpark/din/KuriftuBuffet.webp",
             title: "Kuriftu Buffet",
             text: `Serve yourself with our various types of buffets which you can enjoy at our resort`,
           },
           {
-            img: "waterpark/TreatByThePorch.webp",
+            img: "waterpark/din/TreatByThePorch.webp",
             title: "Treat by the porch",
             text: `A treat for the eyes and the stomach!`,
           },
           {
-            img: "waterpark/TreatByThePorch.webp",
+            img: "waterpark/din/ReserveATable.webp",
             title: "Reserve a Table",
             text: `Let us know beforehand so that we can save you the best sit in the house.  `,
           },
