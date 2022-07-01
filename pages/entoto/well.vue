@@ -26,7 +26,7 @@ export default {
           img: "Entoto/well/fit.webp",
           subtitle: "glamping",
           title: "Fitness",
-          text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sint consequatur, doloremque ea exercitationem delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam doloremque ea exercitationem, delectus hic eveniet quibusdam`,
+          text: `Plan your very own fitness experience at Kuriftu Entoto Adventure Park - this mountain is the practice grounds for many Ethiopian runners and athletes, from the crisp clean air to the high altitude taking your breath away every step of your journey, this space is ideal for nature based fitness`,
           uri: "/",
           link: "View full experience guide",
         },
@@ -40,7 +40,7 @@ export default {
           text2: `Give yourself a break from the stresses of everyday life - not only will a full day of wellness related activities benefit your mental health, but your level of efficiency at work as well! It is up to each individual to care for themselves and take time to disconnect from draining lifestyles`,
           title3: "Rest Easy Experience",
           text3: `Our spa services stem from the genuine care we have for each individuals health and wellbeing - browse through our Forest Spa menu or feel free to contact one of our consulants for advise based on your own personal needs`,
-          uri: "/",
+          pdf: "/assets/pdf/entotoSpa.pdf",
         },
         amenities: [
           "Steam / Sauna",
@@ -48,13 +48,13 @@ export default {
           "Resting Area",
           "lorem ipsum dolor",
         ],
-        amenities1: ["Massage", "Manicure", "Pedicure", "lorem ipsum dolor"],
-        amenities2: [
-          "lorem ipsum dolor",
-          "lorem ipsum dolor",
-          "lorem ipsum dolor",
-          "lorem ipsum dolor",
-        ],
+        amenities1: ["Massage", "Manicure", "Pedicure"],
+        // amenities2: [
+        //   "lorem ipsum dolor",
+        //   "lorem ipsum dolor",
+        //   "lorem ipsum dolor",
+        //   "lorem ipsum dolor",
+        // ],
       },
       footer: {
         title: "Kuriftu Resort & Spa Entoto",

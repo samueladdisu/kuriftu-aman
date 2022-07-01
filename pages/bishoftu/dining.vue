@@ -28,7 +28,7 @@ export default {
           img: "bishoftu/dining/LakeFrontF.webp",
           title: "Lakefront Restaurant ",
           text: `Perfectly situated over the banks of Lake Kuritfu lays our signature Lakefront Restaurant - decorated with white washed mosiac connected to the infinity pool above, massive art showcasing daily life in Bishoftu, and an incredible backdrop of the lake`,
-          uri: "#",
+          pdf: "/assets/pdf/a la carte menu.pdf",
           link: "view menu",
         },
         Lfeature: {
@@ -64,6 +64,10 @@ export default {
             text: `Lay back and relax in our perfectly shaded cabanas while watching your family and friends venture in water!`,
           },
         ],
+        reserve: {
+          tel: "+251924949494",
+          email: "booking@kurifturesorts.com",
+        },
       },
       footer: {
         title: "Kuriftu Resort & Spa Bishoftu",

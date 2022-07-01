@@ -3,7 +3,7 @@
     <HeaderApp />
     <Destinav base="entoto/" home="entoto/" dir="Entoto" />
     <Dindex :index="index" />
-     <Sticky path="entoto" />
+    <Sticky path="entoto" />
   </div>
 </template>
 
@@ -35,11 +35,11 @@ The Adventure Park captures the beauty of this sacred location by highlighting n
         ],
 
         // acc cover image
-        accImg: "Entoto/Accomodation.webp",
+        accImg: "Entoto/Glamping.webp",
         // acc content
         accTitle: {
           subTitle: "ACCOMODATION",
-          title: "Glamping",
+          title: "Tented Camp Site",
           text: `With a backdrop of the distinct wild and lush Entoto Forest, our Kuriftu Entoto Adventure Park offers an alternative hospitality experience. With locally sourced materials used to construct and furnish our Presidential Cabin and the interior of our Glamping facilties, guests are placed in a natural setting to simply relax and savour the peace and quiet.`,
           link: "view all accomodations",
           url: "entoto/acc",
@@ -58,7 +58,7 @@ The Adventure Park captures the beauty of this sacred location by highlighting n
           },
           {
             id: 2,
-            img: "Entoto/mountain.webp",
+            img: "Entoto/Dining.webp",
             subTitle: "dining",
             title: "Mountain Dining",
             text: `Our Adventure Park includes 5 dining hot spots, ranging from 5-star international standard cuisine, to cultural dishes craved by all!

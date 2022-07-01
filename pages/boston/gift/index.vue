@@ -4,7 +4,7 @@
     <Destinav base="" class="boston-nav" home="/boston" dir="Boston" />
     <Gift :gift="gift" />
     <BishFooter :footer="footer" />
-    <Sticky path="awash" />
+    <Sticky page="boston" />
   </div>
 </template>
 

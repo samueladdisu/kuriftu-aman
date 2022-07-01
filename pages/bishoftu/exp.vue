@@ -50,7 +50,7 @@ export default {
             text: `Explore fresh cuts of meat for your palate, every day / all day at Kuriftu Lequanda`,
           },
           {
-            img: "bishoftu/exp/BirdWatching.webp",
+            img: "bishoftu/exp/BirdWatching1.webp",
             title: "Bird watching",
             text: `With an enchanting ecosystem and luxurious natural setting, Kuriftu Resorts & Spa ranks among the best bird-watching facilties in the country! With over 300 bird species migrating in and out of the land, its an opportunity for any bird watcher to enjoy`,
           },

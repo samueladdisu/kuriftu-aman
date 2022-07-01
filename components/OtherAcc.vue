@@ -85,7 +85,11 @@ export default {
           // padding-bottom: 3.3125rem;
           opacity: 0.5;
           transition: all 0.3s;
-
+          img {
+            width: 100%;
+            height: 25rem;
+            object-fit: cover;
+          }
           .content {
             padding: 2rem;
             height: 10rem;

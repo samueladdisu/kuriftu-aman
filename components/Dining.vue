@@ -12,7 +12,11 @@
       <Feature :feature="dining.feature1" v-if="dining.feature1" />
       <LeftFeature :feature="dining.Lfeature1" v-if="dining.Lfeature1" />
       <Feature :feature="dining.feature2" v-if="dining.feature2" />
-      <OtherAcc title="Dining Experiences" v-if="dining.other" :other="dining.other" />
+      <OtherAcc
+        title="Dining Experiences"
+        v-if="dining.other"
+        :other="dining.other"
+      />
 
       <section class="make__res">
         <div class="container">
@@ -27,9 +31,9 @@
             </div>
 
             <div class="m__lower">
-              <p class="text">Tel: +2519029389</p>
-              <p class="text">For reservation: +2519029389</p>
-              <p class="text">Email: bishoftu@kurifturesortspa.com</p>
+              <p class="text">Tel: {{ dining.reserve.tel }}</p>
+              <p class="text">For reservation: {{ dining.reserve.tel }}</p>
+              <p class="text">Email: {{ dining.reserve.email }}</p>
             </div>
           </div>
           <hr />

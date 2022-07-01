@@ -27,15 +27,19 @@ export default {
           img: "awash/dining/TheFallsRestaurant&Bar.webp",
           title: "THE FALLS RESTAURANT & BAR ",
           text: `Designed to highlight our unparalleled view of the park’s waterfall, The Falls Restaurant & Bar is decorated with natural light flooding the space with colorful accents, stone structures and brick elements, creating an organic vibrance for our guests to absorb. From top-brand liquor to signature cocktails and a set menu made-up of locally sourced ingredients, our dining experience fully encompasses our guests needs.`,
-          uri: "/",
+          pdf: "/assets/pdf/awashMenu.pdf",
           link: "view menu",
         },
         Lfeature: {
           img: "awash/dining/ThePoolBar&Grill.webp",
           title: "THE POOL BAR & GRILL",
           text: `We are excited to present our first Dipping Pool experience paired with our bar & grill on an elevated platform overlooking the waterfall. The perfect destination for a romantic getaway with picture perfect views from sunrise to sunset`,
-          uri: "/",
+          pdf: "/assets/pdf/awashMenu.pdf",
           link: "view menu",
+        },
+        reserve: {
+          tel: "+251944448800",
+          email: "booking@kurifturesorts.com",
         },
       },
       footer: {

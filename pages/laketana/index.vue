@@ -23,13 +23,13 @@ export default {
         },
         // slides
         photos: [
-          "bishoftu/firstSlider/1.webp",
-          "bishoftu/firstSlider/2.webp",
-          "bishoftu/acc/loft/3.webp",
-          "long.webp",
-          "bishoftu/dining/KuriftuBuffetO.webp",
-          "bishoftu/ExpLong.webp",
-          "bishoftu/acc/pre8.webp",
+          "laketana/acc/lakeview/lvL1.webp",
+          "laketana/corp/ConferenceHall.webp",
+          "laketana/event/Honeymoon.webp",
+          "laketana/exp/CabanaDinig.webp",
+          "laketana/well/2L.webp",
+          "laketana/Lake tana.webp",
+          "laketana/dining.webp",
         ],
 
         // acc cover image
@@ -56,7 +56,7 @@ export default {
           },
           {
             id: 2,
-            img: "laketana/dining.webp",
+            img: "laketana/Dining1.webp",
             subTitle: "dining",
             title: "culinary on the lake",
             text: `Enjoy the various traditional and western cuisines carefully prepared while taking in the beautiful scenery. Our restaurant has a stunning backdrop of Lake Tana as well as several cabanas for our guests convenience `,
@@ -92,7 +92,7 @@ export default {
           },
           {
             id: 6,
-            img: "long.webp",
+            img: "laketana/FutureTravels.webp",
             subTitle: "gift voucher",
             title: "future travels",
             text: `Get gift vouchers for your loved ones to be part of the incredible experiences provided at our resort.`,

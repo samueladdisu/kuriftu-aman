@@ -43,7 +43,7 @@ export default {
           link: "explore",
         },
         Lfeature1: {
-          img: "bishoftu/event/socialEvents.webp",
+          img: "bishoftu/event/social.webp",
           title: "Social Events",
           text: `Thinking of hosting an event? Give us a call and our team can help plan your very own get-together, anniversary, birthday party, family trip - basically anything!`,
           uri: "#",

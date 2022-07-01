@@ -4,7 +4,7 @@
     <Destinav base="" home="/laketana" dir="Lake Tana" />
     <Dining :dining="dining" />
     <BishFooter :footer="footer" />
-     <Sticky path="tana" />
+    <Sticky path="tana" />
   </div>
 </template>
 
@@ -14,9 +14,9 @@ export default {
     return {
       dining: {
         slides: [
-          "laketana/dining/1.webp",
-          "laketana/dining/2.webp",
           "laketana/dining/3.webp",
+          "laketana/dining/2.webp",
+          "laketana/dining/1.webp",
           "laketana/dining/4.webp",
         ],
         heroTitle: "Dining at Kuriftu Resort & Spa Lake Tana",
@@ -46,6 +46,10 @@ export default {
             text: `Let us know beforehand so that we can save you the best sit in the house.`,
           },
         ],
+        reserve: {
+          tel: "+251920959797",
+          email: "booking@kurifturesorts.com",
+        },
       },
       footer: {
         title: "Kuriftu Resort & Spa Lake Tana",

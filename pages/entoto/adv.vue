@@ -27,7 +27,7 @@
       <div class="swiper-pagination"></div>
     </div>
 
-    <OtherAcc title="Entoto Adventure Experiences" :other="other" />
+    <!-- <OtherAcc title="Entoto Adventure Experiences" :other="other" /> -->
     <BishFooter :footer="footer" />
     <Sticky path="entoto" />
   </div>

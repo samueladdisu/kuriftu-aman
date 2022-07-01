@@ -40,7 +40,7 @@ Keep an eye out for the vast number of bird species located around the park and 
           title2: "Hiking",
           text2: `Enjoy a stroll in the late afternoon or early morning, before the Awash sun is in full heat, by the side of the river or through the park. A chance to clear your mind, and get in touch with nature.!`,
           title3: "Yoga",
-          text3: `A healing process that leads to more centeredness and less distress. Sunrise and sunset yoga are offered on weekends at Kuriftu Awash Falls, a time to perfectly harmonize the mind and body.`,
+          text3: `A healing process that leads to more centeredness and less distress. Sunrise and sunset yoga are offered on weekends at Kuriftu Awash Falls, a time to perfectly harmonize the mind and body.(based on availability)`,
           title4: "Mountain Biking",
           text4: `Get your heart pumping and your blood circulating! Pave a trail and exploe the Awash National Park - get in touch with your adventurous side`,
           title5: "Spa",

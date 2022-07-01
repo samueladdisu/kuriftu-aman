@@ -74,7 +74,7 @@ export default {
           },
           {
             id: 4,
-            img: "Entoto/corporate.webp",
+            img: "bishoftu/corp/2.webp",
             subTitle: "corporate",
             title: "CORPORATE EXPERIENCE",
             text: `Allow us to share your greatest moments by curating unforgettable celebratory events! Whether it be a birthday party in the Waterpark for kids, a pool party by The Village Pool & Bar, or a one of a kind nature based wedding that can accommodate up to 3,000 people - We've got you covered!`,

@@ -26,8 +26,8 @@ export default {
         //   link: "View full experience guide",
         // },
         highlight: {
-          img1: "bishoftu/well/1.webp",
-          img2: "bishoftu/well/long1.webp",
+          img1: "bishoftu/well/mass.webp",
+          img2: "bishoftu/well/openWindow.webp",
           img3: "bishoftu/well/long2.webp",
           title1: "Relax, Rebalance & Restore",
           text1: `Venture to the depths of Bishoftu's natural landscape, tap into your happy place to nourish your body with mindfull experiences`,

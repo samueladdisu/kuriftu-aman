@@ -31,6 +31,10 @@ export default {
   .container {
     .single-high {
       margin-bottom: 4.5rem;
+      img {
+        height: 46.5625rem;
+        object-fit: cover;
+      }
       h5 {
         margin-top: 1.6rem;
       }
