@@ -6,9 +6,7 @@
       <div class="container">
         <div class="video-wrapper">
           <img src="../assets/img/IMG-20210910-WA0004.jpg" alt="" />
-          <div class="title-about">
-            <h2>About Us</h2>
-          </div>
+        
         </div>
       </div>
     </section>
@@ -61,47 +59,32 @@
               promote Inter-African Tourism with a focus on fostering a new
               mindset for the travel market.
             </p>
+            <img class="mid-img" src="../assets/img/What Makes us unique.jpg" alt="">
+                  <h4 >WHAT MAKES US UNIQUE?</h4>
+          <p class="unique-list">
+                <b> We </b> are a company solely owned and operated by Africans.<br/>
+                          <b> We </b> provide permanent employment opportunities to 2000+
+                people thus far.<br/>
+                  <b> We </b> support local businesses by purchasing from the
+                communities that neighbor our resorts.<br />
+                  <b> We </b>are a Strategic Partner of Ethiopian Airlines and
+                Ethiopias Tourism Organization.<br />
+                  <b> We </b>produce all furniture in-house as well as other
+                culturally artisanal design elements of our resorts (Thatched
+                Roof, Woodwork, Leather Braiding, Stonework etc.).<br />
+                    <b> We </b>design all of our resorts in-house and construct them
+                with our own construction team.<br />
+                <b> Our </b> CEO is an active member of the Ethiopian Board of
+                Tourism.<br />
+                 <b> Our </b> CEO is an active member of the Ethiopian Board of
+                Tourism.<br />
+                <b> Our </b>78% is corporate team.<br />
+          </p>
           </div>
         </div>
         <div class="corporate">
-          <h3 class="corporate-txt">WHAT MAKES US UNIQUE?</h3>
-          <div class="wrapper">
-            <div class="corporate-text">
-              <p class="corporate-txt3">
-                <b> We </b> are a company solely owned and operated by Africans.
-              </p>
-              <p class="corporate-txt3">
-                <b> We </b> provide permanent employment opportunities to 2000+
-                people thus far.
-              </p>
-              <p class="corporate-txt3">
-                <b> We </b> support local businesses by purchasing from the
-                communities that neighbor our resorts.
-              </p>
-
-              <p class="corporate-txt3">
-                <b> We </b>are a Strategic Partner of Ethiopian Airlines and
-                Ethiopias Tourism Organization
-              </p>
-              <p class="corporate-txt3">
-                <b> We </b>produce all furniture in-house as well as other
-                culturally artisanal design elements of our resorts (Thatched
-                Roof, Woodwork, Leather Braiding, Stonework etc.).
-              </p>
-              <p class="corporate-txt3">
-                <b> We </b>design all of our resorts in-house and construct them
-                with our own construction team.
-              </p>
-              <p class="corporate-txt3">
-                <b> Our </b> CEO is an active member of the Ethiopian Board of
-                Tourism.<br />
-              </p>
-              <p class="corporate-txt3"><b> Our </b>78% is corporate team.</p>
-            </div>
-            <div class="style-image">
-              <img src="../assets/img/What Makes us unique.jpg" alt="" />
-            </div>
-          </div>
+    
+        
         </div>
 
         <div>
@@ -365,7 +348,7 @@
             <p></p>
             <div class="book-buttons">
               <a class="btn btn-cta text" href="#"
-                ><i class="fa fa-download"></i>DOWNLOAD COMPANY PROFILE</a
+                >DOWNLOAD COMPANY PROFILE</a
               >
             </div>
           </div>
@@ -926,36 +909,10 @@ export default {
 
     .container {
       .video-wrapper {
-        position: relative;
-        .title-about {
-          h2 {
-            position: absolute;
-            top: 6.5rem;
-
-            left: 8rem;
-            color: $kuriftu-black;
-            // color:black;
-            @extend .title;
-            font-size: 2rem;
-            text-transform: uppercase;
-            @include responsive($md) {
-              font-size: 3.5rem;
-              top: 14rem;
-
-              left: 18rem;
-            }
-            @include responsive($lg) {
-              top: 19rem;
-
-              left: 25rem;
-            }
-            @include responsive($xl) {
-              font-size: 7rem;
-              top: 25rem;
-              left: 31rem;
-            }
-          }
-        }
+      
+     img{
+      width: 100%;
+     }
       }
     }
   }
@@ -1060,14 +1017,14 @@ export default {
       h2 {
         color: $kuriftu-black;
         @extend .title;
+        text-align: center;
 
         margin-top: 0.94rem;
-        text-align: left;
+       
       }
       .ceo-all {
         display: flex;
         align-items: center;
-
         flex-direction: column;
         .stay-slide {
           margin-top: 1.88rem;
@@ -1084,8 +1041,7 @@ export default {
         }
         .stay-desc {
           margin-top: 1.88rem;
-          margin-left: 1rem;
-          margin-right: 1rem;
+      
           h4 {
             @extend .title;
             font-size: 1.5rem;
@@ -1105,6 +1061,7 @@ export default {
 
             text-align: left;
           }
+   
           .book-buttons {
             display: grid;
             place-items: left;
@@ -1130,7 +1087,7 @@ export default {
         .ceo-all {
           .stay-desc {
             p {
-              width: 30rem;
+              width: 100%;
             }
           }
         }
@@ -1171,21 +1128,7 @@ export default {
       }
     }
   }
-  @include responsive($xl) {
-    .ceo {
-      .container {
-        .ceo-all {
-          .stay-slide {
-            .slide-card {
-              img {
-                // height: 40rem;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+
   .who-we-are {
     width: 100%;
     @include responsive($xl) {
@@ -1230,8 +1173,7 @@ export default {
         }
         .stay-desc {
           margin-top: 1.88rem;
-          margin-left: 1rem;
-          margin-right: 1rem;
+   
           display: grid;
           place-items: center;
           h4 {
@@ -1252,6 +1194,18 @@ export default {
             font-size: 1rem;
 
             text-align: center;
+          }
+                 .mid-img{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            width: 30rem;
+            height: 40rem;
+          
+            object-fit: cover;
+            @include responsive($md){
+              width: 100%;
+              
+            }
           }
           .book-buttons {
             display: grid;
@@ -1304,32 +1258,20 @@ export default {
       }
     }
   }
-  @include responsive($lg) {
+  @include responsive($xl) {
     .who-we-are {
       .container {
         .who-we-are-all {
           .stay-desc {
             p {
-              width: 60rem;
+              width: 70rem;
             }
           }
         }
       }
     }
   }
-  @include responsive($lg) {
-    .who-we-are {
-      .container {
-        .who-we-are-all {
-          .stay-desc {
-            p {
-              width: 80rem;
-            }
-          }
-        }
-      }
-    }
-  }
+
   @include responsive($lg) {
     .who-we-are {
       .container {
@@ -1369,7 +1311,7 @@ export default {
       display: grid;
       place-items: center;
       align-items: flex-start;
-      margin-top: 6rem;
+      margin-top: 2rem;
       gap: 1rem;
       grid-template-columns: 1fr;
       @include responsive($md) {
@@ -1408,7 +1350,7 @@ export default {
       .count-text {
         @extend .text;
         font-size: 0.9rem;
-        color: $kuriftu-grey;
+        color: $kuriftu-black;
         font-weight: normal;
         margin-top: 1rem;
         margin-bottom: 0;
@@ -1418,7 +1360,7 @@ export default {
         margin: 0 auto;
         float: none;
         display: table;
-        color: #4ad1e5;
+   
       }
     }
   }
@@ -1666,6 +1608,12 @@ export default {
             justify-content: left;
 
             margin-top: 1.88rem;
+            .btn{
+              padding: 1rem;
+              padding-left: 2rem;
+                   padding-right: 2rem;
+
+            }
           }
         }
       }
