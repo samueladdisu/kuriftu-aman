@@ -7,8 +7,8 @@
       dir="Water Park"
       class="waterpark-nav"
     />
-    <Hero video="725627417" />
-    <Intro :data="bishTitle" />
+    <Hero video="725627417" class="E-bg" />
+    <Intro :data="bishTitle" class="E-bg" />
     <section class="desti-highlight">
       <div class="container">
         <div class="single-high">
