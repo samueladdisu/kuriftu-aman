@@ -21,8 +21,8 @@
     <section class="highlight">
       <div class="container">
         <div class="single-highlight a">
-          <img src="@/assets/img/home/Spa1.webp" alt="" />
-          <h5 class="sub-title">Spa</h5>
+          <img src="@/assets/img/home/Adventure.webp" alt="" />
+          <h5 class="sub-title">Adventure</h5>
           <h1 class="title">Discover extraordinary destinations</h1>
           <p class="text">
             Absorb the unique beauty of Ethiopia's natural landscapes and
@@ -95,26 +95,20 @@
       <section class="showcase">
         <div class="container">
           <div class="single-showcase">
-            <img src="@/assets/img/home/Loft.webp" alt="" />
-            <h5 class="sub-title">loft</h5>
-            <h1 class="title">village loft</h1>
+            <img src="@/assets/img/home/Waterpark.webp" alt="" />
+            <h5 class="sub-title">Waterpark</h5>
+            <h1 class="title">Waterpark</h1>
             <p class="text">
-              Showcasing a fresh contemporary design with screed floor finishes,
-              vibrant art and lofted beds to accommodate full families or
-              friends trips, Kuriftu Debre Zeit offers a variety of room types
-              and aesthetics
+              Whether you are looking to spend an afternoon of fun with family or friends, searching the perfect weekend getaway, planning a birthday or group event, or even surprising a loved one, Kuriftu Water Park is your ultimate choice for a premier entertainment destination with guaranteed fun!
             </p>
           </div>
 
           <div class="single-showcase">
-            <img src="@/assets/img/home/Spa2.webp" alt="" />
-            <h5 class="sub-title">spa</h5>
-            <h1 class="title">entoto forest spa</h1>
+            <img src="@/assets/img/home/Tana.webp" alt="" />
+            <h5 class="sub-title">Lake Tana</h5>
+            <h1 class="title">Lake Tana</h1>
             <p class="text">
-              Refresh your body and mind in the wilderness by discovering a new
-              wellness adventure at the Entoto Forest Spa where it's impossible
-              to escape the eucalyptus forest, filling the air with relaxing
-              aromas
+             Located in the capital of the Amhara Region, Bahirdar, Kuriftu Resort & Spa Lake Tana represents the Kuriftu brands second resort venture. As we seek to expand across Ethiopia, Lake Tana with its historic and cultural value was the perfect choice for expansion. Paired with scenic views, wildlife excursions and religious routes - this destination offers a new adventure for our Kuriftu family!
             </p>
           </div>
         </div>

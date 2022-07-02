@@ -98,7 +98,7 @@ export default {
           other: [
             {
               img: "bishoftu/firstSlider/1.webp",
-              title: "Glamping Tents",
+              title: "Tent Camp Site",
               text: `Carefully hidden amongst the eucalyptus trees, our Kuriftu Glamping site offers guests a quiet escape from reality with nothing but the natural world surrounding.`,
               link: "1",
             },

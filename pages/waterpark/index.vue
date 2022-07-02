@@ -7,8 +7,8 @@
       dir="Water Park"
       class="waterpark-nav"
     />
-    <Hero video="725627417" class="E-bg" />
-
+    <Hero video="725627417" />
+    <Intro :data="bishTitle" />
     <section class="desti-highlight">
       <div class="container">
         <div class="single-high">
@@ -111,6 +111,7 @@
 
 <script>
 import Hero from "../../components/Hero.vue";
+import Intro from "../../components/Intro.vue";
 export default {
   data() {
     return {
@@ -120,24 +121,29 @@ export default {
         "bishoftu/acc/pre7.webp",
         "bishoftu/acc/pre8.webp",
       ],
+      bishTitle: {
+        subTitle: "waterpark",
+        title: "kuriftu Waterpark",
+        text: `Whether you are looking to spend an afternoon of fun with family or friends, searching the perfect weekend getaway, planning a birthday or group event, or even surprising a loved one, Kuriftu Water Park is your ultimate choice for a premier entertainment destination with guaranteed fun!`,
+      },
       other: [
         {
           img: "waterpark/exp/exp1.webp",
-          title: "one-bedroom lake view",
+          title: "Birthday",
           text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
             Consectetur nostrum minima facilis alias magni! Harum ea amet
             asperiores provident accusamus.`,
         },
         {
           img: "waterpark/exp/exp2.webp",
-          title: "one-bedroom lake view",
+          title: "Events",
           text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
             Consectetur nostrum minima facilis alias magni! Harum ea amet
             asperiores provident accusamus.`,
         },
         {
           img: "waterpark/exp/exp3.webp",
-          title: "one-bedroom lake view",
+          title: "Social Events",
           text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
             Consectetur nostrum minima facilis alias magni! Harum ea amet
             asperiores provident accusamus.`,
@@ -164,7 +170,7 @@ export default {
   created() {
     console.log(this.$route.path);
   },
-  components: { Hero },
+  components: { Hero, Intro },
 };
 </script>
 
@@ -174,6 +180,7 @@ export default {
   height: 3rem;
   width: 100%;
 }
+
 @include responsive($xl) {
   .waterpark-nav {
     .container {
