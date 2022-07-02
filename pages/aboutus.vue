@@ -6,9 +6,6 @@
       <div class="container">
         <div class="video-wrapper">
           <img src="../assets/img/IMG-20210910-WA0004.jpg" alt="" />
-          <div class="title-about">
-            <h2>About Us</h2>
-          </div>
         </div>
       </div>
     </section>
@@ -202,7 +199,7 @@
               struggle against COVID-19<br />
               Kuriftu Resorts donated 200 Water-park entrance tickets to kids
               from Sele Enat Mahiber (SEM), an organization dedicated to
-              improving life in vulnerable communities around Ethiopia<br />
+              improving life in vulnerable communities around Ethiopia<br /><br /><br />
               In an effort to minimize car accidents and maximize car safety
               measures, Kuriftu Resorts setup 60 traffic billboards across the
               Oromia and Amhara regions<br />
