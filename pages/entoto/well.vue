@@ -42,12 +42,7 @@ export default {
           text3: `Our spa services stem from the genuine care we have for each individuals health and wellbeing - browse through our Forest Spa menu or feel free to contact one of our consulants for advise based on your own personal needs`,
           pdf: "/entotoSpa.pdf",
         },
-        amenities: [
-          "Steam / Sauna",
-          "Jaccuzi",
-          "Resting Area",
-          "lorem ipsum dolor",
-        ],
+        amenities: ["Steam / Sauna", "Jaccuzi", "Resting Area"],
         amenities1: ["Massage", "Manicure", "Pedicure"],
         // amenities2: [
         //   "lorem ipsum dolor",
