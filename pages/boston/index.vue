@@ -166,7 +166,7 @@ export default {
            {
           img: "boston/Spa.webp",
           title: "Spa",
-            text: ` `,
+            text: ``,
           
         },
                 {
