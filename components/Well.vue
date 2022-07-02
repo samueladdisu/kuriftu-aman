@@ -50,7 +50,7 @@
             <div class="line"></div>
             <a
               :href="well.highlight.pdf"
-              download=""
+              target="_blank"
               v-if="well.highlight.pdf"
               class="link"
             >

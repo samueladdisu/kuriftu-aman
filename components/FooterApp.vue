@@ -136,6 +136,27 @@
             </a>
           </div>
         </div>
+        <div id="TA_tchotel492" class="TA_tchotel trip-advisor">
+          <div
+            id="CDSWIDTC"
+            class="widTC2015 cx_brand_refresh1"
+            onclick="window.open('https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html'); return false;"
+          >
+            <a
+              target="_blank"
+              href="https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html"
+              rel="nofollow"
+              tabindex="0"
+              id="yui_3_17_2_1_1656685011911_1362"
+              ><img
+                src="https://www.tripadvisor.com/img/cdsi/img2/awards/v2/tchotel_2016_L-11655-2.png"
+                alt="Tripadvisor"
+                class="false"
+                id="false"
+            /></a>
+          </div>
+        </div>
+        <script src="https://www.jscache.com/wejs?wtype=tchotel&amp;uniq=492&amp;locationId=1813539&amp;lang=en_US&amp;year=2016&amp;display_version=2"></script>
       </div>
     </section>
   </div>
@@ -150,6 +171,10 @@ export default {};
   margin-top: 2.14rem;
   margin-bottom: 1.5rem;
   .container {
+    .trip-advisor {
+      margin-top: 2rem;
+      align-items: center;
+    }
     .member-cta {
       h1,
       p,

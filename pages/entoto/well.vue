@@ -40,7 +40,7 @@ export default {
           text2: `Give yourself a break from the stresses of everyday life - not only will a full day of wellness related activities benefit your mental health, but your level of efficiency at work as well! It is up to each individual to care for themselves and take time to disconnect from draining lifestyles`,
           title3: "Rest Easy Experience",
           text3: `Our spa services stem from the genuine care we have for each individuals health and wellbeing - browse through our Forest Spa menu or feel free to contact one of our consulants for advise based on your own personal needs`,
-          pdf: "/assets/pdf/entotoSpa.pdf",
+          pdf: "/entotoSpa.pdf",
         },
         amenities: [
           "Steam / Sauna",

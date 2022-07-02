@@ -1,6 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  target: 'static',
+  // target: 'static',
   head: {
     title: 'kuriftu',
     htmlAttrs: {
@@ -54,7 +54,6 @@ export default {
   styleResources: {
     scss: ['./assets/scss/*.scss']
   },
-
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 

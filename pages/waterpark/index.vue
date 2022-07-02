@@ -7,7 +7,7 @@
       dir="Water Park"
       class="waterpark-nav"
     />
-  <Hero video="725627417"/>
+    <Hero video="725627417" class="E-bg" />
 
     <section class="desti-highlight">
       <div class="container">
@@ -110,63 +110,61 @@
 </template>
 
 <script>
-import Hero from '../../components/Hero.vue';
+import Hero from "../../components/Hero.vue";
 export default {
-    data() {
-        return {
-           
-            slides: [
-                "bishoftu/acc/pre5.webp",
-                "bishoftu/acc/pre6.webp",
-                "bishoftu/acc/pre7.webp",
-                "bishoftu/acc/pre8.webp",
-            ],
-            other: [
-                {
-                    img: "waterpark/exp/exp1.webp",
-                    title: "one-bedroom lake view",
-                    text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
+  data() {
+    return {
+      slides: [
+        "bishoftu/acc/pre5.webp",
+        "bishoftu/acc/pre6.webp",
+        "bishoftu/acc/pre7.webp",
+        "bishoftu/acc/pre8.webp",
+      ],
+      other: [
+        {
+          img: "waterpark/exp/exp1.webp",
+          title: "one-bedroom lake view",
+          text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
             Consectetur nostrum minima facilis alias magni! Harum ea amet
             asperiores provident accusamus.`,
-                },
-                {
-                    img: "waterpark/exp/exp2.webp",
-                    title: "one-bedroom lake view",
-                    text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
+        },
+        {
+          img: "waterpark/exp/exp2.webp",
+          title: "one-bedroom lake view",
+          text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
             Consectetur nostrum minima facilis alias magni! Harum ea amet
             asperiores provident accusamus.`,
-                },
-                {
-                    img: "waterpark/exp/exp3.webp",
-                    title: "one-bedroom lake view",
-                    text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
+        },
+        {
+          img: "waterpark/exp/exp3.webp",
+          title: "one-bedroom lake view",
+          text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
             Consectetur nostrum minima facilis alias magni! Harum ea amet
             asperiores provident accusamus.`,
-                },
-               
-            ],
-            footer: {
-                title: "Kuriftu WaterPark",
-                second: {
-                    first: "53.7 km from Addis Ababa Bole International Airport",
-                    second: "Lake Bishoftu",
-                    thrid: "Ethiopia",
-                },
-                thrid: {
-                    first: "Contact us on our direct phone line 9693",
-                    second: "Reception Desk +251924949494",
-                    thrid: "Email us at booking@kurifturesorts.com",
-                },
-                fourth: {
-                    url: "https://www.google.com/maps/dir/9,39.5/kuriftu+waterpark/@8.8907576,38.9712757,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x164b0da06ed09677:0x145b79037fab1f1c!2m2!1d39.0029434!2d8.7817245",
-                },
-            },
-        };
-    },
-    created() {
-        console.log(this.$route.path);
-    },
-    components: { Hero }
+        },
+      ],
+      footer: {
+        title: "Kuriftu WaterPark",
+        second: {
+          first: "53.7 km from Addis Ababa Bole International Airport",
+          second: "Lake Bishoftu",
+          thrid: "Ethiopia",
+        },
+        thrid: {
+          first: "Contact us on our direct phone line 9693",
+          second: "Reception Desk +251924949494",
+          thrid: "Email us at booking@kurifturesorts.com",
+        },
+        fourth: {
+          url: "https://www.google.com/maps/dir/9,39.5/kuriftu+waterpark/@8.8907576,38.9712757,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x164b0da06ed09677:0x145b79037fab1f1c!2m2!1d39.0029434!2d8.7817245",
+        },
+      },
+    };
+  },
+  created() {
+    console.log(this.$route.path);
+  },
+  components: { Hero },
 };
 </script>
 

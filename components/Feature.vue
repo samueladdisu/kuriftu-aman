@@ -14,7 +14,12 @@
 
         <div class="f__lower">
           <div class="line"></div>
-          <a :href="feature.pdf" download="" v-if="feature.pdf" class="link">
+          <a
+            :href="feature.pdf"
+            target="_blank"
+            v-if="feature.pdf"
+            class="link"
+          >
             {{ feature.link }}
           </a>
           <nuxt-link :to="feature.uri" v-if="feature.uri" class="link">
