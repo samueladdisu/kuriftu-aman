@@ -1,9 +1,14 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav base="waterpark/" home="waterpark/" dir="Water Park" class="waterpark-nav" />
-    <Hero video="725627417" />
-    <Intro :data="bishTitle" />
+    <Destinav
+      base="waterpark/"
+      home="waterpark/"
+      dir="Water Park"
+      class="waterpark-nav"
+    />
+    <Hero video="725627417" class="E-bg" />
+    <Intro :data="bishTitle" class="E-bg" />
     <section class="desti-highlight">
       <div class="container">
         <div class="single-high">
@@ -105,12 +110,11 @@
 </template>
 
 <script>
-import Hero from '../../components/Hero.vue';
-import Intro from '../../components/Intro.vue';
+import Hero from "../../components/Hero.vue";
+import Intro from "../../components/Intro.vue";
 export default {
   data() {
     return {
-
       slides: [
         "bishoftu/acc/pre5.webp",
         "bishoftu/acc/pre6.webp",
@@ -118,10 +122,10 @@ export default {
         "bishoftu/acc/pre8.webp",
       ],
       bishTitle: {
-          subTitle: "waterpark",
-          title: "kuriftu Waterpark",
-          text: `Whether you are looking to spend an afternoon of fun with family or friends, searching the perfect weekend getaway, planning a birthday or group event, or even surprising a loved one, Kuriftu Water Park is your ultimate choice for a premier entertainment destination with guaranteed fun!`,
-        },
+        subTitle: "waterpark",
+        title: "kuriftu Waterpark",
+        text: `Whether you are looking to spend an afternoon of fun with family or friends, searching the perfect weekend getaway, planning a birthday or group event, or even surprising a loved one, Kuriftu Water Park is your ultimate choice for a premier entertainment destination with guaranteed fun!`,
+      },
       other: [
         {
           img: "waterpark/exp/exp1.webp",
@@ -144,7 +148,6 @@ export default {
             Consectetur nostrum minima facilis alias magni! Harum ea amet
             asperiores provident accusamus.`,
         },
-
       ],
       footer: {
         title: "Kuriftu WaterPark",
@@ -167,7 +170,7 @@ export default {
   created() {
     console.log(this.$route.path);
   },
-  components: { Hero, Intro }
+  components: { Hero, Intro },
 };
 </script>
 

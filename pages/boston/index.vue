@@ -64,16 +64,13 @@
 
               <div class="swim">
                 <h1 class="title"></h1>
-                <p class="text">
-               
-                </p>
+                <p class="text"></p>
               </div>
             </div>
 
             <div class="lower__block">
               <div class="line"></div>
-
-              <a href="./assets/pdf/bostonMenu.pdf" target="_blank" class="link"
+              <a href="bostonMenu.pdf" target="_blank" class="link"
                 >View spa menu</a
               >
             </div>

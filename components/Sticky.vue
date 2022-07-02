@@ -74,7 +74,7 @@
       </div>
 
       <div class="cta-container col-3">
-        <a href="/assets/pdf/bostonMenu.pdf" download="" class="btn-primary"
+        <a href="bostonMenu.pdf" target="_blank" class="btn-primary"
           >View spa menu</a
         >
       </div>
