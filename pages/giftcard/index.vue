@@ -2,7 +2,7 @@
   <div>
     <HeaderApp />
     <Gift :gift="gift" />
-     <Sticky path="awash" />
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -58,16 +58,36 @@ export default {
               id: 1,
               src: "giftvoucher/7.jpg",
               url: "giftcard/1",
+              title: "BIRTHDAY DELUXE",
+              text: `A birthday extravaganza with friends and family! A day to remember by the lake`,
             },
             {
               id: 2,
               src: "giftvoucher/6.jpg",
               url: "giftcard/2",
+              title: "CONGRATULATIONS",
+              text: `Graduated, married, a new job, a new house? congratulate your loved one with a day off at the resort!`,
             },
             {
               id: 3,
               src: "giftvoucher/5.jpg",
               url: "giftcard/3",
+              title: "HOLIDAY WITH THE FAMILY",
+              text: `It is the small moments that create memories for a lifetime, enjoy a family trip to the Kuriftu Resort & Spa Bishoftu. A day full of laughter and fun`,
+            },
+            {
+              id: 4,
+              src: "giftvoucher/5.jpg",
+              url: "giftcard/4",
+              title: "WANDERLUST",
+              text: `It's always a good day to take a ME day!`,
+            },
+            {
+              id: 5,
+              src: "giftvoucher/5.jpg",
+              url: "giftcard/5",
+              title: "FRIENDCATION",
+              text: `Who is up for a road trip with some friends! Grab your shades and hats`,
             },
           ],
         },

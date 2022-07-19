@@ -17,8 +17,14 @@
           v-for="photo in section.photos"
           :key="photo.id"
         >
-          <nuxt-link :to="photo.url">
+          <nuxt-link :to="photo.url" class="photo-link">
             <img :src="require('@/assets/img/' + photo.src + '')" alt="" />
+            <h1 class="photo-title">
+              {{ photo.title }}
+            </h1>
+            <p class="text">
+              {{ photo.text }}
+            </p>
           </nuxt-link>
         </div>
       </div>
@@ -75,11 +81,6 @@ export default {
           flex-direction: column;
           align-items: flex-start;
           width: 100%;
-          p {
-            color: #808080;
-            font-size: 1rem;
-            line-height: 1.3rem;
-          }
         }
         h2 {
           text-align: center;
@@ -87,20 +88,6 @@ export default {
           margin-bottom: 1rem;
           @include responsive($md) {
             font-size: 2rem;
-          }
-        }
-        .view {
-          a {
-            font-size: 0.8rem;
-            color: $kuriftu-grey;
-            text-transform: uppercase;
-            // text-decoration: underline;
-            .lower-line {
-              opacity: 0.7;
-              border-style: solid;
-              width: 50%;
-              margin: auto 0;
-            }
           }
         }
       }
@@ -127,22 +114,6 @@ export default {
             margin-bottom: 1rem;
             @include responsive($md) {
               font-size: 2rem;
-            }
-          }
-          .view {
-            a {
-              font-size: 0.8rem;
-              color: $kuriftu-grey;
-              text-transform: uppercase;
-
-              .lower-line {
-                opacity: 0.7;
-                border-style: solid;
-
-                @include responsive($md) {
-                  width: 100%;
-                }
-              }
             }
           }
         }
@@ -226,31 +197,37 @@ export default {
     .swiper-slide {
       // margin-left: 2rem;
       // margin-right: 2rem;
-
+      width: 18rem;
       max-width: 30rem;
-      max-height: 20rem;
+      max-height: auto;
+    }
+    .event-cards {
+      margin-top: 2.88rem;
+      margin-bottom: 5rem;
+      .photo-link {
+        .photo-title {
+          margin-top: 0.5rem;
+          font-family: "Neue Helvetica Medium";
+
+          font-weight: 400;
+          letter-spacing: 0.07rem;
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+      }
+      // .event-img {
+      //   width: 100%;
+      // }
     }
   }
-  .event-cards {
-    margin-top: 2.88rem;
-    margin-bottom: 5rem;
+}
 
-    .event-img {
-      width: 100%;
-    }
-    h3 {
-      color: $kuriftu-black;
-      @extend .title;
-      margin-top: 0.94rem;
-      font-size: 1.2rem;
-      text-align: center;
-    }
-
-    p {
-      @extend .text;
-      margin-top: 0.94rem;
-      color: $kuriftu-grey;
-      text-align: center;
+@include responsive($lg) {
+  .event-wrapper2 {
+    .swiper-wrapper {
+      .swiper-slide {
+        width: 30rem;
+      }
     }
   }
 }

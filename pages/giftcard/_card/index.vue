@@ -64,7 +64,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 .voucher {
   padding: 4rem 0;
   .container {
