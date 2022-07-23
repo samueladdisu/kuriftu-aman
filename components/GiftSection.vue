@@ -208,7 +208,7 @@ export default {
         .photo-title {
           margin-top: 0.5rem;
           font-family: "Neue Helvetica Medium";
-
+          text-transform: uppercase;
           font-weight: 400;
           letter-spacing: 0.07rem;
           font-size: 1rem;

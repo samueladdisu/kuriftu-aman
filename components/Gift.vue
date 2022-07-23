@@ -28,8 +28,8 @@
       <GiftSection :section="gift.waterpark" v-if="gift.waterpark" />
       <GiftSection :section="gift.entoto" v-if="gift.entoto" />
       <GiftSection :section="gift.laketana" v-if="gift.laketana" />
-      <GiftSection :section="gift.awash" v-if="gift.awash" />
       <GiftSection :section="gift.boston" v-if="gift.boston" />
+      <GiftSection :section="gift.awash" v-if="gift.awash" />
     </div>
   </div>
 </template>
