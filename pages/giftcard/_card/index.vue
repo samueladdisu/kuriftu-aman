@@ -60,9 +60,7 @@
 </template>
 
 <script>
-import ImgComp from "../../../components/ImgComp.vue";
 export default {
-  components: { ImgComp },
   data() {
     return {
       desc_content: true,

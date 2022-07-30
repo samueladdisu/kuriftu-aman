@@ -1,15 +1,8 @@
 <template>
   <div>
     <HeaderApp />
-    <Destinav
-      base=""
-      class="waterpark-nav"
-      home="/waterpark"
-      dir="Water Park"
-    />
     <Gift :gift="gift" />
-    <BishFooter :footer="footer" />
-    <Sticky path="bishoftu" />
+    <Sticky path="awash" />
   </div>
 </template>
 
@@ -64,17 +57,37 @@ export default {
             {
               id: 1,
               src: "giftvoucher/7.jpg",
-              url: "gift/1",
+              url: "gift/b1",
+              title: "BIRTHDAY DELUXE",
+              text: `A birthday extravaganza with friends and family! A day to remember by the lake`,
             },
             {
               id: 2,
               src: "giftvoucher/6.jpg",
-              url: "gift/2",
+              url: "gift/b2",
+              title: "CONGRATULATIONS",
+              text: `Graduated, married, a new job, a new house? congratulate your loved one with a day off at the resort!`,
             },
             {
               id: 3,
               src: "giftvoucher/5.jpg",
-              url: "gift/3",
+              url: "gift/b3",
+              title: "HOLIDAY WITH THE FAMILY",
+              text: `It is the small moments that create memories for a lifetime, enjoy a family trip to the Kuriftu Resort & Spa Bishoftu. A day full of laughter and fun`,
+            },
+            {
+              id: 4,
+              src: "giftvoucher/5.jpg",
+              url: "gift/b4",
+              title: "WANDERLUST",
+              text: `It's always a good day to take a ME day!`,
+            },
+            {
+              id: 5,
+              src: "giftvoucher/5.jpg",
+              url: "gift/b5",
+              title: "FRIENDCATION",
+              text: `Who is up for a road trip with some friends! Grab your shades and hats`,
             },
           ],
         },
@@ -83,18 +96,38 @@ export default {
           photos: [
             {
               id: 1,
-              src: "giftvoucher/5.jpg",
-              url: "gift/1",
+              src: "giftvoucher/7.jpg",
+              url: "gift/w1",
+              title: "BIRTHDAY SUPREME",
+              text: `A birthday extravaganza with friends and family! A day to remember under the sun with fun rides and splashes `,
             },
             {
               id: 2,
               src: "giftvoucher/6.jpg",
-              url: "gift/2",
+              url: "gift/w2",
+              title: "CONGRATULATIONS",
+              text: `Graduated, married, a new job, a new house? congratulate your loved one with a day off at the waterpark!`,
             },
             {
               id: 3,
-              src: "giftvoucher/7.jpg",
-              url: "gift/3",
+              src: "giftvoucher/5.jpg",
+              url: "gift/w3",
+              title: "HOLIDAY WITH THE FAMILY",
+              text: `It is the small moments that create memories for a lifetime, enjoy a family trip to the waterpark. A day full of laughter and fun`,
+            },
+            {
+              id: 4,
+              src: "giftvoucher/5.jpg",
+              url: "gift/w4",
+              title: "WANDERLUST",
+              text: `It's always a good day to take a ME day!`,
+            },
+            {
+              id: 5,
+              src: "giftvoucher/5.jpg",
+              url: "gift/w5",
+              title: "FRIENDCATION",
+              text: `Who is up for a road trip with some friends! Grab your swimsuits and sandals`,
             },
           ],
         },
@@ -104,22 +137,44 @@ export default {
             {
               id: 1,
               src: "giftvoucher/4.jpg",
-              url: "gift/1",
+              url: "gift/e1",
+              title: "BIRTHDAY SUPREME",
+              text: `A birthday extravaganza with friends and family! A day to remember by the lake`,
             },
             {
               id: 2,
               src: "giftvoucher/3.jpg",
-              url: "gift/2",
+              url: "gift/e2",
+              title: "BIRTHDAY THRILL",
+              text: `A birthday extravaganza with friends and family! A day to remember by the lake`,
             },
             {
               id: 3,
               src: "giftvoucher/2.jpg",
-              url: "gift/3",
+              url: "gift/e3",
+              title: "CONGRATULATIONS",
+              text: `Graduated, married, a new job, a new house? congratulate your loved one with a day off at the resort!`,
             },
             {
               id: 4,
+              src: "giftvoucher/4.jpg",
+              url: "gift/e4",
+              title: "HOLIDAY WITH THE FAMILY",
+              text: `It is the small moments that create memories for a lifetime, enjoy a family trip to the Kuriftu Resort & Spa Entoto. A day full of laughter and fun`,
+            },
+            {
+              id: 5,
               src: "giftvoucher/1.jpg",
-              url: "gift/4",
+              url: "gift/e5",
+              title: "WANDERLUST",
+              text: `It's always a good day to take a ME day!`,
+            },
+            {
+              id: 6,
+              src: "giftvoucher/5.jpg",
+              url: "gift/e6",
+              title: "FRIENDCATION",
+              text: `Who is up for a road trip with some friends! Grab your shades and hats`,
             },
           ],
         },
@@ -128,33 +183,38 @@ export default {
           photos: [
             {
               id: 1,
-              src: "gift4.svg",
-              url: "gift/1",
+              src: "giftvoucher/7.jpg",
+              url: "gift/l1",
+              title: "BIRTHDAY DELUXE",
+              text: `A birthday extravaganza with friends and family! A day to remember by the lake`,
             },
             {
               id: 2,
-              src: "gift4.svg",
-              url: "gift/2",
+              src: "giftvoucher/6.jpg",
+              url: "gift/l2",
+              title: "CONGRATULATIONS",
+              text: `Graduated, married, a new job, a new house? congratulate your loved one with a day off at the resort!`,
             },
             {
               id: 3,
-              src: "gift4.svg",
-              url: "gift/3",
+              src: "giftvoucher/5.jpg",
+              url: "gift/l3",
+              title: "HOLIDAY WITH THE FAMILY",
+              text: `It is the small moments that create memories for a lifetime, enjoy a family trip to the Kuriftu Resort & Spa Lake Tana. A day full of laughter and fun`,
             },
             {
               id: 4,
-              src: "gift4.svg",
-              url: "gift/4",
+              src: "giftvoucher/5.jpg",
+              url: "gift/l4",
+              title: "WANDERLUST",
+              text: `It's always a good day to take a ME day!`,
             },
             {
               id: 5,
-              src: "gift4.svg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
-              src: "gift4.svg",
-              url: "gift/6",
+              src: "giftvoucher/5.jpg",
+              url: "gift/l5",
+              title: "FRIENDCATION",
+              text: `Who is up for a road trip with some friends! Grab your shades and hats`,
             },
           ],
         },
@@ -233,51 +293,40 @@ export default {
           photos: [
             {
               id: 1,
-              src: "giftvoucher/3.jpg",
-              url: "gift/1",
+              src: "giftvoucher/7.jpg",
+              url: "gift/bo1",
+              title: "BIRTHDAY Pamper",
+              text: `Fresh new year, fresh new you!`,
             },
             {
               id: 2,
-              src: "giftvoucher/3.jpg",
-              url: "gift/2",
+              src: "giftvoucher/6.jpg",
+              url: "gift/bo2",
+              title: "DELUXE SPA DAY",
+              text: `Graduated, married, a new job, a new house? congratulate your loved one with a day off at the Boston Day Spa`,
             },
             {
               id: 3,
-              src: "giftvoucher/3.jpg",
-              url: "gift/3",
+              src: "giftvoucher/6.jpg",
+              url: "gift/bo3",
+              title: "supreme SPA DAY",
+              text: `It's always a good day to take a ME day! Get a glamourous spa day with our supreme package! `,
             },
             {
               id: 4,
-              src: "giftvoucher/3.jpg",
-              url: "gift/4",
+              src: "giftvoucher/6.jpg",
+              url: "gift/bo4",
+              title: "LOVER'S PAMPER DAY",
+              text: `No better way to share your love than with a little bit of pampering. Take a couples' day and pamper yourselves.`,
             },
             {
               id: 5,
-              src: "giftvoucher/3.jpg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
-              src: "giftvoucher/3.jpg",
-              url: "gift/6",
+              src: "giftvoucher/6.jpg",
+              url: "gift/bo5",
+              title: "GROUP SPA DAY",
+              text: `A fun day at the spa with friends; sharing stories, reminiscing the past and talking about the future`,
             },
           ],
-        },
-      },
-      footer: {
-        title: "Kuriftu WaterPark",
-        second: {
-          first: "53.7 km from Addis Ababa Bole International Airport",
-          second: "Lake Bishoftu",
-          thrid: "Ethiopia",
-        },
-        thrid: {
-          first: "Contact us on our direct phone line 9693",
-          second: "Reception Desk +251924949494",
-          thrid: "Email us at booking@kurifturesorts.com",
-        },
-        fourth: {
-          url: "https://www.google.com/maps/dir/9,39.5/kuriftu+waterpark/@8.8907576,38.9712757,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x164b0da06ed09677:0x145b79037fab1f1c!2m2!1d39.0029434!2d8.7817245",
         },
       },
     };
@@ -285,18 +334,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@include responsive($xl) {
-  .waterpark-nav {
-    .container {
-      .wrapper {
-        .link-destination {
-          .line {
-            width: 40% !important;
-          }
-        }
-      }
-    }
-  }
-}
+<style>
 </style>

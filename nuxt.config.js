@@ -35,7 +35,6 @@ export default {
   plugins: [
     { src: '~/plugins/gsap.js', mode: 'client' },
     { src: '~/plugins/t-datepicker.min.js', mode: 'client' },
-    { src: '~/plugins/vue-stack-grid.js', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

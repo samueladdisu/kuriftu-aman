@@ -17,7 +17,7 @@
                 </h1>
 
                 <p class="text">
-                  {{ item.text.substr(0, 100) + "..." }}
+                  {{ item.text }}
                 </p>
               </div>
             </nuxt-link>
@@ -30,7 +30,7 @@
                 </h1>
 
                 <p class="text">
-                  {{ item.text.substr(0, 100) + "..." }}
+                  {{ item.text }}
                 </p>
               </div>
             </div>

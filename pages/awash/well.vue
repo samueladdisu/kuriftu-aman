@@ -16,7 +16,7 @@ export default {
         slides: [
           "awash/well/3.webp",
           "awash/well/1.webp",
-        
+
           "awash/well/4.webp",
           "awash/well/5.webp",
         ],
@@ -41,7 +41,7 @@ export default {
           text2: `Take the weekend to soak up the sun, join our sunrise and sunset yoga, lounge in the dipping pool, book an evening massage, and end day with a beautiful candlelit dinner `,
           title3: "Rest easy experience",
           text3: `Give your body what it ultimately craves - rest `,
-          uri: "/",
+          uri: "#",
         },
         amenities: ["Yoga (Weekends)", "Dipping Pool", "Jacuzzi"],
         amenities1: ["Massage", "Dirt Biking"],

@@ -9,9 +9,6 @@
           <p class="text center">
             {{ gift.hero.text }}
           </p>
-          <nuxt-link :to="gift.hero.uri" class="btn-primary">
-            Purchase a gift card
-          </nuxt-link>
         </div>
       </section>
       <GiftSection :section="gift.feature" />
