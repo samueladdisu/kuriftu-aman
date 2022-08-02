@@ -72,7 +72,7 @@ export default {
       footer: {
         title: "Kuriftu Resort & Spa Bishoftu",
         second: {
-          first: "53.7 km from Addis Ababa Bole International Airport",
+          first: "53.7 km from Addis Abeba Bole International Airport",
           second: "Lake Bishoftu",
           thrid: "Ethiopia",
         },

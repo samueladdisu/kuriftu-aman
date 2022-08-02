@@ -27,8 +27,8 @@ export default {
           subtitle: "glamping",
           title: "Fitness",
           text: `Plan your very own fitness experience at Kuriftu Entoto Adventure Park - this mountain is the practice grounds for many Ethiopian runners and athletes, from the crisp clean air to the high altitude taking your breath away every step of your journey, this space is ideal for nature based fitness`,
-          uri: "/",
-          link: "View full experience guide",
+          // uri: "/",
+          // link: "View full experience guide",
         },
         highlight: {
           img1: "Entoto/well/wide.webp",
@@ -54,7 +54,7 @@ export default {
       footer: {
         title: "Kuriftu Resort & Spa Entoto",
         second: {
-          first: "14.9 km from Addis Ababa Bole International Airport",
+          first: "14.9 km from Addis Abeba Bole International Airport",
           second: "Entoto Park",
           thrid: "Ethiopia",
         },

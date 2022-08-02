@@ -61,7 +61,7 @@ export default {
       footer: {
         title: "Kuriftu WaterPark",
         second: {
-          first: "53.7 km from Addis Ababa Bole International Airport",
+          first: "53.7 km from Addis Abeba Bole International Airport",
           second: "Lake Bishoftu",
           thrid: "Ethiopia",
         },

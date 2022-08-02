@@ -18,9 +18,9 @@ export default {
         video: "705084951",
 
         bishTitle: {
-          subTitle: "ENTOTO PARK, ADDIS ABABA",
+          subTitle: "ENTOTO PARK, ADDIS ABEBA",
           title: "kuriftu resort & spa Entoto",
-          text: `Kuriftu Entoto Adventure Park offers an off the beaten path experience in the heart of the Entoto Mountain. With an abundance of eucalyptus trees, this dense forest is considered to be the lungs of Addis Ababa with significant cultural and historical relevance. Telling the story of the founding of Addis Ababa from the time of Emperor Menelik II.
+          text: `Kuriftu Entoto Adventure Park offers an off the beaten path experience in the heart of the Entoto Mountain. With an abundance of eucalyptus trees, this dense forest is considered to be the lungs of Addis Abeba with significant cultural and historical relevance. Telling the story of the founding of Addis Abeba from the time of Emperor Menelik II.
 The Adventure Park captures the beauty of this sacred location by highlighting nature based adventure tourism activites that allow families and tourists alike to emmerse themselves within this ecosystem. From activities ranging from rock-climbing to horse back riding and seculded glamping accommodations, this destination is truly one of a kind!`,
         },
         // slides
@@ -104,7 +104,7 @@ Each restaurant is strategically placed in key activity based areas, like our Ho
           },
         ],
         // map section
-        mapInfo: `14.9 km from Addis Ababa Bole International Airport Entoto Park, Ethiopia`,
+        mapInfo: `14.9 km from Addis Abeba Bole International Airport Entoto Park, Ethiopia`,
         iframe: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44577.49805641681!2d38.736620781160575!3d9.051777430683375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f84811f84a1%3A0x336681194adaaef!2sKuriftu%20Restaurant%20in%20Entoto%20Park!5e0!3m2!1sen!2sus!4v1655482874195!5m2!1sen!2sus`,
       },
     };
