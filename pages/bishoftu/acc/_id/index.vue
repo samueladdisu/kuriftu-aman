@@ -79,7 +79,7 @@ export default {
               pic1: "bishoftu/acc/lakeview/long1.webp",
               pic2: "bishoftu/acc/lakeview/long2.webp",
               text: `With a variety of scenic views across the Kuriftu Lake, these rooms are a guaranteed fit for romantic getaways, relaxing solo trips, and family bonding experiences. Our team is dedicated to providing guests with excellent service no matter what room!`,
-              url: "/book",
+              url: "?location=bishoftu&roomType=lakeview",
             },
           ],
           amenities: [
@@ -141,7 +141,7 @@ export default {
               pic1: "bishoftu/acc/gardenView/gardenLong.webp",
               pic2: "bishoftu/acc/gardenView/gardenLong2.webp",
               text: `Place yourself in the heart of one of Bishoftu's key experiences - nature. Our Garden View rooms have grown into mini forests over the years with vines and picturesque flowers intertwining through one another. These rooms are considered a birds paradise as it's impossible to escape the songs featured by their viists throughout the day. Experience rooms in this category across the entire resort!`,
-              url: "/book?ewn",
+              url: "?location=bishoftu&roomType=gardenview",
             },
           ],
           amenities: [
@@ -206,7 +206,7 @@ export default {
               pic1: "bishoftu/acc/loft/long1.webp",
               pic2: "bishoftu/acc/loft/long2.webp",
               text: `The Kuriftu brand is proud to showcase a new room aesthetic with the Loft Village - screed floors, contemporary design and finish, vibrant abstract art - experience our brand as we diversify our skillset and provide alternative accommodations for our guests! This room category features the Kuriftu Pool Bar located in the center of the lofted village `,
-              url: "/book",
+              url: "?location=bishoftu&roomType=village",
             },
           ],
           amenities: [
@@ -268,7 +268,7 @@ export default {
               pic1: "bishoftu/acc/preLong1.webp",
               pic2: "bishoftu/acc/preLong2.webp",
               text: `Experience luxury accommodations at its finest - with earthy aesthetics, panaramic views of the lake, exposure to natural light from every corner of the room, indoor fireplace, and a dining table set for small groups - Kuriftu Bishoftu Presidential Suites are truly one of a kind`,
-              url: "/book",
+              url: "?location=bishoftu&roomType=Presidential",
             },
           ],
           amenities: [

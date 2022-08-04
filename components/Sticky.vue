@@ -40,7 +40,12 @@
       </div>
 
       <div class="cta-container col-2">
-        <a to="#" class="btn-primary" @click.prevent="show">
+        <a
+          to="#"
+          style="cursor: pointer"
+          class="btn-primary"
+          @click.prevent="show"
+        >
           Check availability
         </a>
       </div>
@@ -84,7 +89,7 @@ export default {
       console.log("check out", this.checkout);
       console.log("Guest", this.guest);
       window.open(
-        `http://localhost/reservation_system/reserve.php?location=${this.location}&checkin=${this.checkin}&checkout=${this.checkout}`,
+        `https://reservations.kurifturesorts.com/reserve.php?location=${this.location}&checkin=${this.checkin}&checkout=${this.checkout}`,
         "_blank"
       );
     },

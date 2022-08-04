@@ -26,7 +26,12 @@
 
         <div class="buttons col-4 row">
           <button class="btn-primary sign-up">Sign Up</button>
-          <button class="btn-primary">Reserve</button>
+          <a
+            href="https://reservations.kurifturesorts.com/"
+            target="_blank"
+            class="btn-primary"
+            >Reserve</a
+          >
         </div>
       </div>
     </header>

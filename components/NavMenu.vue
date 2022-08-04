@@ -37,12 +37,9 @@
             </li>
 
             <li>
-              <nuxt-link to="/book">
-                <!-- <a href="https://versavvymedia.com/reservation_system/reserve.php"
+              <a href="https://reservations.kurifturesorts.com/" target="_blank"
                 >Reservation</a
-              > -->
-                Reservation
-              </nuxt-link>
+              >
             </li>
             <li class="bottom-nav">
               <nuxt-link to="/aboutus" class="bottom-link">

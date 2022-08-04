@@ -23,7 +23,16 @@
         </div>
         <div class="desc__lower" v-if="item.url">
           <hr />
-          <nuxt-link :to="item.url" class="link">Book Now</nuxt-link>
+          <a
+            :href="
+              'https://reservations.kurifturesorts.com/reserve.php' +
+              item.url +
+              ''
+            "
+            target="_blank"
+            class="link"
+            >Book Now</a
+          >
         </div>
       </div>
     </div>

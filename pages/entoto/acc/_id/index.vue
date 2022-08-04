@@ -79,7 +79,7 @@ export default {
               pic1: "Entoto/acc/pre/long.webp",
               pic2: "Entoto/acc/pre/long2.webp",
               text: `Tucked away in the depths of the forest lies a private Presidential Cabin, or what we like to call, the Kuriftu Oasis. A perfect couples escape or a place to have some fun with family or friends by firing up the grill and stocking the outdoor bar with beverages of your choice! Amidst a supportive and nurturing environment, high-glass cielings radiating natural daylight, starlit evenings allowing guests to create emotional connections with friends or loved ones or even solitary reflection. Kuriftu Oasis offers the chance to heal inwards.`,
-              url: "/book?ewn",
+              url: "?location=entoto&roomType=cabin",
             },
           ],
           amenities: [
@@ -121,7 +121,7 @@ export default {
               pic1: "Entoto/slide6.webp",
               pic2: "Entoto/slide2.2.webp",
               text: `Carefully hidden amongst the eucalyptus trees, our Kuriftu Glamping site offers guests a quiet escape from reality with nothing but the natural world surrounding. With hammocks suspended over the room decks, outdoor grilling stations and mountain bikes provided per room, guests can relax in pure nature.`,
-              url: "/book?ewn",
+              url: "?location=entoto&roomType=tent",
             },
           ],
           amenities: [

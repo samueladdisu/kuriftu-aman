@@ -82,7 +82,7 @@ export default {
               pic1: "awash/acc/premium/long1.webp",
               pic2: "awash/acc/premium/long2.webp",
               text: `Treat yourself to an unforgetable, nature based experience with a focus on earthy tones and inner balance. Our Premium rooms are nothing short of exceptional for our guests!`,
-              url: "/book",
+              url: "?location=awash&roomType=premium",
             },
           ],
           amenities: [
@@ -143,7 +143,7 @@ export default {
               pic1: "awash/acc/junior/long.webp",
               pic2: "awash/acc/junior/long2.webp",
               text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenary `,
-              url: "/book?ewn",
+              url: "?location=awash&roomType=junior",
             },
           ],
           amenities: [
@@ -204,7 +204,7 @@ export default {
               pic1: "awash/acc/Executive/long.webp",
               pic2: "awash/acc/Executive/long2.webp",
               text: `Enjoy this unique space with sunlight radiating from every direction - our Executive Suite is the perfect lovers nest where you can relax in solitude with the sounds of the waterfall filling the room  `,
-              url: "/book",
+              url: "?location=awash&roomType=executive",
             },
           ],
           amenities: [
@@ -267,7 +267,7 @@ export default {
               pic1: "awash/acc/presidential/long.webp",
               pic2: "awash/acc/presidential/long2.webp",
               text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff `,
-              url: "/book",
+              url: "?location=awash&roomType=presidential",
             },
           ],
           amenities: [
