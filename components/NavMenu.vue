@@ -743,6 +743,7 @@ export default {
       margin-right: 2rem;
     }
     .container {
+      width: 90%;
       display: flex;
       gap: 1rem;
       justify-content: center;
@@ -890,7 +891,7 @@ export default {
 }
 @include responsive($xxl) {
   .whole-nav {
-    width: 70%;
+    width: 90%;
     height: 100vh;
   }
 }

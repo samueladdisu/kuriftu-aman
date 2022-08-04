@@ -16,49 +16,33 @@
           <option value="afar">Afar</option>
         </select>
       </div>
-
-      <div class="select-dates col-3">
+      <div class="form-group bootstrap-dates col-3">
         <h5 class="sub-title">Select dates</h5>
-        <div class="t-datepicker mt-2 col-3">
-          <div class="t-check-in">
-            <div class="t-dates t-date-check-in">
-              <label class="t-date-info-title">Check In</label>
-            </div>
-            <input type="hidden" class="t-input-check-in" name="start" />
-            <div class="t-datepicker-day">
-              <table class="t-table-condensed">
-                <!-- Date theme calendar -->
-              </table>
-            </div>
-          </div>
-          <div class="t-check-out">
-            <div class="t-dates t-date-check-out">
-              <label class="t-date-info-title">Check Out</label>
-            </div>
-            <input type="hidden" class="t-input-check-out" name="end" />
-          </div>
-        </div>
+        <input
+          type="text"
+          class="form-control"
+          name="daterange"
+          id="date"
+          value=""
+          readonly
+        />
       </div>
 
       <div class="guests col-2">
         <h5 class="sub-title">guests</h5>
 
-        <select name="" id="">
+        <select v-model="guest">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
         </select>
       </div>
 
       <div class="cta-container col-2">
-        <nuxt-link to="#" class="btn-primary"> Check availability </nuxt-link>
+        <a to="#" class="btn-primary" @click.prevent="show">
+          Check availability
+        </a>
       </div>
     </div>
     <div class="container row" v-else>
@@ -88,26 +72,70 @@ export default {
   data() {
     return {
       location: this.path,
+      checkin: "",
+      checkout: "",
+      guest: "",
     };
+  },
+  methods: {
+    show() {
+      console.log("Location", this.location);
+      console.log("check in", this.checkin);
+      console.log("check out", this.checkout);
+      console.log("Guest", this.guest);
+      window.open(
+        `http://localhost/reservation_system/reserve.php?location=${this.location}&checkin=${this.checkin}&checkout=${this.checkout}`,
+        "_blank"
+      );
+    },
   },
   mounted() {
     var start, end;
+    var today = new Date();
+    const dd = String(today.getDate()).padStart(2, "0");
+    const mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+    const yyyy = today.getFullYear();
+
+    let tomorrow = new Date(today);
+    tomorrow.setDate(tomorrow.getDate() + 1);
+
+    tomorrow = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
+    const td = String(tomorrow.getDate()).padStart(2, "0");
+    const tm = String(tomorrow.getMonth() + 1).padStart(2, "0"); //January is 0!
+    const ty = tomorrow.getFullYear();
+
+    today = mm + "/" + dd + "/" + yyyy;
+    tomorrow = tm + "/" + td + "/" + ty;
+
+    start = yyyy + "-" + mm + "-" + dd;
+    end = ty + "-" + tm + "-" + td;
+    this.checkin = start;
+    this.checkout = end;
+
+    console.log("inital start", this.checkin);
+    console.log("inital end", this.checkout);
+
+    console.log("this", this);
+
+    let vm = this;
     $(document).ready(function () {
-      const tdate = $(".t-datepicker");
-      tdate.tDatePicker({
-        iconDate: '<i class="fa fa-calendar"></i>',
-        iconArrowTop: false,
-      });
-      // tdate.tDatePicker("show");
+      console.log("initial start", start);
+      console.log("initial end", end);
+      $("#date").daterangepicker({ drops: "up", parentEl: ".sticky-book" });
+      $("#date").data("daterangepicker").setStartDate(today);
+      $("#date").data("daterangepicker").setEndDate(tomorrow);
 
-      tdate.on("eventClickDay", function (e, dataDate) {
-        var getDateInput = tdate.tDatePicker("getDateInputs");
+      $("#date").on("apply.daterangepicker", function (ev, picker) {
+        // console.log(picker.startDate.format('YYYY-MM-DD'));
+        // console.log(picker.endDate.format('YYYY-MM-DD'));
 
-        start = getDateInput[0];
-        end = getDateInput[1];
+        start = picker.startDate.format("YYYY-MM-DD");
+        end = picker.endDate.format("YYYY-MM-DD");
+        console.log("updated start", start);
+        console.log("updated end", end);
 
-        console.log("start", start);
-        console.log("end", end);
+        vm.checkin = start;
+        vm.checkout = end;
       });
     });
   },
@@ -170,6 +198,17 @@ export default {
             position: absolute;
             top: -950%;
           }
+        }
+      }
+      .bootstrap-dates {
+        position: relative;
+        input {
+          width: 90%;
+          padding: 0.5rem 0.2rem;
+          margin-top: 0.2rem;
+          border: none;
+          border-bottom: 1px #707070 solid;
+          outline: none;
         }
       }
       .guests {

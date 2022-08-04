@@ -16,10 +16,14 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/kuriftufavicon.svg' },
       { rel: 'stylesheet', type: "text/css", href: 'https://unpkg.com/swiper/swiper-bundle.min.css' },
+      // { rel: 'stylesheet', type: "text/css", href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' },
+      { rel: 'stylesheet', type: "text/css", href: 'https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css' },
     ],
     script: [
       { src: 'https://unpkg.com/swiper/swiper-bundle.min.js', defer: true },
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js', defer: true },
+      { src: 'https://cdn.jsdelivr.net/momentjs/latest/moment.min.js', defer: true },
+      { src: 'https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js', defer: true },
       // { src: 'https://player.vimeo.com/api/player.js', defer: true }
     ]
   },

@@ -11,7 +11,7 @@
           <h5 class="hero-sub">kuriftu resort & spa awash falls</h5>
           <h1 class="hero-title">Kuriftu resort & spa awash falls</h1>
 
-          <nuxt-link to="/" class="link">Explore</nuxt-link>
+          <nuxt-link to="/awash" class="link">Explore</nuxt-link>
         </div>
       </section>
     </div>
@@ -99,7 +99,11 @@
             <h5 class="sub-title">Waterpark</h5>
             <h1 class="title">Waterpark</h1>
             <p class="text">
-              Whether you are looking to spend an afternoon of fun with family or friends, searching the perfect weekend getaway, planning a birthday or group event, or even surprising a loved one, Kuriftu Water Park is your ultimate choice for a premier entertainment destination with guaranteed fun!
+              Whether you are looking to spend an afternoon of fun with family
+              or friends, searching the perfect weekend getaway, planning a
+              birthday or group event, or even surprising a loved one, Kuriftu
+              Water Park is your ultimate choice for a premier entertainment
+              destination with guaranteed fun!
             </p>
           </div>
 
@@ -108,7 +112,12 @@
             <h5 class="sub-title">Lake Tana</h5>
             <h1 class="title">Lake Tana</h1>
             <p class="text">
-             Located in the capital of the Amhara Region, Bahirdar, Kuriftu Resort & Spa Lake Tana represents the Kuriftu brands second resort venture. As we seek to expand across Ethiopia, Lake Tana with its historic and cultural value was the perfect choice for expansion. Paired with scenic views, wildlife excursions and religious routes - this destination offers a new adventure for our Kuriftu family!
+              Located in the capital of the Amhara Region, Bahirdar, Kuriftu
+              Resort & Spa Lake Tana represents the Kuriftu brands second resort
+              venture. As we seek to expand across Ethiopia, Lake Tana with its
+              historic and cultural value was the perfect choice for expansion.
+              Paired with scenic views, wildlife excursions and religious routes
+              - this destination offers a new adventure for our Kuriftu family!
             </p>
           </div>
         </div>
