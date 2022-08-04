@@ -28,14 +28,14 @@ export default {
         feature: {
           img: "Entoto/din/EntotoPeakRestaurant.webp",
           title: "Entoto Peak Restaurant",
-          text: `At the end of a long day of treking uphill lies our Mountain Peak Restaurant, a spacious dining hall with mixed cuisine and a variety of seating stations that overlook the incredible landscape. `,
+          text: `At the end of a long day of trekking uphill lies our Mountain Peak Restaurant, a spacious dining hall with mixed cuisine and a variety of seating stations that overlook the incredible landscape. `,
           pdf: "/Entoto Peak Restaurant.pdf",
           link: "view menu",
         },
         Lfeature: {
           img: "Entoto/din/TheRidersRanch.webp",
           title: "The Riders Ranch",
-          text: `Enjoy our specialty Chekla Tibs while overlooking the horse stable and its track at The Riders Ranch.`,
+          text: `Enjoy our specialty shekla tibs Tibs while overlooking the horse stable and its track at The Riders Ranch.`,
           pdf: "/The Riders Ranch.pdf",
           link: "view menu",
         },

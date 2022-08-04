@@ -85,7 +85,7 @@ export default {
             id: 5,
             img: "laketana/cele.webp",
             subTitle: "Celebration",
-            title: "A memorabile experience",
+            title: "A memorable experience",
             text: `Share your unforgettable moments with us at our resort with birthdays, weddings and more! `,
             uri: "laketana/event",
             url: "Explore",

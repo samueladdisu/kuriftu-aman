@@ -219,7 +219,7 @@ export default {
           id: 3,
           img: "bishoftu/event/1.webp",
           subTitle: "Bishoftu, Ethiopia",
-          title: "Kuriftu Resort & Spa Bishfotu",
+          title: "Kuriftu Resort & Spa bishoftu",
           text: `Located on the northen tip of Bishoftu encompassing the smallest of the four lakes lies our flagship resort, Kuriftu Resort & Spa Bishoftu. Born from Mr. Tadiwos's vision to create luxury resort destinations in neighboring cities of the capital, this resort made its mark in 2007 as the first 5-star resort in the country. Kuriftu has redefined the meaning of service in Ethiopia, with an outstanding track record and dedicated loyalty program that keeps our guests more than satisfied, Kuriftu Bishoftu is a home away from home`,
           uri: "/bishoftu/event",
           url: "Explore",

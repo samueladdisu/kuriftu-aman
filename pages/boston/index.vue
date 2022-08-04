@@ -28,7 +28,7 @@
                 <h1 class="title">Hair Salon</h1>
                 <p class="text">
                   Enjoy a self-care experience at our Hair Salon - from high
-                  cieling interiors, to vibrant art and natural lighting, the
+                  ceiling interiors, to vibrant art and natural lighting, the
                   Boston Day Spa Hair Salon exudes luxury at its finest. Each
                   customer is welcomed and treated with the utmost care from the
                   start to end of each service. As an Ethiopian brand, we know
@@ -50,7 +50,7 @@
               <div class="swim">
                 <h1 class="title">Massage Cave</h1>
                 <p class="text">
-                  Emmerse yourself in our Massage Cave - Inspired by natural
+                  immerse yourself in our Massage Cave - Inspired by natural
                   textures and local materials, this facility is mystified by
                   its unique aesthetic, warm colors and signature aromatic
                   smells that relax the mind and body. Through years of
@@ -167,25 +167,25 @@ export default {
           img: "boston/Spa.webp",
           title: "Spa",
             text: ``,
-          
+
         },
                 {
           img: "boston/Massage.webp",
           title: "Massage",
             text: ``,
-          
+
         },
                 {
           img: "boston/hair.webp",
           title: "Hair Salon",
             text: ` `,
-          
+
         },
                 {
           img: "boston/Barber.webp",
           title: "Barber",
             text: ` `,
-          
+
         },
       ],
     };

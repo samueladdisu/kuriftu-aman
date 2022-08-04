@@ -111,7 +111,7 @@ export default {
             {
               img: "awash/acc/premium/otherjun.webp",
               title: "Junior Suite",
-              text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenary `,
+              text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenery `,
               link: "2",
             },
             {
@@ -123,7 +123,7 @@ export default {
             {
               img: "awash/acc/premium/otherpres.webp",
               title: "Presidential Suite",
-              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff `,
+              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the presidential  Suite radiates luxury at its finest from the highest point of the cliff `,
               link: "4",
             },
           ],
@@ -142,7 +142,7 @@ export default {
               id: 1,
               pic1: "awash/acc/junior/long.webp",
               pic2: "awash/acc/junior/long2.webp",
-              text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenary `,
+              text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenery `,
               url: "?location=awash&roomType=junior",
             },
           ],
@@ -184,7 +184,7 @@ export default {
             {
               img: "awash/acc/premium/otherpres.webp",
               title: "Presidential Suite",
-              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff `,
+              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the presidential . Suite radiates luxury at its finest from the highest point of the cliff `,
               link: "4",
             },
           ],
@@ -240,13 +240,13 @@ export default {
             {
               img: "awash/acc/premium/otherjun.webp",
               title: "Junior Suite",
-              text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenary `,
+              text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenery `,
               link: "2",
             },
             {
               img: "awash/acc/premium/otherpres.webp",
               title: "Presidential Suite",
-              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff `,
+              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the presidential . Suite radiates luxury at its finest from the highest point of the cliff `,
               link: "4",
             },
           ],
@@ -266,7 +266,7 @@ export default {
               id: 1,
               pic1: "awash/acc/presidential/long.webp",
               pic2: "awash/acc/presidential/long2.webp",
-              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff `,
+              text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the presidential  Suite radiates luxury at its finest from the highest point of the cliff `,
               url: "?location=awash&roomType=presidential",
             },
           ],
@@ -303,7 +303,7 @@ export default {
             {
               img: "awash/acc/premium/otherjun.webp",
               title: "Junior Suite",
-              text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenary `,
+              text: `Our Junior Suites provide guests with excellent views and an open environment complimenting the natural scenery `,
               link: "2",
             },
             {

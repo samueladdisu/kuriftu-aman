@@ -37,7 +37,9 @@ export default {
           img3: "Entoto/exp/long4.webp",
 
           title1: "Horse Riding Picnic",
-          text1: `Enjoy a unique trail riding experience in the spectacular forest with our Horse Ride and Picnic package. This ncludes a private trail ride with a specially prepared gourmet picnic hamper/ስንቅ/ for you to enjoy with your loved ones`,
+          text1: `Enjoy a unique trail riding experience in the spectacular forest with our Horse Ride and Picnic package. This  i includes
+
+ a private trail ride with a specially prepared gourmet picnic hamper/ስንቅ/ for you to enjoy with your loved ones`,
           title2: "Forest Spa",
           text2: `Kurfitu Entoto Forest Spa is a sanctuary dedicated to hollistic wellness inspired by traditional and globally recognized wellness practices`,
           title3: "Private Yoga",

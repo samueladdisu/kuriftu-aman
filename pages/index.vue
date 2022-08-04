@@ -68,7 +68,7 @@
             customized per destination
           </p>
 
-          <nuxt-link to="/entoto/gift/" class="link">Explore</nuxt-link>
+          <nuxt-link to="/giftcard/" class="link">Explore</nuxt-link>
         </div>
         <div class="single-highlight e">
           <img src="@/assets/img/home/Kuriftu Construction.webp" alt="" />

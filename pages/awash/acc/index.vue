@@ -16,7 +16,7 @@ export default {
       acc: {
         accTitle: {
           title: "Accomodation at Kuriftu Resort Awash Falls",
-          text: `Premiering Kuriftu's boutique resort chain, Kuriftu Resort Awash Falls invites guests into the extraordinary landscape of Awash National Park, offering privacy, uncomprimising comfort and service `,
+          text: `Premiering Kuriftu's boutique resort chain, Kuriftu Resort Awash Falls invites guests into the extraordinary landscape of Awash National Park, offering privacy,uncompromising comfort and service `,
         },
         rooms: [
           {

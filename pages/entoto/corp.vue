@@ -31,7 +31,7 @@ export default {
         feature: {
           img: "Entoto/event/s2.webp",
           title: "Corporate Rate Agreement",
-          text: `Let us take care of your teams by rejuvinating and stregthening their relations with one another to optimize their level of efficiency by becoming corporate clients -  having access to our extensive list of activities, destinations and experineces within the wellness space will help companies reap the benefits.
+          text: `Let us take care of your teams by rejuvinating and strengthening their relations with one another to optimize their level of efficiency by becoming corporate clients -  having access to our extensive list of activities, destinations and experineces within the wellness space will help companies reap the benefits.
 Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and we will customize your membership accordingly!`,
           uri: "/event#enquiry-form",
           link: "Make an enquiry",

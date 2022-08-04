@@ -21,7 +21,8 @@ export default {
           subTitle: "ENTOTO PARK, ADDIS ABEBA",
           title: "kuriftu resort & spa Entoto",
           text: `Kuriftu Entoto Adventure Park offers an off the beaten path experience in the heart of the Entoto Mountain. With an abundance of eucalyptus trees, this dense forest is considered to be the lungs of Addis Abeba with significant cultural and historical relevance. Telling the story of the founding of Addis Abeba from the time of Emperor Menelik II.
-The Adventure Park captures the beauty of this sacred location by highlighting nature based adventure tourism activites that allow families and tourists alike to emmerse themselves within this ecosystem. From activities ranging from rock-climbing to horse back riding and seculded glamping accommodations, this destination is truly one of a kind!`,
+The Adventure Park captures the beauty of this sacred location by highlighting nature based adventure tourism activites that allow families and tourists alike toimmerse themselves within this ecosystem. From activities ranging from rock-climbing to horse back riding and secluded
+ glamping accommodations, this destination is truly one of a kind!`,
         },
         // slides
         photos: [
@@ -71,7 +72,7 @@ Each restaurant is strategically placed in key activity based areas, like our Ho
             img: "Entoto/wellness.webp",
             subTitle: "wellness",
             title: "Forest Spa",
-            text: `Take a moment to inhale the fresh air and aromatic scent from the eucalyptus forest by allowing your mind, body and soul to experience the calm energy provided by the natural elements surrounding the park. Our goal is to facilitate a scerene envirnoment within our unique spa aesthetic, catering to those seeking to reconnect with mother earth.`,
+            text: `Take a moment to inhale the fresh air and aromatic scent from the eucalyptus forest by allowing your mind, body and soul to experience the calm energy provided by the natural elements surrounding the park. Our goal is to facilitate a serene envirnoment within our unique spa aesthetic, catering to those seeking to reconnect with mother earth.`,
             uri: "entoto/well",
             url: "Explore",
           },
@@ -80,7 +81,7 @@ Each restaurant is strategically placed in key activity based areas, like our Ho
             img: "Entoto/corporate.webp",
             subTitle: "CORPORATE EXPERIENCE",
             title: "Corporate Teams",
-            text: `We strive to create a safe haven for corporate teams to liberate themseves of the hustle and bustle of daily work life. With custom packages based on the wants and needs of our guests, Kuriftu Entoto Adventure Park guarantees a space for teams to work together to stregthen relationships and wind down as a collective. This sense of relaxation has proven to rejuvinate individuals and inspire stronger work efforts upon their return to reality.`,
+            text: `We strive to create a safe haven for corporate teams to liberate themseves of the hustle and bustle of daily work life. With custom packages based on the wants and needs of our guests, Kuriftu Entoto Adventure Park guarantees a space for teams to work together to strengthen relationships and wind down as a collective. This sense of relaxation has proven to rejuvinate individuals and inspire stronger work efforts upon their return to reality.`,
             uri: "entoto/corp",
             url: "Explore",
           },
@@ -88,7 +89,7 @@ Each restaurant is strategically placed in key activity based areas, like our Ho
             id: 5,
             img: "Entoto/celebration.webp",
             subTitle: "Celebration",
-            title: "A memorabile experience",
+            title: "A memorable experience",
             text: `Allow us to share your greatest moments by curating unforgettable celebratory events! Whether it be a birthday party in the Trampoline World for kids, a relaxing friends night out in our Hammok Village, wedding or custom event in the Entoto Peak Restaurant and outdoor space - We've got you covered!`,
             uri: "entoto/event",
             url: "Explore",
