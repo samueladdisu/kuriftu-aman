@@ -28,8 +28,8 @@ export default {
           subtitle: "glamping",
           title: "Adventure",
           text: `Choose from a selection of different aerial trails in the trees to trampoline basketball tournaments and many other exciting opportunities `,
-          uri: "/",
-          link: "Explore",
+          // uri: "/",
+          // link: "Explore",
         },
         highlight: {
           img1: "Entoto/exp/spa.webp",
@@ -71,7 +71,7 @@ export default {
       footer: {
         title: "Kuriftu Resort & Spa Entoto",
         second: {
-          first: "14.9 km from Addis Ababa Bole International Airport",
+          first: "14.9 km from Addis Abeba Bole International Airport",
           second: "Entoto Park",
           thrid: "Ethiopia",
         },

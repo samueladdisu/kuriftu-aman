@@ -101,7 +101,7 @@ export default {
           },
         ],
         // map section
-        mapInfo: `491 km from Addis Ababa Bole International Airport Lake Tana, Ethiopia`,
+        mapInfo: `491 km from Addis Abeba Bole International Airport Lake Tana, Ethiopia`,
         iframe: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.3489744311732!2d37.37921672875011!3d11.598450320334624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1644cde2a39aad09%3A0xe0ed4292e70a9eef!2sKuriftu%20Resort%20and%20Spa%20Bahir%20Dar!5e0!3m2!1sen!2sus!4v1655483010985!5m2!1sen!2sus`,
       },
     };

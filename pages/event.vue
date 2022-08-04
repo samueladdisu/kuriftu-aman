@@ -227,9 +227,9 @@ export default {
         {
           id: 4,
           img: "Entoto/event/s2.webp",
-          subTitle: "Addis Ababa, Ethiopia",
+          subTitle: "Addis Abeba, Ethiopia",
           title: "Kuriftu Resort & Spa Entoto",
-          text: `Kuriftu Entoto Adventure Park offers an off the beaten path experience in the heart of the Entoto Mountain. With an abundance of eucalyptus trees, this dense forest is considered to be the lungs of Addis Ababa with significant cultural and historical relevance. Telling the story of the founding of Addis Ababa from the time of Emperor Menelik II. The Adventure Park captures the beauty of this sacred location by highlighting nature based adventure tourism activites that allow families and tourists alike to emmerse themselves within this ecosystem. From activities ranging from rock-climbing to horse back riding and seculded glamping accommodations, this destination is truly one of a kind!`,
+          text: `Kuriftu Entoto Adventure Park offers an off the beaten path experience in the heart of the Entoto Mountain. With an abundance of eucalyptus trees, this dense forest is considered to be the lungs of Addis Abeba with significant cultural and historical relevance. Telling the story of the founding of Addis Abeba from the time of Emperor Menelik II. The Adventure Park captures the beauty of this sacred location by highlighting nature based adventure tourism activites that allow families and tourists alike to emmerse themselves within this ecosystem. From activities ranging from rock-climbing to horse back riding and seculded glamping accommodations, this destination is truly one of a kind!`,
           uri: "/entoto/event",
           url: "Explore",
         },

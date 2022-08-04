@@ -191,7 +191,7 @@
               measures, Kuriftu Resorts setup 60 traffic billboards across the
               Oromia and Amhara regions<br />
               Kuriftu Resorts has always prioritized environmental advocacy, the
-              resort has donated 2.5 million ETB for the Addis Ababa
+              resort has donated 2.5 million ETB for the Addis Abeba
               beautification project in continued support<br />
               Tesfa Addis Parents Childhood Cancer Organization(TAPCCO)
               established in 2012 works to help children with cancer while

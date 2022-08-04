@@ -61,7 +61,7 @@ export default {
       footer: {
         title: "Kuriftu Resort & Spa Lake Tana",
         second: {
-          first: "491 km from Addis Ababa Bole International Airport",
+          first: "491 km from Addis Abeba Bole International Airport",
           second: "Lake Tana",
           thrid: "Ethiopia",
         },

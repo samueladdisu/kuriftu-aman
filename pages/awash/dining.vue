@@ -45,7 +45,7 @@ export default {
       footer: {
         title: "Kuriftu Resort & Spa Awash Falls",
         second: {
-          first: "211 km from Addis Ababa Bole International Airport",
+          first: "211 km from Addis Abeba Bole International Airport",
           second: "Awash Park",
           thrid: "Ethiopia",
         },

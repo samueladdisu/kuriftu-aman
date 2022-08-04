@@ -70,7 +70,7 @@
           <p class="text">
             Kuriftu Water Park is proud to feature the incredibly talented Fekat
             Circus troupe! Fekat Circus, the Blossoming Circus in Amharic, was
-            established in Addis Ababa in 2008 by young Ethiopian jugglers and
+            established in Addis Abeba in 2008 by young Ethiopian jugglers and
             acrobats. Today it comprises 30 professional artists who perform in
             Ethiopia and internationally. Besides staging professional shows,
             Fekat Circus spreads the circus arts in the capital through its
@@ -80,7 +80,7 @@
             <!-- Since 2009, Fekat Circus has also provided entertainment
             activities daily at the pediatric ward of the Black Lion Hospital.
             One of the latest Fekat Circus brands is the “Monthly show”. On the
-            last weekend of each month, Addis Ababans have the chance to attend
+            last weekend of each month, Addis Abeba have the chance to attend
             this extravagant event that is gaining more and more popularity.
             Shows are hosted over the weekends at The Kurfitu Waterpark with
             three 30 minute time slots between 12:00 pm-5:00 pm, activities are
@@ -152,7 +152,7 @@ export default {
       footer: {
         title: "Kuriftu WaterPark",
         second: {
-          first: "53.7 km from Addis Ababa Bole International Airport",
+          first: "53.7 km from Addis Abeba Bole International Airport",
           second: "Lake Bishoftu",
           thrid: "Ethiopia",
         },

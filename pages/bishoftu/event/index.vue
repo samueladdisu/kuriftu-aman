@@ -32,22 +32,22 @@ export default {
           img: "bishoftu/event/birthdays.webp",
           title: "Birthdays",
           text: `Let us celebrate your life and future in a fun and special way with your loved ones. Our resort provides different packages to celebrate your birthdays and more.`,
-          uri: "#",
-          link: "explore",
+          // uri: "#",
+          // link: "explore",
         },
         Rfeature: {
           img: "bishoftu/event/concert.webp",
           title: "Concerts",
           text: `Join us as we invite your favorite artisits, DJ's and performers for live outdoor experiences!`,
-          uri: "#",
-          link: "explore",
+          // uri: "#",
+          // link: "explore",
         },
         Lfeature1: {
           img: "bishoftu/event/social.webp",
           title: "Social Events",
           text: `Thinking of hosting an event? Give us a call and our team can help plan your very own get-together, anniversary, birthday party, family trip - basically anything!`,
-          uri: "#",
-          link: "explore",
+          // uri: "#",
+          // link: "explore",
         },
         venues: [
           {
@@ -96,7 +96,7 @@ export default {
       footer: {
         title: "Kuriftu Resort & Spa Bishoftu",
         second: {
-          first: "53.7 km from Addis Ababa Bole International Airport",
+          first: "53.7 km from Addis Abeba Bole International Airport",
           second: "Lake Bishoftu",
           thrid: "Ethiopia",
         },

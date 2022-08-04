@@ -29,7 +29,7 @@
             prominent cultural heritage
           </p>
 
-          <nuxt-link to="/" class="link">Explore</nuxt-link>
+          <nuxt-link to="/entoto/adv" class="link">Explore</nuxt-link>
         </div>
 
         <div class="single-highlight b">
@@ -43,7 +43,7 @@
             innovation across Ethiopia
           </p>
 
-          <nuxt-link to="/" class="link">Explore</nuxt-link>
+          <nuxt-link to="/bishoftu/corp" class="link">Explore</nuxt-link>
         </div>
 
         <div class="single-highlight c">
@@ -55,7 +55,7 @@
             the Kuriftu locations is a center for wellness and relaxation
           </p>
 
-          <nuxt-link to="/" class="link">Explore</nuxt-link>
+          <nuxt-link to="/boston/" class="link">Explore</nuxt-link>
         </div>
 
         <div class="single-highlight d">
@@ -68,7 +68,7 @@
             customized per destination
           </p>
 
-          <nuxt-link to="/" class="link">Explore</nuxt-link>
+          <nuxt-link to="/entoto/gift/" class="link">Explore</nuxt-link>
         </div>
         <div class="single-highlight e">
           <img src="@/assets/img/home/Kuriftu Construction.webp" alt="" />
@@ -82,7 +82,7 @@
             innovation in Ethiopia's hospitality and tourism industry
           </p>
 
-          <nuxt-link to="/" class="link">Explore</nuxt-link>
+          <nuxt-link to="/awash" class="link">Explore</nuxt-link>
         </div>
       </div>
     </section>

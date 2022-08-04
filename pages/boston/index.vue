@@ -134,13 +134,13 @@ export default {
       // acc content
       accTitle: {
         title: "Art Gallery",
-        text: `   As you wait for your appointment take a stroll around the
+        text: `As you wait for your appointment take a stroll around the
                   entire Boston Day Spa floor and discover local art stationed
                   all across. Make your own interpretations of the work through
                   this experience!`,
       },
       bishTitle: {
-        subTitle: "Addis Ababa, Ethiopia",
+        subTitle: "Addis Abeba, Ethiopia",
         title: "Boston Day Spa",
         text: `Considered to be the heart and soul of our company, Boston Day Spa was the premier project that birthed the Kuriftu brand. With the focus of developing capacity building programs in the heart of Addis, our CEO trained and empowered local community members who started as construction workers to become specialty spa service providers. The majority of our current staff have been with us for over 15 years and consider Boston Day Spa as their own, having built this monumental structure with their bare hands, the level of care for service is unmatched. Boston Day Spa provides a vast number of services in the spa sector that cater to all wellness needs. With the consultation of Mesai Haileleul, founder of Addis FIne Art (ADA), this location also serves as an art gallery with peices curated by major Ethiopian artists who are now on an international platform. A prime example of this being Merikokeb Berhanu who hand crafted each mosiac structure in our spa. Merikokeb's peices are now features in the top art exhibitions around the world, not limited to The New York Armory Show 2020, a sold out show in Freize London 2021, and the 59th International Art Exhibition of La Biennale di Venezia. We are proud to represent local artists as their work is engrained in our company culture.`,
       },

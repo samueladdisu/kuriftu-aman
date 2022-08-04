@@ -101,7 +101,7 @@ export default {
           },
         ],
         // map section
-        mapInfo: `53.8 km from Addis Ababa Bole International Airport Lake Bishoftu, Ethiopia`,
+        mapInfo: `53.8 km from Addis Abeba Bole International Airport Lake Bishoftu, Ethiopia`,
         iframe: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.061646113906!2d39.00067561533771!3d8.780270895251148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b0cba1728a73d%3A0x44f92b98676731e7!2sKuriftu%20Resort%20%26%20Spa%20Bishoftu!5e0!3m2!1sen!2sus!4v1655475159460!5m2!1sen!2sus`,
       },
     };

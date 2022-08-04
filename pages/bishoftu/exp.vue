@@ -27,7 +27,7 @@ export default {
           // subtitle: "glamping",
           title: "waterpark",
           text: `Make a splash as you slide into the freshwater surrounding the Kuriftu Waterpark! As the biggest waterpark in East Africa, we offer a range of activities from a variety of slides to a wave pool that fits up to 300 rafts at once!`,
-          uri: "#",
+          uri: "/waterpark",
           link: "Explore",
         },
         highlight: {
@@ -64,7 +64,7 @@ export default {
       footer: {
         title: "Kuriftu Resort & Spa Bishoftu",
         second: {
-          first: "53.7 km from Addis Ababa Bole International Airport",
+          first: "53.7 km from Addis Abeba Bole International Airport",
           second: "Lake Bishoftu",
           thrid: "Ethiopia",
         },

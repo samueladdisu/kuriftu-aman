@@ -98,7 +98,7 @@ export default {
       footer: {
         title: "Kuriftu Resort & Spa Entoto",
         second: {
-          first: "14.9 km from Addis Ababa Bole International Airport",
+          first: "14.9 km from Addis Abeba Bole International Airport",
           second: "Entoto Park",
           thrid: "Ethiopia",
         },

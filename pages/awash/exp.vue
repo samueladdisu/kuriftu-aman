@@ -27,8 +27,8 @@ export default {
           // subtitle: "glamping",
           title: "Camel Ride",
           text: `Venture into the depths of the national park on a relaxing camel ride tour!`,
-          uri: "/",
-          link: "Explore",
+          // uri: "/",
+          // link: "Explore",
         },
         highlight: {
           img1: "awash/exp/WildlifeViewing.webp",
@@ -63,7 +63,7 @@ Keep an eye out for the vast number of bird species located around the park and 
       footer: {
         title: "Kuriftu Resort & Spa Awash Falls",
         second: {
-          first: "211 km from Addis Ababa Bole International Airport",
+          first: "211 km from Addis Abeba Bole International Airport",
           second: "Awash Park",
           thrid: "Ethiopia",
         },

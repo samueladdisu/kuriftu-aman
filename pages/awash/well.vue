@@ -41,7 +41,7 @@ export default {
           text2: `Take the weekend to soak up the sun, join our sunrise and sunset yoga, lounge in the dipping pool, book an evening massage, and end day with a beautiful candlelit dinner `,
           title3: "Rest easy experience",
           text3: `Give your body what it ultimately craves - rest `,
-          uri: "#",
+          pdf: "/AwashSpamenu.pdf",
         },
         amenities: ["Yoga (Weekends)", "Dipping Pool", "Jacuzzi"],
         amenities1: ["Massage", "Dirt Biking"],
@@ -50,7 +50,7 @@ export default {
       footer: {
         title: "Kuriftu Resort & Spa Awash Falls",
         second: {
-          first: "211 km from Addis Ababa Bole International Airport",
+          first: "211 km from Addis Abeba Bole International Airport",
           second: "Awash Park",
           thrid: "Ethiopia",
         },

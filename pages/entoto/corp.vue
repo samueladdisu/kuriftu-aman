@@ -109,7 +109,7 @@ Join the Kuriftu Family by making an enquiry with our Corporate Sales Team and w
       footer: {
         title: "Kuriftu Resort & Spa Entoto",
         second: {
-          first: "14.9 km from Addis Ababa Bole International Airport",
+          first: "14.9 km from Addis Abeba Bole International Airport",
           second: "Entoto Park",
           thrid: "Ethiopia",
         },

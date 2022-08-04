@@ -104,7 +104,7 @@ export default {
           },
         ],
         // map section
-        mapInfo: `211 km from Addis Ababa Bole International Airport`,
+        mapInfo: `211 km from Addis Abeba Bole International Airport`,
         iframe: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.391883705934!2d40.0101088153378!3d8.84305769430703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x163593fea245879f%3A0xca93c0e4241369ec!2sKuriftu%20Resort%20%26%20Spa%20Awash%20Falls!5e0!3m2!1sen!2sus!4v1655483107585!5m2!1sen!2sus`,
       },
     };
