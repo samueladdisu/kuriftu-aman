@@ -35,6 +35,21 @@
                     {{ item }}
                   </li>
                 </ul>
+
+                <p class="text">
+                  Please see our
+                  <nuxt-link
+                    to="#"
+                    style="
+                      font-size: 0.7rem;
+                      display: inline;
+                      text-decoration: underline;
+                    "
+                  >
+                    Terms and Conditions
+                  </nuxt-link>
+                  for more information
+                </p>
               </div>
             </transition>
 

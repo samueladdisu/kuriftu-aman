@@ -13,21 +13,30 @@
     <section class="ceo">
       <div class="container">
         <div class="ceo-all">
-          <div class="stay-slide">
-            <div class="slide-card">
-              <img src="../assets/img/tadiwos.jpg" alt="" />
-            </div>
-          </div>
-          <div class="stay-desc">
-            <h4>A MESSAGE FROM TADIWOS G. BELETE</h4>
+          <img src="../assets/img/tadiwos.jpg" alt="" />
 
+          <div class="stay-desc">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
-              tincidunt nisl elementum ultrices luctus habitasse. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit. Aperiam perferendis
-              molestias accusantium eligendi sint ea corporis totam animi,
-              delectus deleniti quidem amet, reprehenderit natus? Id quia odio
-              maxime ipsam possimus.
+              Ato Tadiwos is the owner and Founder of Boston Partners P.L.C and
+              Kuriftu Resort and Spa operating at the head office in Addis Ababa
+              Ethiopia. The owner of Boston Partners P.L.C has over 30 years of
+              profound business experience in the same line of business in the
+              United States of America (USA). Using his Experience he was able
+              to successfully establish and manage the first spa and Beauty care
+              facility at the center of the city (Addis Ababa Bole Road) in
+              2002. Through hard work and dedication the business units managed
+              by the company are currently increased to Seven including; Kuriftu
+              resort and spa Debre zeit, Kuriftu resort and spa lake Tana in
+              Bahir dar, Kuriftu resort and spa Awash, Kuriftu Waterpark,
+              Kuriftu resort and spa Afar, Kuriftu resort and spa Entoto &
+              Boston Day Spa. Many other projects including Kuriftu resort and
+              spa Arba Minch, Kuriftu African Village Bourayou, Kuriftu resort
+              and spa Langano, Kuriftu resort and spa Gherealta are still under
+              construction. In addition to Building and managing unparalleled
+              quality resorts and spas that provide first class hospitality
+              services, Boston Partners endeavors to become a leading resort and
+              spa operator in the continent, Hence the soon to be started
+              Kuriftu Resort and Spa Moucha Island.
             </p>
           </div>
         </div>
@@ -1020,21 +1029,9 @@ export default {
         margin-top: 0.94rem;
       }
       .ceo-all {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        .stay-slide {
-          margin-top: 1.88rem;
-          display: flex;
-          align-items: center;
-
-          gap: 0.5rem;
-          .slide-card {
-            img {
-              width: 25rem;
-              object-fit: cover;
-            }
-          }
+        img {
+          width: 100%;
+          object-fit: cover;
         }
         .stay-desc {
           margin-top: 1.88rem;
@@ -1095,32 +1092,39 @@ export default {
     .ceo {
       .container {
         .ceo-all {
-          flex-direction: row;
-          gap: 2rem;
-          .stay-slide {
-            margin-top: 4.37rem;
-            .slide-card {
-              img {
-                //   width: 100%;
-                // height: 35rem;
-              }
-            }
-          }
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          align-items: center;
+          gap: 1rem;
+          margin-top: 4.37rem;
           .stay-desc {
-            margin-top: 4.5rem;
-            h4 {
-              margin-top: 0rem;
-            }
-            p {
-              margin-top: 2rem;
-            }
-            .book-buttons {
-              display: flex;
-              justify-content: left;
-
-              margin-top: 6rem;
-            }
+            margin-top: 0;
           }
+        }
+      }
+    }
+  }
+  @include responsive($xl) {
+    .ceo {
+      .container {
+        .ceo-all {
+          align-items: flex-start;
+          gap: 1rem;
+          margin-top: 4.37rem;
+          .stay-desc {
+          }
+        }
+      }
+    }
+  }
+
+  @include responsive($xxl) {
+    .ceo {
+      .container {
+        .ceo-all {
+          align-items: flex-start;
+          gap: 1rem;
+          // grid-template-columns: 1fr 1fr 1fr;
         }
       }
     }

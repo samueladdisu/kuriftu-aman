@@ -7,7 +7,7 @@
             {{ gift.hero.title }}
           </h1>
           <p class="text center">
-            {{ gift.hero.text }}
+            Surprise your loved ones with an extraordinary adventure! Offer memories that last a lifetime with the Kurfitu Gift Card that can be customized per destination
           </p>
         </div>
       </section>

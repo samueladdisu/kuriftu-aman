@@ -65,7 +65,7 @@
             <ul class="nav-links second-links">
               <div v-if="desti">
                 <li>
-                  <a @click="openAddis">Addis Abeba</a>
+                  <a @click="openAddis">Addis Ababa</a>
                 </li>
                 <!-- <li>
                   <nuxt-link to="/afar"> Afar </nuxt-link>

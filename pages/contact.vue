@@ -5,7 +5,11 @@
     <section class="contact-form">
       <div class="container">
         <div class="contact-wrapper">
-          <form action="" class="myform">
+          <form
+            action="https://formsubmit.co/support@versavvymedia.com"
+            class="myform"
+            method="POST"
+          >
             <h2>Write to Us</h2>
             <p>Send us a message and we'll get back to you right away!</p>
             <div class="input-box">
@@ -30,10 +34,16 @@
               />
             </div>
             <textarea name="message" id="" cols="30" rows="5">
-Message
+              Message
             </textarea>
+
             <div class="book-buttons">
-              <a class="btn btn-primary" href="#">SEND MESSAGE</a>
+              <input
+                type="submit"
+                value="Send message"
+                name="submit"
+                class="btn btn-primary"
+              />
             </div>
           </form>
           <img src="../assets/img/infocontact.jpg" alt="" />

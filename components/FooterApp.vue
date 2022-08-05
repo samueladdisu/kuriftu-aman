@@ -44,7 +44,7 @@
                 <nuxt-link to="#">News Letters</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Gallery</nuxt-link>
+                <nuxt-link to="/bishoftu/gallery">Gallery</nuxt-link>
               </li>
             </ul>
           </div>

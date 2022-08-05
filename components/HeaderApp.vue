@@ -15,7 +15,7 @@
         <div class="menu col-3 row">
           <img src="@/assets/img/icons/menu.svg" alt="" @click="toggleNav" />
           <p class="text">Menu</p>
-          <img src="@/assets/img/icons/search.svg" alt="" />
+          <!-- <img src="@/assets/img/icons/search.svg" alt="" /> -->
         </div>
 
         <div class="logo col-4">
