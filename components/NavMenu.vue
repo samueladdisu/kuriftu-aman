@@ -183,6 +183,9 @@
             <nuxt-link to="/bishoftu" class="btn-primary">
               Lake Kuriftu
             </nuxt-link>
+            <nuxt-link to="/laketana" class="btn-primary">
+              Lake Tana
+            </nuxt-link>
           </div>
         </div>
       </div>
