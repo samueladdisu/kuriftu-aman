@@ -25,7 +25,11 @@
         </div>
 
         <div class="buttons col-4 row">
-          <button class="btn-primary sign-up">Sign Up</button>
+          <a
+            href="https://reservations.kurifturesorts.com/signUp.php"
+            class="btn-primary sign-up"
+            >Sign Up</a
+          >
           <a
             href="https://reservations.kurifturesorts.com/"
             target="_blank"

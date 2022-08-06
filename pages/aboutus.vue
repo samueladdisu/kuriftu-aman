@@ -357,7 +357,12 @@
             <p class="header-title"></p>
             <p></p>
             <div class="book-buttons">
-              <a class="btn btn-cta text" href="#">DOWNLOAD COMPANY PROFILE</a>
+              <a
+                class="btn btn-cta text"
+                href="/company_profile.pdf"
+                target="_blank"
+                >DOWNLOAD COMPANY PROFILE</a
+              >
             </div>
           </div>
         </div>

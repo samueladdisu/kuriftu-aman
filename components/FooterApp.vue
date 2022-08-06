@@ -9,7 +9,13 @@
             please register
           </p>
           <div class="btn-container">
-            <nuxt-link to="#" class="btn-cta"> Sign Up </nuxt-link>
+            <a
+              href="https://reservations.kurifturesorts.com/signUp.php"
+              target="_blank"
+              class="btn-cta"
+            >
+              Sign Up
+            </a>
           </div>
         </div>
         <div class="lower">
@@ -26,22 +32,22 @@
                 <nuxt-link to="/giftcard">Gift Card</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Upcoming Projects</nuxt-link>
+                <nuxt-link to="/upcoming-project">Upcoming Projects</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Careers</nuxt-link>
+                <nuxt-link to="/careers">Careers</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Privacy</nuxt-link>
+                <nuxt-link to="/privacy">Privacy</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Legal Notice</nuxt-link>
+                <nuxt-link to="/legal">Legal Notice</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Articles</nuxt-link>
+                <nuxt-link to="/articles">Articles</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">News Letters</nuxt-link>
+                <nuxt-link to="/newsletters">News Letters</nuxt-link>
               </li>
               <li>
                 <nuxt-link to="/bishoftu/gallery">Gallery</nuxt-link>
@@ -135,29 +141,41 @@
               <img src="@/assets/img/icons/linkedin.svg" alt="" />
             </a>
           </div>
-        </div>
-        <div id="TA_tchotel492" class="TA_tchotel trip-advisor">
-          <div
-            id="CDSWIDTC"
-            class="widTC2015 cx_brand_refresh1"
-            onclick="window.open('https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html'); return false;"
-          >
-            <a
-              target="_blank"
-              href="https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html"
-              rel="nofollow"
-              tabindex="0"
-              id="yui_3_17_2_1_1656685011911_1362"
-              ><img
-                src="https://www.tripadvisor.com/img/cdsi/img2/awards/v2/tchotel_2016_L-11655-2.png"
-                alt="Tripadvisor"
-                class="false"
-                id="false"
-            /></a>
+
+          <div id="TA_tchotel492" class="TA_tchotel trip-advisor">
+            <div
+              id="CDSWIDTC"
+              class="widTC2015 cx_brand_refresh1"
+              onclick="window.open('https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html'); return false;"
+            >
+              <a
+                target="_blank"
+                href="https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html"
+                rel="nofollow"
+                tabindex="0"
+                id="yui_3_17_2_1_1656685011911_1362"
+                ><img
+                  src="https://www.tripadvisor.com/img/cdsi/img2/awards/v2/tchotel_2016_L-11655-2.png"
+                  alt="Tripadvisor"
+                  class="false"
+                  id="false"
+              /></a>
+            </div>
           </div>
         </div>
+
         <script src="https://www.jscache.com/wejs?wtype=tchotel&amp;uniq=492&amp;locationId=1813539&amp;lang=en_US&amp;year=2016&amp;display_version=2"></script>
       </div>
+      <p class="text pfooter">
+        All Copyright &copy; 2022 Kuriftu Resort and Spa. Powered by
+        <a
+          href="https://versavvymedia.com/"
+          target="_blank"
+          class="link ver"
+          style="font-size: 0.7rem; color: #000"
+          >Versavvy</a
+        >
+      </p>
     </section>
   </div>
 </template>
@@ -170,11 +188,21 @@ export default {};
 .footer {
   margin-top: 2.14rem;
   margin-bottom: 1.5rem;
+  .pfooter {
+    margin-bottom: 6rem;
+    text-align: center;
+    .ver {
+      &::after {
+        top: 90%;
+      }
+    }
+  }
   .container {
     .trip-advisor {
-      margin-top: 2rem;
-      align-items: center;
+      width: 100%;
+      margin: 2rem auto;
     }
+
     .member-cta {
       h1,
       p,
