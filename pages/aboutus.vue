@@ -13,7 +13,7 @@
     <section class="ceo">
       <div class="container">
         <div class="ceo-all">
-          <img src="../assets/img/tadiwos.jpg" alt="" />
+          <img src="../assets/img/tadiwos_waterpark.jpeg" alt="" />
 
           <div class="stay-desc">
             <p>
