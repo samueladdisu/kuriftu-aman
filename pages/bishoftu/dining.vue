@@ -42,7 +42,7 @@ export default {
           img: "bishoftu/dining/LequandaF.webp",
           title: "Lequanda",
           text: `Indulge in our selection of prime meat cuts - whether it be kitfo, tibs, or kurt, Kuriftu Lequanda has the traditional touch for you!`,
-          pdf: "/kuriftu lequuanda menu.pdf",
+          pdf: "/lequanda_new.pdf",
           link: "view menu",
         },
         Lfeature1: {

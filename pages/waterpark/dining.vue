@@ -33,7 +33,7 @@ export default {
           img: "waterpark/din/Plaza.webp",
           title: "Plaza",
           text: `Dine at our food court beside the cool, fresh water and the fun rides at our water park.`,
-          uri: "#",
+           pdf: "/a la carte menu.pdf",
           link: "view menu",
         },
         other: [
