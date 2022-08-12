@@ -29,14 +29,14 @@ export default {
           img: "Entoto/din/EntotoPeakRestaurant.webp",
           title: "Entoto Peak Restaurant",
           text: `At the end of a long day of trekking uphill lies our Mountain Peak Restaurant, a spacious dining hall with mixed cuisine and a variety of seating stations that overlook the incredible landscape. `,
-          pdf: "/Entoto Peak Restaurant.pdf",
+          pdf: "/EntotoPeakRestaurant.pdf",
           link: "view menu",
         },
         Lfeature: {
           img: "Entoto/din/TheRidersRanch.webp",
           title: "The Riders Ranch",
           text: `Enjoy our specialty shekla tibs Tibs while overlooking the horse stable and its track at The Riders Ranch.`,
-          pdf: "/The Riders Ranch.pdf",
+          pdf: "/TheRidersRanch.pdf",
           link: "view menu",
         },
         feature1: {
@@ -50,14 +50,14 @@ export default {
           img: "Entoto/din/TheMarksmanBar&Grill.webp",
           title: "The Marksman Bar & Grill",
           text: `Didn't hit bullseye? No sweat, take a breather before your next round at The Marksman Bar & Grill for the best burgers and fries on this side of the mountain`,
-          pdf: "/The Marksman Bar & Grill.pdf",
+          pdf: "/TheMarksmanBar.pdf",
           link: "view menu",
         },
         feature2: {
           img: "Entoto/din/PitStopBar&Grill.webp",
           title: "Pit Stop Bar & Grill / Refuel",
           text: `Wind down from the rush of competing against your friends at Pit Stop Bar & Grill, just make sure whoever came last treats the team for a beer `,
-          pdf: "/Pit Stop Bar & Grill.pdf",
+          pdf: "/PitStop.pdf",
           link: "view menu",
         },
         other: [
