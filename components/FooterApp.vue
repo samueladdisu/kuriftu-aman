@@ -105,41 +105,48 @@
           <h1 class="title">socials</h1>
 
           <div class="icons">
-            <a
-              href="https://www.tiktok.com/@kuriftumoments?lang=en"
-              target="_blank"
-            >
-              <img src="@/assets/img/icons/tiktok.svg" alt="" />
-            </a>
+            <div class="top-icons">
+              <a
+                href="https://www.tiktok.com/@kuriftumoments?lang=en"
+                target="_blank"
+              >
+                <img src="@/assets/img/icons/tiktok.svg" alt="" />
+              </a>
 
-            <a
-              href="https://www.instagram.com/kurifturesortspa/?hl=en"
-              target="_blank"
-            >
-              <img src="@/assets/img/icons/instagram.svg" alt="" />
-            </a>
+              <a
+                href="https://www.instagram.com/kurifturesortspa/?hl=en"
+                target="_blank"
+              >
+                <img src="@/assets/img/icons/instagram.svg" alt="" />
+              </a>
 
-            <a href="https://twitter.com/kuriftus" target="_blank">
-              <img src="@/assets/img/icons/twitter.svg" alt="" />
-            </a>
+              <a href="https://twitter.com/kuriftus" target="_blank">
+                <img src="@/assets/img/icons/twitter.svg" alt="" />
+              </a>
+            </div>
 
-            <a
-              href="https://www.youtube.com/channel/UCI3Y6eDzcmAchDoGGVJZKgA/videos"
-              target="_blank"
-            >
-              <img src="@/assets/img/icons/youtube.svg" alt="" />
-            </a>
+            <div class="low-icons">
+              <a
+                href="https://www.youtube.com/channel/UCI3Y6eDzcmAchDoGGVJZKgA/videos"
+                target="_blank"
+              >
+                <img src="@/assets/img/icons/youtube.svg" alt="" />
+              </a>
 
-            <a href="https://www.facebook.com/kurifturesorts/" target="_blank">
-              <img src="@/assets/img/icons/fb.svg" alt="" />
-            </a>
+              <a
+                href="https://www.facebook.com/kurifturesorts/"
+                target="_blank"
+              >
+                <img src="@/assets/img/icons/fb.svg" alt="" />
+              </a>
 
-            <a
-              href="https://www.linkedin.com/company/kuriftu-resorts/?originalSubdomain=et"
-              target="_blank"
-            >
-              <img src="@/assets/img/icons/linkedin.svg" alt="" />
-            </a>
+              <a
+                href="https://www.linkedin.com/company/kuriftu-resorts/?originalSubdomain=et"
+                target="_blank"
+              >
+                <img src="@/assets/img/icons/linkedin.svg" alt="" />
+              </a>
+            </div>
           </div>
 
           <div id="TA_tchotel492" class="TA_tchotel trip-advisor">
@@ -321,27 +328,33 @@ export default {};
       .lower {
         grid-area: lower;
         display: grid;
-        text-align: center;
-        grid-template-columns: 1fr 1fr;
+        text-align: left;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-          "info resorts"
-          "info wellness"
-          "info adv"
-          "info .";
+          "info resorts adv"
+          "info wellness ."
+          "info . ."
+          "info . .";
         div {
           margin-top: 1.5rem;
         }
         ul {
           display: grid;
           grid-template-columns: 1fr;
-          text-align: center;
+          // text-align: center;
         }
       }
       .socials {
         grid-area: socials;
         justify-self: center;
         .icons {
-          display: block;
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+          .top-icons,
+          .low-icons {
+            display: flex;
+            gap: 1rem;
+          }
           img {
             margin-bottom: 1.5rem;
           }

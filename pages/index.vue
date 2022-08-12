@@ -94,31 +94,37 @@
       <!-- show case section  -->
       <section class="showcase">
         <div class="container">
-          <div class="single-showcase">
-            <img src="@/assets/img/home/Waterpark.webp" alt="" />
+          <div class="single-showcase a">
+            <div class="showcase-img">
+              <img src="@/assets/img/home/Waterpark.webp" alt="" />
+            </div>
             <h5 class="sub-title">Waterpark</h5>
             <h1 class="title">Waterpark</h1>
-            <p class="text">
-              Whether you are looking to spend an afternoon of fun with family
-              or friends, searching the perfect weekend getaway, planning a
-              birthday or group event, or even surprising a loved one, Kuriftu
-              Water Park is your ultimate choice for a premier entertainment
-              destination with guaranteed fun!
-            </p>
+            <span class="text" v-if="!readWater">
+              {{ waterpark.slice(0, 250) + "..." }}
+            </span>
+            <span
+              class="read-more"
+              v-if="!readWater"
+              @click="activateWaterpark"
+            >
+              read more
+            </span>
+            <span class="text" v-if="readWater" v-html="waterpark"></span>
           </div>
-
-          <div class="single-showcase">
-            <img src="@/assets/img/home/Tana.webp" alt="" />
+          <div class="single-showcase b">
+            <div class="showcase-img">
+              <img src="@/assets/img/home/Tana.webp" alt="" />
+            </div>
             <h5 class="sub-title">Lake Tana</h5>
             <h1 class="title">Lake Tana</h1>
-            <p class="text">
-              Located in the capital of the Amhara Region, Bahirdar, Kuriftu
-              Resort & Spa Lake Tana represents the Kuriftu brands second resort
-              venture. As we seek to expand across Ethiopia, Lake Tana with its
-              historic and cultural value was the perfect choice for expansion.
-              Paired with scenic views, wildlife excursions and religious routes
-              - this destination offers a new adventure for our Kuriftu family!
-            </p>
+            <span class="text" v-if="!readTana">
+              {{ tana.slice(0, 250) + "..." }}
+            </span>
+            <span class="read-more" v-if="!readTana" @click="activateTana">
+              read more
+            </span>
+            <span class="text" v-if="readTana" v-html="tana"></span>
           </div>
         </div>
       </section>
@@ -139,6 +145,10 @@ export default {
   components: { HeaderApp, Feature },
   data() {
     return {
+      waterpark: `Whether you are looking to spend an afternoon of fun with family or friends, searching the perfect weekend getaway, planning a birthday or group event, or even surprising a loved one, Kuriftu Water Park is your ultimate choice for a premier entertainment destination with guaranteed fun!`,
+      tana: ` Located in the capital of the Amhara Region, Bahirdar, Kuriftu Resort & Spa Lake Tana represents the Kuriftu brands second resort venture. As we seek to expand across Ethiopia, Lake Tana with its historic and cultural value was the perfect choice for expansion. Paired with scenic views, wildlife excursions and religious routes - this destination offers a new adventure for our Kuriftu family!`,
+      readWater: false,
+      readTana: false,
       feature: {
         img: "FeaturedStory.webp",
         subtitle: "Featured Story",
@@ -148,6 +158,14 @@ export default {
         link: "Explore",
       },
     };
+  },
+  methods: {
+    activateWaterpark() {
+      this.readWater = true;
+    },
+    activateTana() {
+      this.readTana = true;
+    },
   },
 };
 </script>
@@ -242,14 +260,29 @@ export default {
 }
 .feature-wrapper {
   background: #f3eee7;
-  padding-top: 4.8rem;
+  // padding-top: 4.8rem;
   .showcase {
     .container {
       .single-showcase {
-        margin-top: 2rem;
+        // margin-top: 2rem;
         display: grid;
         place-items: center;
-
+        .read-more {
+          @extend .text;
+          display: inline;
+          background: none;
+          border: none;
+          color: $kuriftu-blue;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+        .showcase-img {
+          img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+          }
+        }
         h5 {
           margin-top: 1.5rem;
         }
@@ -271,9 +304,38 @@ export default {
     padding-top: 1.8rem;
     .showcase {
       .container {
+        .single-showcase {
+          .showcase-img {
+            height: 40rem;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include responsive($lg) {
+  .feature-wrapper {
+    padding-top: 1.8rem;
+    .showcase {
+      .container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 1.5rem;
+        grid-template-columns: 1fr 1rem 1fr;
+        grid-template-areas: "a . b";
+
+        .a {
+          grid-area: a;
+        }
+        .b {
+          grid-area: b;
+        }
+        .single-showcase {
+          .showcase-img {
+            // height: 30rem;
+            // width: 28rem;
+          }
+        }
       }
     }
   }

@@ -28,14 +28,14 @@ export default {
           img: "bishoftu/dining/LakeFrontF.webp",
           title: "Lakefront Restaurant ",
           text: `Perfectly situated over the banks of Lake Kuritfu lays our signature Lakefront Restaurant - decorated with white washed mosiac connected to the infinity pool above, massive art showcasing daily life in Bishoftu, and an incredible backdrop of the lake`,
-          pdf: "/a la carte menu.pdf",
+          pdf: "/BishoftuWebsiteMenuAugust,2022.pdf",
           link: "view menu",
         },
         Lfeature: {
           img: "bishoftu/dining/CabbanaF.webp",
           title: "The Cabana Restaurant & Bar",
           text: `In an ecosystem flourishing with nature, The Cabana Restaurant & Bar includes a special aesthetic of a Japanese inspired Koi Fish Pond. Enjoy a meal amidst this oasis of greenery and relax by the shaded cabanas overlooking the lake`,
-          pdf: "/a la carte menu.pdf",
+          pdf: "/BishoftuWebsiteMenuAugust,2022.pdf",
           link: "view menu",
         },
         feature1: {
@@ -49,7 +49,7 @@ export default {
           img: "bishoftu/dining/WaterparkDinerF.webp",
           title: "Waterpark Diner",
           text: `Dip and dine at our Waterpark Diner! From standard table structures to outdoor cabanas with a backdrop of the rides, experience arefreshing / fresh meal with a splash! `,
-          pdf: "/a la carte menu.pdf",
+          pdf: "/BishoftuWebsiteMenuAugust,2022.pdf",
           link: "view menu",
         },
         other: [

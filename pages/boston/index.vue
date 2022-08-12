@@ -4,16 +4,16 @@
     <Destinav base="boston/" class="boston-nav" home="boston/" dir="Boston" />
     <div class="E-bg">
       <Hero video="725574916" class="boston-hero" />
-      <Intro :data="bishTitle" />
+      <Intro :data="bishTitle" class="boston-intro" />
       <Bishoftuslide :photos="photos" />
       <hr class="divider" />
-      <section class="acc E-bg">
+      <!-- <section class="acc E-bg">
         <div class="container">
           <img :src="require('@/assets/img/' + accImg + '')" alt="" />
 
           <Intro :data="accTitle" />
         </div>
-      </section>
+      </section> -->
       <section class="well-boston">
         <div class="container">
           <div class="well__img__container">
@@ -26,45 +26,71 @@
             <div class="top__block">
               <div class="kay">
                 <h1 class="title">Hair Salon</h1>
-                <p class="text">
-                  Enjoy a self-care experience at our Hair Salon - from high
-                  ceiling interiors, to vibrant art and natural lighting, the
-                  Boston Day Spa Hair Salon exudes luxury at its finest. Each
-                  customer is welcomed and treated with the utmost care from the
-                  start to end of each service. As an Ethiopian brand, we know
-                  very well how to manage kinks and curls of all types and
-                  guarantee our clients walk out the door looking flawless
-                </p>
+                <span class="text" v-if="!readHair">
+                  {{ hair.slice(0, 250) + "..." }}
+                </span>
+                <button
+                  class="read-more"
+                  v-if="!readHair"
+                  @click="activateHairMore"
+                >
+                  read more
+                </button>
+                <span class="text" v-if="readHair" v-html="hair"></span>
               </div>
               <div class="cinema">
                 <h1 class="title">Steam / Sauna / Jaccuzi</h1>
-                <p class="text">
-                  Treat youself to our private Steam and Sauna facility with
-                  mosaic designs by Merikokeb Berhanu embedded in the walls or
-                  each room. Whether it be a girls spa day or a couples wellness
-                  night, take time to rejuvinate in this blissful setting and
-                  let your eyes wonder in this carefully curated artistic
-                  wellness experience
-                </p>
+                <span class="text" v-if="!readSteam">
+                  {{ steam.slice(0, 250) + "..." }}
+                </span>
+                <button
+                  class="read-more"
+                  v-if="!readSteam"
+                  @click="activateSteam"
+                >
+                  read more
+                </button>
+                <span class="text" v-if="readSteam" v-html="steam"></span>
               </div>
               <div class="swim">
                 <h1 class="title">Massage Cave</h1>
+                <span class="text" v-if="!readMassage">
+                  {{ steam.slice(0, 250) + "..." }}
+                </span>
+                <button
+                  class="read-more"
+                  v-if="!readMassage"
+                  @click="activateMassage"
+                >
+                  read more
+                </button>
+                <span class="text" v-if="readMassage" v-html="steam"></span>
+              </div>
+
+              <div class="swim">
+                <h1 class="title">Facial</h1>
                 <p class="text">
-                  immerse yourself in our Massage Cave - Inspired by natural
-                  textures and local materials, this facility is mystified by
-                  its unique aesthetic, warm colors and signature aromatic
-                  smells that relax the mind and body. Through years of
-                  innovation and trainings from international coaches, our
-                  massueses have refined their skills to perfection. The
-                  selection of treatments are found no where else as we continue
-                  to create new techniques and develop new mixtures that create
-                  a more personalized approach to each clients needs.
+                  With state of the art machinery, products and skillset, our
+                  facial experience provides clients the option to choose
+                  between an organic or standard treatment that cater to all
+                  skin types.
                 </p>
               </div>
 
               <div class="swim">
-                <h1 class="title"></h1>
-                <p class="text"></p>
+                <h1 class="title">Wax</h1>
+                <p class="text">
+                  Relieve your body from unwanted hair by scheduling a time with
+                  one of our hair removal specialists
+                </p>
+              </div>
+
+              <div class="swim">
+                <h1 class="title">Mani / Pedi</h1>
+                <p class="text">
+                  Stay up-to-date on trending colors and new designs for nail
+                  art at our Mani/Pedi Studio overlooking bole road
+                </p>
               </div>
             </div>
 
@@ -114,6 +140,9 @@ export default {
   components: { BishFooter, Feature, LeftFeature },
   data() {
     return {
+      readHair: false,
+      readSteam: false,
+      readMassage: false,
       slides: [
         "boston/slider/gallery2.webp",
         "boston/slider/recieption.webp",
@@ -129,16 +158,14 @@ export default {
         "boston/Wax.webp",
         "boston/HairStyle.webp",
       ],
-      // acc cover image
-      accImg: "boston/ArtGallery.webp",
-      // acc content
-      accTitle: {
-        title: "Art Gallery",
-        text: `As you wait for your appointment take a stroll around the
-                  entire Boston Day Spa floor and discover local art stationed
-                  all across. Make your own interpretations of the work through
-                  this experience!`,
-      },
+      hair: `Enjoy a self-care experience at our Hair Salon - from high ceiling interiors, to vibrant art and natural lighting, the Boston Day Spa Hair Salon exudes luxury at its finest. Each customer is welcomed and treated with the utmost care from the start to end of each service. As an Ethiopian brand, we know very well how to manage kinks and curls of all types and guarantee our clients walk out the door looking flawless`,
+      steam: ` Treat youself to our private Steam and Sauna facility with
+                  mosaic designs by Merikokeb Berhanu embedded in the walls or
+                  each room. Whether it be a girls spa day or a couples wellness
+                  night, take time to rejuvinate in this blissful setting and
+                  let your eyes wonder in this carefully curated artistic
+                  wellness experience`,
+      massage: ` immerse yourself in our Massage Cave - Inspired by natural textures and local materials, this facility is mystified by its unique aesthetic, warm colors and signature aromatic smells that relax the mind and body. Through years of innovation and trainings from international coaches, our massueses have refined their skills to perfection. The selection of treatments are found no where else as we continue to create new techniques and develop new mixtures that create a more personalized approach to each clients needs.`,
       bishTitle: {
         subTitle: "Addis Abeba, Ethiopia",
         title: "Boston Day Spa",
@@ -151,44 +178,51 @@ export default {
         {
           img: "boston/Facial.webp",
           title: "Facial",
-          text: `With state of the art machinery, products and skillset, our facial experience provides clients the option to choose between an organic or standard treatment that cater to all skin types.`,
+          text: ``,
         },
         {
           img: "boston/WaxLong.webp",
           title: "Wax",
-          text: `Relieve your body from unwanted hair by scheduling a time with one of our hair removal specialists`,
+          text: ``,
         },
         {
           img: "boston/ManiPediLong.webp",
           title: "Mani / Pedi ",
-          text: `Stay up-to-date on trending colors and new designs for nail art at our Mani/Pedi Studio overlooking bole road`,
+          text: ``,
         },
-           {
+        {
           img: "boston/Spa.webp",
           title: "Spa",
-            text: ``,
-
+          text: ``,
         },
-                {
+        {
           img: "boston/Massage.webp",
           title: "Massage",
-            text: ``,
-
+          text: ``,
         },
-                {
+        {
           img: "boston/hair.webp",
           title: "Hair Salon",
-            text: ` `,
-
+          text: ` `,
         },
-                {
+        {
           img: "boston/Barber.webp",
           title: "Barber",
-            text: ` `,
-
+          text: ` `,
         },
       ],
     };
+  },
+  methods: {
+    activateHairMore() {
+      this.readHair = true;
+    },
+    activateSteam() {
+      this.readSteam = true;
+    },
+    activateMassage() {
+      this.readMassage = true;
+    },
   },
 };
 </script>
@@ -256,7 +290,9 @@ export default {
     }
   }
 }
-
+.boston-intro {
+  margin-bottom: 2rem;
+}
 .well-boston {
   background: #f3eee7;
   padding: 3rem 0;
@@ -284,6 +320,16 @@ export default {
     .well__content {
       h1 {
         margin: 1rem 0 1.5rem;
+      }
+      .top__block {
+        .read-more {
+          @extend .text;
+          background: none;
+          border: none;
+          color: $kuriftu-blue;
+          text-decoration: underline;
+          cursor: pointer;
+        }
       }
       .lower__block {
         .line {
