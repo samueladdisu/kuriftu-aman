@@ -49,7 +49,7 @@ export default {
           img: "bishoftu/dining/WaterparkDinerF.webp",
           title: "Waterpark Diner",
           text: `Dip and dine at our Waterpark Diner! From standard table structures to outdoor cabanas with a backdrop of the rides, experience arefreshing / fresh meal with a splash! `,
-          pdf: "/BishoftuWebsiteMenuAugust,2022.pdf",
+          pdf: "/WaterparkAugust,2022.pdf",
           link: "view menu",
         },
         other: [
