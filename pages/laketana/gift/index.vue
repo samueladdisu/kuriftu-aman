@@ -1,6 +1,7 @@
 <template>
   <div>
     <HeaderApp />
+    <Destinav base="" home="/laketana" dir="Lake Tana" />
     <Gift :gift="gift" />
     <Sticky path="awash" />
   </div>
@@ -223,76 +224,6 @@ export default {
             },
           ],
         },
-        awash: {
-          title: "awash",
-          photos: [
-            {
-              id: 1,
-              src: "gift2.svg",
-              url: "gift/1",
-            },
-            {
-              id: 2,
-              src: "gift2.svg",
-              url: "gift/2",
-            },
-            {
-              id: 3,
-              src: "gift2.svg",
-              url: "gift/3",
-            },
-            {
-              id: 4,
-              src: "gift2.svg",
-              url: "gift/4",
-            },
-            {
-              id: 5,
-              src: "gift2.svg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
-              src: "gift2.svg",
-              url: "gift/6",
-            },
-          ],
-        },
-        // afar: {
-        //   title: "afar",
-        //   photos: [
-        //     {
-        //       id: 1,
-        //       src: "gift5.svg",
-        //       url: "gift/1",
-        //     },
-        //     {
-        //       id: 2,
-        //       src: "gift1.svg",
-        //       url: "gift/2",
-        //     },
-        //     {
-        //       id: 3,
-        //       src: "gift2.svg",
-        //       url: "gift/3",
-        //     },
-        //     {
-        //       id: 4,
-        //       src: "gift3.svg",
-        //       url: "gift/4",
-        //     },
-        //     {
-        //       id: 5,
-        //       src: "gift4.svg",
-        //       url: "gift/5",
-        //     },
-        //     {
-        //       id: 6,
-        //       src: "gift1.svg",
-        //       url: "gift/6",
-        //     },
-        //   ],
-        // },
         boston: {
           title: "boston day spa",
           photos: [

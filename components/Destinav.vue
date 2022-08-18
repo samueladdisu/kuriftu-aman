@@ -60,7 +60,7 @@
                         >Gallery</nuxt-link
                       >
                     </li>
-                    <li>
+                    <li v-if="awash">
                       <nuxt-link class="a-link" :to="base + 'gift'"
                         >Gift Voucher</nuxt-link
                       >
@@ -131,7 +131,7 @@
                     >Gallery</nuxt-link
                   >
                 </li>
-                <li>
+                <li v-if="awash">
                   <nuxt-link class="a-link" :to="base + 'gift'"
                     >Gift Voucher</nuxt-link
                   >
@@ -157,6 +157,7 @@ export default {
       boston: true,
       adv: false,
       isActive: false,
+      awash: true,
     };
   },
   methods: {
@@ -173,6 +174,9 @@ export default {
 
     if (this.dir == "Entoto") {
       this.adv = true;
+    }
+    if (this.dir == "Awash") {
+      this.awash = false;
     }
   },
 };
