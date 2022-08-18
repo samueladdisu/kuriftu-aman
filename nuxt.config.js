@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   // HOST=0.0.0.0 PORT=3333
-  target: 'static',
+  // target: 'static',
   head: {
     title: 'kuriftu',
     htmlAttrs: {
