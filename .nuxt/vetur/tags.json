@@ -1,0 +1,83 @@
+{
+  "Acc": {
+    "description": "Auto imported from components/Acc.vue"
+  },
+  "BishFooter": {
+    "description": "Auto imported from components/BishFooter.vue"
+  },
+  "Bishoftuslide": {
+    "description": "Auto imported from components/Bishoftuslide.vue"
+  },
+  "Corporate": {
+    "description": "Auto imported from components/Corporate.vue"
+  },
+  "Desc1": {
+    "description": "Auto imported from components/Desc1.vue"
+  },
+  "Destinav": {
+    "description": "Auto imported from components/Destinav.vue"
+  },
+  "Dindex": {
+    "description": "Auto imported from components/Dindex.vue"
+  },
+  "Dining": {
+    "description": "Auto imported from components/Dining.vue"
+  },
+  "Event": {
+    "description": "Auto imported from components/Event.vue"
+  },
+  "Exp": {
+    "description": "Auto imported from components/Exp.vue"
+  },
+  "Feature": {
+    "description": "Auto imported from components/Feature.vue"
+  },
+  "FooterApp": {
+    "description": "Auto imported from components/FooterApp.vue"
+  },
+  "Gallery": {
+    "description": "Auto imported from components/Gallery.vue"
+  },
+  "Gift": {
+    "description": "Auto imported from components/Gift.vue"
+  },
+  "GiftEnquiry": {
+    "description": "Auto imported from components/GiftEnquiry.vue"
+  },
+  "GiftSection": {
+    "description": "Auto imported from components/GiftSection.vue"
+  },
+  "HeaderApp": {
+    "description": "Auto imported from components/HeaderApp.vue"
+  },
+  "Hero": {
+    "description": "Auto imported from components/Hero.vue"
+  },
+  "HeroSlide": {
+    "description": "Auto imported from components/HeroSlide.vue"
+  },
+  "Highlight": {
+    "description": "Auto imported from components/Highlight.vue"
+  },
+  "ImgComp": {
+    "description": "Auto imported from components/ImgComp.vue"
+  },
+  "Intro": {
+    "description": "Auto imported from components/Intro.vue"
+  },
+  "LeftFeature": {
+    "description": "Auto imported from components/LeftFeature.vue"
+  },
+  "NavMenu": {
+    "description": "Auto imported from components/NavMenu.vue"
+  },
+  "OtherAcc": {
+    "description": "Auto imported from components/OtherAcc.vue"
+  },
+  "Sticky": {
+    "description": "Auto imported from components/Sticky.vue"
+  },
+  "Well": {
+    "description": "Auto imported from components/Well.vue"
+  }
+}

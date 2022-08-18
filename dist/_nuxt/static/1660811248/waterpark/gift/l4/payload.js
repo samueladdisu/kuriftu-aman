@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/waterpark/gift/l4", {data:[{}],fetch:{},mutations:void 0});

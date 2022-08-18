@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/giftcard/l5", {data:[{}],fetch:{},mutations:void 0});

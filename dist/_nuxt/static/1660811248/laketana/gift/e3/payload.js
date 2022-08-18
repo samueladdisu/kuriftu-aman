@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/laketana/gift/e3", {data:[{}],fetch:{},mutations:void 0});
