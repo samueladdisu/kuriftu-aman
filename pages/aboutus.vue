@@ -160,7 +160,7 @@
                 <div class="persent-wrapper">
                   <h2
                     class="timer count-title count-number"
-                    data-to="100"
+                    data-to="98"
                     data-speed="10000"
                   ></h2>
                   <h4>%</h4>
@@ -448,13 +448,13 @@
               <img src="../assets/img/icons/start.svg" alt="" />
             </div>
             <p class="text">
-              I've been working at Boston Day Spa for the past 20 years and I'm
-              forever grateful to be working for a company that truly values
-              their employees as individuals and will do everything thry can to
-              heip each person reach their individual goals. Joining Boston
-              Partners PLC
+              We stayed for 2 nights we had an excellent time. The customer
+              service was outstanding especially thanks to the food and beverage
+              director Mr. Fantahun. He is above and beyond in everything he
+              does. He made us feel at home. I highly recommend for families to
+              come and visit here
             </p>
-            <h3>STAFF DRIVEN</h3>
+            <h3>Daniel Berhane</h3>
           </div>
           <div class="testimony-card">
             <!-- <div class="test-img">
@@ -464,13 +464,12 @@
               <img src="../assets/img/icons/start.svg" alt="" />
             </div>
             <p class="text">
-              I've been working at Boston Day Spa for the past 20 years and I'm
-              forever grateful to be working for a company that truly values
-              their employees as individuals and will do everything thry can to
-              heip each person reach their individual goals. Joining Boston
-              Partners PLC
+              This ride was great. The guide helped a lot. Haile Mariam Almayehu
+              guided me through the zip line course. 10/10. The zip line coarse
+              had many obstacles to go through and the guide was great in
+              showing me around the rope coarse would definitely recommend this.
             </p>
-            <h3>CORPORATE CLIENT DRIVEN</h3>
+            <h3>Natan B.</h3>
           </div>
           <div class="testimony-card">
             <!-- <div class="test-img">
@@ -480,13 +479,14 @@
               <img src="../assets/img/icons/start.svg" alt="" />
             </div>
             <p class="text">
-              I've been working at Boston Day Spa for the past 20 years and I'm
-              forever grateful to be working for a company that truly values
-              their employees as individuals and will do everything thry can to
-              heip each person reach their individual goals. Joining Boston
-              Partners PLC
+              I can’t thank the staff enough for being so kind. Their
+              hospitality is truly amazing. I really loved everyone i had
+              contact with, such lovely people. The place was also so calm and
+              relaxing. I already promised my wife i will bring her back in a
+              couple months. So we will see you soon. Thank you again for making
+              us feel so welcomed
             </p>
-            <h3>CUSTOMER DRIVEN</h3>
+            <h3>Sami</h3>
           </div>
         </div>
       </div>

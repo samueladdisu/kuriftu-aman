@@ -13,7 +13,6 @@
           <option value="bishoftu">Bishoftu</option>
           <option value="entoto">Entoto</option>
           <option value="tana">Lake Tana</option>
-          <option value="afar">Afar</option>
         </select>
       </div>
       <div class="form-group bootstrap-dates col-3">

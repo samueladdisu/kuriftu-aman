@@ -3,14 +3,9 @@
     <div class="container">
       <h5 class="sub-title" v-if="data.subTitle">{{ data.subTitle }}</h5>
       <h1 class="title">{{ data.title }}</h1>
-      <span class="text" v-if="!readMore && data.text">
-        {{ data.text.slice(0, 350) + "..." }}
-      </span>
-      <button class="read-more" v-if="!readMore" @click="activateReadMore">
-        read more
-      </button>
-
-      <span class="text" v-if="readMore && data.text" v-html="data.text"></span>
+      <p class="text">
+        {{ data.text }}
+      </p>
       <nuxt-link :to="data.url" v-if="data.link" class="link">
         {{ data.link }}</nuxt-link
       >
@@ -21,19 +16,6 @@
 <script>
 export default {
   props: ["data"],
-  data() {
-    return {
-      readMore: false,
-    };
-  },
-  methods: {
-    activateReadMore() {
-      console.log("clicked");
-      console.log(this.readMore);
-      this.readMore = true;
-      console.log(this.readMore);
-    },
-  },
 };
 </script>
 

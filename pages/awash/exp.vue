@@ -25,7 +25,7 @@ export default {
         feature: {
           img: "awash/exp/CamelRide.webp",
           // subtitle: "glamping",
-          title: "Camel Ride",
+          title: "Camel Ride(Coming Soon)",
           text: `Venture into the depths of the national park on a relaxing camel ride tour!`,
           // uri: "/",
           // link: "Explore",

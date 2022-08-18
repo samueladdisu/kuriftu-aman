@@ -4,7 +4,29 @@
     <Destinav base="boston/" class="boston-nav" home="boston/" dir="Boston" />
     <div class="E-bg">
       <Hero video="725574916" class="boston-hero" />
-      <Intro :data="bishTitle" class="boston-intro" />
+      <section class="intro boston-intro">
+        <div class="container">
+          <h5 class="sub-title" v-if="bishTitle.subTitle">
+            {{ bishTitle.subTitle }}
+          </h5>
+          <h1 class="title">{{ bishTitle.title }}</h1>
+          <span class="text" v-if="!readMore && bishTitle.text">
+            {{ bishTitle.text.slice(0, 350) + "..." }}
+          </span>
+          <button class="read-more" v-if="!readMore" @click="activateReadMore">
+            read more
+          </button>
+
+          <span
+            class="text"
+            v-if="readMore && bishTitle.text"
+            v-html="bishTitle.text"
+          ></span>
+          <nuxt-link :to="bishTitle.url" v-if="bishTitle.link" class="link">
+            {{ bishTitle.link }}</nuxt-link
+          >
+        </div>
+      </section>
       <Bishoftuslide :photos="photos" />
       <hr class="divider" />
       <!-- <section class="acc E-bg">
@@ -140,6 +162,7 @@ export default {
   components: { BishFooter, Feature, LeftFeature },
   data() {
     return {
+      readMore: false,
       readHair: false,
       readSteam: false,
       readMassage: false,
@@ -214,6 +237,12 @@ export default {
     };
   },
   methods: {
+    activateReadMore() {
+      console.log("clicked");
+      console.log(this.readMore);
+      this.readMore = true;
+      console.log(this.readMore);
+    },
     activateHairMore() {
       this.readHair = true;
     },

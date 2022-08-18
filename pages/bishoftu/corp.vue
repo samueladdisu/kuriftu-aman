@@ -16,8 +16,8 @@ export default {
     return {
       corp: {
         slides: [
-          "bishoftu/corp/1.webp",
           "bishoftu/corp/2.webp",
+          "bishoftu/corp/1.webp",
           "bishoftu/corp/3.webp",
           "bishoftu/corp/4.webp",
           "bishoftu/corp/5.webp",

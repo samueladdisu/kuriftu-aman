@@ -6,7 +6,7 @@
         <img :src="require('@/assets/img/' + data[0].img + '')" alt="" />
         <div class="voucher__content">
           <h1 class="title">{{ data[0].title }}</h1>
-          <h5 class="sub-title">price 20,000.00</h5>
+          <!-- <h5 class="sub-title">price 20,000.00</h5> -->
 
           <div class="voucher__tabs">
             <div class="tabs__container">
@@ -54,15 +54,10 @@
 
             <hr />
             <div class="input">
-              <select name="" id="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-              </select>
-
               <div>
-                <nuxt-link to="#" class="btn-cta"> Purchase </nuxt-link>
+                <button @click="formEnquiry" class="btn-cta">
+                  Make an enquiry
+                </button>
               </div>
             </div>
           </div>
@@ -70,15 +65,19 @@
       </div>
     </section>
     <Sticky path="awash" />
+    <GiftEnquiry v-if="enquiry" @close="formEnquiry" />
   </div>
 </template>
 
 <script>
+import GiftEnquiry from "../../../../components/GiftEnquiry.vue";
 export default {
+  components: { GiftEnquiry },
   data() {
     return {
       desc_content: true,
       detail_content: false,
+      enquiry: false,
       data: [],
       gift: [
         {
@@ -99,7 +98,7 @@ export default {
         },
         {
           id: "b2",
-          title: "Congatulations",
+          title: "CONGRATULATIONS",
           img: "giftvoucher/6.jpg",
           descTitle:
             "Give the gift of a day at the resort with 1 night stay at Kuriftu Resort & Spa",
@@ -197,7 +196,7 @@ export default {
         },
         {
           id: "w2",
-          title: "Congatulations",
+          title: "CONGRATULATIONS",
           img: "giftvoucher/6.jpg",
           descTitle:
             "Give the gift of a day at the resort with 1 night stay at Kuriftu Resort & Spa",
@@ -399,7 +398,7 @@ export default {
         },
         {
           id: "l2",
-          title: "Congatulations",
+          title: "CONGRATULATIONS",
           img: "giftvoucher/6.jpg",
           descTitle:
             "Give the gift of a day at the resort with 1 night stay at Kuriftu Resort & Spa Lake Tana",
@@ -562,6 +561,9 @@ export default {
     };
   },
   methods: {
+    formEnquiry() {
+      this.enquiry = !this.enquiry;
+    },
     showDesc() {
       this.desc_content = true;
       this.detail_content = false;

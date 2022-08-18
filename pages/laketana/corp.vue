@@ -56,7 +56,7 @@ export default {
         venues: [
           {
             id: 1,
-            img: "bishoftu/corp/2.webp",
+            img: "laketana/corp/ConferenceHall.webp",
             title: "Conference Hall",
             text: `Our conference hall accommodates up to 20 people - fostering a closer bond for those participating in any scheduled experince, whether it be a retreat or meeting.`,
           },

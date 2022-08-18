@@ -149,29 +149,31 @@
             </div>
           </div>
 
-          <div id="TA_tchotel492" class="TA_tchotel trip-advisor">
-            <div
-              id="CDSWIDTC"
-              class="widTC2015 cx_brand_refresh1"
-              onclick="window.open('https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html'); return false;"
-            >
-              <a
-                target="_blank"
-                href="https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html"
-                rel="nofollow"
-                tabindex="0"
-                id="yui_3_17_2_1_1656685011911_1362"
-                ><img
-                  src="https://www.tripadvisor.com/img/cdsi/img2/awards/v2/tchotel_2016_L-11655-2.png"
-                  alt="Tripadvisor"
-                  class="false"
-                  id="false"
-              /></a>
-            </div>
+          <div
+            id="TA_certificateOfExcellence684"
+            class="TA_certificateOfExcellence"
+          >
+            <ul id="zUFfTH3" class="TA_links Ef8jRrYiZqp">
+              <li id="4ZZ3ULiJmX" class="KJz30P1aa">
+                <a
+                  target="_blank"
+                  href="https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html"
+                  ><img
+                    src="https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2022_L.png"
+                    alt="TripAdvisor"
+                    class="widCOEImg"
+                    id="CDSWIDCOELOGO"
+                /></a>
+              </li>
+            </ul>
           </div>
+          <script
+            async
+            src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=684&amp;locationId=1813539&amp;lang=en_US&amp;year=2022&amp;display_version=2"
+            data-loadtrk
+            onload="this.loadtrk=true"
+          ></script>
         </div>
-
-        <script src="https://www.jscache.com/wejs?wtype=tchotel&amp;uniq=492&amp;locationId=1813539&amp;lang=en_US&amp;year=2016&amp;display_version=2"></script>
       </div>
       <p class="text pfooter">
         All Copyright &copy; 2022 Kuriftu Resort and Spa. Powered by
