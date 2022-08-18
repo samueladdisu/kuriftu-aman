@@ -465,9 +465,9 @@
             </div>
             <p class="text">
               This ride was great. The guide helped a lot. Haile Mariam Almayehu
-              guided me through the zip line course. 10/10. The zip line coarse
+              guided me through the zip line course. 10/10. The zip line course
               had many obstacles to go through and the guide was great in
-              showing me around the rope coarse would definitely recommend this.
+              showing me around the rope course would definitely recommend this.
             </p>
             <h3>Natan B.</h3>
           </div>
