@@ -6,7 +6,11 @@
         method="POST"
         class="event-form"
       >
-        <input type="hidden" name="_subject" value="Gift Card enquiry Test" />
+        <input
+          type="hidden"
+          name="_subject"
+          value="New Submission From Gift Voucher Page"
+        />
         <input
           type="hidden"
           name="_cc"
@@ -18,12 +22,24 @@
 
         <div class="form-group">
           <label for="name"> Name * </label>
-          <input type="text" class="form-control" name="name" id="name" />
+          <input
+            type="text"
+            class="form-control"
+            name="name"
+            id="name"
+            required
+          />
         </div>
 
         <div class="form-group">
           <label for="email"> Email * </label>
-          <input type="email" class="form-control" name="email" id="email" />
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            id="email"
+            required
+          />
         </div>
 
         <div class="form-group">
