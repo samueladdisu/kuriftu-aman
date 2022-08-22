@@ -6,18 +6,29 @@
       <div class="container">
         <div class="contact-wrapper">
           <form
-            action="https://formsubmit.co/support@versavvymedia.com"
+            action="https://formsubmit.co/kurifturesortspa1@gmail.com"
             class="myform"
             method="POST"
           >
             <h2>Write to Us</h2>
             <p>Send us a message and we'll get back to you right away!</p>
+            <input
+              type="hidden"
+              name="_cc"
+              value="mahlet.tadiwos@kurifturesorts.com"
+            />
             <div class="input-box">
               <input
                 type="text"
                 name="name"
                 class="right-margin"
                 placeholder="Frist Name"
+                required
+              />
+              <input
+                type="hidden"
+                name="_subject"
+                value="New Submission From Contact Page"
               />
               <input
                 type="text"
@@ -31,9 +42,10 @@
                 name="email"
                 class="right-margin"
                 placeholder="Email"
+                required
               />
             </div>
-            <textarea name="message" id="" cols="30" rows="5">
+            <textarea name="message" id="" cols="30" rows="5" required>
               Message
             </textarea>
 
