@@ -176,7 +176,12 @@
             </div>
 
             <div class="form-group">
-              <button class="event-btn">Send</button>
+              <input
+                type="submit"
+                value="Send"
+                name="submit"
+                class="event-btn"
+              />
             </div>
           </form>
         </div>
