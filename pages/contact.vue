@@ -15,7 +15,7 @@
             <input
               type="hidden"
               name="_cc"
-              value="mahlet.tadiwos@kurifturesorts.com"
+              value="booking@kurifturesorts.com"
             />
             <div class="input-box">
               <input

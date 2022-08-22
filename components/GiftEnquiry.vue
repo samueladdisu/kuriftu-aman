@@ -6,11 +6,7 @@
         method="POST"
         class="event-form"
       >
-        <input
-          type="hidden"
-          name="_cc"
-          value="mahlet.tadiwos@kurifturesorts.com"
-        />
+        <input type="hidden" name="_cc" value="booking@kurifturesorts.com" />
         <input
           type="hidden"
           name="_subject"

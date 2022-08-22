@@ -46,7 +46,7 @@
             <input
               type="hidden"
               name="_cc"
-              value="mahlet.tadiwos@kurifturesorts.com"
+              value="booking@kurifturesorts.com"
             />
             <input
               type="hidden"
