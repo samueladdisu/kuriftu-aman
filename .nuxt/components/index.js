@@ -1,30 +1,30 @@
-export const Acc = () => import('../..\\components\\Acc.vue' /* webpackChunkName: "components/acc" */).then(c => wrapFunctional(c.default || c))
-export const BishFooter = () => import('../..\\components\\BishFooter.vue' /* webpackChunkName: "components/bish-footer" */).then(c => wrapFunctional(c.default || c))
-export const Bishoftuslide = () => import('../..\\components\\Bishoftuslide.vue' /* webpackChunkName: "components/bishoftuslide" */).then(c => wrapFunctional(c.default || c))
-export const Corporate = () => import('../..\\components\\Corporate.vue' /* webpackChunkName: "components/corporate" */).then(c => wrapFunctional(c.default || c))
-export const Desc1 = () => import('../..\\components\\Desc1.vue' /* webpackChunkName: "components/desc1" */).then(c => wrapFunctional(c.default || c))
-export const Destinav = () => import('../..\\components\\Destinav.vue' /* webpackChunkName: "components/destinav" */).then(c => wrapFunctional(c.default || c))
-export const Dindex = () => import('../..\\components\\Dindex.vue' /* webpackChunkName: "components/dindex" */).then(c => wrapFunctional(c.default || c))
-export const Dining = () => import('../..\\components\\Dining.vue' /* webpackChunkName: "components/dining" */).then(c => wrapFunctional(c.default || c))
-export const Event = () => import('../..\\components\\Event.vue' /* webpackChunkName: "components/event" */).then(c => wrapFunctional(c.default || c))
-export const Exp = () => import('../..\\components\\Exp.vue' /* webpackChunkName: "components/exp" */).then(c => wrapFunctional(c.default || c))
-export const Feature = () => import('../..\\components\\Feature.vue' /* webpackChunkName: "components/feature" */).then(c => wrapFunctional(c.default || c))
-export const FooterApp = () => import('../..\\components\\FooterApp.vue' /* webpackChunkName: "components/footer-app" */).then(c => wrapFunctional(c.default || c))
-export const Gallery = () => import('../..\\components\\Gallery.vue' /* webpackChunkName: "components/gallery" */).then(c => wrapFunctional(c.default || c))
-export const Gift = () => import('../..\\components\\Gift.vue' /* webpackChunkName: "components/gift" */).then(c => wrapFunctional(c.default || c))
-export const GiftEnquiry = () => import('../..\\components\\GiftEnquiry.vue' /* webpackChunkName: "components/gift-enquiry" */).then(c => wrapFunctional(c.default || c))
-export const GiftSection = () => import('../..\\components\\GiftSection.vue' /* webpackChunkName: "components/gift-section" */).then(c => wrapFunctional(c.default || c))
-export const HeaderApp = () => import('../..\\components\\HeaderApp.vue' /* webpackChunkName: "components/header-app" */).then(c => wrapFunctional(c.default || c))
-export const Hero = () => import('../..\\components\\Hero.vue' /* webpackChunkName: "components/hero" */).then(c => wrapFunctional(c.default || c))
-export const HeroSlide = () => import('../..\\components\\HeroSlide.vue' /* webpackChunkName: "components/hero-slide" */).then(c => wrapFunctional(c.default || c))
-export const Highlight = () => import('../..\\components\\Highlight.vue' /* webpackChunkName: "components/highlight" */).then(c => wrapFunctional(c.default || c))
-export const ImgComp = () => import('../..\\components\\ImgComp.vue' /* webpackChunkName: "components/img-comp" */).then(c => wrapFunctional(c.default || c))
-export const Intro = () => import('../..\\components\\Intro.vue' /* webpackChunkName: "components/intro" */).then(c => wrapFunctional(c.default || c))
-export const LeftFeature = () => import('../..\\components\\LeftFeature.vue' /* webpackChunkName: "components/left-feature" */).then(c => wrapFunctional(c.default || c))
-export const NavMenu = () => import('../..\\components\\NavMenu.vue' /* webpackChunkName: "components/nav-menu" */).then(c => wrapFunctional(c.default || c))
-export const OtherAcc = () => import('../..\\components\\OtherAcc.vue' /* webpackChunkName: "components/other-acc" */).then(c => wrapFunctional(c.default || c))
-export const Sticky = () => import('../..\\components\\Sticky.vue' /* webpackChunkName: "components/sticky" */).then(c => wrapFunctional(c.default || c))
-export const Well = () => import('../..\\components\\Well.vue' /* webpackChunkName: "components/well" */).then(c => wrapFunctional(c.default || c))
+export { default as Acc } from '../..\\components\\Acc.vue'
+export { default as BishFooter } from '../..\\components\\BishFooter.vue'
+export { default as Bishoftuslide } from '../..\\components\\Bishoftuslide.vue'
+export { default as Corporate } from '../..\\components\\Corporate.vue'
+export { default as Desc1 } from '../..\\components\\Desc1.vue'
+export { default as Destinav } from '../..\\components\\Destinav.vue'
+export { default as Dindex } from '../..\\components\\Dindex.vue'
+export { default as Dining } from '../..\\components\\Dining.vue'
+export { default as Event } from '../..\\components\\Event.vue'
+export { default as Exp } from '../..\\components\\Exp.vue'
+export { default as Feature } from '../..\\components\\Feature.vue'
+export { default as FooterApp } from '../..\\components\\FooterApp.vue'
+export { default as Gallery } from '../..\\components\\Gallery.vue'
+export { default as Gift } from '../..\\components\\Gift.vue'
+export { default as GiftEnquiry } from '../..\\components\\GiftEnquiry.vue'
+export { default as GiftSection } from '../..\\components\\GiftSection.vue'
+export { default as HeaderApp } from '../..\\components\\HeaderApp.vue'
+export { default as Hero } from '../..\\components\\Hero.vue'
+export { default as HeroSlide } from '../..\\components\\HeroSlide.vue'
+export { default as Highlight } from '../..\\components\\Highlight.vue'
+export { default as ImgComp } from '../..\\components\\ImgComp.vue'
+export { default as Intro } from '../..\\components\\Intro.vue'
+export { default as LeftFeature } from '../..\\components\\LeftFeature.vue'
+export { default as NavMenu } from '../..\\components\\NavMenu.vue'
+export { default as OtherAcc } from '../..\\components\\OtherAcc.vue'
+export { default as Sticky } from '../..\\components\\Sticky.vue'
+export { default as Well } from '../..\\components\\Well.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

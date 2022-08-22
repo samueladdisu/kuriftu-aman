@@ -12,6 +12,11 @@
           name="_cc"
           value="mahlet.tadiwos@kurifturesorts.com"
         />
+        <input
+          type="hidden"
+          name="_subject"
+          value="New Submission From Gift Voucher Page"
+        />
         <div class="close">
           <img @click="closeForm" src="@/assets/img/icons/x.svg" alt="" />
         </div>
