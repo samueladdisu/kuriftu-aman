@@ -6,7 +6,6 @@
         method="POST"
         class="event-form"
       >
-        <input type="hidden" name="_subject" value="Gift Card enquiry Test" />
         <input
           type="hidden"
           name="_cc"
