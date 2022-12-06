@@ -27,9 +27,9 @@ export default {
           img: "laketana/exp/BoatRide.webp",
           // subtitle: "glamping",
           title: "Boat Ride",
-          text: `Cruise on one of our boat rides along Lake Tana with a crisp view of the sunrise or sunset, you might get lucky and see some Hippo's along the way!`,
-          uri: "#",
-          link: "Explore",
+          text: `Cruise on one of our boat rides along Lake Tana with a crisp view of the sunrise or sunset, you might get lucky and see some hippo's along the way!`,
+          // uri: "#",
+          // link: "Explore",
         },
         highlight: {
           img1: "laketana/exp/MonastryVisit.webp",

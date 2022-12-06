@@ -1,6 +1,7 @@
 <template>
   <div>
     <HeaderApp />
+    <Destinav base="" class="boston-nav" home="/boston" dir="Boston" />
     <Gift :gift="gift" />
     <Sticky path="awash" />
   </div>
@@ -21,33 +22,38 @@ export default {
           photos: [
             {
               id: 1,
-              src: "giftvoucher/1.jpg",
-              url: "gift/1",
+              src: "giftvoucher/7.jpg",
+              url: "gift/bo1",
+              title: "BIRTHDAY Pamper",
+              text: `Fresh new year, fresh new you!`,
             },
             {
               id: 2,
-              src: "giftvoucher/2.jpg",
-              url: "gift/2",
+              src: "giftvoucher/6.jpg",
+              url: "gift/bo2",
+              title: "DELUXE SPA DAY",
+              text: `Graduated, married, a new job, a new house? congratulate your loved one with a day off at the Boston Day Spa`,
             },
             {
               id: 3,
-              src: "giftvoucher/3.jpg",
-              url: "gift/3",
+              src: "giftvoucher/6.jpg",
+              url: "gift/bo3",
+              title: "supreme SPA DAY",
+              text: `It's always a good day to take a ME day! Get a glamourous spa day with our supreme package! `,
             },
             {
               id: 4,
-              src: "giftvoucher/4.jpg",
-              url: "gift/4",
+              src: "giftvoucher/6.jpg",
+              url: "gift/bo4",
+              title: "LOVER'S PAMPER DAY",
+              text: `No better way to share your love than with a little bit of pampering. Take a couples' day and pamper yourselves.`,
             },
             {
               id: 5,
-              src: "giftvoucher/5.jpg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
               src: "giftvoucher/6.jpg",
-              url: "gift/6",
+              url: "gift/bo5",
+              title: "GROUP SPA DAY",
+              text: `A fun day at the spa with friends; sharing stories, reminiscing the past and talking about the future`,
             },
           ],
         },
@@ -218,76 +224,6 @@ export default {
             },
           ],
         },
-        awash: {
-          title: "awash",
-          photos: [
-            {
-              id: 1,
-              src: "gift2.svg",
-              url: "gift/1",
-            },
-            {
-              id: 2,
-              src: "gift2.svg",
-              url: "gift/2",
-            },
-            {
-              id: 3,
-              src: "gift2.svg",
-              url: "gift/3",
-            },
-            {
-              id: 4,
-              src: "gift2.svg",
-              url: "gift/4",
-            },
-            {
-              id: 5,
-              src: "gift2.svg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
-              src: "gift2.svg",
-              url: "gift/6",
-            },
-          ],
-        },
-        // afar: {
-        //   title: "afar",
-        //   photos: [
-        //     {
-        //       id: 1,
-        //       src: "gift5.svg",
-        //       url: "gift/1",
-        //     },
-        //     {
-        //       id: 2,
-        //       src: "gift1.svg",
-        //       url: "gift/2",
-        //     },
-        //     {
-        //       id: 3,
-        //       src: "gift2.svg",
-        //       url: "gift/3",
-        //     },
-        //     {
-        //       id: 4,
-        //       src: "gift3.svg",
-        //       url: "gift/4",
-        //     },
-        //     {
-        //       id: 5,
-        //       src: "gift4.svg",
-        //       url: "gift/5",
-        //     },
-        //     {
-        //       id: 6,
-        //       src: "gift1.svg",
-        //       url: "gift/6",
-        //     },
-        //   ],
-        // },
         boston: {
           title: "boston day spa",
           photos: [

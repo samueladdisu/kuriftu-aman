@@ -16,7 +16,7 @@ export default {
       acc: {
         accTitle: {
           title: "Accomodation at Kuriftu Resort Awash Falls",
-          text: `Premiering Kuriftu's boutique resort chain, Kuriftu Resort Awash Falls invites guests into the extraordinary landscape of Awash National Park, offering privacy, uncomprimising comfort and service `,
+          text: `Premiering Kuriftu's boutique resort chain, Kuriftu Resort Awash Falls invites guests into the extraordinary landscape of Awash National Park, offering privacy,uncompromising comfort and service `,
         },
         rooms: [
           {
@@ -24,7 +24,7 @@ export default {
             img: "awash/acc/Premium.webp",
             subTitle: "Waterfall Front",
             title: "Premium Suite ",
-            text: `Curated to exude an air of exclusivity with spacious surroundings, personal dining, and a private balcony view of the waterfall, the Presidenrial Suite radiates luxury at its finest from the highest point of the cliff  `,
+            text: `Treat yourself to an unforgetable, nature based experience with a focus on earthy tones and inner balance. Our Premium rooms are nothing short of exceptional for our guests!`,
             uri: "acc/1",
           },
           {

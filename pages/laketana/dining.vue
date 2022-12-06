@@ -26,7 +26,7 @@ export default {
           img: "laketana/dining/1.webp",
           title: "Tana Lakefront Restaurant ",
           text: `This naturally structured restaurant appeals to the eyes of nature based travellers who seek a natural aesthetic from every element of the restaurant `,
-          uri: "#",
+          pdf: "/LakeTanaMenu2022.pdf",
           link: "view menu",
         },
         other: [

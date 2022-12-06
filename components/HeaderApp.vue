@@ -15,7 +15,7 @@
         <div class="menu col-3 row">
           <img src="@/assets/img/icons/menu.svg" alt="" @click="toggleNav" />
           <p class="text">Menu</p>
-          <img src="@/assets/img/icons/search.svg" alt="" />
+          <!-- <img src="@/assets/img/icons/search.svg" alt="" /> -->
         </div>
 
         <div class="logo col-4">
@@ -25,8 +25,17 @@
         </div>
 
         <div class="buttons col-4 row">
-          <button class="btn-primary sign-up">Sign Up</button>
-          <button class="btn-primary">Reserve</button>
+          <a
+            href="https://reservations.kurifturesorts.com/signUp.php"
+            class="btn-primary sign-up"
+            >Sign Up</a
+          >
+          <a
+            href="https://reservations.kurifturesorts.com/"
+            target="_blank"
+            class="btn-primary"
+            >Reserve</a
+          >
         </div>
       </div>
     </header>

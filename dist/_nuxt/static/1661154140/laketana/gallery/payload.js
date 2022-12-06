@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/laketana/gallery", {data:[{}],fetch:{},mutations:void 0});

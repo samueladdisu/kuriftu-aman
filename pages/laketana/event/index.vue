@@ -34,15 +34,15 @@ export default {
           img: "laketana/event/bd.webp",
           title: "Birthdays",
           text: `Let us celebrate your life and future in a fun and special way with your loved ones. Our resort provides different packages to celebrate your birthdays and more.`,
-          uri: "#",
-          link: "explore",
+          // uri: "#",
+          // link: "explore",
         },
         Rfeature: {
           img: "laketana/event/soci.webp",
           title: "Social Events",
           text: `Thinking of hosting an event? Give us a call and our team can help plan your very own get-together, anniversary, birthday party, family trip - basically anything!`,
-          uri: "#",
-          link: "explore",
+          // uri: "#",
+          // link: "explore",
         },
         venues: [
           {

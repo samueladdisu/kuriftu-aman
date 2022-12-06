@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/entoto/gift/b2", {data:[{}],fetch:{},mutations:void 0});

@@ -16,7 +16,8 @@ export default {
         slides: ["bishoftu/well/1.webp", "bishoftu/well/2.webp"],
         heroTitle: "Wellness at Kuriftu Resort & Spa Bishoftu",
         heroSubTitle: "Kuriftu Resort & Spa bishoftu wellness",
-        heroText: `Our customers wellness experience is intergal to the Kuriftu Brand - by providind outlets for guests to rest, exert energy, feast on clean and light dishes, we empower you to accomplish more!`,
+        heroText: `Our customers wellness experience is intergal to the Kuriftu Brand - by providing
+d outlets for guests to rest, exert energy, feast on clean and light dishes, we empower you to accomplish more!`,
         // feature: {
         //   img: "featured.webp",
         //   subtitle: "glamping",
@@ -30,12 +31,14 @@ export default {
           img2: "bishoftu/well/openWindow.webp",
           img3: "bishoftu/well/long2.webp",
           title1: "Relax, Rebalance & Restore",
-          text1: `Venture to the depths of Bishoftu's natural landscape, tap into your happy place to nourish your body with mindfull experiences`,
+          text1: `Venture to the depths of Bishoftu's natural landscape, tap into your happy place to nourish your body with mindful
+ experiences`,
           title2: "Full-Day retreats",
-          text2: `Give yourself a break from the stresses of everyday life - not only will a full day of wellness related activities benefit your mental health, but your level of efficiency at work as well! It is up to each individual to care for themselves and take time to disconnect from draining lifestyles`,
+          text2: `Give yourself a break from the stress
+ life - not only will a full day of wellness related activities benefit your mental health, but your level of efficiency at work as well! It is up to each individual to care for themselves and take time to disconnect from draining lifestyles`,
           title3: "Rest Easy Experience",
-          text3: `Our spa services stem from the genuine care we have for each individuals health and wellbeing - browse through our Forest Spa menu or feel free to contact one of our consulants for advise based on your own personal needs`,
-          uri: "#",
+          text3: `Our spa services stem from the genuine care we have for each individual’s health and wellbeing - browse through our Forest Spa menu or feel free to contact one of our consulants for advise based on your own personal needs`,
+          pdf: "/BishoftuSpaMenuAugust,2022.pdf",
         },
         amenities: ["Steam", "Sauna", "Jacuzzi"],
         amenities1: ["Massage", "Manicure", "Pedicure"],

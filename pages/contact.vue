@@ -5,15 +5,30 @@
     <section class="contact-form">
       <div class="container">
         <div class="contact-wrapper">
-          <form action="" class="myform">
+          <form
+            action="https://formsubmit.co/kurifturesortspa1@gmail.com"
+            class="myform"
+            method="POST"
+          >
             <h2>Write to Us</h2>
             <p>Send us a message and we'll get back to you right away!</p>
+            <input
+              type="hidden"
+              name="_cc"
+              value="mahlet.tadiwos@kurifturesorts.com"
+            />
             <div class="input-box">
               <input
                 type="text"
                 name="name"
                 class="right-margin"
                 placeholder="Frist Name"
+                required
+              />
+              <input
+                type="hidden"
+                name="_subject"
+                value="New Submission From Contact Page"
               />
               <input
                 type="text"
@@ -27,13 +42,20 @@
                 name="email"
                 class="right-margin"
                 placeholder="Email"
+                required
               />
             </div>
-            <textarea name="message" id="" cols="30" rows="5">
+            <textarea name="message" id="" cols="30" rows="5" required>
 Message
             </textarea>
+
             <div class="book-buttons">
-              <a class="btn btn-primary" href="#">SEND MESSAGE</a>
+              <input
+                type="submit"
+                value="Send message"
+                name="submit"
+                class="btn btn-primary"
+              />
             </div>
           </form>
           <img src="../assets/img/infocontact.jpg" alt="" />
@@ -190,10 +212,12 @@ export default {};
           }
           input,
           textarea {
+            @extend .text;
             background: $kuriftu-white;
             border-color: $kuriftu-grey;
             margin-top: 1rem;
             width: 21rem;
+            outline: none;
           }
           input[type="text"],
           input[type="email"] {
@@ -203,7 +227,7 @@ export default {};
             border-width: 1px;
           }
           textarea {
-            padding: 1rem 0.8rem;
+            // padding: 1rem 0.8rem;
             color: $kuriftu-grey;
             border-style: solid;
             border-width: 1px;

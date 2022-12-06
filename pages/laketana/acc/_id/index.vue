@@ -51,7 +51,7 @@
     <OtherAcc title="other accomodation" :other="renderdData.other" />
 
     <BishFooter :footer="footer" />
-     <Sticky path="tana" />
+    <Sticky path="tana" />
   </div>
 </template>
 
@@ -77,7 +77,7 @@ export default {
               pic1: "laketana/acc/lakeview/lvL.webp",
               pic2: "laketana/acc/lakeview/lvL1.webp",
               text: `With gorgeous views across the Lake Tana, these rooms are a guaranteed fit for romantic getaways, relaxing solo trips, and family bonding experiences. Our team is dedicated to providing guests with excellent service no matter what!`,
-              url: "/book",
+              url: "?location=tana&roomType=lakeview",
             },
           ],
           amenities: ["Tea and Coffee Maker", "32” HDTV ", "COVID Kit"],
@@ -112,7 +112,7 @@ with all the necessities and classic designs. `,
               pic1: "laketana/acc/gardenview/2Long.webp",
               pic2: "laketana/acc/gardenview/1Long.webp",
               text: `Experience our bird paradise - the Kuriftu brand directly correlates with the bird watching experience, this is emphasized by the amount of greenery that is nurtured and grown across all locations as a key feature. Place yourself in the heart of this space by booking one of our Garden View rooms!`,
-              url: "/book?ewn",
+              url: "?location=tana&roomType=gardenview",
             },
           ],
           amenities: ["Tea and Coffee Maker", "32” HDTV ", "COVID Kit"],
@@ -143,7 +143,7 @@ with all the necessities and classic designs. `,
               pic1: "bishoftu/acc/preLong1.webp",
               pic2: "bishoftu/acc/preLong2.webp",
               text: `Experience luxury accommodations at its finest - with earthy aesthetics, panaramic views of the lake, exposure to natural light from every corner of the room, indoor fireplace, and a dining table set for small groups - Kuriftu Tana Presidential Suites are truly one of a kind `,
-              url: "/book",
+              url: "?location=tana&roomType=presidential",
             },
           ],
           amenities: ["Tea and Coffee Maker", "32” HDTV ", "COVID Kit"],

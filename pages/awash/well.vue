@@ -34,7 +34,7 @@ export default {
           img1: "awash/well/well2.webp",
           img2: "awash/well/long1.webp",
           img3: "awash/well/long2.webp",
-          title1: "Relax, Rebalance & Restore",
+          title1: " reconnect-with-nature",
           text1: `Our focus is to have guests reconnect nature at its core with minimal distractions `,
           title2: "Full-Day retreats",
           text2: `Take the weekend to soak up the sun, join our sunrise and sunset yoga, lounge in the dipping pool, book an evening massage, and end day with a beautiful candlelit dinner `,

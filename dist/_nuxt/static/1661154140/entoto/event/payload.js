@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/entoto/event", {data:[{}],fetch:{},mutations:void 0});

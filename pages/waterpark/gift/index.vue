@@ -1,6 +1,12 @@
 <template>
   <div>
     <HeaderApp />
+    <Destinav
+      base=""
+      home="/waterpark"
+      class="waterpark-nav"
+      dir="Water park"
+    />
     <Gift :gift="gift" />
     <Sticky path="awash" />
   </div>
@@ -21,33 +27,38 @@ export default {
           photos: [
             {
               id: 1,
-              src: "giftvoucher/1.jpg",
-              url: "gift/1",
+              src: "giftvoucher/7.jpg",
+              url: "gift/b1",
+              title: "BIRTHDAY DELUXE",
+              text: `A birthday extravaganza with friends and family! A day to remember by the lake`,
             },
             {
               id: 2,
-              src: "giftvoucher/2.jpg",
-              url: "gift/2",
+              src: "giftvoucher/6.jpg",
+              url: "gift/b2",
+              title: "CONGRATULATIONS",
+              text: `Graduated, married, a new job, a new house? congratulate your loved one with a day off at the resort!`,
             },
             {
               id: 3,
-              src: "giftvoucher/3.jpg",
-              url: "gift/3",
+              src: "giftvoucher/5.jpg",
+              url: "gift/b3",
+              title: "HOLIDAY WITH THE FAMILY",
+              text: `It is the small moments that create memories for a lifetime, enjoy a family trip to the Kuriftu Resort & Spa Bishoftu. A day full of laughter and fun`,
             },
             {
               id: 4,
-              src: "giftvoucher/4.jpg",
-              url: "gift/4",
+              src: "giftvoucher/5.jpg",
+              url: "gift/b4",
+              title: "WANDERLUST",
+              text: `It's always a good day to take a ME day!`,
             },
             {
               id: 5,
               src: "giftvoucher/5.jpg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
-              src: "giftvoucher/6.jpg",
-              url: "gift/6",
+              url: "gift/b5",
+              title: "FRIENDCATION",
+              text: `Who is up for a road trip with some friends! Grab your shades and hats`,
             },
           ],
         },
@@ -218,76 +229,6 @@ export default {
             },
           ],
         },
-        awash: {
-          title: "awash",
-          photos: [
-            {
-              id: 1,
-              src: "gift2.svg",
-              url: "gift/1",
-            },
-            {
-              id: 2,
-              src: "gift2.svg",
-              url: "gift/2",
-            },
-            {
-              id: 3,
-              src: "gift2.svg",
-              url: "gift/3",
-            },
-            {
-              id: 4,
-              src: "gift2.svg",
-              url: "gift/4",
-            },
-            {
-              id: 5,
-              src: "gift2.svg",
-              url: "gift/5",
-            },
-            {
-              id: 6,
-              src: "gift2.svg",
-              url: "gift/6",
-            },
-          ],
-        },
-        // afar: {
-        //   title: "afar",
-        //   photos: [
-        //     {
-        //       id: 1,
-        //       src: "gift5.svg",
-        //       url: "gift/1",
-        //     },
-        //     {
-        //       id: 2,
-        //       src: "gift1.svg",
-        //       url: "gift/2",
-        //     },
-        //     {
-        //       id: 3,
-        //       src: "gift2.svg",
-        //       url: "gift/3",
-        //     },
-        //     {
-        //       id: 4,
-        //       src: "gift3.svg",
-        //       url: "gift/4",
-        //     },
-        //     {
-        //       id: 5,
-        //       src: "gift4.svg",
-        //       url: "gift/5",
-        //     },
-        //     {
-        //       id: 6,
-        //       src: "gift1.svg",
-        //       url: "gift/6",
-        //     },
-        //   ],
-        // },
         boston: {
           title: "boston day spa",
           photos: [

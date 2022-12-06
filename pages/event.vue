@@ -38,10 +38,24 @@
       </section>
       <section class="e-form">
         <div class="container">
-          <form action="" class="event-form">
+          <form
+            action="https://formsubmit.co/kurifturesortspa1@gmail.com"
+            method="POST"
+            class="event-form"
+          >
+            <input
+              type="hidden"
+              name="_cc"
+              value="mahlet.tadiwos@kurifturesorts.com"
+            />
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Submission From Event Page"
+            />
             <div class="form-group">
               <label for="title"> Title </label>
-              <select name="" class="form-control" id="title">
+              <select name="title" class="form-control" id="title">
                 <option value="" disabled>-Select-</option>
                 <option value="Miss">Miss</option>
                 <option value="Ms">Ms</option>
@@ -53,26 +67,49 @@
 
             <div class="form-group">
               <label for="fname"> First name * </label>
-              <input type="text" class="form-control" id="fname" />
+              <input
+                type="text"
+                name="First_Name"
+                class="form-control"
+                id="fname"
+                required
+              />
             </div>
 
             <div class="form-group">
-              <label for="lname"> Last name * </label>
-              <input type="text" class="form-control" id="lname" />
+              <label for="lname"> Last name </label>
+              <input
+                type="text"
+                name="Last_Name"
+                class="form-control"
+                id="lname"
+              />
             </div>
 
             <div class="form-group">
               <label for="email"> Email * </label>
-              <input type="email" class="form-control" id="email" />
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                id="email"
+                required
+              />
             </div>
 
             <div class="form-group">
               <label for="phone"> Phone number * </label>
-              <input type="text" class="form-control" id="phone" />
+              <input
+                type="text"
+                name="phone"
+                class="form-control"
+                id="phone"
+                required
+              />
             </div>
             <div class="form-group">
               <label for="desti"> Select your destination * </label>
-              <select name="" class="form-control" id="desti">
+              <select name="location" class="form-control" id="desti" required>
                 <option value="" disabled>-Select-</option>
                 <option value="Awash">Awash</option>
                 <option value="Bishoftu">Bishoftu</option>
@@ -83,7 +120,7 @@
 
             <div class="form-group">
               <label for="bro"> Request a brochure </label>
-              <select name="" class="form-control" id="bro">
+              <select name="brochure" class="form-control" id="bro">
                 <option value="" disabled>-Select-</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
@@ -92,7 +129,12 @@
 
             <div class="form-group">
               <label for="occasion"> Occasion * </label>
-              <select name="" class="form-control" id="occasion">
+              <select
+                name="occasion"
+                class="form-control"
+                id="occasion"
+                required
+              >
                 <option value="" disabled>-Select-</option>
                 <option value="wed">Wedding</option>
                 <option value="cele">Celebration</option>
@@ -103,23 +145,30 @@
 
             <div class="form-group">
               <label for="guest"> Number of guests * </label>
-              <input type="text" class="form-control" id="guest" />
+              <input
+                type="text"
+                name="number_of_guests"
+                class="form-control"
+                id="guest"
+                required
+              />
             </div>
 
             <div class="form-group">
               <label for="msg"> Message </label>
               <textarea
-                name=""
+                name="message"
                 class="form-control"
                 id="msg"
                 cols="30"
                 rows="10"
+                required
               >
               </textarea>
             </div>
 
             <div class="form-group">
-              <input type="checkbox" id="register" />
+              <input type="checkbox" name="mail_list" id="register" />
               <label for="register" class="register">
                 Register to receive updates about exclusive experiences, events,
                 new destinations and more
@@ -127,7 +176,12 @@
             </div>
 
             <div class="form-group">
-              <button class="event-btn">Send</button>
+              <input
+                type="submit"
+                value="Send"
+                name="submit"
+                class="event-btn"
+              />
             </div>
           </form>
         </div>
@@ -219,7 +273,7 @@ export default {
           id: 3,
           img: "bishoftu/event/1.webp",
           subTitle: "Bishoftu, Ethiopia",
-          title: "Kuriftu Resort & Spa Bishfotu",
+          title: "Kuriftu Resort & Spa bishoftu",
           text: `Located on the northen tip of Bishoftu encompassing the smallest of the four lakes lies our flagship resort, Kuriftu Resort & Spa Bishoftu. Born from Mr. Tadiwos's vision to create luxury resort destinations in neighboring cities of the capital, this resort made its mark in 2007 as the first 5-star resort in the country. Kuriftu has redefined the meaning of service in Ethiopia, with an outstanding track record and dedicated loyalty program that keeps our guests more than satisfied, Kuriftu Bishoftu is a home away from home`,
           uri: "/bishoftu/event",
           url: "Explore",

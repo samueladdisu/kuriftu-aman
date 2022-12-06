@@ -37,12 +37,9 @@
             </li>
 
             <li>
-              <nuxt-link to="/book">
-                <!-- <a href="https://versavvymedia.com/reservation_system/reserve.php"
+              <a href="https://reservations.kurifturesorts.com/" target="_blank"
                 >Reservation</a
-              > -->
-                Reservation
-              </nuxt-link>
+              >
             </li>
             <li class="bottom-nav">
               <nuxt-link to="/aboutus" class="bottom-link">
@@ -68,7 +65,7 @@
             <ul class="nav-links second-links">
               <div v-if="desti">
                 <li>
-                  <a @click="openAddis">Addis Abeba</a>
+                  <a @click="openAddis">Addis Ababa</a>
                 </li>
                 <!-- <li>
                   <nuxt-link to="/afar"> Afar </nuxt-link>
@@ -185,6 +182,9 @@
             </nuxt-link>
             <nuxt-link to="/bishoftu" class="btn-primary">
               Lake Kuriftu
+            </nuxt-link>
+            <nuxt-link to="/laketana" class="btn-primary">
+              Lake Tana
             </nuxt-link>
           </div>
         </div>
@@ -743,6 +743,7 @@ export default {
       margin-right: 2rem;
     }
     .container {
+      width: 90%;
       display: flex;
       gap: 1rem;
       justify-content: center;
@@ -890,7 +891,7 @@ export default {
 }
 @include responsive($xxl) {
   .whole-nav {
-    width: 70%;
+    width: 90%;
     height: 100vh;
   }
 }

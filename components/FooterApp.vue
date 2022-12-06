@@ -9,7 +9,13 @@
             please register
           </p>
           <div class="btn-container">
-            <nuxt-link to="#" class="btn-cta"> Sign Up </nuxt-link>
+            <a
+              href="https://reservations.kurifturesorts.com/signUp.php"
+              target="_blank"
+              class="btn-cta"
+            >
+              Sign Up
+            </a>
           </div>
         </div>
         <div class="lower">
@@ -26,25 +32,25 @@
                 <nuxt-link to="/giftcard">Gift Card</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Upcoming Projects</nuxt-link>
+                <nuxt-link to="/upcoming-project">Upcoming Projects</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Careers</nuxt-link>
+                <nuxt-link to="/careers">Careers</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Privacy</nuxt-link>
+                <nuxt-link to="/privacy">Privacy</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Legal Notice</nuxt-link>
+                <nuxt-link to="/legal">Legal Notice</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Articles</nuxt-link>
+                <nuxt-link to="/articles">Articles</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">News Letters</nuxt-link>
+                <nuxt-link to="/newsletters">News Letters</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="#">Gallery</nuxt-link>
+                <nuxt-link to="/bishoftu/gallery">Gallery</nuxt-link>
               </li>
             </ul>
           </div>
@@ -99,65 +105,86 @@
           <h1 class="title">socials</h1>
 
           <div class="icons">
-            <a
-              href="https://www.tiktok.com/@kuriftumoments?lang=en"
-              target="_blank"
-            >
-              <img src="@/assets/img/icons/tiktok.svg" alt="" />
-            </a>
+            <div class="top-icons">
+              <a
+                href="https://www.tiktok.com/@kuriftumoments?lang=en"
+                target="_blank"
+              >
+                <img src="@/assets/img/icons/tiktok.svg" alt="" />
+              </a>
 
-            <a
-              href="https://www.instagram.com/kurifturesortspa/?hl=en"
-              target="_blank"
-            >
-              <img src="@/assets/img/icons/instagram.svg" alt="" />
-            </a>
+              <a
+                href="https://www.instagram.com/kurifturesortspa/?hl=en"
+                target="_blank"
+              >
+                <img src="@/assets/img/icons/instagram.svg" alt="" />
+              </a>
 
-            <a href="https://twitter.com/kuriftus" target="_blank">
-              <img src="@/assets/img/icons/twitter.svg" alt="" />
-            </a>
+              <a href="https://twitter.com/kuriftus" target="_blank">
+                <img src="@/assets/img/icons/twitter.svg" alt="" />
+              </a>
+            </div>
 
-            <a
-              href="https://www.youtube.com/channel/UCI3Y6eDzcmAchDoGGVJZKgA/videos"
-              target="_blank"
-            >
-              <img src="@/assets/img/icons/youtube.svg" alt="" />
-            </a>
+            <div class="low-icons">
+              <a
+                href="https://www.youtube.com/channel/UCI3Y6eDzcmAchDoGGVJZKgA/videos"
+                target="_blank"
+              >
+                <img src="@/assets/img/icons/youtube.svg" alt="" />
+              </a>
 
-            <a href="https://www.facebook.com/kurifturesorts/" target="_blank">
-              <img src="@/assets/img/icons/fb.svg" alt="" />
-            </a>
+              <a
+                href="https://www.facebook.com/kurifturesorts/"
+                target="_blank"
+              >
+                <img src="@/assets/img/icons/fb.svg" alt="" />
+              </a>
 
-            <a
-              href="https://www.linkedin.com/company/kuriftu-resorts/?originalSubdomain=et"
-              target="_blank"
-            >
-              <img src="@/assets/img/icons/linkedin.svg" alt="" />
-            </a>
+              <a
+                href="https://www.linkedin.com/company/kuriftu-resorts/?originalSubdomain=et"
+                target="_blank"
+              >
+                <img src="@/assets/img/icons/linkedin.svg" alt="" />
+              </a>
+            </div>
           </div>
-        </div>
-        <div id="TA_tchotel492" class="TA_tchotel trip-advisor">
+
           <div
-            id="CDSWIDTC"
-            class="widTC2015 cx_brand_refresh1"
-            onclick="window.open('https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html'); return false;"
+            id="TA_certificateOfExcellence684"
+            class="TA_certificateOfExcellence"
           >
-            <a
-              target="_blank"
-              href="https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html"
-              rel="nofollow"
-              tabindex="0"
-              id="yui_3_17_2_1_1656685011911_1362"
-              ><img
-                src="https://www.tripadvisor.com/img/cdsi/img2/awards/v2/tchotel_2016_L-11655-2.png"
-                alt="Tripadvisor"
-                class="false"
-                id="false"
-            /></a>
+            <ul id="zUFfTH3" class="TA_links Ef8jRrYiZqp">
+              <li id="4ZZ3ULiJmX" class="KJz30P1aa">
+                <a
+                  target="_blank"
+                  href="https://www.tripadvisor.com/Hotel_Review-g1510664-d1813539-Reviews-Kuriftu_Resort_Spa_Bishoftu-Bishoftu_Oromiya_Region.html"
+                  ><img
+                    src="https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2022_L.png"
+                    alt="TripAdvisor"
+                    class="widCOEImg"
+                    id="CDSWIDCOELOGO"
+                /></a>
+              </li>
+            </ul>
           </div>
+          <script
+            async
+            src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=684&amp;locationId=1813539&amp;lang=en_US&amp;year=2022&amp;display_version=2"
+            data-loadtrk
+            onload="this.loadtrk=true"
+          ></script>
         </div>
-        <script src="https://www.jscache.com/wejs?wtype=tchotel&amp;uniq=492&amp;locationId=1813539&amp;lang=en_US&amp;year=2016&amp;display_version=2"></script>
       </div>
+      <p class="text pfooter">
+        All Copyright &copy; 2022 Kuriftu Resort and Spa. Powered by
+        <a
+          href="https://versavvymedia.com/"
+          target="_blank"
+          class="link ver"
+          style="font-size: 0.7rem; color: #000"
+          >Versavvy</a
+        >
+      </p>
     </section>
   </div>
 </template>
@@ -170,11 +197,21 @@ export default {};
 .footer {
   margin-top: 2.14rem;
   margin-bottom: 1.5rem;
+  .pfooter {
+    margin-bottom: 6rem;
+    text-align: center;
+    .ver {
+      &::after {
+        top: 90%;
+      }
+    }
+  }
   .container {
     .trip-advisor {
-      margin-top: 2rem;
-      align-items: center;
+      width: 100%;
+      margin: 2rem auto;
     }
+
     .member-cta {
       h1,
       p,
@@ -293,27 +330,33 @@ export default {};
       .lower {
         grid-area: lower;
         display: grid;
-        text-align: center;
-        grid-template-columns: 1fr 1fr;
+        text-align: left;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-          "info resorts"
-          "info wellness"
-          "info adv"
-          "info .";
+          "info resorts adv"
+          "info wellness ."
+          "info . ."
+          "info . .";
         div {
           margin-top: 1.5rem;
         }
         ul {
           display: grid;
           grid-template-columns: 1fr;
-          text-align: center;
+          // text-align: center;
         }
       }
       .socials {
         grid-area: socials;
         justify-self: center;
         .icons {
-          display: block;
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+          .top-icons,
+          .low-icons {
+            display: flex;
+            gap: 1rem;
+          }
           img {
             margin-bottom: 1.5rem;
           }

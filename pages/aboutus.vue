@@ -13,21 +13,30 @@
     <section class="ceo">
       <div class="container">
         <div class="ceo-all">
-          <div class="stay-slide">
-            <div class="slide-card">
-              <img src="../assets/img/tadiwos.jpg" alt="" />
-            </div>
-          </div>
-          <div class="stay-desc">
-            <h4>A MESSAGE FROM TADIWOS G. BELETE</h4>
+          <img src="../assets/img/tadiwos_waterpark.jpeg" alt="" />
 
+          <div class="stay-desc">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
-              tincidunt nisl elementum ultrices luctus habitasse. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit. Aperiam perferendis
-              molestias accusantium eligendi sint ea corporis totam animi,
-              delectus deleniti quidem amet, reprehenderit natus? Id quia odio
-              maxime ipsam possimus.
+              Ato Tadiwos is the owner and Founder of Boston Partners P.L.C and
+              Kuriftu Resort and Spa operating at the head office in Addis Ababa
+              Ethiopia. The owner of Boston Partners P.L.C has over 30 years of
+              profound business experience in the same line of business in the
+              United States of America (USA). Using his Experience he was able
+              to successfully establish and manage the first spa and Beauty care
+              facility at the center of the city (Addis Ababa Bole Road) in
+              2002. Through hard work and dedication the business units managed
+              by the company are currently increased to Seven including; Kuriftu
+              resort and spa Debre zeit, Kuriftu resort and spa lake Tana in
+              Bahir dar, Kuriftu resort and spa Awash, Kuriftu Waterpark,
+              Kuriftu resort and spa Afar, Kuriftu resort and spa Entoto &
+              Boston Day Spa. Many other projects including Kuriftu resort and
+              spa Arba Minch, Kuriftu African Village Bourayou, Kuriftu resort
+              and spa Langano, Kuriftu resort and spa Gherealta are still under
+              construction. In addition to Building and managing unparalleled
+              quality resorts and spas that provide first class hospitality
+              services, Boston Partners endeavors to become a leading resort and
+              spa operator in the continent, Hence the soon to be started
+              Kuriftu Resort and Spa Moucha Island.
             </p>
           </div>
         </div>
@@ -151,7 +160,7 @@
                 <div class="persent-wrapper">
                   <h2
                     class="timer count-title count-number"
-                    data-to="100"
+                    data-to="98"
                     data-speed="10000"
                   ></h2>
                   <h4>%</h4>
@@ -348,7 +357,12 @@
             <p class="header-title"></p>
             <p></p>
             <div class="book-buttons">
-              <a class="btn btn-cta text" href="#">DOWNLOAD COMPANY PROFILE</a>
+              <a
+                class="btn btn-cta text"
+                href="/company_profile.pdf"
+                target="_blank"
+                >DOWNLOAD COMPANY PROFILE</a
+              >
             </div>
           </div>
         </div>
@@ -434,13 +448,13 @@
               <img src="../assets/img/icons/start.svg" alt="" />
             </div>
             <p class="text">
-              I've been working at Boston Day Spa for the past 20 years and I'm
-              forever grateful to be working for a company that truly values
-              their employees as individuals and will do everything thry can to
-              heip each person reach their individual goals. Joining Boston
-              Partners PLC
+              We stayed for 2 nights we had an excellent time. The customer
+              service was outstanding especially thanks to the food and beverage
+              director Mr. Fantahun. He is above and beyond in everything he
+              does. He made us feel at home. I highly recommend for families to
+              come and visit here
             </p>
-            <h3>STAFF DRIVEN</h3>
+            <h3>Daniel Berhane</h3>
           </div>
           <div class="testimony-card">
             <!-- <div class="test-img">
@@ -450,13 +464,12 @@
               <img src="../assets/img/icons/start.svg" alt="" />
             </div>
             <p class="text">
-              I've been working at Boston Day Spa for the past 20 years and I'm
-              forever grateful to be working for a company that truly values
-              their employees as individuals and will do everything thry can to
-              heip each person reach their individual goals. Joining Boston
-              Partners PLC
+              This ride was great. The guide helped a lot. Haile Mariam Almayehu
+              guided me through the zip line course. 10/10. The zip line course
+              had many obstacles to go through and the guide was great in
+              showing me around the rope course would definitely recommend this.
             </p>
-            <h3>CORPORATE CLIENT DRIVEN</h3>
+            <h3>Natan B.</h3>
           </div>
           <div class="testimony-card">
             <!-- <div class="test-img">
@@ -466,13 +479,14 @@
               <img src="../assets/img/icons/start.svg" alt="" />
             </div>
             <p class="text">
-              I've been working at Boston Day Spa for the past 20 years and I'm
-              forever grateful to be working for a company that truly values
-              their employees as individuals and will do everything thry can to
-              heip each person reach their individual goals. Joining Boston
-              Partners PLC
+              I can’t thank the staff enough for being so kind. Their
+              hospitality is truly amazing. I really loved everyone i had
+              contact with, such lovely people. The place was also so calm and
+              relaxing. I already promised my wife i will bring her back in a
+              couple months. So we will see you soon. Thank you again for making
+              us feel so welcomed
             </p>
-            <h3>CUSTOMER DRIVEN</h3>
+            <h3>Sami</h3>
           </div>
         </div>
       </div>
@@ -1020,21 +1034,9 @@ export default {
         margin-top: 0.94rem;
       }
       .ceo-all {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        .stay-slide {
-          margin-top: 1.88rem;
-          display: flex;
-          align-items: center;
-
-          gap: 0.5rem;
-          .slide-card {
-            img {
-              width: 25rem;
-              object-fit: cover;
-            }
-          }
+        img {
+          width: 100%;
+          object-fit: cover;
         }
         .stay-desc {
           margin-top: 1.88rem;
@@ -1095,32 +1097,39 @@ export default {
     .ceo {
       .container {
         .ceo-all {
-          flex-direction: row;
-          gap: 2rem;
-          .stay-slide {
-            margin-top: 4.37rem;
-            .slide-card {
-              img {
-                //   width: 100%;
-                // height: 35rem;
-              }
-            }
-          }
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          align-items: center;
+          gap: 1rem;
+          margin-top: 4.37rem;
           .stay-desc {
-            margin-top: 4.5rem;
-            h4 {
-              margin-top: 0rem;
-            }
-            p {
-              margin-top: 2rem;
-            }
-            .book-buttons {
-              display: flex;
-              justify-content: left;
-
-              margin-top: 6rem;
-            }
+            margin-top: 0;
           }
+        }
+      }
+    }
+  }
+  @include responsive($xl) {
+    .ceo {
+      .container {
+        .ceo-all {
+          align-items: flex-start;
+          gap: 1rem;
+          margin-top: 4.37rem;
+          .stay-desc {
+          }
+        }
+      }
+    }
+  }
+
+  @include responsive($xxl) {
+    .ceo {
+      .container {
+        .ceo-all {
+          align-items: flex-start;
+          gap: 1rem;
+          // grid-template-columns: 1fr 1fr 1fr;
         }
       }
     }

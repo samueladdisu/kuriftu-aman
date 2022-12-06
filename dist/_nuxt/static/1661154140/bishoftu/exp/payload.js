@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bishoftu/exp", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/awash/corp", {data:[{}],fetch:{},mutations:void 0});

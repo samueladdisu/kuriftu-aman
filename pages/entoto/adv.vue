@@ -6,7 +6,9 @@
       :img="slides"
       title="Adventures at Kuriftu Resort & spa entoto"
       subTitle="Adventures at Kuriftu Resort & spa entoto"
-      text="Get ready adrenaline junkies and nature enthusiats for the ultimate adventureland in the country! With no comparison, Kuriftu Entoto Adventure Park showcases a variety of activities that trump anything of its kind in the country - from paintball shooting ranges to aerial experiences through ziplining and rope course, guests are guaranteed an unforgetable time"
+      text="Get ready adrenaline junkies and nature enthusiasts
+ for the ultimate adventureland in the country! With no comparison, Kuriftu Entoto Adventure Park showcases a variety of activities that trump anything of its kind in the country - from paintball shooting ranges to aerial experiences through ziplining and rope course, guests are guaranteed an unforgettable
+ time"
     />
 
     <div class="swiper adv__slide">

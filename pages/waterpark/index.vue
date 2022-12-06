@@ -130,23 +130,17 @@ export default {
         {
           img: "waterpark/exp/exp1.webp",
           title: "Birthday",
-          text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+          text: ``,
         },
         {
           img: "waterpark/exp/exp2.webp",
           title: "Events",
-          text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+          text: ``,
         },
         {
           img: "waterpark/exp/exp3.webp",
           title: "Social Events",
-          text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            Consectetur nostrum minima facilis alias magni! Harum ea amet
-            asperiores provident accusamus.`,
+          text: ``,
         },
       ],
       footer: {
