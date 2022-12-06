@@ -12,8 +12,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_806dd3c0 from 'nuxt_plugin_plugin_806dd3c0' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_axios_5d4e8b7a from 'nuxt_plugin_axios_5d4e8b7a' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_3473dc30 from 'nuxt_plugin_plugin_3473dc30' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_axios_5c5b220b from 'nuxt_plugin_axios_5c5b220b' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_gsap_0d8e3474 from 'nuxt_plugin_gsap_0d8e3474' // Source: ..\\plugins\\gsap.js (mode: 'client')
 import nuxt_plugin_tdatepickermin_36557688 from 'nuxt_plugin_tdatepickermin_36557688' // Source: ..\\plugins\\t-datepicker.min.js (mode: 'client')
 
@@ -179,12 +179,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_806dd3c0 === 'function') {
-    await nuxt_plugin_plugin_806dd3c0(app.context, inject)
+  if (typeof nuxt_plugin_plugin_3473dc30 === 'function') {
+    await nuxt_plugin_plugin_3473dc30(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_5d4e8b7a === 'function') {
-    await nuxt_plugin_axios_5d4e8b7a(app.context, inject)
+  if (typeof nuxt_plugin_axios_5c5b220b === 'function') {
+    await nuxt_plugin_axios_5c5b220b(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_gsap_0d8e3474 === 'function') {

@@ -6,15 +6,11 @@
         method="POST"
         class="event-form"
       >
+        <input type="hidden" name="_cc" value="booking@kurifturesorts.com" />
         <input
           type="hidden"
           name="_subject"
           value="New Submission From Gift Voucher Page"
-        />
-        <input
-          type="hidden"
-          name="_cc"
-          value="mahlet.tadiwos@kurifturesorts.com"
         />
         <div class="close">
           <img @click="closeForm" src="@/assets/img/icons/x.svg" alt="" />
@@ -22,24 +18,12 @@
 
         <div class="form-group">
           <label for="name"> Name * </label>
-          <input
-            type="text"
-            class="form-control"
-            name="name"
-            id="name"
-            required
-          />
+          <input type="text" class="form-control" name="name" id="name" />
         </div>
 
         <div class="form-group">
           <label for="email"> Email * </label>
-          <input
-            type="email"
-            class="form-control"
-            name="email"
-            id="email"
-            required
-          />
+          <input type="email" class="form-control" name="email" id="email" />
         </div>
 
         <div class="form-group">

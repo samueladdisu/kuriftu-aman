@@ -46,7 +46,7 @@
             <input
               type="hidden"
               name="_cc"
-              value="mahlet.tadiwos@kurifturesorts.com"
+              value="booking@kurifturesorts.com"
             />
             <input
               type="hidden"
@@ -176,12 +176,7 @@
             </div>
 
             <div class="form-group">
-              <input
-                type="submit"
-                value="Send"
-                name="submit"
-                class="event-btn"
-              />
+              <button class="event-btn">Send</button>
             </div>
           </form>
         </div>

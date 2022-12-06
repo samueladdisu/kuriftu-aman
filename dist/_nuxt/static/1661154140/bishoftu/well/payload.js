@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bishoftu/well", {data:[{}],fetch:{},mutations:void 0});

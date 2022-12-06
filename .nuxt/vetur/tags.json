@@ -2,6 +2,9 @@
   "Acc": {
     "description": "Auto imported from components/Acc.vue"
   },
+  "Banner": {
+    "description": "Auto imported from components/Banner.vue"
+  },
   "BishFooter": {
     "description": "Auto imported from components/BishFooter.vue"
   },

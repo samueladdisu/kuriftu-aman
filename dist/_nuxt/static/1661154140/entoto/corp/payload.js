@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/entoto/corp", {data:[{}],fetch:{},mutations:void 0});

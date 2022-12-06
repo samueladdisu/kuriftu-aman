@@ -15,7 +15,7 @@
             <input
               type="hidden"
               name="_cc"
-              value="mahlet.tadiwos@kurifturesorts.com"
+              value="booking@kurifturesorts.com"
             />
             <div class="input-box">
               <input
@@ -46,7 +46,7 @@
               />
             </div>
             <textarea name="message" id="" cols="30" rows="5" required>
-Message
+              Message
             </textarea>
 
             <div class="book-buttons">
@@ -212,12 +212,10 @@ export default {};
           }
           input,
           textarea {
-            @extend .text;
             background: $kuriftu-white;
             border-color: $kuriftu-grey;
             margin-top: 1rem;
             width: 21rem;
-            outline: none;
           }
           input[type="text"],
           input[type="email"] {
@@ -227,7 +225,7 @@ export default {};
             border-width: 1px;
           }
           textarea {
-            // padding: 1rem 0.8rem;
+            padding: 1rem 0.8rem;
             color: $kuriftu-grey;
             border-style: solid;
             border-width: 1px;

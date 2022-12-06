@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/boston/gift/b3", {data:[{}],fetch:{},mutations:void 0});

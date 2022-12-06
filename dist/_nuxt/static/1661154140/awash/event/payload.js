@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/awash/event", {data:[{}],fetch:{},mutations:void 0});

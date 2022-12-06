@@ -16,6 +16,7 @@ export default {
         slides: [
           "awash/well/3.webp",
           "awash/well/1.webp",
+
           "awash/well/4.webp",
           "awash/well/5.webp",
         ],

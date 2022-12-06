@@ -4,77 +4,77 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _30ef6e0e = () => interopDefault(import('..\\pages\\aboutus.vue' /* webpackChunkName: "pages/aboutus" */))
-const _373f39aa = () => interopDefault(import('..\\pages\\articles.vue' /* webpackChunkName: "pages/articles" */))
-const _cfb93582 = () => interopDefault(import('..\\pages\\awash\\index.vue' /* webpackChunkName: "pages/awash/index" */))
-const _89a52ffe = () => interopDefault(import('..\\pages\\bishoftu\\index.vue' /* webpackChunkName: "pages/bishoftu/index" */))
-const _7f455ed6 = () => interopDefault(import('..\\pages\\book.vue' /* webpackChunkName: "pages/book" */))
-const _641ce0c8 = () => interopDefault(import('..\\pages\\boston\\index.vue' /* webpackChunkName: "pages/boston/index" */))
-const _f2e44250 = () => interopDefault(import('..\\pages\\careers.vue' /* webpackChunkName: "pages/careers" */))
-const _8ae3267a = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
-const _154fdcf6 = () => interopDefault(import('..\\pages\\entoto\\index.vue' /* webpackChunkName: "pages/entoto/index" */))
-const _15941606 = () => interopDefault(import('..\\pages\\event.vue' /* webpackChunkName: "pages/event" */))
-const _3a477db5 = () => interopDefault(import('..\\pages\\giftcard\\index.vue' /* webpackChunkName: "pages/giftcard/index" */))
-const _c77aa0b4 = () => interopDefault(import('..\\pages\\laketana\\index.vue' /* webpackChunkName: "pages/laketana/index" */))
-const _704dbd9c = () => interopDefault(import('..\\pages\\legal.vue' /* webpackChunkName: "pages/legal" */))
-const _534df0fd = () => interopDefault(import('..\\pages\\newsletters.vue' /* webpackChunkName: "pages/newsletters" */))
-const _11ba782b = () => interopDefault(import('..\\pages\\privacy.vue' /* webpackChunkName: "pages/privacy" */))
-const _79232802 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
-const _0d089055 = () => interopDefault(import('..\\pages\\upcoming-project.vue' /* webpackChunkName: "pages/upcoming-project" */))
-const _e7d925c4 = () => interopDefault(import('..\\pages\\waterpark\\index.vue' /* webpackChunkName: "pages/waterpark/index" */))
-const _1ef5c3d8 = () => interopDefault(import('..\\pages\\awash\\acc\\index.vue' /* webpackChunkName: "pages/awash/acc/index" */))
-const _7fcd0bcd = () => interopDefault(import('..\\pages\\awash\\corp.vue' /* webpackChunkName: "pages/awash/corp" */))
-const _d44abec8 = () => interopDefault(import('..\\pages\\awash\\dining.vue' /* webpackChunkName: "pages/awash/dining" */))
-const _6233a39b = () => interopDefault(import('..\\pages\\awash\\event\\index.vue' /* webpackChunkName: "pages/awash/event/index" */))
-const _81c24b6c = () => interopDefault(import('..\\pages\\awash\\exp.vue' /* webpackChunkName: "pages/awash/exp" */))
-const _e8b7db02 = () => interopDefault(import('..\\pages\\awash\\gallery.vue' /* webpackChunkName: "pages/awash/gallery" */))
-const _fc1e6a1e = () => interopDefault(import('..\\pages\\awash\\well.vue' /* webpackChunkName: "pages/awash/well" */))
-const _4f0ef6dc = () => interopDefault(import('..\\pages\\bishoftu\\acc\\index.vue' /* webpackChunkName: "pages/bishoftu/acc/index" */))
-const _bc12ae6a = () => interopDefault(import('..\\pages\\bishoftu\\corp.vue' /* webpackChunkName: "pages/bishoftu/corp" */))
-const _57de13cc = () => interopDefault(import('..\\pages\\bishoftu\\dining.vue' /* webpackChunkName: "pages/bishoftu/dining" */))
-const _1ae76299 = () => interopDefault(import('..\\pages\\bishoftu\\event\\index.vue' /* webpackChunkName: "pages/bishoftu/event/index" */))
-const _d222b4e8 = () => interopDefault(import('..\\pages\\bishoftu\\exp.vue' /* webpackChunkName: "pages/bishoftu/exp" */))
-const _14386cc1 = () => interopDefault(import('..\\pages\\bishoftu\\gallery.vue' /* webpackChunkName: "pages/bishoftu/gallery" */))
-const _dd0b0fde = () => interopDefault(import('..\\pages\\bishoftu\\gift\\index.vue' /* webpackChunkName: "pages/bishoftu/gift/index" */))
-const _b7cb3022 = () => interopDefault(import('..\\pages\\bishoftu\\well.vue' /* webpackChunkName: "pages/bishoftu/well" */))
-const _3f2ccfc8 = () => interopDefault(import('..\\pages\\boston\\gallery.vue' /* webpackChunkName: "pages/boston/gallery" */))
-const _d43000d0 = () => interopDefault(import('..\\pages\\boston\\gift\\index.vue' /* webpackChunkName: "pages/boston/gift/index" */))
-const _17d1e0bd = () => interopDefault(import('..\\pages\\entoto\\acc\\index.vue' /* webpackChunkName: "pages/entoto/acc/index" */))
-const _5782f152 = () => interopDefault(import('..\\pages\\entoto\\adv.vue' /* webpackChunkName: "pages/entoto/adv" */))
-const _74317d94 = () => interopDefault(import('..\\pages\\entoto\\corp.vue' /* webpackChunkName: "pages/entoto/corp" */))
-const _8385c076 = () => interopDefault(import('..\\pages\\entoto\\dining.vue' /* webpackChunkName: "pages/entoto/dining" */))
-const _2d4b3ff8 = () => interopDefault(import('..\\pages\\entoto\\event\\index.vue' /* webpackChunkName: "pages/entoto/event/index" */))
-const _6cb8587e = () => interopDefault(import('..\\pages\\entoto\\exp.vue' /* webpackChunkName: "pages/entoto/exp" */))
-const _6f917876 = () => interopDefault(import('..\\pages\\entoto\\gallery.vue' /* webpackChunkName: "pages/entoto/gallery" */))
-const _3d4ca146 = () => interopDefault(import('..\\pages\\entoto\\gift\\index.vue' /* webpackChunkName: "pages/entoto/gift/index" */))
-const _c66bbbc4 = () => interopDefault(import('..\\pages\\entoto\\test.vue' /* webpackChunkName: "pages/entoto/test" */))
-const _6fe9ff4c = () => interopDefault(import('..\\pages\\entoto\\well.vue' /* webpackChunkName: "pages/entoto/well" */))
-const _c3b187e6 = () => interopDefault(import('..\\pages\\laketana\\acc\\index.vue' /* webpackChunkName: "pages/laketana/acc/index" */))
-const _be114ef4 = () => interopDefault(import('..\\pages\\laketana\\corp.vue' /* webpackChunkName: "pages/laketana/corp" */))
-const _15a4a315 = () => interopDefault(import('..\\pages\\laketana\\dining.vue' /* webpackChunkName: "pages/laketana/dining" */))
-const _2fc62754 = () => interopDefault(import('..\\pages\\laketana\\event\\index.vue' /* webpackChunkName: "pages/laketana/event/index" */))
-const _2b8b9271 = () => interopDefault(import('..\\pages\\laketana\\exp.vue' /* webpackChunkName: "pages/laketana/exp" */))
-const _051a5f26 = () => interopDefault(import('..\\pages\\laketana\\gallery.vue' /* webpackChunkName: "pages/laketana/gallery" */))
-const _fcbaa014 = () => interopDefault(import('..\\pages\\laketana\\gift\\index.vue' /* webpackChunkName: "pages/laketana/gift/index" */))
-const _b9c9d0ac = () => interopDefault(import('..\\pages\\laketana\\well.vue' /* webpackChunkName: "pages/laketana/well" */))
-const _1feb949d = () => interopDefault(import('..\\pages\\waterpark\\dining.vue' /* webpackChunkName: "pages/waterpark/dining" */))
-const _43b19e9e = () => interopDefault(import('..\\pages\\waterpark\\gallery.vue' /* webpackChunkName: "pages/waterpark/gallery" */))
-const _1b1d736e = () => interopDefault(import('..\\pages\\waterpark\\gift\\index.vue' /* webpackChunkName: "pages/waterpark/gift/index" */))
-const _221248f4 = () => interopDefault(import('..\\pages\\awash\\acc\\_id\\index.vue' /* webpackChunkName: "pages/awash/acc/_id/index" */))
-const _9db3318c = () => interopDefault(import('..\\pages\\awash\\event\\_sub\\index.vue' /* webpackChunkName: "pages/awash/event/_sub/index" */))
-const _27945870 = () => interopDefault(import('..\\pages\\bishoftu\\acc\\_id\\index.vue' /* webpackChunkName: "pages/bishoftu/acc/_id/index" */))
-const _34026fb8 = () => interopDefault(import('..\\pages\\bishoftu\\event\\_sub\\index.vue' /* webpackChunkName: "pages/bishoftu/event/_sub/index" */))
-const _57a1a814 = () => interopDefault(import('..\\pages\\bishoftu\\gift\\_card\\index.vue' /* webpackChunkName: "pages/bishoftu/gift/_card/index" */))
-const _74fceaad = () => interopDefault(import('..\\pages\\boston\\gift\\_card\\index.vue' /* webpackChunkName: "pages/boston/gift/_card/index" */))
-const _b8934b06 = () => interopDefault(import('..\\pages\\entoto\\acc\\_id\\index.vue' /* webpackChunkName: "pages/entoto/acc/_id/index" */))
-const _ec831e3a = () => interopDefault(import('..\\pages\\entoto\\event\\_sub\\index.vue' /* webpackChunkName: "pages/entoto/event/_sub/index" */))
-const _a544ad82 = () => interopDefault(import('..\\pages\\entoto\\gift\\_card\\index.vue' /* webpackChunkName: "pages/entoto/gift/_card/index" */))
-const _c7f4dda6 = () => interopDefault(import('..\\pages\\laketana\\acc\\_id\\index.vue' /* webpackChunkName: "pages/laketana/acc/_id/index" */))
-const _d829079a = () => interopDefault(import('..\\pages\\laketana\\event\\_sub\\index.vue' /* webpackChunkName: "pages/laketana/event/_sub/index" */))
-const _90ea96e2 = () => interopDefault(import('..\\pages\\laketana\\gift\\_card\\index.vue' /* webpackChunkName: "pages/laketana/gift/_card/index" */))
-const _d0e8cbd2 = () => interopDefault(import('..\\pages\\waterpark\\gift\\_card\\index.vue' /* webpackChunkName: "pages/waterpark/gift/_card/index" */))
-const _df547c20 = () => interopDefault(import('..\\pages\\giftcard\\_card\\index.vue' /* webpackChunkName: "pages/giftcard/_card/index" */))
-const _79966196 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _1bd34574 = () => interopDefault(import('..\\pages\\aboutus.vue' /* webpackChunkName: "pages/aboutus" */))
+const _ca139d1c = () => interopDefault(import('..\\pages\\articles.vue' /* webpackChunkName: "pages/articles" */))
+const _56ed8df2 = () => interopDefault(import('..\\pages\\awash\\index.vue' /* webpackChunkName: "pages/awash/index" */))
+const _48ed9f39 = () => interopDefault(import('..\\pages\\bishoftu\\index.vue' /* webpackChunkName: "pages/bishoftu/index" */))
+const _ef010ac4 = () => interopDefault(import('..\\pages\\book.vue' /* webpackChunkName: "pages/book" */))
+const _971cf400 = () => interopDefault(import('..\\pages\\boston\\index.vue' /* webpackChunkName: "pages/boston/index" */))
+const _47b4ce10 = () => interopDefault(import('..\\pages\\careers.vue' /* webpackChunkName: "pages/careers" */))
+const _7bb55bfb = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
+const _65a4822e = () => interopDefault(import('..\\pages\\entoto\\index.vue' /* webpackChunkName: "pages/entoto/index" */))
+const _133f5235 = () => interopDefault(import('..\\pages\\event.vue' /* webpackChunkName: "pages/event" */))
+const _6ff09626 = () => interopDefault(import('..\\pages\\giftcard\\index.vue' /* webpackChunkName: "pages/giftcard/index" */))
+const _2a02e6de = () => interopDefault(import('..\\pages\\laketana\\index.vue' /* webpackChunkName: "pages/laketana/index" */))
+const _e351ca58 = () => interopDefault(import('..\\pages\\legal.vue' /* webpackChunkName: "pages/legal" */))
+const _3c7a8435 = () => interopDefault(import('..\\pages\\newsletters.vue' /* webpackChunkName: "pages/newsletters" */))
+const _5a3d313a = () => interopDefault(import('..\\pages\\privacy.vue' /* webpackChunkName: "pages/privacy" */))
+const _66aef072 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
+const _374f401d = () => interopDefault(import('..\\pages\\upcoming-project.vue' /* webpackChunkName: "pages/upcoming-project" */))
+const _934bc634 = () => interopDefault(import('..\\pages\\waterpark\\index.vue' /* webpackChunkName: "pages/waterpark/index" */))
+const _0f14674c = () => interopDefault(import('..\\pages\\awash\\acc\\index.vue' /* webpackChunkName: "pages/awash/acc/index" */))
+const _68f99f05 = () => interopDefault(import('..\\pages\\awash\\corp.vue' /* webpackChunkName: "pages/awash/corp" */))
+const _33a17458 = () => interopDefault(import('..\\pages\\awash\\dining.vue' /* webpackChunkName: "pages/awash/dining" */))
+const _1a157ed3 = () => interopDefault(import('..\\pages\\awash\\event\\index.vue' /* webpackChunkName: "pages/awash/event/index" */))
+const _10f70012 = () => interopDefault(import('..\\pages\\awash\\exp.vue' /* webpackChunkName: "pages/awash/exp" */))
+const _45e41447 = () => interopDefault(import('..\\pages\\awash\\gallery.vue' /* webpackChunkName: "pages/awash/gallery" */))
+const _6b1d5e29 = () => interopDefault(import('..\\pages\\awash\\well.vue' /* webpackChunkName: "pages/awash/well" */))
+const _1cd2105a = () => interopDefault(import('..\\pages\\bishoftu\\acc\\index.vue' /* webpackChunkName: "pages/bishoftu/acc/index" */))
+const _5c36aa93 = () => interopDefault(import('..\\pages\\bishoftu\\corp.vue' /* webpackChunkName: "pages/bishoftu/corp" */))
+const _0350b43c = () => interopDefault(import('..\\pages\\bishoftu\\dining.vue' /* webpackChunkName: "pages/bishoftu/dining" */))
+const _a1e5c73e = () => interopDefault(import('..\\pages\\bishoftu\\event\\index.vue' /* webpackChunkName: "pages/bishoftu/event/index" */))
+const _31796a78 = () => interopDefault(import('..\\pages\\bishoftu\\exp.vue' /* webpackChunkName: "pages/bishoftu/exp" */))
+const _32c7b5f9 = () => interopDefault(import('..\\pages\\bishoftu\\gallery.vue' /* webpackChunkName: "pages/bishoftu/gallery" */))
+const _4f5b356e = () => interopDefault(import('..\\pages\\bishoftu\\gift\\index.vue' /* webpackChunkName: "pages/bishoftu/gift/index" */))
+const _5e5a69b7 = () => interopDefault(import('..\\pages\\bishoftu\\well.vue' /* webpackChunkName: "pages/bishoftu/well" */))
+const _6625f200 = () => interopDefault(import('..\\pages\\boston\\gallery.vue' /* webpackChunkName: "pages/boston/gallery" */))
+const _4dc9dad0 = () => interopDefault(import('..\\pages\\boston\\gift\\index.vue' /* webpackChunkName: "pages/boston/gift/index" */))
+const _69a882f6 = () => interopDefault(import('..\\pages\\entoto\\acc\\index.vue' /* webpackChunkName: "pages/entoto/acc/index" */))
+const _8529cae2 = () => interopDefault(import('..\\pages\\entoto\\adv.vue' /* webpackChunkName: "pages/entoto/adv" */))
+const _024d14fe = () => interopDefault(import('..\\pages\\entoto\\corp.vue' /* webpackChunkName: "pages/entoto/corp" */))
+const _787d218d = () => interopDefault(import('..\\pages\\entoto\\dining.vue' /* webpackChunkName: "pages/entoto/dining" */))
+const _2db3ebcc = () => interopDefault(import('..\\pages\\entoto\\event\\index.vue' /* webpackChunkName: "pages/entoto/event/index" */))
+const _9a5f320e = () => interopDefault(import('..\\pages\\entoto\\exp.vue' /* webpackChunkName: "pages/entoto/exp" */))
+const _055ca0a4 = () => interopDefault(import('..\\pages\\entoto\\gallery.vue' /* webpackChunkName: "pages/entoto/gallery" */))
+const _15a30704 = () => interopDefault(import('..\\pages\\entoto\\gift\\index.vue' /* webpackChunkName: "pages/entoto/gift/index" */))
+const _4da01434 = () => interopDefault(import('..\\pages\\entoto\\test.vue' /* webpackChunkName: "pages/entoto/test" */))
+const _0470d422 = () => interopDefault(import('..\\pages\\entoto\\well.vue' /* webpackChunkName: "pages/entoto/well" */))
+const _3afe7056 = () => interopDefault(import('..\\pages\\laketana\\acc\\index.vue' /* webpackChunkName: "pages/laketana/acc/index" */))
+const _5b375a4e = () => interopDefault(import('..\\pages\\laketana\\corp.vue' /* webpackChunkName: "pages/laketana/corp" */))
+const _3feb52dd = () => interopDefault(import('..\\pages\\laketana\\dining.vue' /* webpackChunkName: "pages/laketana/dining" */))
+const _78283dc8 = () => interopDefault(import('..\\pages\\laketana\\event\\index.vue' /* webpackChunkName: "pages/laketana/event/index" */))
+const _7be037a9 = () => interopDefault(import('..\\pages\\laketana\\exp.vue' /* webpackChunkName: "pages/laketana/exp" */))
+const _23a9a85e = () => interopDefault(import('..\\pages\\laketana\\gallery.vue' /* webpackChunkName: "pages/laketana/gallery" */))
+const _6f0ac5a4 = () => interopDefault(import('..\\pages\\laketana\\gift\\index.vue' /* webpackChunkName: "pages/laketana/gift/index" */))
+const _5d5b1972 = () => interopDefault(import('..\\pages\\laketana\\well.vue' /* webpackChunkName: "pages/laketana/well" */))
+const _3e7addd5 = () => interopDefault(import('..\\pages\\waterpark\\dining.vue' /* webpackChunkName: "pages/waterpark/dining" */))
+const _11e90734 = () => interopDefault(import('..\\pages\\waterpark\\gallery.vue' /* webpackChunkName: "pages/waterpark/gallery" */))
+const _a179a594 = () => interopDefault(import('..\\pages\\waterpark\\gift\\index.vue' /* webpackChunkName: "pages/waterpark/gift/index" */))
+const _f9c6d564 = () => interopDefault(import('..\\pages\\awash\\acc\\_id\\index.vue' /* webpackChunkName: "pages/awash/acc/_id/index" */))
+const _79560f1c = () => interopDefault(import('..\\pages\\awash\\event\\_sub\\index.vue' /* webpackChunkName: "pages/awash/event/_sub/index" */))
+const _03373600 = () => interopDefault(import('..\\pages\\bishoftu\\acc\\_id\\index.vue' /* webpackChunkName: "pages/bishoftu/acc/_id/index" */))
+const _0d17b380 = () => interopDefault(import('..\\pages\\bishoftu\\event\\_sub\\index.vue' /* webpackChunkName: "pages/bishoftu/event/_sub/index" */))
+const _30b6ebdc = () => interopDefault(import('..\\pages\\bishoftu\\gift\\_card\\index.vue' /* webpackChunkName: "pages/bishoftu/gift/_card/index" */))
+const _aebeff16 = () => interopDefault(import('..\\pages\\boston\\gift\\_card\\index.vue' /* webpackChunkName: "pages/boston/gift/_card/index" */))
+const _d7704c96 = () => interopDefault(import('..\\pages\\entoto\\acc\\_id\\index.vue' /* webpackChunkName: "pages/entoto/acc/_id/index" */))
+const _853bf2aa = () => interopDefault(import('..\\pages\\entoto\\event\\_sub\\index.vue' /* webpackChunkName: "pages/entoto/event/_sub/index" */))
+const _3dfd81f2 = () => interopDefault(import('..\\pages\\entoto\\gift\\_card\\index.vue' /* webpackChunkName: "pages/entoto/gift/_card/index" */))
+const _a397bb36 = () => interopDefault(import('..\\pages\\laketana\\acc\\_id\\index.vue' /* webpackChunkName: "pages/laketana/acc/_id/index" */))
+const _6d00bffb = () => interopDefault(import('..\\pages\\laketana\\event\\_sub\\index.vue' /* webpackChunkName: "pages/laketana/event/_sub/index" */))
+const _dec00f52 = () => interopDefault(import('..\\pages\\laketana\\gift\\_card\\index.vue' /* webpackChunkName: "pages/laketana/gift/_card/index" */))
+const _3dc26162 = () => interopDefault(import('..\\pages\\waterpark\\gift\\_card\\index.vue' /* webpackChunkName: "pages/waterpark/gift/_card/index" */))
+const _247b7bb8 = () => interopDefault(import('..\\pages\\giftcard\\_card\\index.vue' /* webpackChunkName: "pages/giftcard/_card/index" */))
+const _3d83a726 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -89,287 +89,287 @@ export const routerOptions = {
 
   routes: [{
     path: "/aboutus",
-    component: _30ef6e0e,
+    component: _1bd34574,
     name: "aboutus"
   }, {
     path: "/articles",
-    component: _373f39aa,
+    component: _ca139d1c,
     name: "articles"
   }, {
     path: "/awash",
-    component: _cfb93582,
+    component: _56ed8df2,
     name: "awash"
   }, {
     path: "/bishoftu",
-    component: _89a52ffe,
+    component: _48ed9f39,
     name: "bishoftu"
   }, {
     path: "/book",
-    component: _7f455ed6,
+    component: _ef010ac4,
     name: "book"
   }, {
     path: "/boston",
-    component: _641ce0c8,
+    component: _971cf400,
     name: "boston"
   }, {
     path: "/careers",
-    component: _f2e44250,
+    component: _47b4ce10,
     name: "careers"
   }, {
     path: "/contact",
-    component: _8ae3267a,
+    component: _7bb55bfb,
     name: "contact"
   }, {
     path: "/entoto",
-    component: _154fdcf6,
+    component: _65a4822e,
     name: "entoto"
   }, {
     path: "/event",
-    component: _15941606,
+    component: _133f5235,
     name: "event"
   }, {
     path: "/giftcard",
-    component: _3a477db5,
+    component: _6ff09626,
     name: "giftcard"
   }, {
     path: "/laketana",
-    component: _c77aa0b4,
+    component: _2a02e6de,
     name: "laketana"
   }, {
     path: "/legal",
-    component: _704dbd9c,
+    component: _e351ca58,
     name: "legal"
   }, {
     path: "/newsletters",
-    component: _534df0fd,
+    component: _3c7a8435,
     name: "newsletters"
   }, {
     path: "/privacy",
-    component: _11ba782b,
+    component: _5a3d313a,
     name: "privacy"
   }, {
     path: "/test",
-    component: _79232802,
+    component: _66aef072,
     name: "test"
   }, {
     path: "/upcoming-project",
-    component: _0d089055,
+    component: _374f401d,
     name: "upcoming-project"
   }, {
     path: "/waterpark",
-    component: _e7d925c4,
+    component: _934bc634,
     name: "waterpark"
   }, {
     path: "/awash/acc",
-    component: _1ef5c3d8,
+    component: _0f14674c,
     name: "awash-acc"
   }, {
     path: "/awash/corp",
-    component: _7fcd0bcd,
+    component: _68f99f05,
     name: "awash-corp"
   }, {
     path: "/awash/dining",
-    component: _d44abec8,
+    component: _33a17458,
     name: "awash-dining"
   }, {
     path: "/awash/event",
-    component: _6233a39b,
+    component: _1a157ed3,
     name: "awash-event"
   }, {
     path: "/awash/exp",
-    component: _81c24b6c,
+    component: _10f70012,
     name: "awash-exp"
   }, {
     path: "/awash/gallery",
-    component: _e8b7db02,
+    component: _45e41447,
     name: "awash-gallery"
   }, {
     path: "/awash/well",
-    component: _fc1e6a1e,
+    component: _6b1d5e29,
     name: "awash-well"
   }, {
     path: "/bishoftu/acc",
-    component: _4f0ef6dc,
+    component: _1cd2105a,
     name: "bishoftu-acc"
   }, {
     path: "/bishoftu/corp",
-    component: _bc12ae6a,
+    component: _5c36aa93,
     name: "bishoftu-corp"
   }, {
     path: "/bishoftu/dining",
-    component: _57de13cc,
+    component: _0350b43c,
     name: "bishoftu-dining"
   }, {
     path: "/bishoftu/event",
-    component: _1ae76299,
+    component: _a1e5c73e,
     name: "bishoftu-event"
   }, {
     path: "/bishoftu/exp",
-    component: _d222b4e8,
+    component: _31796a78,
     name: "bishoftu-exp"
   }, {
     path: "/bishoftu/gallery",
-    component: _14386cc1,
+    component: _32c7b5f9,
     name: "bishoftu-gallery"
   }, {
     path: "/bishoftu/gift",
-    component: _dd0b0fde,
+    component: _4f5b356e,
     name: "bishoftu-gift"
   }, {
     path: "/bishoftu/well",
-    component: _b7cb3022,
+    component: _5e5a69b7,
     name: "bishoftu-well"
   }, {
     path: "/boston/gallery",
-    component: _3f2ccfc8,
+    component: _6625f200,
     name: "boston-gallery"
   }, {
     path: "/boston/gift",
-    component: _d43000d0,
+    component: _4dc9dad0,
     name: "boston-gift"
   }, {
     path: "/entoto/acc",
-    component: _17d1e0bd,
+    component: _69a882f6,
     name: "entoto-acc"
   }, {
     path: "/entoto/adv",
-    component: _5782f152,
+    component: _8529cae2,
     name: "entoto-adv"
   }, {
     path: "/entoto/corp",
-    component: _74317d94,
+    component: _024d14fe,
     name: "entoto-corp"
   }, {
     path: "/entoto/dining",
-    component: _8385c076,
+    component: _787d218d,
     name: "entoto-dining"
   }, {
     path: "/entoto/event",
-    component: _2d4b3ff8,
+    component: _2db3ebcc,
     name: "entoto-event"
   }, {
     path: "/entoto/exp",
-    component: _6cb8587e,
+    component: _9a5f320e,
     name: "entoto-exp"
   }, {
     path: "/entoto/gallery",
-    component: _6f917876,
+    component: _055ca0a4,
     name: "entoto-gallery"
   }, {
     path: "/entoto/gift",
-    component: _3d4ca146,
+    component: _15a30704,
     name: "entoto-gift"
   }, {
     path: "/entoto/test",
-    component: _c66bbbc4,
+    component: _4da01434,
     name: "entoto-test"
   }, {
     path: "/entoto/well",
-    component: _6fe9ff4c,
+    component: _0470d422,
     name: "entoto-well"
   }, {
     path: "/laketana/acc",
-    component: _c3b187e6,
+    component: _3afe7056,
     name: "laketana-acc"
   }, {
     path: "/laketana/corp",
-    component: _be114ef4,
+    component: _5b375a4e,
     name: "laketana-corp"
   }, {
     path: "/laketana/dining",
-    component: _15a4a315,
+    component: _3feb52dd,
     name: "laketana-dining"
   }, {
     path: "/laketana/event",
-    component: _2fc62754,
+    component: _78283dc8,
     name: "laketana-event"
   }, {
     path: "/laketana/exp",
-    component: _2b8b9271,
+    component: _7be037a9,
     name: "laketana-exp"
   }, {
     path: "/laketana/gallery",
-    component: _051a5f26,
+    component: _23a9a85e,
     name: "laketana-gallery"
   }, {
     path: "/laketana/gift",
-    component: _fcbaa014,
+    component: _6f0ac5a4,
     name: "laketana-gift"
   }, {
     path: "/laketana/well",
-    component: _b9c9d0ac,
+    component: _5d5b1972,
     name: "laketana-well"
   }, {
     path: "/waterpark/dining",
-    component: _1feb949d,
+    component: _3e7addd5,
     name: "waterpark-dining"
   }, {
     path: "/waterpark/gallery",
-    component: _43b19e9e,
+    component: _11e90734,
     name: "waterpark-gallery"
   }, {
     path: "/waterpark/gift",
-    component: _1b1d736e,
+    component: _a179a594,
     name: "waterpark-gift"
   }, {
     path: "/awash/acc/:id",
-    component: _221248f4,
+    component: _f9c6d564,
     name: "awash-acc-id"
   }, {
     path: "/awash/event/:sub",
-    component: _9db3318c,
+    component: _79560f1c,
     name: "awash-event-sub"
   }, {
     path: "/bishoftu/acc/:id",
-    component: _27945870,
+    component: _03373600,
     name: "bishoftu-acc-id"
   }, {
     path: "/bishoftu/event/:sub",
-    component: _34026fb8,
+    component: _0d17b380,
     name: "bishoftu-event-sub"
   }, {
     path: "/bishoftu/gift/:card",
-    component: _57a1a814,
+    component: _30b6ebdc,
     name: "bishoftu-gift-card"
   }, {
     path: "/boston/gift/:card",
-    component: _74fceaad,
+    component: _aebeff16,
     name: "boston-gift-card"
   }, {
     path: "/entoto/acc/:id",
-    component: _b8934b06,
+    component: _d7704c96,
     name: "entoto-acc-id"
   }, {
     path: "/entoto/event/:sub",
-    component: _ec831e3a,
+    component: _853bf2aa,
     name: "entoto-event-sub"
   }, {
     path: "/entoto/gift/:card",
-    component: _a544ad82,
+    component: _3dfd81f2,
     name: "entoto-gift-card"
   }, {
     path: "/laketana/acc/:id",
-    component: _c7f4dda6,
+    component: _a397bb36,
     name: "laketana-acc-id"
   }, {
     path: "/laketana/event/:sub",
-    component: _d829079a,
+    component: _6d00bffb,
     name: "laketana-event-sub"
   }, {
     path: "/laketana/gift/:card",
-    component: _90ea96e2,
+    component: _dec00f52,
     name: "laketana-gift-card"
   }, {
     path: "/waterpark/gift/:card",
-    component: _d0e8cbd2,
+    component: _3dc26162,
     name: "waterpark-gift-card"
   }, {
     path: "/giftcard/:card",
-    component: _df547c20,
+    component: _247b7bb8,
     name: "giftcard-card"
   }, {
     path: "/",
-    component: _79966196,
+    component: _3d83a726,
     name: "index"
   }],
 

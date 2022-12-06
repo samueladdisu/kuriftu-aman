@@ -2,498 +2,498 @@
   {
     "name": "aboutus",
     "path": "/aboutus",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\aboutus.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\aboutus.vue",
     "chunkName": "pages/aboutus",
-    "_name": "_30ef6e0e"
+    "_name": "_1bd34574"
   },
   {
     "name": "articles",
     "path": "/articles",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\articles.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\articles.vue",
     "chunkName": "pages/articles",
-    "_name": "_373f39aa"
+    "_name": "_ca139d1c"
   },
   {
     "name": "awash",
     "path": "/awash",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\index.vue",
     "chunkName": "pages/awash/index",
-    "_name": "_cfb93582"
+    "_name": "_56ed8df2"
   },
   {
     "name": "bishoftu",
     "path": "/bishoftu",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\index.vue",
     "chunkName": "pages/bishoftu/index",
-    "_name": "_89a52ffe"
+    "_name": "_48ed9f39"
   },
   {
     "name": "book",
     "path": "/book",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\book.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\book.vue",
     "chunkName": "pages/book",
-    "_name": "_7f455ed6"
+    "_name": "_ef010ac4"
   },
   {
     "name": "boston",
     "path": "/boston",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\boston\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\boston\\\\index.vue",
     "chunkName": "pages/boston/index",
-    "_name": "_641ce0c8"
+    "_name": "_971cf400"
   },
   {
     "name": "careers",
     "path": "/careers",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\careers.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\careers.vue",
     "chunkName": "pages/careers",
-    "_name": "_f2e44250"
+    "_name": "_47b4ce10"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\contact.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
-    "_name": "_8ae3267a"
+    "_name": "_7bb55bfb"
   },
   {
     "name": "entoto",
     "path": "/entoto",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\index.vue",
     "chunkName": "pages/entoto/index",
-    "_name": "_154fdcf6"
+    "_name": "_65a4822e"
   },
   {
     "name": "event",
     "path": "/event",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\event.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\event.vue",
     "chunkName": "pages/event",
-    "_name": "_15941606"
+    "_name": "_133f5235"
   },
   {
     "name": "giftcard",
     "path": "/giftcard",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\giftcard\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\giftcard\\\\index.vue",
     "chunkName": "pages/giftcard/index",
-    "_name": "_3a477db5"
+    "_name": "_6ff09626"
   },
   {
     "name": "laketana",
     "path": "/laketana",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\index.vue",
     "chunkName": "pages/laketana/index",
-    "_name": "_c77aa0b4"
+    "_name": "_2a02e6de"
   },
   {
     "name": "legal",
     "path": "/legal",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\legal.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\legal.vue",
     "chunkName": "pages/legal",
-    "_name": "_704dbd9c"
+    "_name": "_e351ca58"
   },
   {
     "name": "newsletters",
     "path": "/newsletters",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\newsletters.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\newsletters.vue",
     "chunkName": "pages/newsletters",
-    "_name": "_534df0fd"
+    "_name": "_3c7a8435"
   },
   {
     "name": "privacy",
     "path": "/privacy",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\privacy.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\privacy.vue",
     "chunkName": "pages/privacy",
-    "_name": "_11ba782b"
+    "_name": "_5a3d313a"
   },
   {
     "name": "test",
     "path": "/test",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\test.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\test.vue",
     "chunkName": "pages/test",
-    "_name": "_79232802"
+    "_name": "_66aef072"
   },
   {
     "name": "upcoming-project",
     "path": "/upcoming-project",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\upcoming-project.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\upcoming-project.vue",
     "chunkName": "pages/upcoming-project",
-    "_name": "_0d089055"
+    "_name": "_374f401d"
   },
   {
     "name": "waterpark",
     "path": "/waterpark",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\index.vue",
     "chunkName": "pages/waterpark/index",
-    "_name": "_e7d925c4"
+    "_name": "_934bc634"
   },
   {
     "name": "awash-acc",
     "path": "/awash/acc",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\acc\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\acc\\\\index.vue",
     "chunkName": "pages/awash/acc/index",
-    "_name": "_1ef5c3d8"
+    "_name": "_0f14674c"
   },
   {
     "name": "awash-corp",
     "path": "/awash/corp",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\corp.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\corp.vue",
     "chunkName": "pages/awash/corp",
-    "_name": "_7fcd0bcd"
+    "_name": "_68f99f05"
   },
   {
     "name": "awash-dining",
     "path": "/awash/dining",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\dining.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\dining.vue",
     "chunkName": "pages/awash/dining",
-    "_name": "_d44abec8"
+    "_name": "_33a17458"
   },
   {
     "name": "awash-event",
     "path": "/awash/event",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\event\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\event\\\\index.vue",
     "chunkName": "pages/awash/event/index",
-    "_name": "_6233a39b"
+    "_name": "_1a157ed3"
   },
   {
     "name": "awash-exp",
     "path": "/awash/exp",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\exp.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\exp.vue",
     "chunkName": "pages/awash/exp",
-    "_name": "_81c24b6c"
+    "_name": "_10f70012"
   },
   {
     "name": "awash-gallery",
     "path": "/awash/gallery",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\gallery.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\gallery.vue",
     "chunkName": "pages/awash/gallery",
-    "_name": "_e8b7db02"
+    "_name": "_45e41447"
   },
   {
     "name": "awash-well",
     "path": "/awash/well",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\well.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\well.vue",
     "chunkName": "pages/awash/well",
-    "_name": "_fc1e6a1e"
+    "_name": "_6b1d5e29"
   },
   {
     "name": "bishoftu-acc",
     "path": "/bishoftu/acc",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\acc\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\acc\\\\index.vue",
     "chunkName": "pages/bishoftu/acc/index",
-    "_name": "_4f0ef6dc"
+    "_name": "_1cd2105a"
   },
   {
     "name": "bishoftu-corp",
     "path": "/bishoftu/corp",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\corp.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\corp.vue",
     "chunkName": "pages/bishoftu/corp",
-    "_name": "_bc12ae6a"
+    "_name": "_5c36aa93"
   },
   {
     "name": "bishoftu-dining",
     "path": "/bishoftu/dining",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\dining.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\dining.vue",
     "chunkName": "pages/bishoftu/dining",
-    "_name": "_57de13cc"
+    "_name": "_0350b43c"
   },
   {
     "name": "bishoftu-event",
     "path": "/bishoftu/event",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\event\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\event\\\\index.vue",
     "chunkName": "pages/bishoftu/event/index",
-    "_name": "_1ae76299"
+    "_name": "_a1e5c73e"
   },
   {
     "name": "bishoftu-exp",
     "path": "/bishoftu/exp",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\exp.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\exp.vue",
     "chunkName": "pages/bishoftu/exp",
-    "_name": "_d222b4e8"
+    "_name": "_31796a78"
   },
   {
     "name": "bishoftu-gallery",
     "path": "/bishoftu/gallery",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\gallery.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\gallery.vue",
     "chunkName": "pages/bishoftu/gallery",
-    "_name": "_14386cc1"
+    "_name": "_32c7b5f9"
   },
   {
     "name": "bishoftu-gift",
     "path": "/bishoftu/gift",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\gift\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\gift\\\\index.vue",
     "chunkName": "pages/bishoftu/gift/index",
-    "_name": "_dd0b0fde"
+    "_name": "_4f5b356e"
   },
   {
     "name": "bishoftu-well",
     "path": "/bishoftu/well",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\well.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\well.vue",
     "chunkName": "pages/bishoftu/well",
-    "_name": "_b7cb3022"
+    "_name": "_5e5a69b7"
   },
   {
     "name": "boston-gallery",
     "path": "/boston/gallery",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\boston\\\\gallery.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\boston\\\\gallery.vue",
     "chunkName": "pages/boston/gallery",
-    "_name": "_3f2ccfc8"
+    "_name": "_6625f200"
   },
   {
     "name": "boston-gift",
     "path": "/boston/gift",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\boston\\\\gift\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\boston\\\\gift\\\\index.vue",
     "chunkName": "pages/boston/gift/index",
-    "_name": "_d43000d0"
+    "_name": "_4dc9dad0"
   },
   {
     "name": "entoto-acc",
     "path": "/entoto/acc",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\acc\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\acc\\\\index.vue",
     "chunkName": "pages/entoto/acc/index",
-    "_name": "_17d1e0bd"
+    "_name": "_69a882f6"
   },
   {
     "name": "entoto-adv",
     "path": "/entoto/adv",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\adv.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\adv.vue",
     "chunkName": "pages/entoto/adv",
-    "_name": "_5782f152"
+    "_name": "_8529cae2"
   },
   {
     "name": "entoto-corp",
     "path": "/entoto/corp",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\corp.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\corp.vue",
     "chunkName": "pages/entoto/corp",
-    "_name": "_74317d94"
+    "_name": "_024d14fe"
   },
   {
     "name": "entoto-dining",
     "path": "/entoto/dining",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\dining.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\dining.vue",
     "chunkName": "pages/entoto/dining",
-    "_name": "_8385c076"
+    "_name": "_787d218d"
   },
   {
     "name": "entoto-event",
     "path": "/entoto/event",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\event\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\event\\\\index.vue",
     "chunkName": "pages/entoto/event/index",
-    "_name": "_2d4b3ff8"
+    "_name": "_2db3ebcc"
   },
   {
     "name": "entoto-exp",
     "path": "/entoto/exp",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\exp.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\exp.vue",
     "chunkName": "pages/entoto/exp",
-    "_name": "_6cb8587e"
+    "_name": "_9a5f320e"
   },
   {
     "name": "entoto-gallery",
     "path": "/entoto/gallery",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\gallery.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\gallery.vue",
     "chunkName": "pages/entoto/gallery",
-    "_name": "_6f917876"
+    "_name": "_055ca0a4"
   },
   {
     "name": "entoto-gift",
     "path": "/entoto/gift",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\gift\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\gift\\\\index.vue",
     "chunkName": "pages/entoto/gift/index",
-    "_name": "_3d4ca146"
+    "_name": "_15a30704"
   },
   {
     "name": "entoto-test",
     "path": "/entoto/test",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\test.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\test.vue",
     "chunkName": "pages/entoto/test",
-    "_name": "_c66bbbc4"
+    "_name": "_4da01434"
   },
   {
     "name": "entoto-well",
     "path": "/entoto/well",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\well.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\well.vue",
     "chunkName": "pages/entoto/well",
-    "_name": "_6fe9ff4c"
+    "_name": "_0470d422"
   },
   {
     "name": "laketana-acc",
     "path": "/laketana/acc",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\acc\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\acc\\\\index.vue",
     "chunkName": "pages/laketana/acc/index",
-    "_name": "_c3b187e6"
+    "_name": "_3afe7056"
   },
   {
     "name": "laketana-corp",
     "path": "/laketana/corp",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\corp.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\corp.vue",
     "chunkName": "pages/laketana/corp",
-    "_name": "_be114ef4"
+    "_name": "_5b375a4e"
   },
   {
     "name": "laketana-dining",
     "path": "/laketana/dining",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\dining.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\dining.vue",
     "chunkName": "pages/laketana/dining",
-    "_name": "_15a4a315"
+    "_name": "_3feb52dd"
   },
   {
     "name": "laketana-event",
     "path": "/laketana/event",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\event\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\event\\\\index.vue",
     "chunkName": "pages/laketana/event/index",
-    "_name": "_2fc62754"
+    "_name": "_78283dc8"
   },
   {
     "name": "laketana-exp",
     "path": "/laketana/exp",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\exp.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\exp.vue",
     "chunkName": "pages/laketana/exp",
-    "_name": "_2b8b9271"
+    "_name": "_7be037a9"
   },
   {
     "name": "laketana-gallery",
     "path": "/laketana/gallery",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\gallery.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\gallery.vue",
     "chunkName": "pages/laketana/gallery",
-    "_name": "_051a5f26"
+    "_name": "_23a9a85e"
   },
   {
     "name": "laketana-gift",
     "path": "/laketana/gift",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\gift\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\gift\\\\index.vue",
     "chunkName": "pages/laketana/gift/index",
-    "_name": "_fcbaa014"
+    "_name": "_6f0ac5a4"
   },
   {
     "name": "laketana-well",
     "path": "/laketana/well",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\well.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\well.vue",
     "chunkName": "pages/laketana/well",
-    "_name": "_b9c9d0ac"
+    "_name": "_5d5b1972"
   },
   {
     "name": "waterpark-dining",
     "path": "/waterpark/dining",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\dining.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\dining.vue",
     "chunkName": "pages/waterpark/dining",
-    "_name": "_1feb949d"
+    "_name": "_3e7addd5"
   },
   {
     "name": "waterpark-gallery",
     "path": "/waterpark/gallery",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\gallery.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\gallery.vue",
     "chunkName": "pages/waterpark/gallery",
-    "_name": "_43b19e9e"
+    "_name": "_11e90734"
   },
   {
     "name": "waterpark-gift",
     "path": "/waterpark/gift",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\gift\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\gift\\\\index.vue",
     "chunkName": "pages/waterpark/gift/index",
-    "_name": "_1b1d736e"
+    "_name": "_a179a594"
   },
   {
     "name": "awash-acc-id",
     "path": "/awash/acc/:id",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\acc\\\\_id\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\acc\\\\_id\\\\index.vue",
     "chunkName": "pages/awash/acc/_id/index",
-    "_name": "_221248f4"
+    "_name": "_f9c6d564"
   },
   {
     "name": "awash-event-sub",
     "path": "/awash/event/:sub",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\event\\\\_sub\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\awash\\\\event\\\\_sub\\\\index.vue",
     "chunkName": "pages/awash/event/_sub/index",
-    "_name": "_9db3318c"
+    "_name": "_79560f1c"
   },
   {
     "name": "bishoftu-acc-id",
     "path": "/bishoftu/acc/:id",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\acc\\\\_id\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\acc\\\\_id\\\\index.vue",
     "chunkName": "pages/bishoftu/acc/_id/index",
-    "_name": "_27945870"
+    "_name": "_03373600"
   },
   {
     "name": "bishoftu-event-sub",
     "path": "/bishoftu/event/:sub",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\event\\\\_sub\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\event\\\\_sub\\\\index.vue",
     "chunkName": "pages/bishoftu/event/_sub/index",
-    "_name": "_34026fb8"
+    "_name": "_0d17b380"
   },
   {
     "name": "bishoftu-gift-card",
     "path": "/bishoftu/gift/:card",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\gift\\\\_card\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\gift\\\\_card\\\\index.vue",
     "chunkName": "pages/bishoftu/gift/_card/index",
-    "_name": "_57a1a814"
+    "_name": "_30b6ebdc"
   },
   {
     "name": "boston-gift-card",
     "path": "/boston/gift/:card",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\boston\\\\gift\\\\_card\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\boston\\\\gift\\\\_card\\\\index.vue",
     "chunkName": "pages/boston/gift/_card/index",
-    "_name": "_74fceaad"
+    "_name": "_aebeff16"
   },
   {
     "name": "entoto-acc-id",
     "path": "/entoto/acc/:id",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\acc\\\\_id\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\acc\\\\_id\\\\index.vue",
     "chunkName": "pages/entoto/acc/_id/index",
-    "_name": "_b8934b06"
+    "_name": "_d7704c96"
   },
   {
     "name": "entoto-event-sub",
     "path": "/entoto/event/:sub",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\event\\\\_sub\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\event\\\\_sub\\\\index.vue",
     "chunkName": "pages/entoto/event/_sub/index",
-    "_name": "_ec831e3a"
+    "_name": "_853bf2aa"
   },
   {
     "name": "entoto-gift-card",
     "path": "/entoto/gift/:card",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\gift\\\\_card\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\entoto\\\\gift\\\\_card\\\\index.vue",
     "chunkName": "pages/entoto/gift/_card/index",
-    "_name": "_a544ad82"
+    "_name": "_3dfd81f2"
   },
   {
     "name": "laketana-acc-id",
     "path": "/laketana/acc/:id",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\acc\\\\_id\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\acc\\\\_id\\\\index.vue",
     "chunkName": "pages/laketana/acc/_id/index",
-    "_name": "_c7f4dda6"
+    "_name": "_a397bb36"
   },
   {
     "name": "laketana-event-sub",
     "path": "/laketana/event/:sub",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\event\\\\_sub\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\event\\\\_sub\\\\index.vue",
     "chunkName": "pages/laketana/event/_sub/index",
-    "_name": "_d829079a"
+    "_name": "_6d00bffb"
   },
   {
     "name": "laketana-gift-card",
     "path": "/laketana/gift/:card",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\gift\\\\_card\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\laketana\\\\gift\\\\_card\\\\index.vue",
     "chunkName": "pages/laketana/gift/_card/index",
-    "_name": "_90ea96e2"
+    "_name": "_dec00f52"
   },
   {
     "name": "waterpark-gift-card",
     "path": "/waterpark/gift/:card",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\gift\\\\_card\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\gift\\\\_card\\\\index.vue",
     "chunkName": "pages/waterpark/gift/_card/index",
-    "_name": "_d0e8cbd2"
+    "_name": "_3dc26162"
   },
   {
     "name": "giftcard-card",
     "path": "/giftcard/:card",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\giftcard\\\\_card\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\giftcard\\\\_card\\\\index.vue",
     "chunkName": "pages/giftcard/_card/index",
-    "_name": "_df547c20"
+    "_name": "_247b7bb8"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\ENGPC\\\\Music\\\\kuriftu-aman\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\VSAVVY-ENGPC2\\\\Music\\\\kuriftu-aman\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_79966196"
+    "_name": "_3d83a726"
   }
 ]

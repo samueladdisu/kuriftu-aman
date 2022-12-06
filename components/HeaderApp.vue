@@ -28,10 +28,11 @@
           <a
             href="https://reservations.kurifturesorts.com/signUp.php"
             class="btn-primary sign-up"
+            target="_blank"
             >Sign Up</a
           >
           <a
-            href="https://reservations.kurifturesorts.com/"
+            href="https://reservations.kurifturesorts.com?ref=homepage_button"
             target="_blank"
             class="btn-primary"
             >Reserve</a

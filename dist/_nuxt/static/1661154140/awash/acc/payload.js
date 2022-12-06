@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/awash/acc", {data:[{}],fetch:{},mutations:void 0});

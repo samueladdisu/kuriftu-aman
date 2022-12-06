@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Banner v-show="showModal" @close="closeBanner" />
     <HeaderApp />
     <!-- Home page banner section  -->
 
@@ -147,6 +148,7 @@ export default {
     return {
       waterpark: `Whether you are looking to spend an afternoon of fun with family or friends, searching the perfect weekend getaway, planning a birthday or group event, or even surprising a loved one, Kuriftu Water Park is your ultimate choice for a premier entertainment destination with guaranteed fun!`,
       tana: ` Located in the capital of the Amhara Region, Bahirdar, Kuriftu Resort & Spa Lake Tana represents the Kuriftu brands second resort venture. As we seek to expand across Ethiopia, Lake Tana with its historic and cultural value was the perfect choice for expansion. Paired with scenic views, wildlife excursions and religious routes - this destination offers a new adventure for our Kuriftu family!`,
+      showModal: false,
       readWater: false,
       readTana: false,
       feature: {
@@ -166,6 +168,14 @@ export default {
     activateTana() {
       this.readTana = true;
     },
+    closeBanner() {
+      this.showModal = false;
+    },
+  },
+  mounted() {
+    setTimeout(() => {
+      this.showModal = true;
+    }, 5000);
   },
 };
 </script>

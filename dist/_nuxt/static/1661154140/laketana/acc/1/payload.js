@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/laketana/acc/1", {data:[{}],fetch:{},mutations:void 0});
