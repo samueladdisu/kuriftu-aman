@@ -35,7 +35,11 @@
             <li>
               <nuxt-link to="/giftcard">Gift Card </nuxt-link>
             </li>
-
+            <li>
+              <nuxt-link to="/ticket"
+                >Buy Waterpark & Entoto Activity Tickets
+              </nuxt-link>
+            </li>
             <li>
               <a href="https://reservations.kurifturesorts.com/" target="_blank"
                 >Reservation</a
