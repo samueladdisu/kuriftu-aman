@@ -25,6 +25,7 @@ export { default as LeftFeature } from '../..\\components\\LeftFeature.vue'
 export { default as NavMenu } from '../..\\components\\NavMenu.vue'
 export { default as OtherAcc } from '../..\\components\\OtherAcc.vue'
 export { default as Sticky } from '../..\\components\\Sticky.vue'
+export { default as TicketHero } from '../..\\components\\TicketHero.vue'
 export { default as Well } from '../..\\components\\Well.vue'
 
 // nuxt/nuxt.js#8607

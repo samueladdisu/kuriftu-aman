@@ -351,35 +351,37 @@ export default {
   }
 }
 
-.e-form {
-  padding-bottom: 3rem;
+.ticket {
   .container {
-    background: #fff;
-    padding: 4% 8.5%;
-    .event-form {
-      .form-group {
-        margin-bottom: 1.5rem;
-        label {
-          @extend .text;
-          display: block;
-        }
-        input[type="checkbox"] {
-          appearance: checkbox !important;
-          margin-right: 5px;
-        }
-        .register {
-          display: inline;
-        }
-        .form-control {
-          width: 100%;
-          border: none;
-          border: 0.5px solid #000;
-          background: none;
-          outline: none;
-          padding: 0.7rem 0.5rem;
-        }
-        .event-btn {
-          @extend .btn-primary;
+    .ticket-content {
+      .title {
+        margin-top: 1rem;
+      }
+      .event-form {
+        .form-group {
+          margin-bottom: 1.5rem;
+          label {
+            @extend .text;
+            display: block;
+          }
+          input[type="checkbox"] {
+            appearance: checkbox !important;
+            margin-right: 5px;
+          }
+          .register {
+            display: inline;
+          }
+          .form-control {
+            width: 100%;
+            border: none;
+            border: 0.5px solid #000;
+            background: none;
+            outline: none;
+            padding: 0.7rem 0.5rem;
+          }
+          .event-btn {
+            @extend .btn-primary;
+          }
         }
       }
     }

@@ -80,6 +80,9 @@
   "Sticky": {
     "description": "Auto imported from components/Sticky.vue"
   },
+  "TicketHero": {
+    "description": "Auto imported from components/TicketHero.vue"
+  },
   "Well": {
     "description": "Auto imported from components/Well.vue"
   }

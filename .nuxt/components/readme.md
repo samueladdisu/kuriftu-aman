@@ -33,4 +33,5 @@ You can directly use them in pages and other components without the need to impo
 - `<NavMenu>` | `<nav-menu>` (components/NavMenu.vue)
 - `<OtherAcc>` | `<other-acc>` (components/OtherAcc.vue)
 - `<Sticky>` | `<sticky>` (components/Sticky.vue)
+- `<TicketHero>` | `<ticket-hero>` (components/TicketHero.vue)
 - `<Well>` | `<well>` (components/Well.vue)

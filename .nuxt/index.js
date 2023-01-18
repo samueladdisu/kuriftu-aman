@@ -16,6 +16,7 @@ import nuxt_plugin_plugin_018dbebe from 'nuxt_plugin_plugin_018dbebe' // Source:
 import nuxt_plugin_axios_7aabbe44 from 'nuxt_plugin_axios_7aabbe44' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_gsap_0d8e3474 from 'nuxt_plugin_gsap_0d8e3474' // Source: ..\\plugins\\gsap.js (mode: 'client')
 import nuxt_plugin_tdatepickermin_36557688 from 'nuxt_plugin_tdatepickermin_36557688' // Source: ..\\plugins\\t-datepicker.min.js (mode: 'client')
+import nuxt_plugin_bus_5e46274a from 'nuxt_plugin_bus_5e46274a' // Source: ..\\plugins\\bus (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -193,6 +194,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_tdatepickermin_36557688 === 'function') {
     await nuxt_plugin_tdatepickermin_36557688(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_bus_5e46274a === 'function') {
+    await nuxt_plugin_bus_5e46274a(app.context, inject)
   }
 
   // Lock enablePreview in context

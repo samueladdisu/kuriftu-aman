@@ -3,511 +3,444 @@
     "name": "aboutus",
     "path": "/aboutus",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\aboutus.vue",
-    "chunkName": "pages/aboutus",
-    "_name": "_030b667b"
+    "chunkName": "pages/aboutus"
   },
   {
     "name": "articles",
     "path": "/articles",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\articles.vue",
-    "chunkName": "pages/articles",
-    "_name": "_aebb6246"
+    "chunkName": "pages/articles"
   },
   {
     "name": "awash",
     "path": "/awash",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\awash\\\\index.vue",
-    "chunkName": "pages/awash/index",
-    "_name": "_6a7aae1c"
+    "chunkName": "pages/awash/index"
   },
   {
     "name": "bishoftu",
     "path": "/bishoftu",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\index.vue",
-    "chunkName": "pages/bishoftu/index",
-    "_name": "_a216b924"
+    "chunkName": "pages/bishoftu/index"
   },
   {
     "name": "book",
     "path": "/book",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\book.vue",
-    "chunkName": "pages/book",
-    "_name": "_bdddf4ee"
+    "chunkName": "pages/book"
   },
   {
     "name": "boston",
     "path": "/boston",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\boston\\\\index.vue",
-    "chunkName": "pages/boston/index",
-    "_name": "_f533d916"
+    "chunkName": "pages/boston/index"
   },
   {
     "name": "buyticket",
     "path": "/buyticket",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\buyticket\\\\index.vue",
-    "chunkName": "pages/buyticket/index",
-    "_name": "_30064320"
+    "chunkName": "pages/buyticket/index"
   },
   {
     "name": "careers",
     "path": "/careers",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\careers.vue",
-    "chunkName": "pages/careers",
-    "_name": "_58a9d745"
+    "chunkName": "pages/careers"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_e6ab35a0"
+    "chunkName": "pages/contact"
   },
   {
     "name": "entoto",
     "path": "/entoto",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\index.vue",
-    "chunkName": "pages/entoto/index",
-    "_name": "_36990fa3"
+    "chunkName": "pages/entoto/index"
   },
   {
     "name": "event",
     "path": "/event",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\event.vue",
-    "chunkName": "pages/event",
-    "_name": "_0cdf24aa"
+    "chunkName": "pages/event"
   },
   {
     "name": "giftcard",
     "path": "/giftcard",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\giftcard\\\\index.vue",
-    "chunkName": "pages/giftcard/index",
-    "_name": "_2e0eb922"
+    "chunkName": "pages/giftcard/index"
   },
   {
     "name": "laketana",
     "path": "/laketana",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\index.vue",
-    "chunkName": "pages/laketana/index",
-    "_name": "_dfec29da"
+    "chunkName": "pages/laketana/index"
   },
   {
     "name": "legal",
     "path": "/legal",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\legal.vue",
-    "chunkName": "pages/legal",
-    "_name": "_f012256e"
+    "chunkName": "pages/legal"
   },
   {
     "name": "newsletters",
     "path": "/newsletters",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\newsletters.vue",
-    "chunkName": "pages/newsletters",
-    "_name": "_4cadeaea"
+    "chunkName": "pages/newsletters"
   },
   {
     "name": "privacy",
     "path": "/privacy",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\privacy.vue",
-    "chunkName": "pages/privacy",
-    "_name": "_38531ed0"
+    "chunkName": "pages/privacy"
   },
   {
     "name": "test",
     "path": "/test",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\test.vue",
-    "chunkName": "pages/test",
-    "_name": "_358bda9c"
+    "chunkName": "pages/test"
   },
   {
     "name": "upcoming-project",
     "path": "/upcoming-project",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\upcoming-project.vue",
-    "chunkName": "pages/upcoming-project",
-    "_name": "_dbae7af0"
+    "chunkName": "pages/upcoming-project"
   },
   {
     "name": "waterpark",
     "path": "/waterpark",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\index.vue",
-    "chunkName": "pages/waterpark/index",
-    "_name": "_11339f51"
+    "chunkName": "pages/waterpark/index"
   },
   {
     "name": "awash-acc",
     "path": "/awash/acc",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\awash\\\\acc\\\\index.vue",
-    "chunkName": "pages/awash/acc/index",
-    "_name": "_0f6b3241"
+    "chunkName": "pages/awash/acc/index"
   },
   {
     "name": "awash-corp",
     "path": "/awash/corp",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\awash\\\\corp.vue",
-    "chunkName": "pages/awash/corp",
-    "_name": "_792d05ba"
+    "chunkName": "pages/awash/corp"
   },
   {
     "name": "awash-dining",
     "path": "/awash/dining",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\awash\\\\dining.vue",
-    "chunkName": "pages/awash/dining",
-    "_name": "_91b8596e"
+    "chunkName": "pages/awash/dining"
   },
   {
     "name": "awash-event",
     "path": "/awash/event",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\awash\\\\event\\\\index.vue",
-    "chunkName": "pages/awash/event/index",
-    "_name": "_5fe56088"
+    "chunkName": "pages/awash/event/index"
   },
   {
     "name": "awash-exp",
     "path": "/awash/exp",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\awash\\\\exp.vue",
-    "chunkName": "pages/awash/exp",
-    "_name": "_64116ebd"
+    "chunkName": "pages/awash/exp"
   },
   {
     "name": "awash-gallery",
     "path": "/awash/gallery",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\awash\\\\gallery.vue",
-    "chunkName": "pages/awash/gallery",
-    "_name": "_d8fd951c"
+    "chunkName": "pages/awash/gallery"
   },
   {
     "name": "awash-well",
     "path": "/awash/well",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\awash\\\\well.vue",
-    "chunkName": "pages/awash/well",
-    "_name": "_7b50c4de"
+    "chunkName": "pages/awash/well"
   },
   {
     "name": "bishoftu-acc",
     "path": "/bishoftu/acc",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\acc\\\\index.vue",
-    "chunkName": "pages/bishoftu/acc/index",
-    "_name": "_de033576"
+    "chunkName": "pages/bishoftu/acc/index"
   },
   {
     "name": "bishoftu-corp",
     "path": "/bishoftu/corp",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\corp.vue",
-    "chunkName": "pages/bishoftu/corp",
-    "_name": "_ac586884"
+    "chunkName": "pages/bishoftu/corp"
   },
   {
     "name": "bishoftu-dining",
     "path": "/bishoftu/dining",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\dining.vue",
-    "chunkName": "pages/bishoftu/dining",
-    "_name": "_5931284d"
+    "chunkName": "pages/bishoftu/dining"
   },
   {
     "name": "bishoftu-event",
     "path": "/bishoftu/event",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\event\\\\index.vue",
-    "chunkName": "pages/bishoftu/event/index",
-    "_name": "_6d103ae8"
+    "chunkName": "pages/bishoftu/event/index"
   },
   {
     "name": "bishoftu-exp",
     "path": "/bishoftu/exp",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\exp.vue",
-    "chunkName": "pages/bishoftu/exp",
-    "_name": "_8f904f8e"
+    "chunkName": "pages/bishoftu/exp"
   },
   {
     "name": "bishoftu-gallery",
     "path": "/bishoftu/gallery",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\gallery.vue",
-    "chunkName": "pages/bishoftu/gallery",
-    "_name": "_331e80ee"
+    "chunkName": "pages/bishoftu/gallery"
   },
   {
     "name": "bishoftu-gift",
     "path": "/bishoftu/gift",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\gift\\\\index.vue",
-    "chunkName": "pages/bishoftu/gift/index",
-    "_name": "_2c9ea484"
+    "chunkName": "pages/bishoftu/gift/index"
   },
   {
     "name": "bishoftu-well",
     "path": "/bishoftu/well",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\well.vue",
-    "chunkName": "pages/bishoftu/well",
-    "_name": "_a810ea3c"
+    "chunkName": "pages/bishoftu/well"
   },
   {
     "name": "boston-gallery",
     "path": "/boston/gallery",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\boston\\\\gallery.vue",
-    "chunkName": "pages/boston/gallery",
-    "_name": "_32f40b35"
+    "chunkName": "pages/boston/gallery"
   },
   {
     "name": "boston-gift",
     "path": "/boston/gift",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\boston\\\\gift\\\\index.vue",
-    "chunkName": "pages/boston/gift/index",
-    "_name": "_d8cc86f6"
+    "chunkName": "pages/boston/gift/index"
   },
   {
     "name": "buyticket-entotoActivity",
     "path": "/buyticket/entotoActivity",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\buyticket\\\\entotoActivity.vue",
-    "chunkName": "pages/buyticket/entotoActivity",
-    "_name": "_3b278a30"
+    "chunkName": "pages/buyticket/entotoActivity"
+  },
+  {
+    "name": "buyticket-submitInfo",
+    "path": "/buyticket/submitInfo",
+    "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\buyticket\\\\submitInfo.vue",
+    "chunkName": "pages/buyticket/submitInfo"
   },
   {
     "name": "entoto-acc",
     "path": "/entoto/acc",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\acc\\\\index.vue",
-    "chunkName": "pages/entoto/acc/index",
-    "_name": "_54a35ba0"
+    "chunkName": "pages/entoto/acc/index"
   },
   {
     "name": "entoto-adv",
     "path": "/entoto/adv",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\adv.vue",
-    "chunkName": "pages/entoto/adv",
-    "_name": "_64c2fd78"
+    "chunkName": "pages/entoto/adv"
   },
   {
     "name": "entoto-corp",
     "path": "/entoto/corp",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\corp.vue",
-    "chunkName": "pages/entoto/corp",
-    "_name": "_0ef2f62e"
+    "chunkName": "pages/entoto/corp"
   },
   {
     "name": "entoto-dining",
     "path": "/entoto/dining",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\dining.vue",
-    "chunkName": "pages/entoto/dining",
-    "_name": "_73cb7a90"
+    "chunkName": "pages/entoto/dining"
   },
   {
     "name": "entoto-event",
     "path": "/entoto/event",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\event\\\\index.vue",
-    "chunkName": "pages/entoto/event/index",
-    "_name": "_bc3f7e92"
+    "chunkName": "pages/entoto/event/index"
   },
   {
     "name": "entoto-exp",
     "path": "/entoto/exp",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\exp.vue",
-    "chunkName": "pages/entoto/exp",
-    "_name": "_79f864a4"
+    "chunkName": "pages/entoto/exp"
   },
   {
     "name": "entoto-gallery",
     "path": "/entoto/gallery",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\gallery.vue",
-    "chunkName": "pages/entoto/gallery",
-    "_name": "_6358b3e3"
+    "chunkName": "pages/entoto/gallery"
   },
   {
     "name": "entoto-gift",
     "path": "/entoto/gift",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\gift\\\\index.vue",
-    "chunkName": "pages/entoto/gift/index",
-    "_name": "_3afe5e33"
+    "chunkName": "pages/entoto/gift/index"
   },
   {
     "name": "entoto-test",
     "path": "/entoto/test",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\test.vue",
-    "chunkName": "pages/entoto/test",
-    "_name": "_612d345e"
+    "chunkName": "pages/entoto/test"
   },
   {
     "name": "entoto-well",
     "path": "/entoto/well",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\well.vue",
-    "chunkName": "pages/entoto/well",
-    "_name": "_0aab77e6"
+    "chunkName": "pages/entoto/well"
   },
   {
     "name": "laketana-acc",
     "path": "/laketana/acc",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\acc\\\\index.vue",
-    "chunkName": "pages/laketana/acc/index",
-    "_name": "_56ad1cc0"
+    "chunkName": "pages/laketana/acc/index"
   },
   {
     "name": "laketana-corp",
     "path": "/laketana/corp",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\corp.vue",
-    "chunkName": "pages/laketana/corp",
-    "_name": "_ae57090e"
+    "chunkName": "pages/laketana/corp"
   },
   {
     "name": "laketana-dining",
     "path": "/laketana/dining",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\dining.vue",
-    "chunkName": "pages/laketana/dining",
-    "_name": "_ca765570"
+    "chunkName": "pages/laketana/dining"
   },
   {
     "name": "laketana-event",
     "path": "/laketana/event",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\event\\\\index.vue",
-    "chunkName": "pages/laketana/event/index",
-    "_name": "_4352b172"
+    "chunkName": "pages/laketana/event/index"
   },
   {
     "name": "laketana-exp",
     "path": "/laketana/exp",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\exp.vue",
-    "chunkName": "pages/laketana/exp",
-    "_name": "_4cd4c51e"
+    "chunkName": "pages/laketana/exp"
   },
   {
     "name": "laketana-gallery",
     "path": "/laketana/gallery",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\gallery.vue",
-    "chunkName": "pages/laketana/gallery",
-    "_name": "_24007353"
+    "chunkName": "pages/laketana/gallery"
   },
   {
     "name": "laketana-gift",
     "path": "/laketana/gift",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\gift\\\\index.vue",
-    "chunkName": "pages/laketana/gift/index",
-    "_name": "_4c4e34ba"
+    "chunkName": "pages/laketana/gift/index"
   },
   {
     "name": "laketana-well",
     "path": "/laketana/well",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\well.vue",
-    "chunkName": "pages/laketana/well",
-    "_name": "_aa0f8ac6"
+    "chunkName": "pages/laketana/well"
   },
   {
     "name": "waterpark-dining",
     "path": "/waterpark/dining",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\dining.vue",
-    "chunkName": "pages/waterpark/dining",
-    "_name": "_3ed1a8ca"
+    "chunkName": "pages/waterpark/dining"
   },
   {
     "name": "waterpark-gallery",
     "path": "/waterpark/gallery",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\gallery.vue",
-    "chunkName": "pages/waterpark/gallery",
-    "_name": "_018e1011"
+    "chunkName": "pages/waterpark/gallery"
   },
   {
     "name": "waterpark-gift",
     "path": "/waterpark/gift",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\gift\\\\index.vue",
-    "chunkName": "pages/waterpark/gift/index",
-    "_name": "_6ca4193e"
+    "chunkName": "pages/waterpark/gift/index"
   },
   {
     "name": "awash-acc-id",
     "path": "/awash/acc/:id",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\awash\\\\acc\\\\_id\\\\index.vue",
-    "chunkName": "pages/awash/acc/_id/index",
-    "_name": "_c4f1490e"
+    "chunkName": "pages/awash/acc/_id/index"
   },
   {
     "name": "awash-event-sub",
     "path": "/awash/event/:sub",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\awash\\\\event\\\\_sub\\\\index.vue",
-    "chunkName": "pages/awash/event/_sub/index",
-    "_name": "_1a800332"
+    "chunkName": "pages/awash/event/_sub/index"
   },
   {
     "name": "bishoftu-acc-id",
     "path": "/bishoftu/acc/:id",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\acc\\\\_id\\\\index.vue",
-    "chunkName": "pages/bishoftu/acc/_id/index",
-    "_name": "_2dcf6af5"
+    "chunkName": "pages/bishoftu/acc/_id/index"
   },
   {
     "name": "bishoftu-event-sub",
     "path": "/bishoftu/event/:sub",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\event\\\\_sub\\\\index.vue",
-    "chunkName": "pages/bishoftu/event/_sub/index",
-    "_name": "_2481ed6b"
+    "chunkName": "pages/bishoftu/event/_sub/index"
   },
   {
     "name": "bishoftu-gift-card",
     "path": "/bishoftu/gift/:card",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\bishoftu\\\\gift\\\\_card\\\\index.vue",
-    "chunkName": "pages/bishoftu/gift/_card/index",
-    "_name": "_482125c7"
+    "chunkName": "pages/bishoftu/gift/_card/index"
   },
   {
     "name": "boston-gift-card",
     "path": "/boston/gift/:card",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\boston\\\\gift\\\\_card\\\\index.vue",
-    "chunkName": "pages/boston/gift/_card/index",
-    "_name": "_66963920"
+    "chunkName": "pages/boston/gift/_card/index"
   },
   {
     "name": "entoto-acc-id",
     "path": "/entoto/acc/:id",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\acc\\\\_id\\\\index.vue",
-    "chunkName": "pages/entoto/acc/_id/index",
-    "_name": "_71944e2c"
+    "chunkName": "pages/entoto/acc/_id/index"
   },
   {
     "name": "entoto-event-sub",
     "path": "/entoto/event/:sub",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\event\\\\_sub\\\\index.vue",
-    "chunkName": "pages/entoto/event/_sub/index",
-    "_name": "_7b57bf56"
+    "chunkName": "pages/entoto/event/_sub/index"
   },
   {
     "name": "entoto-gift-card",
     "path": "/entoto/gift/:card",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\entoto\\\\gift\\\\_card\\\\index.vue",
-    "chunkName": "pages/entoto/gift/_card/index",
-    "_name": "_c212109c"
+    "chunkName": "pages/entoto/gift/_card/index"
   },
   {
     "name": "laketana-acc-id",
     "path": "/laketana/acc/:id",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\acc\\\\_id\\\\index.vue",
-    "chunkName": "pages/laketana/acc/_id/index",
-    "_name": "_44c1af4c"
+    "chunkName": "pages/laketana/acc/_id/index"
   },
   {
     "name": "laketana-event-sub",
     "path": "/laketana/event/:sub",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\event\\\\_sub\\\\index.vue",
-    "chunkName": "pages/laketana/event/_sub/index",
-    "_name": "_f72a0c34"
+    "chunkName": "pages/laketana/event/_sub/index"
   },
   {
     "name": "laketana-gift-card",
     "path": "/laketana/gift/:card",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\laketana\\\\gift\\\\_card\\\\index.vue",
-    "chunkName": "pages/laketana/gift/_card/index",
-    "_name": "_afeb9b7c"
+    "chunkName": "pages/laketana/gift/_card/index"
   },
   {
     "name": "waterpark-gift-card",
     "path": "/waterpark/gift/:card",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\waterpark\\\\gift\\\\_card\\\\index.vue",
-    "chunkName": "pages/waterpark/gift/_card/index",
-    "_name": "_92085a78"
+    "chunkName": "pages/waterpark/gift/_card/index"
   },
   {
     "name": "giftcard-card",
     "path": "/giftcard/:card",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\giftcard\\\\_card\\\\index.vue",
-    "chunkName": "pages/giftcard/_card/index",
-    "_name": "_3ee641e3"
+    "chunkName": "pages/giftcard/_card/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Sam\\\\Videos\\\\kuriftu-aman\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_4a44023c"
+    "chunkName": "pages/index"
   }
 ]

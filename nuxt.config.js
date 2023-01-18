@@ -39,6 +39,7 @@ export default {
   plugins: [
     { src: '~/plugins/gsap.js', mode: 'client' },
     { src: '~/plugins/t-datepicker.min.js', mode: 'client' },
+    '~/plugins/bus'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

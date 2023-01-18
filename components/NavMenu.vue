@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div class="whole-nav">
     <div class="nav-menu">
       <div class="menu-close" @click="closeNav">
@@ -36,7 +36,7 @@
               <nuxt-link to="/giftcard">Gift Card </nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/ticket"
+              <nuxt-link to="/buyticket"
                 >Buy Waterpark & Entoto Activity Tickets
               </nuxt-link>
             </li>

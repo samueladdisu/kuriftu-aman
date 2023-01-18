@@ -41,6 +41,7 @@ const _a810ea3c = () => interopDefault(import('..\\pages\\bishoftu\\well.vue' /*
 const _32f40b35 = () => interopDefault(import('..\\pages\\boston\\gallery.vue' /* webpackChunkName: "pages/boston/gallery" */))
 const _d8cc86f6 = () => interopDefault(import('..\\pages\\boston\\gift\\index.vue' /* webpackChunkName: "pages/boston/gift/index" */))
 const _3b278a30 = () => interopDefault(import('..\\pages\\buyticket\\entotoActivity.vue' /* webpackChunkName: "pages/buyticket/entotoActivity" */))
+const _271004f0 = () => interopDefault(import('..\\pages\\buyticket\\submitInfo.vue' /* webpackChunkName: "pages/buyticket/submitInfo" */))
 const _54a35ba0 = () => interopDefault(import('..\\pages\\entoto\\acc\\index.vue' /* webpackChunkName: "pages/entoto/acc/index" */))
 const _64c2fd78 = () => interopDefault(import('..\\pages\\entoto\\adv.vue' /* webpackChunkName: "pages/entoto/adv" */))
 const _0ef2f62e = () => interopDefault(import('..\\pages\\entoto\\corp.vue' /* webpackChunkName: "pages/entoto/corp" */))
@@ -237,6 +238,10 @@ export const routerOptions = {
     path: "/buyticket/entotoActivity",
     component: _3b278a30,
     name: "buyticket-entotoActivity"
+  }, {
+    path: "/buyticket/submitInfo",
+    component: _271004f0,
+    name: "buyticket-submitInfo"
   }, {
     path: "/entoto/acc",
     component: _54a35ba0,
