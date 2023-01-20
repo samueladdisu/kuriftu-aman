@@ -1,5 +1,5 @@
 @import "reset";
-
+@import "reserve";
 @font-face {
   font-family: "Neue Helvetica Medium";
   font-style: normal;
@@ -21,10 +21,9 @@
   font-style: normal;
   font-weight: normal;
   src: local("Neue Helvetica Condensed Medium"),
-    url("@/assets/fonts/hel/Helvetica Neue LT 67 Medium Condensed.woff") format("woff");
+    url("@/assets/fonts/hel/Helvetica Neue LT 67 Medium Condensed.woff")
+      format("woff");
 }
-
-
 
 //mixins
 
@@ -39,33 +38,23 @@ $xxl: 1920px;
     @media screen and (min-width: $screen-size) {
       @content;
     }
-  }
-
-  @else if $screen-size==$md {
+  } @else if $screen-size==$md {
     @media screen and (min-width: $screen-size) {
       @content;
     }
-  }
-
-  @else if $screen-size==$lg {
+  } @else if $screen-size==$lg {
     @media screen and (min-width: $screen-size) {
       @content;
     }
-  }
-
-  @else if $screen-size==$xl {
+  } @else if $screen-size==$xl {
     @media screen and (min-width: $screen-size) {
       @content;
     }
-  }
-
-  @else if $screen-size==$xxl {
+  } @else if $screen-size==$xxl {
     @media screen and (min-width: $screen-size) {
       @content;
     }
-  }
-
-  @else {
+  } @else {
     @error "#{$screen-size} is Invalid screen size";
   }
 }
@@ -82,8 +71,7 @@ $kuriftu-pink: #db4da1;
 $kuriftu-green: #45b75c;
 $kuriftu-purple: #6945a8;
 
-$primary-color: #FEFBF6;
-
+$primary-color: #fefbf6;
 
 // Variables
 $columns: 12;
@@ -209,6 +197,7 @@ $columns: 12;
 .btn-font {
   font-family: "Neue Helvetica thin";
   font-weight: 600;
+  font-size: 0.8rem;
   letter-spacing: 0.1rem;
 }
 
@@ -222,16 +211,25 @@ $columns: 12;
   max-width: 24.5rem;
   text-align: center;
 }
+.btn-primary22 {
+  @extend .btn-font;
+  font-size: 0.8rem;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  background: #313131;
+  max-width: 26.5rem;
+  text-align: center;
+}
 
 .btn-cta {
   @extend .btn-font;
   background: #313131;
   padding: 0.7rem 8rem;
+  font-size: 0.8rem;
   color: #fff;
   border: none;
-  max-width: 24.5rem;
+  max-width: 30.5rem;
   text-align: center;
-
 }
 
 @include responsive($md) {
@@ -244,6 +242,7 @@ $columns: 12;
   @extend .btn-cta;
   background: #f3eee7;
   border: 1px #707070 solid;
+  font-size: 0.8rem;
   color: #313131;
 }
 
@@ -294,7 +293,7 @@ $columns: 12;
   display: inline-block;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     font-size: 0.8rem;
     top: 120%;
