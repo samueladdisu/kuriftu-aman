@@ -1,545 +1,356 @@
 <template>
   <div class="body-main">
     <HeaderReserve />
-    <section class="resort-wall">
-      <img src="../assets/img/awash-cover.webp" alt="" />
-    </section>
     <section>
-      <div class="check-date">
-        <div class="container">
-          <div class="wrapper">
-            <h4>Select Date</h4>
-            <form action="">
-              <input type="text" />
-              <button class="btn btn-primary22">Check Avaliablity</button>
-              <!-- <div class="btn-container">
-                <a href="" class="btn-cta">Check Avaliablity </a>
-              </div> -->
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="rooms-list">
-        <div class="container">
-          <div class="room-wrapper">
-            <div class="single-room">
-              <img src="../assets/room_img/awash/Executive.webp" alt="" />
-              <div class="room-desc">
-                <h3 class="room-title">Deluxe Lake Front King Size Bed</h3>
-                <div class="small-desc">
-                  <h4>Awash</h4>
-                  <p>Only 2 Left</p>
-                </div>
-                <p>
-                  Explore a variety of lake front rooms located in different
-                  sections of the resort - these rooms provide prime view of sun
-                  rise and sun set paired
-                </p>
-                <hr />
-                <ul>
-                  <h3>Amenities</h3>
-                  <li>Bathroom with a Shower</li>
-                  <li>Wifi</li>
-                  <li>COVID Kit</li>
-                  <li>View</li>
-                </ul>
-                <div class="room-price">
-                  <h2 class="total-price">$219.85</h2>
-                  <p>per Night</p>
-                  <button @click="showModal = true" class="btn btn-primary22">
-                    Select Room
-                  </button>
-                  <!-- <div class="btn-container reserve-btn">
-                    <a href="" class="btn-cta">Select Room </a>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-            <div class="single-room">
-              <img src="../assets/room_img/awash/Executive.webp" alt="" />
-              <div class="room-desc">
-                <h3 class="room-title">Deluxe Lake Front King Size Bed</h3>
-                <div class="small-desc">
-                  <h4>Awash</h4>
-                  <p>Only 2 Left</p>
-                </div>
-                <p>
-                  Explore a variety of lake front rooms located in different
-                  sections of the resort - these rooms provide prime view of sun
-                  rise and sun set paired
-                </p>
-                <hr />
-                <ul>
-                  <h3>Amenities</h3>
-                  <li>Bathroom with a Shower</li>
-                  <li>Wifi</li>
-                  <li>COVID Kit</li>
-                  <li>View</li>
-                </ul>
-                <div class="room-price">
-                  <h2 class="total-price">$219.85</h2>
-                  <p>per Night</p>
-                  <button @click="showModal = true" class="btn btn-primary22">
-                    Select Room
-                  </button>
-                  <!-- <div class="btn-container reserve-btn">
-                    <a href="" class="btn-cta">Select Room </a>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="container" id="regApp">
+        <h1 class="register-title">YOUR DETAILS</h1>
+        <p class="register-subtitle">
+          Feel out the form below inorder to book a room
+        </p>
 
-          <div class="col-lg-3">
-            <div class="cart-container">
-              <h2>Your Stay Kuriftu</h2>
-              <div class="room-fuldesc">
-                <h3 class="room-name">Deluxe Lake Front King Size Bed</h3>
-                <div class="check2">
-                  <p>Check Out</p>
-                  <p>Check In</p>
-                </div>
-                <div class="check-date">
-                  <p>2023-01-04</p>
-                  <p>2023-01-02</p>
-                </div>
-                <div class="guests">
-                  <h5>Guests</h5>
-                  <p>1 Adults 0 Teen 0 kids</p>
-                </div>
-                <div class="price">
-                  <h3>$219.85</h3>
-                  <p>Per Night</p>
-                  <p class="promo">Promo Precent:</p>
-                </div>
-                <div class="delete-room">
-                  <img src="../assets/img/delete.png" alt="" />
-                  <p>Delete this Room</p>
-                </div>
+        <div class="row">
+          <div class="detail-wrapper">
+            <form class="row my-form" action="" method="post">
+              <div class="col-md-6">
+                <input
+                  required
+                  type="text"
+                  placeholder="First Name"
+                  name="res_firstname"
+                  value=""
+                  class="form-control"
+                  id="inputEmail4"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  required
+                  type="text"
+                  placeholder="Last Name"
+                  value=""
+                  name="res_lastname"
+                  class="form-control"
+                  id="inputPassword4"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  required
+                  type="phone"
+                  placeholder="Phone No."
+                  value=""
+                  name="res_phone"
+                  class="form-control"
+                  id="inputAddress"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  required
+                  type="email"
+                  placeholder="Email"
+                  value=""
+                  name="res_email"
+                  class="form-control"
+                  id="inputAddress2"
+                />
               </div>
 
-              <div class="book-now">
-                <hr />
-                <div class="book-now-button">
-                  <button class="btn btn-primary22">
-                    <a href="/reserveForm"> Book Now</a>
-                  </button>
-                  <div class="total">
-                    <h3>$219.85</h3>
-                    <p>Rooms:</p>
-                  </div>
+              <div class="col-md-6">
+                <input
+                  required
+                  type="text"
+                  placeholder="Country"
+                  value=""
+                  class="form-control"
+                  name="res_country"
+                  id="inputCity"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <input
+                  required
+                  type="text"
+                  value=""
+                  placeholder="Address"
+                  class="form-control"
+                  name="res_address"
+                  id="inputCity"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  placeholder="Promo Code"
+                  value=""
+                  class="form-control"
+                  name="res_guestNo"
+                  id="inputCity"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  required
+                  type="text"
+                  placeholder="City"
+                  value=""
+                  class="form-control"
+                  name="res_city"
+                  id="inputCity"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  placeholder="Special Request"
+                  value=""
+                  class="form-control"
+                  name="res_specialRequest"
+                  id="inputCity"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  required
+                  type="text"
+                  value=""
+                  placeholder="Zip/Postal Code"
+                  class="form-control"
+                  name="res_zip"
+                  id="inputCity"
+                />
+              </div>
+              <div class="col-md-6 wrapper-payment">
+                <label for="inputState" class="form-label"
+                  >Payment Platform</label
+                >
+                <div class="payment">
+                  <img
+                    class="paylogo"
+                    id="zoomIn"
+                    src="../assets/img/card.webp"
+                    alt=""
+                  />
+                  <!-- <a><img src="../assets/img/chapa.svg" alt="" /></a> -->
+                  <img
+                    class="paylogo"
+                    id="zoomIn"
+                    src="../assets/img/amole.png"
+                    alt=""
+                  />
+                  <img
+                    class="paylogo"
+                    id="zoomIn"
+                    src="../assets/img/hellocash.png"
+                    alt=""
+                  />
+                  <img
+                    class="paylogo"
+                    id="zoomIn"
+                    src="../assets/img/telebirr.svg"
+                    alt=""
+                  />
+                  <img
+                    class="paylogo"
+                    id="zoomIn"
+                    src="../assets/img/paypal.png"
+                    alt=""
+                  />
+                  <img
+                    class="paylogo"
+                    id="zoomIn"
+                    src="../assets/img/abisinya.png"
+                    alt=""
+                  />
+                </div>
+
+                <!-- <select
+                    required
+                    id="inputState"
+                    value=" "
+                    name="res_paymentMethod"
+                    class="form-select"
+                  >
+                    <option disabled value="">Select Option</option>
+                    <option value="chapa_usd">Credit Card</option>
+    
+                    <option value="chapa_etb">Bank of Abysiniya</option>
+                  </select> -->
+              </div>
+
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    required
+                    class="form-check-input"
+                    type="checkbox"
+                    id="book"
+                  />
+
+                  <label class="form-check-label" for="book">
+                    I agree with
+                    <a class="termCond" href="#">
+                      Booking Term and Conditions
+                    </a>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="news" />
+                  <label class="form-check-label" for="news">
+                    I would like to receive newsletters and special offers by
+                    email
+                  </label>
                 </div>
               </div>
-            </div>
-          </div>
-          <!-- <div class="total-display">
-            <h2>Your Stay Kuriftu</h2>
-            <div class="room-fuldesc">
-              <h3 class="room-name">Deluxe Lake Front King Size Bed</h3>
-              <div class="check">
-                <p>Check Out</p>
-                <p>Check In</p>
-              </div>
-              <div class="check-date">
-                <p>2023-01-04</p>
-                <p>2023-01-02</p>
-              </div>
-              <div class="guests">
-                <h5>Guests</h5>
-                <p>1 Adults 0 Teen 0 kids</p>
-              </div>
-              <div class="price">
-                <h3>$219.85</h3>
-                <p>Per Night</p>
-                <p class="promo">Promo Precent:</p>
-              </div>
-              <div class="delete-room">
-                <img src="../assets/img/delete.png" alt="" />
-                <p>Delete this Room</p>
-              </div>
-            </div>
-
-            <div class="book-now">
-              <hr />
-              <div class="book-now-button">
-                <button class="btn btn-primary22">
-                  <a href="/reserveForm"> Book Now</a>
+              <div class="col-12 btn-done">
+                <button
+                  type="submit"
+                  @click="clearCart"
+                  name="complete_book"
+                  class="btn btn-ctared"
+                >
+                  Complete Booking
                 </button>
-                <div class="total">
-                  <h3>$219.85</h3>
-                  <p>Rooms:</p>
+              </div>
+            </form>
+            <div class="col-lg-3">
+              <div class="cart-container">
+                <h2>Your Stay Kuriftu</h2>
+                <div class="room-fuldesc">
+                  <h3 class="room-name">Deluxe Lake Front King Size Bed</h3>
+                  <div class="check2">
+                    <p>Check Out</p>
+                    <p>Check In</p>
+                  </div>
+                  <div class="check-date">
+                    <p>2023-01-04</p>
+                    <p>2023-01-02</p>
+                  </div>
+                  <div class="guests">
+                    <h5>Guests</h5>
+                    <p>1 Adults 0 Teen 0 kids</p>
+                  </div>
+                  <div class="price">
+                    <h3>$219.85</h3>
+                    <p>Per Night</p>
+                    <p class="promo">Promo Precent:</p>
+                  </div>
+                  <!-- <div class="delete-room">
+                    <img src="../assets/img/delete.png" alt="" />
+                    <p>Delete this Room</p>
+                  </div> -->
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
+        </div>
+
+        <div class="bottom-cart">
+          <div class="bottom-cart-modal" v-if="toggleModal">
+            <div class="cart-header">
+              <h3 class="summary-title">Booking Summary</h3>
+              <div class="close" @click="openModal">
+                <img src="../assets/img/close2.svg" alt="" />
+                <!-- <i class="bi bi-x"></i> -->
+              </div>
+            </div>
+            <hr />
+
+            <div
+              class="cart-content"
+              v-for="items in cartCompleted"
+              :key="items.room_id"
+            >
+              <div class="upper">
+                <h3>{{ items.room_acc }} - {{ items.room_location }}</h3>
+              </div>
+
+              <div class="lower">
+                <p class="text-muted"></p>
+
+                <p class="text-muted">${{ items.room_price }}</p>
+              </div>
+
+              <hr />
+            </div>
+          </div>
+
+          <div class="cart-footer">
+            <div class="price">
+              <div>
+                Total: 2 <br />
+                Rooms:
+              </div>
+
+              <div class="viewmore" @click="openModal">
+                <img src="../assets/img/up.svg" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- <div class="modal" tabindex="-1" role="dialog" id="TimesUP">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Kuriftu</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>are you still there.</p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  @click="clearOrder"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                  @click="TimerExtend()"
+                >
+                  Yes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div> -->
     </section>
-    <ReserveModal v-if="showModal" @close="showModal = false" />
-    <!-- <ReserveModal /> -->
-    <AddRoom />
   </div>
 </template>
 
 <script>
-import ReserveModal from "../components/ReserveModal.vue";
-
-export default {
-  data() {
-    return {
-      showNav: false,
-      showModal: false,
-    };
-  },
-  methods: {
-    toggleNav() {
-      this.showNav = !this.showNav;
-    },
-    closeNav() {
-      this.showNav = !this.showNav;
-    },
-    beforeEnter(el) {
-      console.log("before enter ");
-      el.style.transform = "translateX(-100%)";
-    },
-    enter(el, done) {
-      console.log("starting to enter");
-      gsap.to(el, {
-        duration: 1,
-        x: 0,
-        ease: "circ.out",
-        onComplete: done,
-      });
-    },
-    beforeLeave(el) {
-      console.log("before leave ");
-      el.style.transform = "translateX(0)";
-    },
-    leave(el, done) {
-      console.log("starting to leave");
-      gsap.to(el, {
-        duration: 1,
-        x: -100 + "%",
-        ease: "expo.out",
-        onComplete: done,
-      });
-    },
-    afterLeave() {
-      console.log("after leave");
-    },
-  },
-  components: { ReserveModal },
-};
+export default {};
 </script>
-
 <style lang="scss">
 .body-main {
   background: #f3eee7;
   font-family: "Neue Helvetica Medium";
 }
-.check-date {
-  margin-top: 2rem;
-
-  .container {
-    .wrapper {
-      background-color: #fff;
-      padding: 2rem;
-      h4 {
-        font-family: "Neue Helvetica Medium";
-        font-size: 1.2rem;
-      }
-      @include responsive($lg) {
-        width: 50%;
-      }
-      form {
-        .btn-container {
-          margin-top: 1rem;
-        }
-        @include responsive($lg) {
-          display: flex;
-          gap: 1rem;
-        }
-      }
-      border: 0.5px #b5b4b4 solid;
-    }
-  }
+.form-check-input {
+  margin-top: 1rem;
+  // .form-check-label {
+  //   margin-top: -0.2rem;
+  // }
 }
-.rooms-list {
-  margin-top: 2rem;
-
-  .container {
-    height: auto;
-    @include responsive($xl) {
-      display: flex;
-    }
-    .room-wrapper {
-      margin-bottom: 2rem;
-      .single-room {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        background-color: #fff;
-        padding: 2rem;
-        @include responsive($lg) {
-          width: 80%;
-          display: flex;
-          gap: 2rem;
-        }
-        @include responsive($xxl) {
-          //   width: 70rem;
-          //   width: 100%;
-        }
-        img {
-          width: 100%;
-          object-fit: cover;
-          @include responsive($lg) {
-            width: 20rem;
-          }
-        }
-
-        .room-desc {
-          .room-title {
-            font-family: "Neue Helvetica Medium";
-            font-size: 1.5rem;
-            padding-top: 1rem;
-          }
-          p {
-            font-family: "Neue Helvetica Medium";
-          }
-          .small-desc {
-            display: flex;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            justify-content: space-between;
-            h4 {
-              font-family: "Neue Helvetica thin";
-            }
-            p {
-              font-family: "Neue Helvetica thin";
-              color: red;
-              font-weight: 600;
-            }
-          }
-          ul {
-            margin-top: 1rem;
-            margin-left: 1rem;
-            list-style: disc;
-            h3 {
-              font-size: 1rem;
-              font-weight: 600;
-            }
-            li {
-              margin-top: 0.5rem;
-              font-family: "Neue Helvetica Medium";
-              font-weight: 100;
-            }
-          }
-          .room-price {
-            margin-top: 2rem;
-            display: grid;
-            place-content: right;
-            .total-price {
-              text-align: right;
-              font-family: "Neue Helvetica thin";
-              font-size: 1.6rem;
-              font-weight: 600;
-            }
-            p {
-              text-align: right;
-              color: #808080;
-              font-family: "Neue Helvetica thin";
-              margin-bottom: 1rem;
-            }
-          }
-        }
-      }
-    }
-    .total-display {
-      width: 25rem;
-      height: auto;
-      margin-top: 2rem;
-      position: sticky;
-      top: 10rem;
-      background: #fdfaf6;
-      padding: 1rem;
-      border: 1px solid #282828;
-      border: 0.5px #b5b4b4 solid;
-      display: none;
-      @include responsive($xl) {
-        display: block;
-      }
-      h2 {
-        font-family: "Neue Helvetica Medium";
-        font-size: 1.5rem;
-        color: #808080;
-        text-align: left;
-      }
-      .room-fuldesc {
-        font-family: "Neue Helvetica Medium";
-        .room-name {
-          font-size: 1.2rem;
-          margin-top: 1rem;
-        }
-        .check2 {
-          margin-top: 1rem;
-          display: flex;
-          justify-content: space-between;
-          color: #808080;
-        }
-        .check-date {
-          margin-top: -0.1rem;
-          display: flex;
-          justify-content: space-between;
-          color: #808080;
-        }
-        .guests {
-          margin-top: 2rem;
-
-          color: #808080;
-        }
-        .price {
-          margin-top: 2rem;
-          h3 {
-            font-size: 2rem;
-            color: #000;
-          }
-          .promo {
-            color: #a82f2f;
-          }
-
-          p {
-            font-size: 0.8rem;
-            color: #808080;
-          }
-        }
-        .delete-room {
-          margin-top: 2rem;
-          display: flex;
-          justify-content: flex-start;
-          color: #a82f2f;
-          img {
-            width: 1rem;
-            height: 1rem;
-            object-fit: cover;
-          }
-        }
-      }
-      .book-now {
-        hr {
-          margin-top: 2rem;
-        }
-        .book-now-button {
-          margin-top: 1rem;
-          display: flex;
-          justify-content: space-between;
-        }
-      }
-    }
-  }
-}
-.showmoreRoom {
-  .button {
-    text-decoration: none;
-    font-size: 0.875rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    display: inline-block;
-    border-radius: 1.5rem;
-    background-color: #fff;
-    color: #9191e9;
-    padding: 1rem 2rem;
-  }
-
-  #popup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    bottom: 50%;
-    right: 0;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 2;
-    display: none;
-    visibility: hidden;
-    opacity: 0;
-    overflow: hiden;
-    transition: 0.64s ease-in-out;
-  }
-  .popup-inner {
-    position: relative;
-    bottom: -100vw;
-    right: -100vh;
-    display: flex;
-    align-items: center;
-    max-width: 800px;
-    max-height: 600px;
-    width: 60%;
-    height: 80%;
-    background-color: #fff;
-    transform: rotate(32deg);
-    transition: 0.64s ease-in-out;
-  }
-  .popup__photo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 40%;
-    height: 100%;
-    overflow: hidden;
-  }
-  .popup__photo img {
-    width: auto;
-    height: 100%;
-  }
-  .popup__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    height: 100%;
-    padding: 4rem;
-  }
-  .popup__text h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    color: #0a0a0a;
-  }
-  .popup__text p {
-    font-size: 0.875rem;
-    color: #686868;
-    line-height: 1.5;
-  }
-  .popup:target {
-    visibility: visible;
-    opacity: 1;
-  }
-  .popup:target .popup-inner {
-    bottom: 0;
-    right: 0;
-    transform: rotate(0);
-  }
-  .popup__close {
-    position: absolute;
-    right: -1rem;
-    top: -1rem;
-    width: 3rem;
-    height: 3rem;
-    font-size: 0.875rem;
-    font-weight: 300;
-    border-radius: 100%;
-    background-color: #0a0a0a;
-    z-index: 4;
-    color: #fff;
-    line-height: 3rem;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-  }
+.termCond {
+  margin-left: 7rem;
+  margin-top: -1.2rem;
+  color: #a98137;
 }
 .footer {
   background: #ffffff;
@@ -811,7 +622,6 @@ export default {
   }
 }
 .resort-wall {
-  margin-top: 3rem;
   img {
     width: 100%;
 
@@ -852,7 +662,9 @@ export default {
 .login2 {
   display: none;
 }
-
+.btn-done {
+  margin-top: 2rem;
+}
 @include responsive($lg) {
   .login {
     position: absolute;
@@ -1358,14 +1170,6 @@ export default {
       }
     }
   }
-
-  // .container .myform {
-  //   // background: #E1DFDF;
-  //   padding: 1.75rem 2.38rem;
-  //   border-radius: .63rem;
-  //   margin-top: 2rem;
-
-  // }
 }
 
 @include responsive($lg) {
@@ -1374,16 +1178,6 @@ export default {
     width: 20rem;
   }
 }
-
-// @media screen and (min-width: 768px) {
-//   .container .myform {
-//     // display: flex;
-//     gap: 1rem;
-//     width: 100%;
-//     align-items: center;
-//     padding: 1.75rem 2.38rem;
-//   }
-// }
 
 @media screen and (min-width: 1040px) {
   .form-wrapper {
@@ -1404,31 +1198,22 @@ export default {
   .myform input {
     margin-top: 0rem;
     background: none;
-    // border:  1px solid #bebebe;
+
     border-style: none;
   }
 }
 
 .myform .mySelect,
 .myform input {
-  // background: none;
-  // border: 1px solid #bebebe;
   border-style: none;
 }
 
 .myform .mySelect2,
 .myform input {
-  // background: none;
-  // border: 1px solid #bebebe;
   border-style: none;
 }
 
 .myform .mySelect2 {
-  // -webkit-appearance: none;
-  // -moz-appearance: none;
-  // appearance: none;
-  // background: url(../img/down.svg) 96% / 8% no-repeat;
-
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -1438,147 +1223,15 @@ export default {
 }
 
 .myform .mySelect {
-  // -webkit-appearance: none;
-  // -moz-appearance: none;
-  // appearance: none;
-  // background: url(../img/down.svg) 96% / 8% no-repeat;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   background: url(../assets/img/down.svg) 96% / 5% no-repeat;
   width: 17rem;
-  // padding: 12px 15px;
 }
-
-// .myform input {
-//   -webkit-appearance: none;
-//   -moz-appearance: none;
-//   appearance: none;
-
-// }
 
 .mySelect::-ms-expand {
   display: none;
-}
-
-.btn-primary1 {
-  border-radius: 0;
-  // margin-top: 1.5rem;
-  background: #c2874a;
-  border: 1px solid #c2874a;
-  color: #f1f1ea;
-  padding: 0.63rem 1.63rem;
-  cursor: pointer;
-
-  // z-index: 999999;
-  &:hover {
-    background: transparent;
-    border: 1px solid #c2874a;
-    color: #c2874a;
-  }
-}
-
-.btn-primarygreen {
-  border-radius: 0;
-  margin-top: 1.5rem;
-  background: #45b75c;
-  border: 1px solid #45b75c;
-  color: #f1f1ea;
-  padding: 0.63rem 1.63rem;
-  cursor: pointer;
-
-  // z-index: 999999;
-  &:hover {
-    background: transparent;
-    border: 1px solid #45b75c;
-    color: #45b75c;
-  }
-}
-
-.btn-primaryred {
-  border-radius: 0;
-  margin-top: 1.5rem;
-  background: #a82f2f;
-  border: 1px solid #a82f2f;
-  color: #f1f1ea;
-  padding: 0.63rem 1.63rem;
-  cursor: pointer;
-
-  // z-index: 999999;
-  &:hover {
-    background: transparent;
-    border: 1px solid #a82f2f;
-    color: #a82f2f;
-  }
-}
-
-.btn-primary3 {
-  border-radius: 0;
-  background: #c2874a;
-  border: 1px solid #c2874a;
-  color: #f1f1ea;
-  padding: 0.63rem 1.63rem;
-  cursor: pointer;
-
-  // z-index: 999999;
-  &:hover {
-    background: transparent;
-    border: 1px solid #c2874a;
-    color: #c2874a;
-  }
-}
-
-.btn-primary2 {
-  border-radius: 0;
-  background: #a82f2f;
-  color: #f1f1ea;
-  padding: 0.63rem 1.63rem;
-  cursor: pointer;
-}
-
-.btn-secondary2 {
-  border-radius: 0;
-  background: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  padding: 0.63rem 1.63rem;
-  z-index: 999999;
-
-  &:hover {
-    border: none;
-    background: #c2874a;
-    color: #fff;
-  }
-}
-
-.btn-container1 {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
-
-.mycard {
-  margin-bottom: 1.88rem;
-  max-width: 28.63rem;
-  margin: 0 auto;
-  padding: 1rem 1rem 1rem;
-  background: rgba(255, 255, 255, 1);
-  border-radius: 0px;
-
-  @include responsive($md) {
-    display: flex;
-    gap: 1rem;
-    max-width: 100%;
-  }
-}
-
-.pop-btn {
-  color: #6c757d;
-
-  .btn-line {
-    margin-top: -0.01rem;
-    width: 5.5rem;
-  }
 }
 
 .price-style {
@@ -1770,6 +1423,9 @@ export default {
   background: #191e19;
   color: #f1f1ea;
   padding: 1.56rem 1.25rem;
+  @include responsive($xl) {
+    display: none;
+  }
 }
 
 // .modal-body {
@@ -1812,9 +1468,13 @@ export default {
   gap: 2rem;
   align-items: center;
 }
+.viewmore {
+  img {
+    width: 3rem;
+  }
+}
 .cart-container {
   display: none;
-  margin-top: 2rem;
   h2 {
     font-family: "Neue Helvetica Medium";
     font-size: 1.5rem;
@@ -1827,8 +1487,9 @@ export default {
       font-size: 1.2rem;
       margin-top: 1rem;
     }
-    .check {
+    .check2 {
       margin-top: 1rem;
+    
       display: flex;
       justify-content: space-between;
       color: #808080;
@@ -1871,29 +1532,27 @@ export default {
       }
     }
   }
-  .book-now {
-    hr {
-      margin-top: 2rem;
-    }
-    .book-now-button {
-      margin-top: 1rem;
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-}
-@media screen and (min-width: 1440px) {
-  .cart-container {
+  @include responsive($xl) {
     display: block;
-    width: 28rem;
+    margin-top: 1rem;
+    width: 30rem;
   }
 }
-
-@media screen and (min-width: 1024px) {
-  .bottom-cart {
-    display: none;
+// @media screen and (min-width: 1440px) {
+//   .cart-container {
+//     display: block;
+//     margin-top: 1rem;
+//     width: 30rem;
+//   }
+// }
+.detail-wrapper {
+  @include responsive($xl) {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
   }
-
+}
+@media screen and (min-width: 1024px) {
   .container .row {
     position: relative;
     height: auto;
@@ -1901,9 +1560,8 @@ export default {
 
   .cart-container {
     position: sticky;
-    // margin-right: -1rem;
     top: 10rem;
-    display: block;
+    // display: block;
     background: #fdfaf6;
     padding: 1rem;
     border: 1px solid #282828;
@@ -2173,11 +1831,59 @@ export default {
   margin-top: 1.88rem;
 }
 
+.form-row {
+  display: flex;
+}
+.wrapper-payment {
+  margin-top: 2rem;
+}
+.payment {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  @include responsive($md) {
+    display: flex;
+  }
+
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+
+  .paylogo {
+    width: 4rem;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  #zoomIn {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  #zoomIn:hover {
+    background-color: #c2884a59;
+    // border-radius: 2rem;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    &:focus {
+      outline: 0;
+      color: #fff;
+      &:before {
+        animation: effect_dylan 0.8s ease-out;
+      }
+    }
+  }
+}
 .my-form input.form-control {
   background: none;
   border-radius: 0;
   border: 0.5px solid #808080;
   padding: 1.13rem 0.88rem;
+  width: 20rem;
+  @include responsive($md) {
+    width: 90%;
+  }
+  // width: 90%;
+  margin-top: 1rem;
 }
 
 .label-date {
@@ -2215,7 +1921,7 @@ export default {
   font-size: 1.5rem;
   font-weight: 800;
   color: #a82f2f;
-  margin: 1.13rem 0 1rem;
+  margin: 1rem 0 1rem;
 }
 
 .register-subtitle {
@@ -2226,12 +1932,11 @@ export default {
 @media screen and (min-width: 1024px) {
   .register-title {
     font-size: 2.13rem;
-    margin: 5.75rem 0 1rem;
+    margin: 2rem 0 1rem;
   }
 }
 
 .paypal-form .btn-primary2 {
-  border-radius: 0;
   background: #a82f2f;
   color: #f1f1ea;
   padding: 0.63rem 1.63rem;
@@ -2270,6 +1975,116 @@ footer {
   }
 }
 
+.button {
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99999;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 10px auto;
+
+  @include responsive($md) {
+    margin: 250px auto;
+  }
+
+  @include responsive($lg) {
+    margin: 200px auto;
+    width: 80%;
+    padding: 1rem;
+  }
+
+  @include responsive($xxl) {
+    margin: 180px auto;
+    width: 65%;
+    padding: 2rem;
+  }
+
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid #d7d7d7;
+  width: 90%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.pop-img {
+  margin-top: 1.5rem;
+  width: 20rem;
+
+  @include responsive($md) {
+    width: 30rem;
+  }
+}
+
+@include responsive($md) {
+  .popup-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+.padding-top2 {
+  margin-top: 1rem;
+}
+
+.popup h2 {
+  margin: 0;
+
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.3;
+  color: #191e19;
+  margin-top: 2rem;
+}
+
+.amenities-txt {
+  margin: 0;
+
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.3;
+  color: #191e19;
+  margin-top: 0.5rem;
+}
+
+.popup .close {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.5rem;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
 .add-guest-popup {
   .popup-wrapper {
     h4 {
@@ -2284,6 +2099,83 @@ footer {
       margin-bottom: 1rem;
     }
   }
+}
+
+.popup1 {
+  margin: 10px auto;
+
+  @include responsive($md) {
+    margin: 250px auto;
+  }
+
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid #d7d7d7;
+
+  width: 90%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+@include responsive($md) {
+  .popup-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+.padding-top2 {
+  margin-top: 1rem;
+}
+
+.popup1 h2 {
+  margin: 0;
+
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.3;
+  color: #191e19;
+  margin-top: 2rem;
+}
+
+.amenities-txt {
+  margin: 0;
+
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.3;
+  color: #191e19;
+  margin-top: 1rem;
+}
+
+.popup1 .close {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.5rem;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup1 .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.complete-cont {
+  margin-top: 2rem;
+
+  @include responsive($lg) {
+    margin-top: 4rem;
+  }
+
+  display: grid;
+  place-content: center;
 }
 
 .check-box-wrapper {
@@ -2370,14 +2262,8 @@ footer {
   padding: 0.2rem 0.7rem;
   justify-content: space-around;
 }
-
-.form-check-input:checked {
-  background-color: black !important;
-  border-color: black !important;
-}
-
-.form-check-input {
-  border-color: black !important;
+.row {
+  margin-bottom: 5rem;
 }
 
 .amole-confirm {

@@ -1,52 +1,6 @@
 <template>
-  <main>
-    <transition
-      appear
-      @before-enter="beforeEnter"
-      @enter="enter"
-      @before-leave="beforeLeave"
-      @leave="leave"
-      @after-leave="afterLeave"
-    >
-      <NavMenu v-if="showNav" @close="closeNav" />
-    </transition>
-    <header>
-      <div class="container row">
-        <div class="menu col-3 row">
-          <img src="@/assets/img/icons/menu.svg" alt="" @click="toggleNav" />
-          <p class="text">Menu</p>
-          <img src="@/assets/img/icons/search.svg" alt="" />
-        </div>
-
-        <div class="logo col-4">
-          <nuxt-link to="/">
-            <img src="@/assets/img/logos/logo.svg" alt="" />
-          </nuxt-link>
-        </div>
-
-        <div class="buttons col-4 row">
-          <button class="btn-primary sign-up">Sign Up</button>
-          <!-- <button class="btn-primary">Reserve</button> -->
-        </div>
-      </div>
-    </header>
-    <!-- <div class="line">
-      <div class="container1">
-        <hr class="line1" />
-        <ul class="justify-list">
-          <li>
-            <a class="link-text" href="">Back to Home Page</a>
-          </li>
-          <li>
-            <a class="link-text" href="./signUp.php">Sign Up</a>
-          </li>
-          <li>
-            <a class="link-text" href="./signIn.php">Login</a>
-          </li>
-        </ul>
-        <hr class="line2" />
-      </div>
-    </div> -->
+  <div class="body-main">
+    <HeaderReserve />
     <section class="Destinations-list">
       <div class="container">
         <h2>Select a Resort</h2>
@@ -94,7 +48,7 @@
                     Taxes & Fees
                   </p>
 
-                  <a href="./reserve.php?location=bishoftu">
+                  <a href="/reserveRoom">
                     <button class="btn btn-black btn-detail">
                       View Rooms
                     </button></a
@@ -121,7 +75,7 @@
                     Taxes & Fees
                   </p>
 
-                  <a href="./reserve.php?location=entoto">
+                  <a href="/reserveRoom">
                     <button class="btn btn-black btn-detail">
                       View Rooms
                     </button></a
@@ -162,7 +116,7 @@
       </div>
     </section>
     <FooterApp />
-  </main>
+  </div>
 </template>
 
 <script>
@@ -215,40 +169,9 @@ export default {
 </script>
 
 <style lang="scss">
-main {
-  font-family: "Neue Helvetica Medium";
-  position: sticky;
-  top: 0;
+.body-main {
   background: #f3eee7;
-  z-index: 9999;
-  padding-bottom: 1rem;
-  header {
-    // background: #f3eee7;
-    width: 100%;
-    padding-top: 2rem;
-    .container {
-      align-items: center;
-      justify-content: space-between;
-      .logo {
-        display: flex;
-        justify-content: center;
-      }
-      .menu {
-        gap: 1.5rem;
-        p {
-          display: none;
-        }
-      }
-      .buttons {
-        .sign-up {
-          display: none;
-        }
-        &:last-child {
-          justify-content: flex-end;
-        }
-      }
-    }
-  }
+  font-family: "Neue Helvetica Medium";
 }
 .footer {
   background: #ffffff;
@@ -424,7 +347,11 @@ main {
   }
 }
 .Destinations-list .container .wrapper .single-destination {
-  width: 28rem;
+  @include responsive($xl) {
+    width: 25rem;
+    margin-top: 2rem;
+  }
+  width: 100%;
   margin-top: 2rem;
 }
 .Destinations-list .container .wrapper .single-destination img {
@@ -497,28 +424,7 @@ main {
   text-align: center;
   font-size: 0.88rem;
 }
-.Destinations-list
-  .container
-  .wrapper
-  .single-destination
-  .desc
-  .details
-  .btn-detail {
-  width: 18rem;
-  height: 3rem;
-  margin-top: 2rem;
-}
-@media screen and (min-width: 1200px) {
-  .Destinations-list
-    .container
-    .wrapper
-    .single-destination
-    .desc
-    .details
-    .btn-detail {
-    width: 24rem;
-  }
-}
+
 .resort-wall {
   img {
     width: 100%;
@@ -1807,7 +1713,7 @@ main {
 }
 
 .desti-title {
-  font-family: "HelveticaNeue";
+  font-family: "Neue Helvetica Medium";
   font-size: 1.13rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -1828,7 +1734,7 @@ main {
   margin-top: 2.38rem;
   margin-bottom: 1rem;
   font-size: 1.13rem;
-  font-family: "HelveticaNeue";
+  font-family: "Neue Helvetica Medium";
   font-weight: bold;
 }
 
@@ -1855,7 +1761,7 @@ main {
 }
 
 .register-title {
-  font-family: "HelveticaNeue";
+  font-family: "Neue Helvetica Medium";
   font-size: 1.5rem;
   font-weight: 800;
   color: #a82f2f;

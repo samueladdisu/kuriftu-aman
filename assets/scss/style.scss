@@ -201,6 +201,131 @@ $columns: 12;
   letter-spacing: 0.1rem;
 }
 
+.btn-primaryred {
+  border-radius: 0;
+  margin-top: 1.5rem;
+  background: #a82f2f;
+  border: 1px solid #a82f2f;
+  color: #f1f1ea;
+  padding: 0.63rem 1.63rem;
+  cursor: pointer;
+
+  // z-index: 999999;
+  &:hover {
+    background: transparent;
+    border: 1px solid #a82f2f;
+    color: #a82f2f;
+  }
+}
+
+.btn-primary3 {
+  border-radius: 0;
+  background: #c2874a;
+  border: 1px solid #c2874a;
+  color: #f1f1ea;
+  padding: 0.63rem 1.63rem;
+  cursor: pointer;
+
+  // z-index: 999999;
+  &:hover {
+    background: transparent;
+    border: 1px solid #c2874a;
+    color: #c2874a;
+  }
+}
+
+.btn-primary2 {
+  border-radius: 0;
+  background: #a82f2f;
+  color: #f1f1ea;
+  padding: 0.63rem 1.63rem;
+  cursor: pointer;
+}
+
+.btn-secondary2 {
+  border-radius: 0;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.63rem 1.63rem;
+  z-index: 999999;
+
+  &:hover {
+    border: none;
+    background: #c2874a;
+    color: #fff;
+  }
+}
+.btn-black {
+  background: #191e19;
+  color: #f1f1ea;
+  border-radius: 0px;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  width: 18rem;
+  @include responsive($md) {
+    width: 20rem;
+  }
+}
+.btn-black:hover {
+  color: #fff;
+}
+.btn-container1 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.btn-outline-black {
+  background: transparent;
+  color: #191e19;
+  border-color: #191e19;
+  margin-top: 2rem;
+  width: 18rem;
+  @include responsive($md) {
+    width: 20rem;
+  }
+}
+
+.btn-primary1 {
+  border-radius: 0;
+
+  background: #c2874a;
+  border: 1px solid #c2874a;
+  color: #f1f1ea;
+  padding: 0.63rem 1.63rem;
+  cursor: pointer;
+  a {
+    color: #f1f1ea;
+  }
+
+  &:hover {
+    background: transparent;
+    border: 1px solid #c2874a;
+    color: #c2874a;
+  }
+}
+.mycard {
+  margin-bottom: 1.88rem;
+  max-width: 28.63rem;
+  margin: 0 auto;
+  padding: 1rem 1rem 1rem;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 0px;
+
+  @include responsive($md) {
+    display: flex;
+    gap: 1rem;
+    max-width: 100%;
+  }
+}
+.pop-btn {
+  color: #6c757d;
+
+  .btn-line {
+    margin-top: -0.01rem;
+    width: 5.5rem;
+  }
+}
 .btn-primary {
   @extend .btn-font;
   font-size: 0.8rem;
@@ -219,6 +344,9 @@ $columns: 12;
   background: #313131;
   max-width: 26.5rem;
   text-align: center;
+  a {
+    color: #fff;
+  }
 }
 
 .btn-cta {
@@ -234,6 +362,22 @@ $columns: 12;
 
 @include responsive($md) {
   .btn-cta {
+    padding: 0.7rem 2rem;
+  }
+}
+.btn-ctared {
+  @extend .btn-font;
+  background: #a82f2f;
+  padding: 0.7rem 5rem;
+  font-size: 0.8rem;
+  color: #fff;
+  border: none;
+  max-width: 30.5rem;
+  text-align: center;
+}
+
+@include responsive($md) {
+  .btn-ctared {
     padding: 0.7rem 2rem;
   }
 }
